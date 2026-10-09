@@ -4,3 +4,4 @@ val loss before 1.8251
   return fn(*args, **kwargs)
 [transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
 {'epoch': 1, 'train_loss': 1.3736802839181002, 'val_loss': 1.2045819492175662, 'sec': 344.70872735977173} peak GB 4.9
+{'epoch': 2, 'train_loss': 1.009011513170074, 'val_loss': 1.1194621139559253, 'sec': 379.1772334575653} peak GB 4.9

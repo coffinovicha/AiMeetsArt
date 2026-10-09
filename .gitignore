@@ -1,6 +1,5 @@
 artificio_data/images/
 artificio_data/*.npy
-*.zip
 models/
 __pycache__/
 *.pyc
