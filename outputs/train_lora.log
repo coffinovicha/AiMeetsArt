@@ -1,0 +1,6 @@
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+trainable params: 29,933,568 || all params: 3,784,556,544 || trainable%: 0.7909
+val loss before 1.8251
+  return fn(*args, **kwargs)
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{'epoch': 1, 'train_loss': 1.3736802839181002, 'val_loss': 1.2045819492175662, 'sec': 344.70872735977173} peak GB 4.9

@@ -1,0 +1,14 @@
+Art_Nouveau
+Baroque
+Cubism
+Expressionism
+Fauvism
+Impressionism
+Pointillism
+Pop_Art
+Post_Impressionism
+Realism
+Rococo
+Romanticism
+Symbolism
+Ukiyo_e
