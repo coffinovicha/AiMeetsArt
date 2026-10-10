@@ -1,0 +1,2333 @@
+[
+ {
+  "id": "F1-001",
+  "pos": {
+   "tree": 0.095,
+   "foliage": 0.099,
+   "hills": 0.103,
+   "sky": 0.021,
+   "grass": 0.023
+  },
+  "neg": {
+   "beard": 0.001,
+   "cloak": 0.002,
+   "dresses": 0.0,
+   "mosque": 0.001,
+   "rocks": 0.057,
+   "cup": 0.0
+  }
+ },
+ {
+  "id": "F1-002",
+  "pos": {
+   "hills": 0.117,
+   "houses": 0.191,
+   "blossoming trees": 0.09,
+   "sky": 0.081
+  },
+  "neg": {
+   "cloak": 0.009,
+   "musical instrument": 0.003,
+   "balcony": 0.01,
+   "paper": 0.031,
+   "glass": 0.01,
+   "carpet": 0.013
+  }
+ },
+ {
+  "id": "F1-003",
+  "pos": {
+   "fortress": 0.459,
+   "towers": 0.091,
+   "mountains": 0.435,
+   "river": 0.11,
+   "vegetation": 0.056,
+   "clouds": 0.102
+  },
+  "neg": {
+   "paper boats": 0.011,
+   "jacket": 0.0,
+   "cane": 0.001,
+   "man": 0.001,
+   "crown": 0.002,
+   "hammer": 0.001
+  }
+ },
+ {
+  "id": "F1-007",
+  "pos": {},
+  "neg": {
+   "leaf motifs": 0.004,
+   "flowers": 0.002,
+   "coats": 0.003,
+   "water": 0.004,
+   "table": 0.002,
+   "angel": 0.003
+  }
+ },
+ {
+  "id": "F1-008",
+  "pos": {},
+  "neg": {
+   "script": 0.006,
+   "hammer": 0.001,
+   "water": 0.005,
+   "vase": 0.01,
+   "cloak": 0.069,
+   "angel": 0.009
+  }
+ },
+ {
+  "id": "F1-010",
+  "pos": {
+   "tree": 0.031,
+   "clouds": 0.225
+  },
+  "neg": {
+   "baskets": 0.001,
+   "hammer": 0.001,
+   "queen": 0.003,
+   "arch": 0.009,
+   "rocks": 0.084,
+   "minarets": 0.008
+  }
+ },
+ {
+  "id": "F1-011",
+  "pos": {},
+  "neg": {
+   "dresses": 0.001,
+   "buds": 0.004,
+   "hat": 0.003,
+   "bird": 0.012,
+   "beard": 0.002,
+   "tree": 0.047
+  }
+ },
+ {
+  "id": "F1-012",
+  "pos": {
+   "creature": 0.256,
+   "hat": 0.269,
+   "cup": 0.269,
+   "table": 0.289,
+   "chair": 0.16,
+   "awning": 0.447,
+   "sign": 0.054
+  },
+  "neg": {
+   "feather": 0.042,
+   "street": 0.035,
+   "crown": 0.101,
+   "vessel": 0.055,
+   "people": 0.023,
+   "baskets": 0.014
+  }
+ },
+ {
+  "id": "F1-013",
+  "pos": {
+   "tables": 0.016,
+   "chairs": 0.004,
+   "figure": 0.042,
+   "windows": 0.017
+  },
+  "neg": {
+   "dancer": 0.01,
+   "glass": 0.002,
+   "staff": 0.011,
+   "sign": 0.003,
+   "hammer": 0.017,
+   "city walls": 0.055
+  }
+ },
+ {
+  "id": "F1-014",
+  "pos": {
+   "man": 0.318,
+   "woman": 0.186,
+   "waiter": 0.272,
+   "lamp": 0.587,
+   "light bulb": 0.275,
+   "dominoes": 0.067,
+   "newspaper": 0.541,
+   "cigarette": 0.366,
+   "cups": 0.246,
+   "table": 0.417,
+   "chair": 0.405
+  },
+  "neg": {
+   "windows": 0.046,
+   "hills": 0.02,
+   "street": 0.02,
+   "buds": 0.009,
+   "rocks": 0.014,
+   "paper boats": 0.03
+  }
+ },
+ {
+  "id": "F1-016",
+  "pos": {
+   "figures": 0.189,
+   "hats": 0.337,
+   "coats": 0.183,
+   "dresses": 0.132,
+   "plant": 0.007,
+   "text": 0.063
+  },
+  "neg": {
+   "street": 0.042,
+   "wires": 0.018,
+   "vessel": 0.008,
+   "paper boats": 0.017,
+   "fish": 0.01,
+   "roofs": 0.047
+  }
+ },
+ {
+  "id": "F1-017",
+  "pos": {
+   "figures": 0.183,
+   "hats": 0.332,
+   "coats": 0.163,
+   "dresses": 0.139,
+   "plant": 0.014,
+   "text": 0.071
+  },
+  "neg": {
+   "wires": 0.028,
+   "musical instrument": 0.11,
+   "queen": 0.244,
+   "hills": 0.021,
+   "cloak": 0.24,
+   "heart": 0.041
+  }
+ },
+ {
+  "id": "F1-018",
+  "pos": {
+   "building facade": 0.422,
+   "sign": 0.07
+  },
+  "neg": {
+   "leaf motifs": 0.01,
+   "roofs": 0.178,
+   "jacket": 0.016,
+   "leaves": 0.01,
+   "horse": 0.018,
+   "dancer": 0.02
+  }
+ },
+ {
+  "id": "F1-019",
+  "pos": {
+   "buildings": 0.16,
+   "windows": 0.174,
+   "balcony": 0.248,
+   "dome": 0.073,
+   "spire": 0.169
+  },
+  "neg": {
+   "women": 0.002,
+   "mosque": 0.111,
+   "queen": 0.007,
+   "table": 0.014,
+   "water": 0.053,
+   "flowers": 0.005
+  }
+ },
+ {
+  "id": "F1-021",
+  "pos": {
+   "woman": 0.142,
+   "glass": 0.022,
+   "jacket": 0.019,
+   "chair": 0.022,
+   "shoes": 0.009
+  },
+  "neg": {
+   "dome": 0.007,
+   "houses": 0.016,
+   "bird": 0.016,
+   "sea": 0.028,
+   "hand": 0.065,
+   "buds": 0.011
+  }
+ },
+ {
+  "id": "F1-026",
+  "pos": {
+   "sky": 0.19,
+   "trees": 0.222,
+   "bushes": 0.134
+  },
+  "neg": {
+   "mosque": 0.024,
+   "feather": 0.02,
+   "glass": 0.006,
+   "goddess": 0.012,
+   "hand": 0.006,
+   "cane": 0.004
+  }
+ },
+ {
+  "id": "F1-029",
+  "pos": {
+   "angel": 0.312,
+   "feather": 0.149,
+   "wings": 0.095,
+   "musical instrument": 0.337,
+   "rocks": 0.04,
+   "text": 0.038
+  },
+  "neg": {
+   "script": 0.181,
+   "carpet": 0.014,
+   "fish": 0.033,
+   "people": 0.095,
+   "street": 0.007,
+   "hills": 0.021
+  }
+ },
+ {
+  "id": "F1-032",
+  "pos": {},
+  "neg": {
+   "throne": 0.005,
+   "dancer": 0.008,
+   "wings": 0.009,
+   "buildings": 0.063,
+   "text": 0.005,
+   "figure": 0.003
+  }
+ },
+ {
+  "id": "F1-034",
+  "pos": {
+   "paper fragments": 0.484
+  },
+  "neg": {
+   "staff": 0.003,
+   "man": 0.004,
+   "baskets": 0.002,
+   "vase": 0.005,
+   "dome": 0.005,
+   "angel": 0.021
+  }
+ },
+ {
+  "id": "F1-038",
+  "pos": {
+   "veiled figures": 0.46,
+   "carpet": 0.215,
+   "carriage": 0.619,
+   "tree": 0.608,
+   "vessel": 0.07
+  },
+  "neg": {
+   "cloak": 0.262,
+   "table": 0.03,
+   "man": 0.088,
+   "towers": 0.033,
+   "pharaoh": 0.137,
+   "dresses": 0.042
+  }
+ },
+ {
+  "id": "F1-042",
+  "pos": {
+   "buildings": 0.095,
+   "windows": 0.192,
+   "café sign": 0.264,
+   "women": 0.096,
+   "street": 0.06
+  },
+  "neg": {
+   "halos": 0.042,
+   "water": 0.023,
+   "houses": 0.059,
+   "paper boats": 0.025,
+   "pharaoh": 0.033,
+   "dancer": 0.118
+  }
+ },
+ {
+  "id": "F1-044",
+  "pos": {
+   "people": 0.212,
+   "tables": 0.474,
+   "tablecloths": 0.397,
+   "bottles": 0.373,
+   "glasses": 0.033,
+   "chairs": 0.261,
+   "trees": 0.318,
+   "building": 0.142,
+   "café sign": 0.164,
+   "hats": 0.526
+  },
+  "neg": {
+   "arch": 0.243,
+   "windows": 0.104,
+   "sun": 0.044,
+   "towers": 0.039,
+   "dresses": 0.125,
+   "women": 0.201
+  }
+ },
+ {
+  "id": "F1-050",
+  "pos": {
+   "irises": 0.611,
+   "stems": 0.131,
+   "buds": 0.049
+  },
+  "neg": {
+   "branches": 0.035,
+   "buildings": 0.001,
+   "hills": 0.001,
+   "throne": 0.003,
+   "horse": 0.003,
+   "dresses": 0.003
+  }
+ },
+ {
+  "id": "F1-051",
+  "pos": {
+   "curtains": 0.123,
+   "vase": 0.655,
+   "flowers": 0.411,
+   "window": 0.074
+  },
+  "neg": {
+   "figure": 0.013,
+   "hammer": 0.005,
+   "shoulder pole": 0.008,
+   "water": 0.014,
+   "minarets": 0.018,
+   "clouds": 0.014
+  }
+ },
+ {
+  "id": "F1-052",
+  "pos": {
+   "houses": 0.126,
+   "trees": 0.044,
+   "hills": 0.172,
+   "sky": 0.053
+  },
+  "neg": {
+   "roofs": 0.044,
+   "water": 0.003,
+   "wings": 0.001,
+   "fruits": 0.001,
+   "clay pots": 0.007,
+   "horse": 0.015
+  }
+ },
+ {
+  "id": "F1-056",
+  "pos": {
+   "figure": 0.092,
+   "hammer": 0.406,
+   "heart": 0.144,
+   "branches": 0.128
+  },
+  "neg": {
+   "clouds": 0.022,
+   "balcony": 0.007,
+   "script": 0.143,
+   "sky": 0.015,
+   "hieroglyphs": 0.085,
+   "beard": 0.043
+  }
+ },
+ {
+  "id": "F1-057",
+  "pos": {
+   "women": 0.252,
+   "gowns": 0.201,
+   "garlands": 0.216,
+   "streamers": 0.265
+  },
+  "neg": {
+   "leaves": 0.083,
+   "crown": 0.046,
+   "vase": 0.008,
+   "script": 0.024,
+   "sea": 0.013,
+   "sign": 0.018
+  }
+ },
+ {
+  "id": "F1-058",
+  "pos": {
+   "dervish": 0.203,
+   "calligraphy": 0.561
+  },
+  "neg": {
+   "baskets": 0.005,
+   "table": 0.011,
+   "sign": 0.051,
+   "leaf motifs": 0.06,
+   "street": 0.012,
+   "stems": 0.009
+  }
+ },
+ {
+  "id": "F1-059",
+  "pos": {
+   "women": 0.252,
+   "sea": 0.065,
+   "sailboats": 0.564
+  },
+  "neg": {
+   "staff": 0.026,
+   "windows": 0.023,
+   "shoulder pole": 0.021,
+   "buildings": 0.01,
+   "hat": 0.231,
+   "throne": 0.121
+  }
+ },
+ {
+  "id": "F1-061",
+  "pos": {
+   "woman": 0.328,
+   "hibiscus flowers": 0.454
+  },
+  "neg": {
+   "sun": 0.081,
+   "dancer": 0.414,
+   "rocks": 0.016,
+   "wings": 0.008,
+   "fruits": 0.016,
+   "beard": 0.093
+  }
+ },
+ {
+  "id": "F1-062",
+  "pos": {
+   "figure": 0.115,
+   "hammer": 0.509,
+   "heart": 0.124,
+   "branches": 0.107
+  },
+  "neg": {
+   "staff": 0.197,
+   "towers": 0.017,
+   "halos": 0.023,
+   "hat": 0.017,
+   "city walls": 0.03,
+   "bird": 0.16
+  }
+ },
+ {
+  "id": "F1-063",
+  "pos": {
+   "wine glass": 0.503,
+   "vase": 0.638,
+   "branch": 0.109,
+   "flowers": 0.427,
+   "fruits": 0.153,
+   "table": 0.355
+  },
+  "neg": {
+   "street": 0.038,
+   "houses": 0.013,
+   "halos": 0.036,
+   "coats": 0.008,
+   "paper boats": 0.028,
+   "staff": 0.024
+  }
+ },
+ {
+  "id": "F1-065",
+  "pos": {
+   "angels": 0.241,
+   "halos": 0.083,
+   "wings": 0.039,
+   "musical instruments": 0.067
+  },
+  "neg": {
+   "queen": 0.199,
+   "heart": 0.017,
+   "minarets": 0.039,
+   "wires": 0.009,
+   "chair": 0.009,
+   "coats": 0.027
+  }
+ },
+ {
+  "id": "F1-067",
+  "pos": {
+   "fish": 0.621,
+   "strings": 0.059,
+   "paper": 0.079
+  },
+  "neg": {
+   "fruits": 0.009,
+   "hand": 0.017,
+   "people": 0.017,
+   "tree": 0.052,
+   "buildings": 0.012,
+   "angel": 0.031
+  }
+ },
+ {
+  "id": "F1-069",
+  "pos": {
+   "dancer": 0.542,
+   "pointe shoes": 0.44
+  },
+  "neg": {
+   "towers": 0.025,
+   "pharaoh": 0.113,
+   "baskets": 0.007,
+   "shoulder pole": 0.043,
+   "fruits": 0.013,
+   "hammer": 0.034
+  }
+ },
+ {
+  "id": "F1-074",
+  "pos": {
+   "hills": 0.213,
+   "houses": 0.166,
+   "trees": 0.096,
+   "blossoming trees": 0.095,
+   "animals": 0.137,
+   "mountains": 0.259
+  },
+  "neg": {
+   "shoulder pole": 0.007,
+   "sky": 0.055,
+   "sun": 0.007,
+   "cane": 0.002,
+   "dresses": 0.001,
+   "buildings": 0.035
+  }
+ },
+ {
+  "id": "F1-076",
+  "pos": {
+   "hills": 0.011,
+   "tree": 0.003
+  },
+  "neg": {
+   "arch": 0.008,
+   "table": 0.002,
+   "crown": 0.011,
+   "sign": 0.006,
+   "cane": 0.001,
+   "rocks": 0.007
+  }
+ },
+ {
+  "id": "F1-077",
+  "pos": {
+   "trees": 0.155,
+   "hills": 0.124,
+   "bird": 0.395,
+   "sky": 0.066
+  },
+  "neg": {
+   "cup": 0.004,
+   "halos": 0.009,
+   "hat": 0.008,
+   "houses": 0.034,
+   "balcony": 0.009,
+   "vessel": 0.009
+  }
+ },
+ {
+  "id": "F1-078",
+  "pos": {
+   "vase": 0.743,
+   "poppies": 0.646,
+   "daisies": 0.306,
+   "leaves": 0.073
+  },
+  "neg": {
+   "shoes": 0.004,
+   "script": 0.007,
+   "sky": 0.006,
+   "sun": 0.003,
+   "branches": 0.011,
+   "hammer": 0.008
+  }
+ },
+ {
+  "id": "F1-088",
+  "pos": {
+   "figures": 0.064,
+   "costumes": 0.008
+  },
+  "neg": {
+   "bird": 0.043,
+   "windows": 0.03,
+   "hat": 0.197,
+   "moon": 0.011,
+   "child rider": 0.035,
+   "shoes": 0.011
+  }
+ },
+ {
+  "id": "F2-001",
+  "pos": {
+   "leaf motifs": 0.01
+  },
+  "neg": {
+   "tree": 0.007,
+   "baskets": 0.003,
+   "hat": 0.006,
+   "cane": 0.004,
+   "feather": 0.009,
+   "hieroglyphs": 0.057
+  }
+ },
+ {
+  "id": "F2-003",
+  "pos": {
+   "blossoms": 0.321
+  },
+  "neg": {
+   "leaves": 0.017,
+   "chair": 0.002,
+   "horse": 0.002,
+   "jacket": 0.002,
+   "mosque": 0.005,
+   "branches": 0.036
+  }
+ },
+ {
+  "id": "F2-004",
+  "pos": {
+   "birds": 0.487,
+   "moon": 0.06,
+   "wires": 0.058
+  },
+  "neg": {
+   "man": 0.005,
+   "cartouches": 0.018,
+   "hand": 0.005,
+   "water": 0.174,
+   "figure": 0.021,
+   "coats": 0.008
+  }
+ },
+ {
+  "id": "F2-005",
+  "pos": {
+   "leaf motifs": 0.01
+  },
+  "neg": {
+   "shoulder pole": 0.004,
+   "man": 0.001,
+   "roofs": 0.003,
+   "windows": 0.003,
+   "balcony": 0.001,
+   "vessel": 0.0
+  }
+ },
+ {
+  "id": "F2-006",
+  "pos": {
+   "streaks": 0.022
+  },
+  "neg": {
+   "man": 0.0,
+   "towers": 0.003,
+   "minarets": 0.001,
+   "figure": 0.0,
+   "houses": 0.004,
+   "halos": 0.003
+  }
+ },
+ {
+  "id": "F2-008",
+  "pos": {},
+  "neg": {
+   "leaves": 0.004,
+   "roofs": 0.006,
+   "stems": 0.005,
+   "jacket": 0.0,
+   "street": 0.003,
+   "buds": 0.004
+  }
+ },
+ {
+  "id": "F2-009",
+  "pos": {
+   "plant": 0.001,
+   "leaves": 0.009
+  },
+  "neg": {
+   "sky": 0.004,
+   "balcony": 0.004,
+   "script": 0.001,
+   "arch": 0.01,
+   "paper": 0.002,
+   "buds": 0.001
+  }
+ },
+ {
+  "id": "F2-012",
+  "pos": {},
+  "neg": {
+   "sign": 0.002,
+   "leaves": 0.004,
+   "heart": 0.001,
+   "halos": 0.023,
+   "mosque": 0.155,
+   "hat": 0.005
+  }
+ },
+ {
+  "id": "F2-015",
+  "pos": {},
+  "neg": {
+   "windows": 0.004,
+   "paper boats": 0.012,
+   "staff": 0.002,
+   "angel": 0.015,
+   "wings": 0.002,
+   "vase": 0.003
+  }
+ },
+ {
+  "id": "F2-021",
+  "pos": {},
+  "neg": {
+   "bird": 0.002,
+   "wings": 0.001,
+   "women": 0.002,
+   "houses": 0.009,
+   "staff": 0.001,
+   "towers": 0.006
+  }
+ },
+ {
+  "id": "F2-023",
+  "pos": {},
+  "neg": {
+   "paper boats": 0.01,
+   "sea": 0.008,
+   "mosque": 0.002,
+   "street": 0.002,
+   "fish": 0.003,
+   "carpet": 0.0
+  }
+ },
+ {
+  "id": "F2-025",
+  "pos": {},
+  "neg": {
+   "chair": 0.004,
+   "mosque": 0.008,
+   "man": 0.066,
+   "city walls": 0.043,
+   "pharaoh": 0.022,
+   "sky": 0.018
+  }
+ },
+ {
+  "id": "F2-027",
+  "pos": {},
+  "neg": {
+   "coats": 0.001,
+   "sign": 0.003,
+   "cup": 0.001,
+   "table": 0.004,
+   "mountains": 0.021,
+   "paper": 0.016
+  }
+ },
+ {
+  "id": "F2-029",
+  "pos": {
+   "women": 0.307,
+   "dresses": 0.515,
+   "leaves": 0.077,
+   "stems": 0.027,
+   "cat": 0.754
+  },
+  "neg": {
+   "vessel": 0.009,
+   "shoes": 0.007,
+   "sun": 0.025,
+   "hills": 0.013,
+   "man": 0.034,
+   "queen": 0.343
+  }
+ },
+ {
+  "id": "F2-031",
+  "pos": {
+   "women": 0.274,
+   "sofa": 0.741,
+   "flower": 0.157,
+   "dragonflies": 0.544,
+   "trees": 0.249,
+   "shrubs": 0.128,
+   "house": 0.283
+  },
+  "neg": {
+   "balcony": 0.043,
+   "fish": 0.143,
+   "wires": 0.029,
+   "sign": 0.008,
+   "feather": 0.19,
+   "dome": 0.013
+  }
+ },
+ {
+  "id": "F2-033",
+  "pos": {
+   "people": 0.21,
+   "deer": 0.55,
+   "stream": 0.294,
+   "rocks": 0.168,
+   "cliffs": 0.385,
+   "trees": 0.04,
+   "dogs": 0.34,
+   "sky": 0.072
+  },
+  "neg": {
+   "carpet": 0.011,
+   "clay pots": 0.042,
+   "clouds": 0.078,
+   "musical instrument": 0.02,
+   "heart": 0.004,
+   "branches": 0.03
+  }
+ },
+ {
+  "id": "F2-035",
+  "pos": {
+   "man": 0.291,
+   "fur hat": 0.255,
+   "coat": 0.147,
+   "dagger": 0.217,
+   "cane": 0.222,
+   "beard": 0.36
+  },
+  "neg": {
+   "buildings": 0.027,
+   "hand": 0.17,
+   "hieroglyphs": 0.066,
+   "people": 0.202,
+   "water": 0.014,
+   "baskets": 0.018
+  }
+ },
+ {
+  "id": "F2-037",
+  "pos": {},
+  "neg": {
+   "baskets": 0.0,
+   "dresses": 0.0,
+   "fruits": 0.001,
+   "hat": 0.001,
+   "water": 0.003,
+   "fish": 0.054
+  }
+ },
+ {
+  "id": "F2-039",
+  "pos": {
+   "woman": 0.382,
+   "checkered jacket": 0.468,
+   "paintbrush": 0.64,
+   "paint buckets": 0.464,
+   "clouds": 0.323,
+   "sky": 0.081
+  },
+  "neg": {
+   "halos": 0.051,
+   "carpet": 0.022,
+   "shoes": 0.055,
+   "city walls": 0.062,
+   "cup": 0.321,
+   "pharaoh": 0.105
+  }
+ },
+ {
+  "id": "F2-048",
+  "pos": {
+   "child rider": 0.153,
+   "horse": 0.718,
+   "saddle": 0.334,
+   "bridle": 0.246,
+   "hat": 0.139,
+   "wig": 0.23,
+   "clouds": 0.087
+  },
+  "neg": {
+   "clay pots": 0.011,
+   "man": 0.056,
+   "moon": 0.207,
+   "roofs": 0.018,
+   "mountains": 0.052,
+   "branches": 0.031
+  }
+ },
+ {
+  "id": "F2-049",
+  "pos": {
+   "child rider": 0.161,
+   "horse": 0.698,
+   "harness": 0.265,
+   "hat": 0.068,
+   "wig": 0.357,
+   "clouds": 0.069
+  },
+  "neg": {
+   "clay pots": 0.01,
+   "baskets": 0.018,
+   "fruits": 0.012,
+   "windows": 0.009,
+   "bird": 0.043,
+   "houses": 0.011
+  }
+ },
+ {
+  "id": "F2-053",
+  "pos": {},
+  "neg": {
+   "balcony": 0.005,
+   "cloak": 0.001,
+   "branches": 0.125,
+   "hills": 0.103,
+   "throne": 0.001,
+   "fish": 0.001
+  }
+ },
+ {
+  "id": "F2-055",
+  "pos": {
+   "woman": 0.274,
+   "girl": 0.285,
+   "headwrap": 0.081,
+   "dress": 0.406,
+   "balloon": 0.289
+  },
+  "neg": {
+   "crown": 0.091,
+   "goddess": 0.347,
+   "clouds": 0.028,
+   "pharaoh": 0.137,
+   "dome": 0.03,
+   "chair": 0.007
+  }
+ },
+ {
+  "id": "F2-057",
+  "pos": {
+   "woman": 0.346,
+   "hat": 0.02,
+   "dress": 0.342,
+   "hand": 0.16
+  },
+  "neg": {
+   "baskets": 0.021,
+   "script": 0.028,
+   "paper": 0.026,
+   "fruits": 0.013,
+   "hammer": 0.035,
+   "sign": 0.009
+  }
+ },
+ {
+  "id": "F2-063",
+  "pos": {
+   "elephant": 0.605,
+   "tusks": 0.323,
+   "sun": 0.013
+  },
+  "neg": {
+   "hieroglyphs": 0.088,
+   "leaf motifs": 0.044,
+   "throne": 0.031,
+   "flowers": 0.004,
+   "hammer": 0.012,
+   "paper": 0.006
+  }
+ },
+ {
+  "id": "F2-065",
+  "pos": {
+   "women": 0.169,
+   "trumpets": 0.228,
+   "dresses": 0.106,
+   "stars": 0.124,
+   "moon": 0.38,
+   "houses": 0.054
+  },
+  "neg": {
+   "clay pots": 0.047,
+   "buds": 0.013,
+   "rocks": 0.024,
+   "street": 0.042,
+   "leaf motifs": 0.03,
+   "halos": 0.092
+  }
+ },
+ {
+  "id": "F2-067",
+  "pos": {
+   "figures": 0.162,
+   "hat": 0.192,
+   "cane": 0.01
+  },
+  "neg": {
+   "horse": 0.231,
+   "stems": 0.006,
+   "pharaoh": 0.119,
+   "woman": 0.208,
+   "vessel": 0.016,
+   "angel": 0.314
+  }
+ },
+ {
+  "id": "F2-069",
+  "pos": {
+   "woman": 0.069,
+   "hair": 0.025
+  },
+  "neg": {
+   "angel": 0.177,
+   "houses": 0.007,
+   "feather": 0.026,
+   "paper boats": 0.011,
+   "roofs": 0.012,
+   "towers": 0.006
+  }
+ },
+ {
+  "id": "F2-071",
+  "pos": {
+   "houses": 0.206,
+   "domes": 0.591,
+   "churches": 0.395,
+   "bell tower": 0.457,
+   "palm tree": 0.483,
+   "sea": 0.298,
+   "clouds": 0.244
+  },
+  "neg": {
+   "child rider": 0.013,
+   "wings": 0.007,
+   "feather": 0.021,
+   "water": 0.18,
+   "man": 0.021,
+   "table": 0.007
+  }
+ },
+ {
+  "id": "F2-072",
+  "pos": {
+   "children": 0.542,
+   "paper boats": 0.518,
+   "machine": 0.098,
+   "egg": 0.077
+  },
+  "neg": {
+   "clouds": 0.032,
+   "goddess": 0.124,
+   "chair": 0.048,
+   "houses": 0.071,
+   "coats": 0.065,
+   "hat": 0.357
+  }
+ },
+ {
+  "id": "F2-073",
+  "pos": {
+   "stilt houses": 0.129,
+   "roofs": 0.516,
+   "palm trees": 0.319,
+   "laundry": 0.018,
+   "water": 0.058,
+   "boats": 0.041
+  },
+  "neg": {
+   "throne": 0.011,
+   "heart": 0.015,
+   "buildings": 0.184,
+   "plant": 0.107,
+   "queen": 0.009,
+   "beard": 0.004
+  }
+ },
+ {
+  "id": "F2-074",
+  "pos": {
+   "figure": 0.052,
+   "cloak": 0.318,
+   "staff": 0.247,
+   "earrings": 0.028
+  },
+  "neg": {
+   "feather": 0.219,
+   "paper": 0.09,
+   "stems": 0.085,
+   "cane": 0.191,
+   "houses": 0.019,
+   "hieroglyphs": 0.107
+  }
+ },
+ {
+  "id": "F2-075",
+  "pos": {
+   "houses": 0.279,
+   "roofs": 0.281,
+   "crowd": 0.402,
+   "people": 0.126,
+   "wires": 0.107
+  },
+  "neg": {
+   "carpet": 0.016,
+   "water": 0.098,
+   "shoulder pole": 0.028,
+   "goddess": 0.022,
+   "shoes": 0.01,
+   "buds": 0.006
+  }
+ },
+ {
+  "id": "F2-078",
+  "pos": {},
+  "neg": {
+   "cane": 0.002,
+   "sun": 0.007,
+   "queen": 0.002,
+   "moon": 0.002,
+   "glass": 0.002,
+   "woman": 0.001
+  }
+ },
+ {
+  "id": "F2-079",
+  "pos": {
+   "houses": 0.356,
+   "thatched roofs": 0.282,
+   "laundry": 0.344,
+   "trees": 0.405,
+   "mountains": 0.374,
+   "woman": 0.299,
+   "baskets": 0.514,
+   "shoulder pole": 0.083,
+   "plants": 0.293
+  },
+  "neg": {
+   "hat": 0.128,
+   "goddess": 0.149,
+   "street": 0.068,
+   "hammer": 0.079,
+   "jacket": 0.017,
+   "fish": 0.031
+  }
+ },
+ {
+  "id": "F2-080",
+  "pos": {
+   "street": 0.334,
+   "church tower": 0.631,
+   "gate": 0.126,
+   "arch": 0.527,
+   "buildings": 0.29,
+   "trees": 0.12,
+   "people": 0.248
+  },
+  "neg": {
+   "bird": 0.043,
+   "carpet": 0.015,
+   "mountains": 0.073,
+   "wings": 0.013,
+   "shoulder pole": 0.034,
+   "hand": 0.028
+  }
+ },
+ {
+  "id": "F2-081",
+  "pos": {
+   "woman": 0.281,
+   "umbrella": 0.562,
+   "jacket": 0.195,
+   "jeans": 0.208,
+   "hat": 0.175,
+   "bag": 0.182,
+   "street": 0.038
+  },
+  "neg": {
+   "beard": 0.042,
+   "table": 0.012,
+   "sign": 0.016,
+   "flowers": 0.021,
+   "glass": 0.011,
+   "mountains": 0.061
+  }
+ },
+ {
+  "id": "F2-082",
+  "pos": {
+   "women": 0.156,
+   "hats": 0.456,
+   "dresses": 0.117,
+   "baskets": 0.457,
+   "fruit": 0.059
+  },
+  "neg": {
+   "street": 0.024,
+   "people": 0.155,
+   "sky": 0.03,
+   "cup": 0.047,
+   "shoulder pole": 0.06,
+   "dome": 0.092
+  }
+ },
+ {
+  "id": "F2-084",
+  "pos": {
+   "huts": 0.414,
+   "palm trees": 0.533,
+   "boat": 0.513,
+   "sail": 0.48,
+   "people": 0.222,
+   "birds": 0.495,
+   "water": 0.289,
+   "path": 0.064
+  },
+  "neg": {
+   "rocks": 0.081,
+   "chair": 0.018,
+   "leaves": 0.151,
+   "moon": 0.081,
+   "arch": 0.074,
+   "dresses": 0.273
+  }
+ },
+ {
+  "id": "F2-085",
+  "pos": {
+   "women": 0.28,
+   "baskets": 0.654,
+   "bundles": 0.354,
+   "acacia trees": 0.293,
+   "huts": 0.521,
+   "staffs": 0.331
+  },
+  "neg": {
+   "queen": 0.265,
+   "child rider": 0.062,
+   "throne": 0.153,
+   "table": 0.051,
+   "hills": 0.375,
+   "cartouches": 0.074
+  }
+ },
+ {
+  "id": "F2-087",
+  "pos": {
+   "women": 0.37,
+   "head wraps": 0.255,
+   "baskets": 0.588,
+   "fruit": 0.434,
+   "watermelon": 0.542,
+   "table": 0.196,
+   "clay pots": 0.416
+  },
+  "neg": {
+   "sign": 0.024,
+   "figure": 0.171,
+   "houses": 0.057,
+   "paper boats": 0.39,
+   "vessel": 0.222,
+   "chair": 0.021
+  }
+ },
+ {
+  "id": "F2-088",
+  "pos": {
+   "man": 0.256,
+   "microphone": 0.658,
+   "paper": 0.555,
+   "shirt": 0.059
+  },
+  "neg": {
+   "hammer": 0.334,
+   "vessel": 0.011,
+   "branches": 0.011,
+   "fish": 0.005,
+   "cartouches": 0.072,
+   "hills": 0.017
+  }
+ },
+ {
+  "id": "F2-090",
+  "pos": {
+   "sun": 0.044,
+   "sky": 0.057,
+   "hills": 0.116
+  },
+  "neg": {
+   "clouds": 0.053,
+   "script": 0.008,
+   "vessel": 0.024,
+   "windows": 0.01,
+   "coats": 0.003,
+   "flowers": 0.014
+  }
+ },
+ {
+  "id": "F2-092",
+  "pos": {
+   "man": 0.397,
+   "desk": 0.331,
+   "papers": 0.239,
+   "chair": 0.213,
+   "figures": 0.103
+  },
+  "neg": {
+   "child rider": 0.021,
+   "shoes": 0.009,
+   "flowers": 0.043,
+   "stems": 0.011,
+   "horse": 0.039,
+   "houses": 0.062
+  }
+ },
+ {
+  "id": "F2-094",
+  "pos": {
+   "women": 0.337,
+   "houses": 0.452,
+   "balconies": 0.185,
+   "hats": 0.315,
+   "table": 0.064,
+   "glass": 0.09
+  },
+  "neg": {
+   "shoulder pole": 0.024,
+   "queen": 0.352,
+   "hand": 0.154,
+   "pharaoh": 0.121,
+   "cup": 0.285,
+   "beard": 0.045
+  }
+ },
+ {
+  "id": "F2-096",
+  "pos": {
+   "sky": 0.192,
+   "clouds": 0.226,
+   "trees": 0.069,
+   "bridge": 0.024,
+   "sign post": 0.284,
+   "riverbank": 0.198
+  },
+  "neg": {
+   "hieroglyphs": 0.013,
+   "dresses": 0.0,
+   "wires": 0.009,
+   "balcony": 0.013,
+   "mosque": 0.022,
+   "women": 0.001
+  }
+ },
+ {
+  "id": "F2-098",
+  "pos": {},
+  "neg": {
+   "cup": 0.002,
+   "buds": 0.038,
+   "hammer": 0.001,
+   "horse": 0.026,
+   "goddess": 0.021,
+   "bird": 0.007
+  }
+ },
+ {
+  "id": "F3-001",
+  "pos": {},
+  "neg": {
+   "queen": 0.003,
+   "balcony": 0.002,
+   "beard": 0.001,
+   "cane": 0.003,
+   "coats": 0.001,
+   "man": 0.002
+  }
+ },
+ {
+  "id": "F3-003",
+  "pos": {
+   "face": 0.106,
+   "eyes": 0.037,
+   "nose": 0.013,
+   "mouth": 0.015
+  },
+  "neg": {
+   "flowers": 0.019,
+   "hand": 0.015,
+   "hammer": 0.024,
+   "wires": 0.007,
+   "people": 0.009,
+   "hieroglyphs": 0.022
+  }
+ },
+ {
+  "id": "F3-005",
+  "pos": {
+   "face": 0.129,
+   "nose": 0.037,
+   "mouth": 0.077,
+   "eyebrows": 0.012
+  },
+  "neg": {
+   "hand": 0.012,
+   "clouds": 0.01,
+   "water": 0.004,
+   "cane": 0.004,
+   "towers": 0.03,
+   "woman": 0.031
+  }
+ },
+ {
+  "id": "F3-007",
+  "pos": {},
+  "neg": {
+   "cloak": 0.006,
+   "hand": 0.003,
+   "beard": 0.002,
+   "woman": 0.004,
+   "throne": 0.003,
+   "shoes": 0.0
+  }
+ },
+ {
+  "id": "F3-011",
+  "pos": {},
+  "neg": {
+   "glass": 0.001,
+   "people": 0.002,
+   "vessel": 0.002,
+   "table": 0.002,
+   "hills": 0.021,
+   "leaf motifs": 0.003
+  }
+ },
+ {
+  "id": "F3-013",
+  "pos": {},
+  "neg": {
+   "women": 0.0,
+   "vessel": 0.0,
+   "wires": 0.002,
+   "plant": 0.002,
+   "figure": 0.003,
+   "pharaoh": 0.006
+  }
+ },
+ {
+  "id": "F3-015",
+  "pos": {},
+  "neg": {
+   "street": 0.001,
+   "table": 0.001,
+   "dancer": 0.003,
+   "flowers": 0.0,
+   "leaves": 0.001,
+   "tree": 0.035
+  }
+ },
+ {
+  "id": "F3-018",
+  "pos": {
+   "woman": 0.191,
+   "hat": 0.132,
+   "fish": 0.111,
+   "lemon": 0.103,
+   "chair": 0.125
+  },
+  "neg": {
+   "goddess": 0.25,
+   "flowers": 0.019,
+   "tree": 0.018,
+   "jacket": 0.038,
+   "paper": 0.07,
+   "houses": 0.014
+  }
+ },
+ {
+  "id": "F3-019",
+  "pos": {
+   "man": 0.039,
+   "hat": 0.021,
+   "plume": 0.048,
+   "moustache": 0.107,
+   "beard": 0.04,
+   "collar": 0.022
+  },
+  "neg": {
+   "text": 0.057,
+   "towers": 0.058,
+   "branches": 0.06,
+   "city walls": 0.046,
+   "chair": 0.003,
+   "queen": 0.122
+  }
+ },
+ {
+  "id": "F3-020",
+  "pos": {
+   "man": 0.035,
+   "hat": 0.088,
+   "beard": 0.036,
+   "doublet": 0.038
+  },
+  "neg": {
+   "street": 0.017,
+   "crown": 0.158,
+   "flowers": 0.024,
+   "women": 0.022,
+   "baskets": 0.005,
+   "heart": 0.019
+  }
+ },
+ {
+  "id": "F3-022",
+  "pos": {
+   "unicorn": 0.824,
+   "horn": 0.158,
+   "branches": 0.103,
+   "clouds": 0.187,
+   "flower": 0.032
+  },
+  "neg": {
+   "heart": 0.005,
+   "cup": 0.001,
+   "wings": 0.013,
+   "leaf motifs": 0.029,
+   "vase": 0.002,
+   "baskets": 0.001
+  }
+ },
+ {
+  "id": "F3-025",
+  "pos": {
+   "arch": 0.041,
+   "crown": 0.054,
+   "hands": 0.195,
+   "lion": 0.193,
+   "city walls": 0.087,
+   "Hebrew text": 0.076
+  },
+  "neg": {
+   "people": 0.047,
+   "hieroglyphs": 0.158,
+   "halos": 0.018,
+   "wings": 0.013,
+   "dome": 0.018,
+   "moon": 0.052
+  }
+ },
+ {
+  "id": "F3-029",
+  "pos": {
+   "Georgian letters": 0.036,
+   "script": 0.059
+  },
+  "neg": {
+   "flowers": 0.0,
+   "chair": 0.001,
+   "baskets": 0.0,
+   "shoes": 0.0,
+   "feather": 0.001,
+   "glass": 0.001
+  }
+ },
+ {
+  "id": "F3-031",
+  "pos": {},
+  "neg": {
+   "pharaoh": 0.06,
+   "plant": 0.008,
+   "mosque": 0.025,
+   "vase": 0.02,
+   "beard": 0.004,
+   "houses": 0.01
+  }
+ },
+ {
+  "id": "F3-033",
+  "pos": {},
+  "neg": {
+   "windows": 0.012,
+   "wires": 0.008,
+   "figure": 0.134,
+   "moon": 0.027,
+   "table": 0.018,
+   "halos": 0.058
+  }
+ },
+ {
+  "id": "F3-037",
+  "pos": {
+   "woman": 0.272,
+   "legs": 0.078,
+   "shoe": 0.106,
+   "dress": 0.204,
+   "arch": 0.165,
+   "hair": 0.056,
+   "water": 0.063,
+   "leaves": 0.021
+  },
+  "neg": {
+   "towers": 0.028,
+   "city walls": 0.116,
+   "vessel": 0.019,
+   "wires": 0.014,
+   "sign": 0.012,
+   "script": 0.013
+  }
+ },
+ {
+  "id": "F3-039",
+  "pos": {
+   "carpet": 0.031,
+   "doorway": 0.08,
+   "window": 0.092,
+   "pictures": 0.184,
+   "checkerboard": 0.169,
+   "figure": 0.124
+  },
+  "neg": {
+   "jacket": 0.01,
+   "vase": 0.007,
+   "bird": 0.017,
+   "roofs": 0.079,
+   "shoulder pole": 0.022,
+   "fruits": 0.002
+  }
+ },
+ {
+  "id": "F3-043",
+  "pos": {
+   "ping-pong table": 0.079,
+   "players": 0.078,
+   "figures": 0.217,
+   "checkered floor": 0.092
+  },
+  "neg": {
+   "carpet": 0.023,
+   "clouds": 0.014,
+   "fish": 0.008,
+   "child rider": 0.043,
+   "hat": 0.255,
+   "hand": 0.097
+  }
+ },
+ {
+  "id": "F3-045",
+  "pos": {
+   "man": 0.289,
+   "woman": 0.191,
+   "accordion": 0.229,
+   "flower": 0.035,
+   "gate": 0.069,
+   "houses": 0.365,
+   "church": 0.383,
+   "café sign": 0.082,
+   "cypress trees": 0.114
+  },
+  "neg": {
+   "paper": 0.106,
+   "feather": 0.042,
+   "crown": 0.036,
+   "cloak": 0.2,
+   "vase": 0.01,
+   "buds": 0.013
+  }
+ },
+ {
+  "id": "F3-046",
+  "pos": {
+   "rooster": 0.78,
+   "flying machine": 0.245,
+   "figures": 0.156,
+   "pinwheel": 0.624,
+   "formulas": 0.083,
+   "numbers": 0.212
+  },
+  "neg": {
+   "script": 0.148,
+   "hieroglyphs": 0.103,
+   "branches": 0.061,
+   "hills": 0.02,
+   "mosque": 0.016,
+   "chair": 0.009
+  }
+ },
+ {
+  "id": "F3-050",
+  "pos": {
+   "goddess": 0.564,
+   "pharaoh": 0.465,
+   "throne": 0.56,
+   "crown": 0.222,
+   "lotus flowers": 0.141,
+   "hieroglyphs": 0.252
+  },
+  "neg": {
+   "cane": 0.407,
+   "dome": 0.045,
+   "queen": 0.425,
+   "cloak": 0.148,
+   "branches": 0.034,
+   "arch": 0.04
+  }
+ },
+ {
+  "id": "F3-051",
+  "pos": {
+   "man": 0.171,
+   "woman": 0.243,
+   "child": 0.179,
+   "boat": 0.185,
+   "birds": 0.437,
+   "papyrus reeds": 0.451,
+   "fish": 0.284,
+   "water": 0.103,
+   "hieroglyphs": 0.259
+  },
+  "neg": {
+   "throne": 0.098,
+   "goddess": 0.453,
+   "mountains": 0.1,
+   "cup": 0.021,
+   "paper": 0.062,
+   "sea": 0.098
+  }
+ },
+ {
+  "id": "F3-053",
+  "pos": {
+   "pharaoh": 0.457,
+   "queen": 0.473,
+   "bow": 0.056,
+   "arrow": 0.033,
+   "lion": 0.508,
+   "birds": 0.284,
+   "papyrus plants": 0.271,
+   "cartouches": 0.086
+  },
+  "neg": {
+   "paper boats": 0.035,
+   "heart": 0.04,
+   "script": 0.087,
+   "water": 0.031,
+   "cup": 0.009,
+   "baskets": 0.039
+  }
+ },
+ {
+  "id": "F3-054",
+  "pos": {
+   "queen": 0.418,
+   "pharaoh": 0.362,
+   "throne": 0.577,
+   "crown": 0.398,
+   "vulture": 0.143,
+   "hieroglyphs": 0.58,
+   "cartouches": 0.094,
+   "vessel": 0.064
+  },
+  "neg": {
+   "jacket": 0.018,
+   "tree": 0.019,
+   "script": 0.117,
+   "balcony": 0.042,
+   "wires": 0.015,
+   "baskets": 0.092
+  }
+ },
+ {
+  "id": "F3-055",
+  "pos": {
+   "pharaoh": 0.314,
+   "chariot": 0.642,
+   "horse": 0.626,
+   "bow": 0.069,
+   "arrow": 0.045,
+   "vulture": 0.129,
+   "hieroglyphs": 0.562
+  },
+  "neg": {
+   "shoes": 0.016,
+   "hills": 0.024,
+   "cane": 0.176,
+   "sea": 0.021,
+   "towers": 0.053,
+   "shoulder pole": 0.11
+  }
+ },
+ {
+  "id": "F3-056",
+  "pos": {
+   "women": 0.341,
+   "musicians": 0.128,
+   "dancers": 0.518,
+   "double flute": 0.225,
+   "headdresses": 0.287,
+   "hieroglyphs": 0.4
+  },
+  "neg": {
+   "script": 0.312,
+   "water": 0.019,
+   "cartouches": 0.063,
+   "text": 0.226,
+   "stems": 0.018,
+   "beard": 0.057
+  }
+ },
+ {
+  "id": "F3-057",
+  "pos": {
+   "goddess": 0.409,
+   "pharaohs": 0.326,
+   "falcon-headed god": 0.131,
+   "ankh": 0.584,
+   "vessels": 0.038,
+   "hieroglyphs": 0.452,
+   "cartouches": 0.087
+  },
+  "neg": {
+   "jacket": 0.003,
+   "woman": 0.242,
+   "windows": 0.024,
+   "coats": 0.007,
+   "sky": 0.024,
+   "tree": 0.016
+  }
+ },
+ {
+  "id": "F3-058",
+  "pos": {
+   "goddess": 0.61,
+   "wings": 0.413,
+   "dress": 0.234,
+   "hieroglyphs": 0.471,
+   "birds": 0.304
+  },
+  "neg": {
+   "minarets": 0.057,
+   "hand": 0.157,
+   "hammer": 0.11,
+   "wires": 0.018,
+   "city walls": 0.067,
+   "chair": 0.051
+  }
+ },
+ {
+  "id": "F3-059",
+  "pos": {
+   "god": 0.281,
+   "throne": 0.29,
+   "winged goddess": 0.332,
+   "woman": 0.235,
+   "offering table": 0.114,
+   "Eye of Horus": 0.138,
+   "hieroglyphs": 0.451
+  },
+  "neg": {
+   "mosque": 0.174,
+   "fish": 0.102,
+   "shoes": 0.062,
+   "baskets": 0.084,
+   "water": 0.013,
+   "houses": 0.073
+  }
+ },
+ {
+  "id": "F3-062",
+  "pos": {
+   "women": 0.36,
+   "lute": 0.245,
+   "harp": 0.245,
+   "musical instruments": 0.184,
+   "offering stands": 0.189,
+   "grapes": 0.321
+  },
+  "neg": {
+   "people": 0.261,
+   "minarets": 0.205,
+   "angel": 0.202,
+   "hammer": 0.12,
+   "heart": 0.029,
+   "chair": 0.017
+  }
+ },
+ {
+  "id": "F3-063",
+  "pos": {
+   "goddess": 0.501,
+   "queen": 0.424,
+   "crowns": 0.372,
+   "staff": 0.504,
+   "hieroglyphs": 0.355,
+   "cartouche": 0.218
+  },
+  "neg": {
+   "leaf motifs": 0.031,
+   "mountains": 0.008,
+   "plant": 0.012,
+   "people": 0.189,
+   "script": 0.066,
+   "musical instrument": 0.158
+  }
+ },
+ {
+  "id": "F3-065",
+  "pos": {
+   "tower": 0.648,
+   "islet": 0.155,
+   "boat": 0.746,
+   "people": 0.172,
+   "ferry": 0.16,
+   "domes": 0.361,
+   "minarets": 0.362,
+   "birds": 0.512,
+   "water": 0.385
+  },
+  "neg": {
+   "vessel": 0.399,
+   "halos": 0.033,
+   "branches": 0.063,
+   "wires": 0.101,
+   "staff": 0.216,
+   "flowers": 0.012
+  }
+ },
+ {
+  "id": "F3-066",
+  "pos": {
+   "boats": 0.696,
+   "masts": 0.189,
+   "sails": 0.417,
+   "posts": 0.297,
+   "water": 0.478,
+   "sky": 0.156
+  },
+  "neg": {
+   "hand": 0.006,
+   "buds": 0.005,
+   "child rider": 0.011,
+   "mountains": 0.262,
+   "jacket": 0.001,
+   "arch": 0.014
+  }
+ },
+ {
+  "id": "F3-067",
+  "pos": {
+   "ferry": 0.264,
+   "water": 0.384,
+   "mosque": 0.377,
+   "minarets": 0.402,
+   "tower": 0.581,
+   "gulls": 0.584,
+   "clouds": 0.181
+  },
+  "neg": {
+   "child rider": 0.011,
+   "sign": 0.015,
+   "branches": 0.059,
+   "flowers": 0.006,
+   "dancer": 0.006,
+   "hand": 0.003
+  }
+ },
+ {
+  "id": "F3-068",
+  "pos": {
+   "tower": 0.7,
+   "rooftops": 0.292,
+   "buildings": 0.232,
+   "water": 0.08,
+   "mosques": 0.434,
+   "birds": 0.497
+  },
+  "neg": {
+   "shoulder pole": 0.008,
+   "cup": 0.003,
+   "dome": 0.323,
+   "vessel": 0.041,
+   "moon": 0.089,
+   "balcony": 0.072
+  }
+ },
+ {
+  "id": "F3-069",
+  "pos": {
+   "mosque": 0.503,
+   "dome": 0.472,
+   "minaret": 0.397,
+   "bridge": 0.498,
+   "pigeons": 0.585,
+   "people": 0.199,
+   "trees": 0.331
+  },
+  "neg": {
+   "arch": 0.438,
+   "text": 0.016,
+   "balcony": 0.168,
+   "feather": 0.073,
+   "carpet": 0.039,
+   "street": 0.23
+  }
+ },
+ {
+  "id": "F3-070",
+  "pos": {
+   "saint": 0.378,
+   "halo": 0.187,
+   "horse": 0.677,
+   "lance": 0.54,
+   "cross": 0.365,
+   "dragon": 0.287,
+   "woman": 0.231,
+   "tree": 0.126,
+   "cloak": 0.35,
+   "script": 0.266
+  },
+  "neg": {
+   "feather": 0.078,
+   "table": 0.019,
+   "clay pots": 0.065,
+   "shoes": 0.048,
+   "towers": 0.04,
+   "cane": 0.265
+  }
+ },
+ {
+  "id": "F3-072",
+  "pos": {
+   "rider": 0.102,
+   "lance": 0.608,
+   "horse": 0.552,
+   "bridle": 0.33,
+   "cloak": 0.451,
+   "angel": 0.289,
+   "script": 0.255
+  },
+  "neg": {
+   "dresses": 0.125,
+   "goddess": 0.251,
+   "women": 0.141,
+   "heart": 0.045,
+   "cup": 0.025,
+   "beard": 0.063
+  }
+ },
+ {
+  "id": "F3-075",
+  "pos": {
+   "roses": 0.461,
+   "buds": 0.171,
+   "leaves": 0.258,
+   "branch": 0.215
+  },
+  "neg": {
+   "hat": 0.007,
+   "carpet": 0.018,
+   "clouds": 0.011,
+   "people": 0.013,
+   "beard": 0.004,
+   "tree": 0.024
+  }
+ },
+ {
+  "id": "F3-076",
+  "pos": {
+   "mosque": 0.42,
+   "domes": 0.483,
+   "minaret": 0.246,
+   "portal": 0.288,
+   "walls": 0.135,
+   "people": 0.121
+  },
+  "neg": {
+   "child rider": 0.034,
+   "dresses": 0.088,
+   "windows": 0.114,
+   "tree": 0.014,
+   "shoes": 0.005,
+   "musical instrument": 0.01
+  }
+ },
+ {
+  "id": "F3-079",
+  "pos": {
+   "houses": 0.35,
+   "roofs": 0.271,
+   "windows": 0.092,
+   "road": 0.102
+  },
+  "neg": {
+   "staff": 0.004,
+   "dome": 0.076,
+   "shoes": 0.001,
+   "horse": 0.002,
+   "man": 0.001,
+   "clay pots": 0.02
+  }
+ },
+ {
+  "id": "F3-080",
+  "pos": {
+   "people": 0.146,
+   "donkeys": 0.225,
+   "gateway": 0.414,
+   "dome": 0.646,
+   "walls": 0.127,
+   "market stalls": 0.157,
+   "poles": 0.084
+  },
+  "neg": {
+   "cartouches": 0.06,
+   "vase": 0.007,
+   "child rider": 0.083,
+   "branches": 0.073,
+   "wires": 0.046,
+   "arch": 0.57
+  }
+ },
+ {
+  "id": "F3-082",
+  "pos": {
+   "pagodas": 0.049,
+   "temples": 0.282,
+   "trees": 0.28,
+   "palm tree": 0.059,
+   "moon": 0.499,
+   "sky": 0.198
+  },
+  "neg": {
+   "arch": 0.245,
+   "towers": 0.079,
+   "city walls": 0.124,
+   "wires": 0.007,
+   "stems": 0.001,
+   "angel": 0.034
+  }
+ },
+ {
+  "id": "F3-084",
+  "pos": {
+   "figures": 0.025,
+   "masks": 0.068,
+   "necklaces": 0.007,
+   "garments": 0.007,
+   "hands": 0.017,
+   "feathers": 0.034
+  },
+  "neg": {
+   "windows": 0.02,
+   "horse": 0.019,
+   "buildings": 0.024,
+   "shoulder pole": 0.012,
+   "vessel": 0.008,
+   "fish": 0.006
+  }
+ },
+ {
+  "id": "F3-085",
+  "pos": {
+   "figures": 0.011,
+   "conical hats": 0.098,
+   "baskets": 0.056,
+   "shoulder poles": 0.03
+  },
+  "neg": {
+   "cloak": 0.034,
+   "cup": 0.006,
+   "moon": 0.017,
+   "text": 0.022,
+   "horse": 0.007,
+   "clay pots": 0.129
+  }
+ },
+ {
+  "id": "F3-086",
+  "pos": {
+   "room": 0.154,
+   "window": 0.059,
+   "landscape": 0.14,
+   "figures": 0.024,
+   "dandelions": 0.165,
+   "signature": 0.154
+  },
+  "neg": {
+   "goddess": 0.043,
+   "clouds": 0.034,
+   "moon": 0.11,
+   "houses": 0.074,
+   "glass": 0.016,
+   "water": 0.023
+  }
+ },
+ {
+  "id": "F3-087",
+  "pos": {
+   "women": 0.279,
+   "dresses": 0.206,
+   "pots": 0.053,
+   "staffs": 0.154,
+   "hearts": 0.267,
+   "sun": 0.166
+  },
+  "neg": {
+   "leaves": 0.167,
+   "paper": 0.061,
+   "people": 0.148,
+   "branches": 0.151,
+   "glass": 0.015,
+   "angel": 0.184
+  }
+ },
+ {
+  "id": "F3-089",
+  "pos": {
+   "boats": 0.725,
+   "stilt houses": 0.323,
+   "water": 0.317,
+   "birds": 0.402,
+   "sky": 0.186
+  },
+  "neg": {
+   "hills": 0.098,
+   "stems": 0.013,
+   "angel": 0.083,
+   "paper": 0.034,
+   "shoulder pole": 0.023,
+   "queen": 0.029
+  }
+ },
+ {
+  "id": "F3-090",
+  "pos": {
+   "women": 0.26,
+   "pots": 0.05,
+   "wraps": 0.007
+  },
+  "neg": {
+   "clouds": 0.013,
+   "carpet": 0.013,
+   "sea": 0.024,
+   "shoulder pole": 0.047,
+   "script": 0.06,
+   "cup": 0.007
+  }
+ }
+]

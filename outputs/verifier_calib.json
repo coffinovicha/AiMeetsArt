@@ -1,0 +1,24 @@
+{
+ "template": "painting",
+ "threshold": 0.07348418682813646,
+ "by_template": {
+  "plain": {
+   "n_pos": 585,
+   "n_neg": 816,
+   "auc": 0.8865824534942182,
+   "threshold_10pct_pos_rejected": 0.03960936367511749,
+   "neg_rejected_at_thr": 0.6825980392156863,
+   "pos_median": 0.21255874633789062,
+   "neg_median": 0.01805533468723297
+  },
+  "painting": {
+   "n_pos": 585,
+   "n_neg": 816,
+   "auc": 0.8885317161052455,
+   "threshold_10pct_pos_rejected": 0.07348418682813646,
+   "neg_rejected_at_thr": 0.6862745098039216,
+   "pos_median": 0.30975401401519775,
+   "neg_median": 0.03750288486480713
+  }
+ }
+}

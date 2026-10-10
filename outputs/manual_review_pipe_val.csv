@@ -1,0 +1,30 @@
+id,rating_autocrop,rating_pipe,note
+F1-009,invented,invented,crop: window/tree/ball invented; pipe: tree and balls removed but invents stands
+F1-015,wrong_subject,wrong_subject,chairs read as houses; bottle banned then becomes vase
+F1-020,minor,correct,"crop: invented clouds; pipe: clouds removed, masks and white orb now described"
+F1-024,correct,correct,"pipe: real grapevines rejected, vineyard kept"
+F1-036,invented,invented,faces read as a child's drawing of smiling children
+F1-040,minor,minor,
+F1-046,minor,minor,
+F1-053,minor,minor,"figure now read as a face in profile, ear invented"
+F1-054,minor,minor,flowers now seen
+F1-071,minor,minor,
+F1-084,minor,minor,one man read as a woman; cup now seen
+F2-007,minor,minor,
+F2-017,correct,correct,
+F2-019,correct,correct,
+F2-041,correct,correct,
+F2-043,correct,correct,
+F2-045,minor,minor,"pipe: real leaf rejected, becomes tree or rock"
+F2-050,minor,minor,
+F2-051,correct,correct,
+F2-059,minor,minor,"pipe: real fruit rejected, becomes orange leaves"
+F2-061,correct,correct,
+F2-086,minor,minor,
+F3-024,minor,minor,
+F3-041,minor,correct,pipe: invented window removed
+F3-060,minor,minor,
+F3-073,minor,minor,spear now seen
+F3-074,minor,minor,
+F3-077,correct,invented,"crop: correct; pipe: real windows rejected, then invents chimneys and orange strokes"
+F3-083,minor,minor,

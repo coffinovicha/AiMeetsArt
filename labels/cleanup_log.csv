@@ -1,0 +1,98 @@
+id,field,removed_or_old,new
+F1-009,description,The work is behind glass with visible reflections.,
+F1-009,medium_guess,"mixed media on paper, under glass (guess)",mixed media on paper (guess)
+F1-009,lighting,"flat, with glare reflections on glass",flat
+F1-010,description,A signature reading 'Vanni' appears in the lower left; the work is matted and framed behind glass.,
+F1-011,description,Strong reflections of a window and room are visible on the glass.,
+F1-011,explanation,"It is an abstract work about texture and energy, and the reflections on the glass add a second layer of the real room on top of it.",It is an abstract work about texture and energy.
+F1-011,lighting,"flat, with strong glare reflections on glass",flat
+F1-016,description,The work is framed behind glass with visible reflections.,
+F1-016,lighting,"flat, with reflections on glass",flat
+F1-017,description,"Same artwork as F1-016, photographed again: elegant",Elegant
+F1-017,description,Reflections on the glass are visible in the lower center.,
+F1-017,lighting,"flat, with reflections on glass",flat
+F1-020,description,Initials and '24' are written in the lower left; the work is in a gold frame behind glass.,
+F1-024,description,A signature is visible in the lower right.,
+F1-029,description,'Puerto Rico' is written in the upper left and a signature with '2023' in the lower right.,'Puerto Rico' is written in the upper left.
+F1-029,explanation,"Words written on the board, 'Puerto Rico' and '2023', suggest a place and date connected to the work.",The words 'Puerto Rico' written on the board suggest a place connected to the work.
+F1-029,lighting,"flat, with shadow of photographer on glass",flat
+F1-034,description,A small signature appears in the lower right.,
+F1-036,description,A signature 'Tekla Mela...' is in the lower right; the photographer is reflected in the glass.,
+F1-036,lighting,"flat, with reflections on glass",flat
+F1-040,description,There are reflections on the glass.,
+F1-046,description,"Same artwork as F1-040, photographed again: a dark",A dark
+F1-046,description,Reflections on the glass are visible.,
+F1-050,description,Initials 'A.T.' and '2016' are written in the lower right.,
+F1-051,description,Reflections of ceiling lights appear on the glass.,
+F1-052,description,"The stitched texture is visible, with light reflections on the glass.",The stitched texture is visible.
+F1-053,description,A signature 'B' with '2010' appears in the lower right.,
+F1-054,description,The work is behind glass with a window reflection.,
+F1-054,lighting,"bright, flat, with reflections on glass","bright, flat"
+F1-057,description,A signature appears in the lower left; the work is matted behind glass.,
+F1-058,description,"The ground is pale marbled cream, matted inside a dark frame.",The ground is pale marbled cream.
+F1-061,description,A signature is in the lower right.,
+F1-062,description,"Same artwork as F1-056, photographed again: a pale",A pale
+F1-063,description,A signature is in the lower right.,
+F1-069,description,A signature 'Bacho' appears in the lower right.,
+F1-071,description,"White columns and dripping strokes are visible, with a signature in the lower right.",White columns and dripping strokes are visible.
+F1-074,description,It is drawn with charcoal and colored crayon on cream paper and signed in the lower right.,It is drawn with charcoal and colored crayon on cream paper.
+F1-076,description,A signature is in the lower right corner.,
+F1-077,description,A signature is in the lower right.,
+F1-078,description,A signature is in the lower right.,
+F1-079,description,Strong reflections of the photographer and the room on the glass obscure most of the lower half.,
+F1-079,explanation,"The reflections on the glass make the lower half hard to read, but the tower remains the clear focus.",The tower is the clear focus.
+F1-079,lighting,obscured by glass reflections,flat
+F2-003,description,A signature beginning 'Gel...' appears on the right edge.,
+F2-004,description,The image is framed by a violet-blue painted border; the photo is slightly blurred.,The image is framed by a violet-blue painted border.
+F2-005,description,Part of a gold frame is visible on the right.,
+F2-006,description,The photo is slightly blurred and has a light reflection on the right.,
+F2-006,lighting,no depicted light source; glare on right,no depicted light source
+F2-012,description,A signature is in the lower right and part of a gold frame shows at the bottom.,
+F2-017,description,A glare of light reflects in the upper center.,
+F2-017,lighting,"glare on surface, no depicted source",no depicted light source
+F2-019,lighting,no depicted light source; glare on surface,no depicted light source
+F2-021,lighting,no depicted light source; glare on surface,no depicted light source
+F2-025,lighting,no depicted light source; glare in the center,no depicted light source
+F2-027,lighting,no depicted light source; glare on surface,no depicted light source
+F2-048,description,Initials 'O.T.' appear in the lower right.,
+F2-049,description,Initials 'O.T.' appear in the lower right.,
+F2-057,description,A signature appears in the lower right.,
+F2-074,description,A signature is at the bottom.,
+F2-079,description,"'NOY 2015' and 'Vientiane, Laos' are written in the lower left.","'Vientiane, Laos' is written in the lower left."
+F2-079,explanation,"The writing on the painting names Vientiane, Laos, and the year 2015.","The writing on the painting names Vientiane, Laos."
+F2-084,description,; a signature is in the lower left.,.
+F3-003,description,; glare is visible on the glass.,.
+F3-003,lighting,"flat, with glare on glass",flat
+F3-005,description,Reflections of windows show on the glass.,
+F3-005,lighting,"flat, with reflections on glass",flat
+F3-009,description,The surface is glossy with a strong reflection at the bottom.,The surface is glossy.
+F3-009,lighting,no depicted light source; glare on surface,no depicted light source
+F3-019,description,A date '5.6.4.69' and a signature are written at the top right.,
+F3-020,description,; a number and signature appear at the top and bottom.,.
+F3-022,description,; reflections on the glass are visible.,.
+F3-027,description,The background is white with a reflected window on the glass.,The background is white.
+F3-041,description,Two green tables with small colored balls on them stand,Two green chairs with small colored balls on their seats stand
+F3-041,explanation,Two green tables with small colored balls stand,Two green chairs with small colored balls on their seats stand
+F3-041,explanation,the tables seem to wait for a game to start,the chairs seem to wait for someone to arrive
+F3-041,composition,two tables on a diagonal in the lower half,two chairs on a diagonal in the lower half
+F3-045,description,A signature and '2021' appear at the bottom.,
+F3-058,lighting,"flat, with glare on glass",flat
+F3-060,lighting,"flat, with glare on glass",flat
+F3-061,description,Strong reflections of a window and sky cover the glass.,
+F3-061,lighting,"flat, with strong reflections on glass",flat
+F3-062,description,Strong reflections of windows cover the glass.,
+F3-062,lighting,"flat, with strong reflections on glass",flat
+F3-063,description,Glare is visible on the glass.,
+F3-063,lighting,"flat, with glare on glass",flat
+F3-064,description,Reflections of a window obscure part of the face.,
+F3-064,lighting,"flat, with reflections on glass",flat
+F3-070,lighting,"flat, with glare on glass",flat
+F3-071,lighting,"flat, with glare on glass",flat
+F3-077,description,A signature and '2021' are in the lower left.,
+F3-079,description,The work is under glass with glare.,
+F3-079,lighting,"flat, with glare on glass",flat
+F3-080,description,A signature and '2016' appear in the lower left.,
+F3-085,description,A signature appears in the lower left.,
+F3-086,description,; a Georgian signature and '2019' appear at the lower right.,.
+F3-041,objects,tables,chairs
+F3-086,objects,signature,

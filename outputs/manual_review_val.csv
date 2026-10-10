@@ -1,0 +1,30 @@
+id,rating_448,rating_560,note
+F1-009,invented,correct,448 calls it a child's drawing with window/clouds; 560 accurate
+F1-015,wrong_subject,wrong_subject,chairs and tables read as houses/street lamp (448) and buildings/train (560)
+F1-020,invented,invented,448 invents date 3.01; 560 invents elephant and black-and-white tapestry
+F1-024,invented,minor,448 invents 1968 signature; 560 misses mountain and vines
+F1-036,minor,minor,560 says beige background (grey-green)
+F1-040,minor,minor,pomegranates called apples; 448 invents label and leaf
+F1-046,invented,minor,448 replaces pomegranates with pink flowers
+F1-053,correct,wrong_subject,560 calls figure abstract and invents 1980
+F1-054,minor,minor,both miss the flower meadow
+F1-071,minor,minor,both miss the buildings
+F1-084,invented,invented,two young men in tunics with backgammon; 448 women in heels; 560 woman plus zither
+F2-007,minor,minor,both miss houses and snow
+F2-017,correct,correct,
+F2-019,minor,correct,448 misses blue area
+F2-041,correct,correct,
+F2-043,correct,correct,
+F2-045,minor,minor,chair shape missed
+F2-050,minor,minor,448 arms raised; 560 dark updo instead of golden wig
+F2-051,correct,minor,560 adds lace collar and raised arms
+F2-059,minor,minor,both miss geese; 560 closer
+F2-061,correct,correct,
+F2-086,correct,correct,
+F3-024,correct,correct,
+F3-041,correct,correct,
+F3-060,minor,minor,winged kneeling goddess not identified
+F3-073,minor,minor,Ge'ez script called Greek (448) / Cyrillic (560)
+F3-074,wrong_subject,minor,448 misses the Christ Child; 560 invents a lute
+F3-077,minor,minor,date 2021 misread as 1991 / Dooi
+F3-083,minor,minor,small invented details (stream / bare trees)

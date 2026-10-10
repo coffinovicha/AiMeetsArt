@@ -23,7 +23,7 @@ for r in recs:
     text = proc.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
     inp = proc(text=[text], images=[img], return_tensors="pt").to(model.device)
     with torch.no_grad():
-        ids = model.generate(**inp, max_new_tokens=450, do_sample=False)
+        ids = model.generate(**inp, max_new_tokens=800, do_sample=False)
     raw = proc.batch_decode(ids[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0]
     with out.open("a", encoding="utf-8") as f:
         f.write(json.dumps({"id": r["id"], "raw": raw, "pred": parse(raw)}, ensure_ascii=False) + "\n")

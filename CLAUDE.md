@@ -8,7 +8,7 @@ Hackathon: "AI MEETS ARTS: Collect. Label. Train. Interpret."
 - Style: terse answers, no inline comments in code, copy-paste-ready commands.
 
 ## Goal
-App: artwork image in →
+App is an analytical tool: artwork image in → as much accurate visual information about that piece as possible:
 1. Description (subject, scene, composition, mood/theme, notable details).
 2. Palette: 5–6 dominant colors, hex + %, k-means on pixels.
 3. Theme (from description + palette).
@@ -45,9 +45,13 @@ App: artwork image in →
 - 10 titles with path used, judged against artist pattern.
 
 ## Step 5 — Gradio app
-Upload → description, palette swatches, theme, objects with boxes, title + path explanation, top-5 similar DB images with scores.
+Upload → description, plain-language explanation, palette swatches, theme, objects with boxes, style/medium/era/lighting/composition, title + path explanation. No similar-images gallery.
+
+## Out of scope
+- No Grad-CAM / heatmaps, no Curator, no top-5 similar-images panel. The DB is used only internally for title path b (matched image + similarity stated in the path explanation).
 
 ## Rules
+- After every notable milestone (training run, eval, new chart, new component), update the technical report Claude Doc: https://claude.ai/code/artifact/7deb1eae-dcc8-4377-8939-a8d94b3cb07d
 - Ask before expensive-to-redo decisions (model choice, paths, API usage).
 - Everything resumable: skip already labeled/embedded items.
 - Check GPU memory before training; pick batch size that fits 6 GB.

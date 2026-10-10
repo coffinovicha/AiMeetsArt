@@ -1,0 +1,28 @@
+F1-024 32.8s ok
+F1-036 38.8s ok
+F1-040 36.1s ok
+F1-046 28.5s ok
+F1-053 14.5s ok
+F1-054 26.4s ok
+F1-071 25.1s ok
+F1-084 47.8s PARSE FAIL
+F2-007 29.7s ok
+F2-017 19.7s ok
+F2-019 40.1s ok
+F2-041 13.9s ok
+F2-043 22.0s ok
+F2-045 28.1s ok
+F2-050 36.6s ok
+F2-051 28.4s ok
+F2-059 31.3s ok
+F2-061 36.8s ok
+F2-086 34.2s ok
+F3-024 34.5s ok
+F3-041 27.9s ok
+F3-060 27.7s ok
+F3-073 41.3s ok
+F3-074 40.9s ok
+F3-077 14.7s ok
+F3-083 31.6s ok
+peak GB 2.51
+ALLDONE

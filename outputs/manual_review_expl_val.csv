@@ -1,0 +1,30 @@
+id,visual_expl560,context_expl560,note
+F1-009,correct,sound,
+F1-015,wrong_subject,propagated,chairs/tables read as train or bus; meaning built on transport and city life
+F1-020,invented,propagated,invented elephant then linked to African symbolism
+F1-024,minor,sound,mountain missed; vines read as trees
+F1-036,minor,sound,beige instead of grey-green ground
+F1-040,minor,sound,pomegranates called apples
+F1-046,minor,sound,pomegranates called apples; jug highlight read as blue cap
+F1-053,wrong_subject,wrong_fact,female figure missed; states it is an abstract work about color and shape
+F1-054,minor,sound,flower meadow missed; hedged reading as energy
+F1-071,minor,wrong_fact,buildings missed; asserts abstract rather than a specific scene
+F1-084,invented,propagated,two men with backgammon read as two women with instrument; meaning built on music and friendship
+F2-007,minor,propagated,houses read as trees; meaning built on garden or forest
+F2-017,correct,sound,
+F2-019,correct,sound,
+F2-041,correct,sound,dandelions linked to childhood and spring
+F2-043,correct,unsupported,autumn reading not supported by the colors
+F2-045,minor,sound,chair frame missed; leaf silhouettes read as flowers
+F2-050,minor,sound,dark hair instead of golden wig
+F2-051,correct,wrong_fact,says dolls popular in 19th-early 20th c.; costume is 17th-century Spanish court dress
+F2-059,minor,sound,geese and woman missed
+F2-061,correct,sound,old vs new reading matches the label
+F2-086,correct,sound,Southeast Asia stilt houses consistent with temples and palms
+F3-024,correct,sound,Hebrew text linked to Jewish art
+F3-041,minor,sound,one table and single ball; human label also wrong (chairs labeled as tables)
+F3-060,minor,propagated,kneeling winged goddess read as figure holding winged disk; Ra symbolism attached to it
+F3-073,minor,wrong_fact,calls it a Byzantine icon; it is Ethiopian Orthodox with Ge'ez script
+F3-074,minor,sound,invented lute; does not name Virgin and Child
+F3-077,minor,sound,night sky read as sky with clouds
+F3-083,minor,sound,blue sky with clouds likely invented

@@ -1,0 +1,31 @@
+F1-009 55.6s agree 0.696 min 0.643 unclear False {'confirmed': 1, 'unconfirmed': 1} dropped 0
+F1-015 51.8s agree 0.772 min 0.689 unclear False {'unconfirmed': 1, 'removed': 2} dropped 3
+F1-020 51.8s agree 0.674 min 0.601 unclear False {'confirmed': 3, 'removed': 1} dropped 2
+F1-024 50.6s agree 0.778 min 0.71 unclear False {'unconfirmed': 2, 'confirmed': 2} dropped 0
+F1-036 53.8s agree 0.668 min 0.541 unclear True {'unconfirmed': 2, 'confirmed': 1} dropped 0
+F1-040 48.2s agree 0.927 min 0.923 unclear False {'confirmed': 3} dropped 0
+F1-046 47.4s agree 0.857 min 0.854 unclear False {'confirmed': 4} dropped 0
+F1-053 46.6s agree 0.681 min 0.605 unclear False {} dropped 0
+F1-054 45.7s agree 0.777 min 0.713 unclear False {'unconfirmed': 1} dropped 0
+F1-071 44.2s agree 0.906 min 0.875 unclear False {} dropped 0
+F1-084 54.8s agree 0.785 min 0.691 unclear False {'confirmed': 7, 'unconfirmed': 1} dropped 0
+F2-007 45.7s agree 0.829 min 0.801 unclear False {'confirmed': 2} dropped 0
+F2-017 41.4s agree 0.763 min 0.703 unclear False {} dropped 0
+F2-019 41.7s agree 0.881 min 0.831 unclear False {} dropped 0
+F2-041 45.9s agree 0.747 min 0.649 unclear False {'confirmed': 3} dropped 0
+F2-043 43.5s agree 0.803 min 0.755 unclear False {'confirmed': 1, 'removed': 1} dropped 2
+F2-045 47.6s agree 0.747 min 0.646 unclear False {'removed': 1, 'unconfirmed': 1} dropped 2
+F2-050 51.2s agree 0.729 min 0.635 unclear False {'unconfirmed': 2, 'confirmed': 2} dropped 0
+F2-051 51.7s agree 0.927 min 0.898 unclear False {'confirmed': 3, 'unconfirmed': 1} dropped 0
+F2-059 54.9s agree 0.856 min 0.818 unclear False {'confirmed': 6, 'unconfirmed': 1} dropped 0
+F2-061 50.4s agree 0.892 min 0.833 unclear False {'confirmed': 4, 'unconfirmed': 1} dropped 0
+F2-086 56.2s agree 0.931 min 0.904 unclear False {'confirmed': 5} dropped 0
+F3-024 59.7s agree 0.845 min 0.804 unclear False {'unconfirmed': 2, 'confirmed': 4, 'removed': 1} dropped 2
+F3-041 45.6s agree 0.791 min 0.734 unclear False {'confirmed': 4, 'unconfirmed': 1} dropped 0
+F3-060 62.7s agree 0.864 min 0.792 unclear False {'confirmed': 5, 'removed': 1} dropped 2
+F3-073 52.4s agree 0.857 min 0.843 unclear False {'confirmed': 4, 'unconfirmed': 1} dropped 0
+F3-074 59.1s agree 0.724 min 0.662 unclear False {'confirmed': 5, 'unconfirmed': 2} dropped 0
+F3-077 45.6s agree 0.86 min 0.825 unclear False {'confirmed': 2, 'unconfirmed': 1} dropped 0
+F3-083 48.7s agree 0.836 min 0.785 unclear False {'confirmed': 3, 'unconfirmed': 2} dropped 0
+peak GB 3.63
+ALLDONE

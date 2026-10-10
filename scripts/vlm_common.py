@@ -1,4 +1,4 @@
-import csv, json
+import csv, json, os
 from pathlib import Path
 import torch
 from PIL import Image, ImageOps
@@ -7,13 +7,13 @@ from transformers import AutoProcessor, BitsAndBytesConfig, Qwen2_5_VLForConditi
 ROOT = Path(__file__).resolve().parents[1]
 L = ROOT / "labels"
 BASE = "Qwen/Qwen2.5-VL-3B-Instruct"
-SIDE = 448
+SIDE = int(os.environ.get("VLM_SIDE", "448"))
 FIELDS = ["description", "theme", "mood", "objects", "style_guess", "medium_guess",
-          "era_guess", "lighting", "composition"]
+          "era_guess", "lighting", "composition", "explanation"]
 PROMPT = (
     "You are cataloguing an artwork. Look only at what is visible. Return one JSON object with keys: "
     "description (2-4 sentences: subject, scene, composition, notable details), theme, mood, "
-    "objects (list of visible things), style_guess, medium_guess, era_guess, lighting, composition. "
+    "objects (list of visible things), style_guess, medium_guess, era_guess, lighting, composition, explanation (4-6 plain-language sentences for a student or museum visitor: what is happening, what to notice, how it is made, and possible meaning or symbolism worded as interpretation; never name the artist or title). "
     "Never state an artist, date or title as fact; mark uncertain guesses with '(guess)'."
 )
 
@@ -53,7 +53,7 @@ def load(adapter=None):
     q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4",
                            bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True)
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(BASE, quantization_config=q, dtype=torch.bfloat16, device_map="cuda:0")
-    proc = AutoProcessor.from_pretrained(BASE, min_pixels=128 * 28 * 28, max_pixels=256 * 28 * 28)
+    proc = AutoProcessor.from_pretrained(BASE, min_pixels=128 * 28 * 28, max_pixels=SIDE * SIDE)
     if adapter:
         from peft import PeftModel
         model = PeftModel.from_pretrained(model, adapter)
