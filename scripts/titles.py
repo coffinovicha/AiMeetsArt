@@ -323,6 +323,7 @@ def write(model, proc, prompt, sample=False):
     out = []
     for line in raw.splitlines():
         t = re.sub(r"^\s*(\d+[.)]|[-*•])\s*", "", line).strip().strip('"“”\'').strip()
+        t = re.sub(r"[*_#`]+", "", t).strip()
         if t and len(t) < 90:
             out.append(t)
     return list(dict.fromkeys(out)), raw

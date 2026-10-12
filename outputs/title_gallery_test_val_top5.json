@@ -1,4 +1,29 @@
 {
+ "summary": {
+  "artist_known_grounded": {
+   "similarity_to_real_top1": 0.425,
+   "top5_exact_hits": 4,
+   "top5_close_hits_sim_0.7": 4,
+   "top5_best_similarity_mean": 0.466,
+   "paths": {
+    "a": 8,
+    "b": 0,
+    "c": 9
+   }
+  },
+  "artist_unknown_grounded": {
+   "similarity_to_real_top1": 0.33,
+   "top5_exact_hits": 2,
+   "top5_close_hits_sim_0.7": 2,
+   "top5_best_similarity_mean": 0.37,
+   "paths": {
+    "a": 0,
+    "b": 5,
+    "c": 12
+   }
+  },
+  "baseline_other_painting": 0.391
+ },
  "rows": [
   {
    "id": "F1-024",
@@ -2079,6 +2104,1425 @@
      [
       "Dreamy Garden Dawn",
       "not supported by the analysis: dawn"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-045",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "year": "2020",
+   "artist_known_grounded": {
+    "titles": [
+     "Textured Forests",
+     "Thick, Layered Greens",
+     "Mysterious Greens"
+    ],
+    "path": "a",
+    "why": "artist 'Mamuka Japaridze' has 2 titled works in our gallery and WikiArt (as 'Mamuka Japaridze')",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Autumn Mists",
+      "not supported by the analysis: mists"
+     ],
+     [
+      "Verdant Layers",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dappled Shadows",
+      "uses 'dappled', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Foliage Dreams",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Layered Lushes",
+      "not supported by the analysis: lushes"
+     ],
+     [
+      "Verdant Veils",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Textured Tangles",
+      "not supported by the analysis: tangles"
+     ],
+     [
+      "Autumnal Echoes",
+      "uses 'autumnal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Verdant Vistas",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Layers and Foliage",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Autumn's Palette",
+      "not supported by the analysis: palette"
+     ],
+     [
+      "Mysterious Landscapes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dense, Textured Art",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Autumn Mystery",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Verdant Mists",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dense, Painted Scenes",
+      "not supported by the analysis: scenes"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Textured Forests",
+     "Thick, Layered Greens",
+     "Mysterious Greens"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Plant and Chairs' by Mamuka Japaridze (our gallery, similarity 0.86)",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Autumn Mists",
+      "not supported by the analysis: mists"
+     ],
+     [
+      "Verdant Layers",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dappled Shadows",
+      "uses 'dappled', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Foliage Dreams",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Layered Lushes",
+      "not supported by the analysis: lushes"
+     ],
+     [
+      "Verdant Veils",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Textured Tangles",
+      "not supported by the analysis: tangles"
+     ],
+     [
+      "Autumnal Echoes",
+      "uses 'autumnal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Verdant Vistas",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Layers and Foliage",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Autumn's Palette",
+      "not supported by the analysis: palette"
+     ],
+     [
+      "Mysterious Landscapes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dense, Textured Art",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Autumn Mystery",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Verdant Mists",
+      "uses 'verdant', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dense, Painted Scenes",
+      "not supported by the analysis: scenes"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-051",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "year": "2022",
+   "artist_known_grounded": {
+    "titles": [
+     "Untitled",
+     "Doll in Brown",
+     "Fashionable Doll's Hat",
+     "Hat and Doll",
+     "Doll with Belt"
+    ],
+    "path": "a",
+    "why": "artist 'Oleg Timchenko' has 3 titled works in our gallery and WikiArt (as 'Oleg Timchenko')",
+    "match": {
+     "artist": "John Everett Millais",
+     "title": "The Minuet",
+     "score": 0.672103226184845,
+     "source": "WikiArt"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Doll in Red",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Doll with Gold Trim",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll with Puffed Sleeves",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll with Large Eyes",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll with Rosy Cheeks",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll in Dark Green",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll in Olive",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Doll's Playful Pose",
+      "not supported by the analysis: pose"
+     ],
+     [
+      "Elegant Red Gown Doll",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Brown-Hatted Doll",
+      "uses 'hatted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Doll With Large Eyes",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll In Red Gown",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Doll With Gold Trim",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll's Fluffy Sleeves",
+      "not supported by the analysis: fluffy"
+     ],
+     [
+      "Doll Wearing Belt",
+      "not supported by the analysis: wearing"
+     ],
+     [
+      "Doll In Dark Green Background",
+      "length 5 outside 1-3 words"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Playful Fashion Doll",
+     "Doll In Gold Trim Dress",
+     "Fashionable Doll On Black",
+     "Elegant Doll With Hat",
+     "Elegant Doll Hat"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "John Everett Millais",
+     "title": "The Minuet",
+     "score": 0.672103226184845,
+     "source": "WikiArt"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Doll in Red Gown",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Red-Gown Doll",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Doll's Playful Red Gown",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Doll In Red Gown With Gold",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Doll Wearing Elegant Hat",
+      "not supported by the analysis: wearing"
+     ],
+     [
+      "Doll In Bold Red Dress",
+      "not supported by the analysis: bold"
+     ],
+     [
+      "Doll In Rich Red Gown",
+      "uses uncertain object 'gown'"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-059",
+   "artist": "Gogi Chagelishvili",
+   "real": "Rachuli Rhapsody",
+   "year": "2014",
+   "artist_known_grounded": {
+    "titles": [
+     "The Thatched Hut",
+     "The Hut",
+     "The Orange Tree",
+     "The White Cow"
+    ],
+    "path": "a",
+    "why": "artist 'Gogi Chagelishvili' has 2 titled works in our gallery and WikiArt (as 'Gogi Chagelishvili')",
+    "match": {
+     "artist": "Lado Gudiashvili (1896-1980)",
+     "title": "The Legend of the Founding of Tbilisi",
+     "score": 0.7163509726524353,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "The Yellow Jacket",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Red Headscarf",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Man's Stance",
+      "not supported by the analysis: stance"
+     ],
+     [
+      "The Women's Posture",
+      "not supported by the analysis: posture"
+     ],
+     [
+      "The Rural Scene",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Flat Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "The Calm Mood",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "The Rustic Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Quiet Huts",
+      "not supported by the analysis: quiet"
+     ],
+     [
+      "The Village Harmony",
+      "not supported by the analysis: village, harmony"
+     ],
+     [
+      "The Green Pastoral",
+      "not supported by the analysis: pastoral"
+     ],
+     [
+      "The Rural Calm",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Orange Grove",
+      "not supported by the analysis: grove"
+     ],
+     [
+      "The Red Scarf",
+      "names no confirmed object (loses the subject)"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Man of the Countryside",
+     "**Tree Fruit**",
+     "**White Cow**",
+     "**Man Yellow**",
+     "The Man's Yellow Jacket"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Lado Gudiashvili (1896-1980)",
+     "title": "The Legend of the Founding of Tbilisi",
+     "score": 0.7163509726524353,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "**Rural Serenity**",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "**Thatched Tranquility**",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "**Orange Harvest**",
+      "not supported by the analysis: harvest"
+     ],
+     [
+      "**Yellow Jacket**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Red Headscarf**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Fence Post**",
+      "not supported by the analysis: post"
+     ],
+     [
+      "**Woman Basket**",
+      "uses uncertain object 'basket'"
+     ],
+     [
+      "Rural Harmony",
+      "not supported by the analysis: harmony"
+     ],
+     [
+      "Thatched Tranquility",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rustic Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Orange Harvest Scene",
+      "not supported by the analysis: harvest"
+     ],
+     [
+      "Women of the Farm",
+      "not supported by the analysis: farm"
+     ],
+     [
+      "White Cow's Calm Presence",
+      "not supported by the analysis: presence"
+     ],
+     [
+      "Tree and Fruit in Focus",
+      "not supported by the analysis: focus"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-061",
+   "artist": "Elene Akhvlediani",
+   "real": "Old and New Tbilisi",
+   "year": null,
+   "artist_known_grounded": {
+    "titles": [
+     "Grey Skyscrapers and Mountains"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Nika Khabelashvili",
+     "title": "Dresden",
+     "score": 0.7211615443229675,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "City and Nature Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Busy Urban Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Nostalgic City Panorama",
+      "not supported by the analysis: panorama"
+     ],
+     [
+      "Red House Amidst Buildings",
+      "not supported by the analysis: amidst"
+     ],
+     [
+      "Tall Structures and Hills",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Cloudy Sky Over Buildings",
+      "not supported by the analysis: over"
+     ],
+     [
+      "Cranes and Scaffolding Details",
+      "uses uncertain object 'scaffolding'"
+     ],
+     [
+      "Green Hills Behind Cities",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Blue Sky with White Clouds",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "City's Heartbeat",
+      "not supported by the analysis: heartbeat"
+     ],
+     [
+      "Nostalgic Skies",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Green Hugs the Urban",
+      "not supported by the analysis: hugs"
+     ],
+     [
+      "Concrete Clouds",
+      "not supported by the analysis: concrete"
+     ],
+     [
+      "Blue Sky Blues",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Scaffolding Shadows",
+      "uses uncertain object 'scaffolding'"
+     ],
+     [
+      "Red Balcony Blues",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Crane Dreams",
+      "not supported by the analysis: dreams"
+     ],
+     [
+      "Mountain Whispers",
+      "not supported by the analysis: whispers"
+     ],
+     [
+      "Urban Solitude",
+      "not supported by the analysis: solitude"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Grey Skyscrapers and Mountains"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Nika Khabelashvili",
+     "title": "Dresden",
+     "score": 0.7211615443229675,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "City and Nature Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Busy Urban Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Nostalgic City Panorama",
+      "not supported by the analysis: panorama"
+     ],
+     [
+      "Red House Amidst Buildings",
+      "not supported by the analysis: amidst"
+     ],
+     [
+      "Tall Structures and Hills",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Cloudy Sky Over Buildings",
+      "not supported by the analysis: over"
+     ],
+     [
+      "Cranes and Scaffolding Details",
+      "uses uncertain object 'scaffolding'"
+     ],
+     [
+      "Green Hills Behind Cities",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Blue Sky with White Clouds",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "City's Heartbeat",
+      "not supported by the analysis: heartbeat"
+     ],
+     [
+      "Nostalgic Skies",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Green Hugs the Urban",
+      "not supported by the analysis: hugs"
+     ],
+     [
+      "Concrete Clouds",
+      "not supported by the analysis: concrete"
+     ],
+     [
+      "Blue Sky Blues",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Scaffolding Shadows",
+      "uses uncertain object 'scaffolding'"
+     ],
+     [
+      "Red Balcony Blues",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Crane Dreams",
+      "not supported by the analysis: dreams"
+     ],
+     [
+      "Mountain Whispers",
+      "not supported by the analysis: whispers"
+     ],
+     [
+      "Urban Solitude",
+      "not supported by the analysis: solitude"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F3-024",
+   "artist": "Marc Shagal",
+   "real": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+   "year": "1962",
+   "artist_known_grounded": {
+    "titles": [
+     "Birds in the Dream Sky",
+     "Dreamy Crescent Moon",
+     "Crescent Moon Dreams"
+    ],
+    "path": "a",
+    "why": "artist 'Marc Shagal' has 501 titled works in our gallery and WikiArt (as 'Marc Chagall')",
+    "match": {
+     "artist": "Marc Chagall",
+     "title": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+     "score": 0.7907830476760864,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Moonlit Night Birds",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Whimsical Night Sky",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Moonlit Night Scene",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night Sky Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "The Moon's Serenade",
+      "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night Skies Whispers",
+      "not supported by the analysis: whispers"
+     ],
+     [
+      "Crescent Moon's Melody",
+      "not supported by the analysis: melody"
+     ],
+     [
+      "Sunlit Cats' Dreams",
+      "uses uncertain object 'cat'"
+     ],
+     [
+      "Moonlit Night's Lullabies",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Moonlit Birds' Dance",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Crescent's Lament",
+      "uses 'lament', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night Sky's Nightingales",
+      "not supported by the analysis: nightingales"
+     ],
+     [
+      "Moon's Midnight Waltz",
+      "not supported by the analysis: waltz"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Birds in the Dream Sky",
+     "Dreamy Crescent Moon",
+     "Crescent Moon Dreams"
+    ],
+    "path": "b",
+    "why": "most similar image: '\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")' by Marc Chagall (our gallery, similarity 0.79)",
+    "match": {
+     "artist": "Marc Chagall",
+     "title": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+     "score": 0.7907830476760864,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Moonlit Night Birds",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Whimsical Night Sky",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Moonlit Night Scene",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night Sky Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "The Moon's Serenade",
+      "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night Skies Whispers",
+      "not supported by the analysis: whispers"
+     ],
+     [
+      "Crescent Moon's Melody",
+      "not supported by the analysis: melody"
+     ],
+     [
+      "Sunlit Cats' Dreams",
+      "uses uncertain object 'cat'"
+     ],
+     [
+      "Moonlit Night's Lullabies",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Moonlit Birds' Dance",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Crescent's Lament",
+      "uses 'lament', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night Sky's Nightingales",
+      "not supported by the analysis: nightingales"
+     ],
+     [
+      "Moon's Midnight Waltz",
+      "not supported by the analysis: waltz"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F3-041",
+   "artist": "Gia Edzgveradze",
+   "real": "The Heavy Burden of Waiting for Picnic",
+   "year": "2020",
+   "artist_known_grounded": {
+    "titles": [
+     "Thick Green Tables",
+     "Purple Wall Behind Teal Screens",
+     "Bright Red Dots"
+    ],
+    "path": "c",
+    "why": "artist 'Gia Edzgveradze' has 2 titled works in our gallery and WikiArt (as 'Gia Edzgveradze'); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Gia Edzgveradze",
+     "title": "Echo is My Song",
+     "score": 0.7808226346969604,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Tables Reflecting Light",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Green Windows in Harmony",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Dots Dance on Yellow",
+      "not supported by the analysis: dance"
+     ],
+     [
+      "Still Life with Purple Walls",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Thick Paints on Teal Surfaces",
+      "not supported by the analysis: surfaces"
+     ],
+     [
+      "Red and Yellow Dots Play",
+      "not supported by the analysis: play"
+     ],
+     [
+      "Green Screens Behind Tables",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Brightness Through Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Yellow Floor Under Tables",
+      "uses uncertain object 'floor'"
+     ],
+     [
+      "Purple Wall Behind Screens",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "The Green Tables Reflect Light",
+      "not supported by the analysis: reflect, light"
+     ],
+     [
+      "Windows Brighten Softly",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Plates on Yellow Ground",
+      "not supported by the analysis: plates, ground"
+     ],
+     [
+      "Still Life in Teal Hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Red Dots Contrast Bold",
+      "not supported by the analysis: contrast, bold"
+     ],
+     [
+      "Olive Windows Glisten",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Green Screens Overlook",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Wall’s Purple Hue",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Tabletops Serve Simple",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Dot Art Speaks Quiet",
+      "not supported by the analysis: speaks, quiet"
+     ],
+     [
+      "Yellow Floor Contrast",
+      "uses uncertain object 'floor'"
+     ],
+     [
+      "Purple Wall Background",
+      "not supported by the analysis: background"
+     ],
+     [
+      "Olive Window Screen",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Thick Paint Application",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Calm Still Life Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Even Lighting Scheme",
+      "not supported by the analysis: lighting, scheme"
+     ],
+     [
+      "Bold Color Palette",
+      "not supported by the analysis: bold, palette"
+     ],
+     [
+      "Minimalist Composition",
+      "uses 'minimalist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Teal Still Life With Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Bright Green Tables On Yellow Floor",
+      "uses uncertain object 'floor'"
+     ],
+     [
+      "Thick Painted Still Life With Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Bold Green Tables And Red/Yellow Dots",
+      "not supported by the analysis: bold"
+     ],
+     [
+      "Simple Yet Vibrant Still Life Scene",
+      "not supported by the analysis: simple, yet, vibrant, scene"
+     ],
+     [
+      "Cozy Yellow Room With Green Walls",
+      "not supported by the analysis: cozy, room"
+     ],
+     [
+      "Flat Light Illuminates Yellow Ground",
+      "uses 'illuminates', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Strong Contrast Of Teal Against Purple",
+      "not supported by the analysis: strong, contrast, against"
+     ],
+     [
+      "Even Lighting Makes Colors Stand Out",
+      "not supported by the analysis: lighting, makes, stand, out"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Thick Green Tables",
+     "Purple Wall Behind Teal Screens",
+     "Bright Red Dots"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Echo is My Song' by Gia Edzgveradze (our gallery, similarity 0.78); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Gia Edzgveradze",
+     "title": "Echo is My Song",
+     "score": 0.7808226346969604,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Tables Reflecting Light",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Green Windows in Harmony",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Dots Dance on Yellow",
+      "not supported by the analysis: dance"
+     ],
+     [
+      "Still Life with Purple Walls",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Thick Paints on Teal Surfaces",
+      "not supported by the analysis: surfaces"
+     ],
+     [
+      "Red and Yellow Dots Play",
+      "not supported by the analysis: play"
+     ],
+     [
+      "Green Screens Behind Tables",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Brightness Through Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Yellow Floor Under Tables",
+      "uses uncertain object 'floor'"
+     ],
+     [
+      "Purple Wall Behind Screens",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "The Green Tables Reflect Light",
+      "not supported by the analysis: reflect, light"
+     ],
+     [
+      "Windows Brighten Softly",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Plates on Yellow Ground",
+      "not supported by the analysis: plates, ground"
+     ],
+     [
+      "Still Life in Teal Hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Red Dots Contrast Bold",
+      "not supported by the analysis: contrast, bold"
+     ],
+     [
+      "Olive Windows Glisten",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Green Screens Overlook",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Wall’s Purple Hue",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Tabletops Serve Simple",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Dot Art Speaks Quiet",
+      "not supported by the analysis: speaks, quiet"
+     ],
+     [
+      "Yellow Floor Contrast",
+      "uses uncertain object 'floor'"
+     ],
+     [
+      "Purple Wall Background",
+      "not supported by the analysis: background"
+     ],
+     [
+      "Olive Window Screen",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Thick Paint Application",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Calm Still Life Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Even Lighting Scheme",
+      "not supported by the analysis: lighting, scheme"
+     ],
+     [
+      "Bold Color Palette",
+      "not supported by the analysis: bold, palette"
+     ],
+     [
+      "Minimalist Composition",
+      "uses 'minimalist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Teal Still Life With Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Bright Green Tables On Yellow Floor",
+      "uses uncertain object 'floor'"
+     ],
+     [
+      "Thick Painted Still Life With Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Bold Green Tables And Red/Yellow Dots",
+      "not supported by the analysis: bold"
+     ],
+     [
+      "Simple Yet Vibrant Still Life Scene",
+      "not supported by the analysis: simple, yet, vibrant, scene"
+     ],
+     [
+      "Cozy Yellow Room With Green Walls",
+      "not supported by the analysis: cozy, room"
+     ],
+     [
+      "Flat Light Illuminates Yellow Ground",
+      "uses 'illuminates', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Strong Contrast Of Teal Against Purple",
+      "not supported by the analysis: strong, contrast, against"
+     ],
+     [
+      "Even Lighting Makes Colors Stand Out",
+      "not supported by the analysis: lighting, makes, stand, out"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F3-077",
+   "artist": "Giorgi Mirzashvili",
+   "real": "White House",
+   "year": "2021",
+   "artist_known_grounded": {
+    "titles": [
+     "Night House Blues",
+     "**White House at Night**"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.7297447919845581,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "**Nostalgic Moonlit Home**",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "**Dark Windows, Silent Night**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Blue Sky, Green Trees**",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "**Thick Paint, Quiet Evening**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Simple Home, Moonlight Glow**",
+      "not supported by the analysis: simple, home, moonlight, glow"
+     ],
+     [
+      "**Silent Night, Dark Roof**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Green Trees, Blue Skies**",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "**Moonlit Serenity, Simple House**",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "**Thick Strokes, Moonlit Silence**",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Quiet Glow Within",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "House in Moonlight",
+      "not supported by the analysis: moonlight"
+     ],
+     [
+      "Silent Night Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Darkened Windows",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Eternal Night's Light",
+      "not supported by the analysis: eternal"
+     ],
+     [
+      "Soulful Moonlit Home",
+      "uses 'soulful', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Cloudy Night's Rest",
+      "not supported by the analysis: cloudy, rest"
+     ],
+     [
+      "Gentle Night's Shade",
+      "not supported by the analysis: gentle, shade"
+     ],
+     [
+      "Whispering Blue Skies",
+      "uses uncertain object 'sky'"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Night House Blues",
+     "**White House at Night**"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.7297447919845581,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "**Nostalgic Moonlit Home**",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "**Dark Windows, Silent Night**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Blue Sky, Green Trees**",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "**Thick Paint, Quiet Evening**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Simple Home, Moonlight Glow**",
+      "not supported by the analysis: simple, home, moonlight, glow"
+     ],
+     [
+      "**Silent Night, Dark Roof**",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "**Green Trees, Blue Skies**",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "**Moonlit Serenity, Simple House**",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "**Thick Strokes, Moonlit Silence**",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Quiet Glow Within",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "House in Moonlight",
+      "not supported by the analysis: moonlight"
+     ],
+     [
+      "Silent Night Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Darkened Windows",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Eternal Night's Light",
+      "not supported by the analysis: eternal"
+     ],
+     [
+      "Soulful Moonlit Home",
+      "uses 'soulful', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Cloudy Night's Rest",
+      "not supported by the analysis: cloudy, rest"
+     ],
+     [
+      "Gentle Night's Shade",
+      "not supported by the analysis: gentle, shade"
+     ],
+     [
+      "Whispering Blue Skies",
+      "uses uncertain object 'sky'"
      ]
     ]
    }
