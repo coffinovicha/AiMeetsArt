@@ -161,7 +161,7 @@ if __name__ == "__main__":
     from autocrop import open_photo
     from vlm_common import ROOT, records
     ap = argparse.ArgumentParser()
-    ap.add_argument("--adapter", default=str(ROOT / "models" / "qwen_lora_expl"))
+    ap.add_argument("--adapter", default=str(ROOT / "models" / "qwen_lora_v2"))
     ap.add_argument("--tag", default="verified")
     ap.add_argument("--split", default="val")
     ap.add_argument("--ids", default="")

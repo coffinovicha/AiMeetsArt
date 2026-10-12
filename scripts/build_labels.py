@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 L = ROOT / "labels"
 FIELDS = ["description", "theme", "mood", "objects", "style_guess", "medium_guess",
-          "era_guess", "lighting", "composition", "explanation", "title_guess"]
+          "era_guess", "lighting", "composition", "explanation", "title_guess", "photo_artifacts"]
 
 with (L / "manifest.csv").open(encoding="utf-8") as f:
     manifest = {r["id"]: r for r in csv.DictReader(f)}

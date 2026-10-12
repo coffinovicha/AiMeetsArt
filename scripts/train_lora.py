@@ -4,7 +4,7 @@ import torch
 from PIL import Image, ImageEnhance, ImageOps
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from verify_objects import checkable, head
-from vlm_common import ROOT, SIDE, load, load_image, messages, records, target
+from vlm_common import ROOT, SCHEMA, SIDE, load, load_image, messages, records, target
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--epochs", type=int, default=3)
@@ -15,6 +15,7 @@ ap.add_argument("--out", default="models/qwen_lora")
 ap.add_argument("--seed", type=int, default=42)
 ap.add_argument("--qa", action="store_true")
 ap.add_argument("--aug", action="store_true")
+ap.add_argument("--hard", default="")
 a = ap.parse_args()
 torch.manual_seed(a.seed)
 random.seed(a.seed)
@@ -60,11 +61,17 @@ if a.qa:
     del st
 
 
+HARD = json.loads(open(a.hard, encoding="utf-8").read())["hard"] if a.hard else {}
+
+
 def qa_sample(r):
     pos = [o for o in r["objects"] if checkable(o)]
     cand = NEG[r["id"]]
-    p = random.sample(pos, min(2, len(pos)))
-    n = random.sample(cand, min(4 - len(p), len(cand)))
+    hard = random.sample(HARD.get(r["id"], []), min(2, len(HARD.get(r["id"], []))))
+    p = list(dict.fromkeys(h["true"] for h in hard if h["true"]))
+    p += random.sample([o for o in pos if o not in p], min(max(0, 2 - len(p)), len([o for o in pos if o not in p])))
+    hn = list(dict.fromkeys(h["wrong"] for h in hard))
+    n = hn + random.sample([c for c in cand if c not in hn], min(max(0, 4 - len(p) - len(hn)), len([c for c in cand if c not in hn])))
     items = [(o, "yes") for o in p] + [(o, "no") for o in n]
     random.shuffle(items)
     return QA_PROMPT.format(", ".join(o for o, _ in items)), "; ".join(f"{o}: {y}" for o, y in items)
@@ -162,5 +169,6 @@ for ep in range(a.epochs):
 (ROOT / a.out).mkdir(parents=True, exist_ok=True)
 (ROOT / a.out / "train_log.json").write_text(json.dumps(log, indent=1), encoding="utf-8")
 (ROOT / a.out / "vlm_meta.json").write_text(json.dumps({"side": SIDE, "epochs": a.epochs, "rank": a.rank, "fields": "with explanation",
-                                                        "qa": a.qa, "aug": a.aug, "labels": "v2 cleaned"}), encoding="utf-8")
+                                                        "qa": a.qa, "aug": a.aug, "hard": bool(a.hard), "schema": SCHEMA,
+                                                        "labels": "v2 cleaned" + (" + photo_artifacts" if SCHEMA == "v3" else "")}), encoding="utf-8")
 print("best val", round(best, 4))

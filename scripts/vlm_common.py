@@ -16,6 +16,12 @@ PROMPT = (
     "objects (list of visible things), style_guess, medium_guess, era_guess, lighting, composition, explanation (4-6 plain-language sentences for a student or museum visitor: what is happening, what to notice, how it is made, and possible meaning or symbolism worded as interpretation; never name the artist or title). "
     "Never state an artist, date or title as fact; mark uncertain guesses with '(guess)'."
 )
+SCHEMA = os.environ.get("VLM_SCHEMA", "v2")
+if SCHEMA == "v3":
+    FIELDS = ["photo_artifacts"] + FIELDS
+    PROMPT = PROMPT.replace("Return one JSON object with keys: ",
+        "Return one JSON object with keys: photo_artifacts (anything in the photo that is not part of the artwork, such as "
+        "reflections, glare, frame, mat or blur, with where it is; 'none' if nothing), ") +         " Describe only the artwork itself in every field except photo_artifacts."
 
 
 def records():

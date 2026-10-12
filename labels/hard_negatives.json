@@ -1,0 +1,4309 @@
+{
+ "pairs": [
+  {
+   "true": "tree",
+   "wrong": "clouds",
+   "count": 4
+  },
+  {
+   "true": "branch",
+   "wrong": "leaves",
+   "count": 3
+  },
+  {
+   "true": "house",
+   "wrong": "buildings",
+   "count": 2
+  },
+  {
+   "true": "sky",
+   "wrong": "clouds",
+   "count": 1
+  },
+  {
+   "true": "fortress",
+   "wrong": "castle",
+   "count": 1
+  },
+  {
+   "true": "mountain",
+   "wrong": "hills",
+   "count": 1
+  },
+  {
+   "true": "cup",
+   "wrong": "window",
+   "count": 1
+  },
+  {
+   "true": "table",
+   "wrong": "bottles",
+   "count": 1
+  },
+  {
+   "true": "woman",
+   "wrong": "men",
+   "count": 1
+  },
+  {
+   "true": "hat",
+   "wrong": "bows",
+   "count": 1
+  },
+  {
+   "true": "coat",
+   "wrong": "banners",
+   "count": 1
+  },
+  {
+   "true": "balcony",
+   "wrong": "boat",
+   "count": 1
+  },
+  {
+   "true": "jacket",
+   "wrong": "dress",
+   "count": 1
+  },
+  {
+   "true": "instrument",
+   "wrong": "chalice",
+   "count": 1
+  },
+  {
+   "true": "street",
+   "wrong": "sidewalk",
+   "count": 1
+  },
+  {
+   "true": "vase",
+   "wrong": "candle",
+   "count": 1
+  },
+  {
+   "true": "flower",
+   "wrong": "plant",
+   "count": 1
+  },
+  {
+   "true": "house",
+   "wrong": "church",
+   "count": 1
+  },
+  {
+   "true": "hill",
+   "wrong": "river",
+   "count": 1
+  },
+  {
+   "true": "gown",
+   "wrong": "hats",
+   "count": 1
+  },
+  {
+   "true": "ornament",
+   "wrong": "bird",
+   "count": 1
+  },
+  {
+   "true": "vase",
+   "wrong": "bowl",
+   "count": 1
+  },
+  {
+   "true": "dancer",
+   "wrong": "woman",
+   "count": 1
+  },
+  {
+   "true": "dancer",
+   "wrong": "dress",
+   "count": 1
+  },
+  {
+   "true": "mountain",
+   "wrong": "clouds",
+   "count": 1
+  },
+  {
+   "true": "tree",
+   "wrong": "flower",
+   "count": 1
+  },
+  {
+   "true": "tree",
+   "wrong": "petals",
+   "count": 1
+  },
+  {
+   "true": "hill",
+   "wrong": "mountains",
+   "count": 1
+  },
+  {
+   "true": "tree",
+   "wrong": "snow",
+   "count": 1
+  },
+  {
+   "true": "blossom",
+   "wrong": "stems",
+   "count": 1
+  },
+  {
+   "true": "wire",
+   "wrong": "hats",
+   "count": 1
+  },
+  {
+   "true": "dot",
+   "wrong": "feathers",
+   "count": 1
+  },
+  {
+   "true": "cat",
+   "wrong": "butterfly",
+   "count": 1
+  },
+  {
+   "true": "flower",
+   "wrong": "fairy",
+   "count": 1
+  },
+  {
+   "true": "rock",
+   "wrong": "fountain",
+   "count": 1
+  },
+  {
+   "true": "tree",
+   "wrong": "grass",
+   "count": 1
+  },
+  {
+   "true": "coat",
+   "wrong": "cat",
+   "count": 1
+  },
+  {
+   "true": "cane",
+   "wrong": "walking stick",
+   "count": 1
+  },
+  {
+   "true": "dagger",
+   "wrong": "ladder",
+   "count": 1
+  },
+  {
+   "true": "hat",
+   "wrong": "bow",
+   "count": 1
+  },
+  {
+   "true": "hat",
+   "wrong": "armor",
+   "count": 1
+  },
+  {
+   "true": "headwrap",
+   "wrong": "hat",
+   "count": 1
+  },
+  {
+   "true": "balloon",
+   "wrong": "necklace",
+   "count": 1
+  },
+  {
+   "true": "trumpet",
+   "wrong": "horns",
+   "count": 1
+  },
+  {
+   "true": "house",
+   "wrong": "boats",
+   "count": 1
+  },
+  {
+   "true": "hair",
+   "wrong": "headband",
+   "count": 1
+  },
+  {
+   "true": "church",
+   "wrong": "windows",
+   "count": 1
+  },
+  {
+   "true": "water",
+   "wrong": "river",
+   "count": 1
+  },
+  {
+   "true": "street",
+   "wrong": "bus",
+   "count": 1
+  },
+  {
+   "true": "arch",
+   "wrong": "archway",
+   "count": 1
+  },
+  {
+   "true": "fruit",
+   "wrong": "bread",
+   "count": 1
+  },
+  {
+   "true": "pot",
+   "wrong": "bowl",
+   "count": 1
+  },
+  {
+   "true": "sky",
+   "wrong": "sea",
+   "count": 1
+  },
+  {
+   "true": "desk",
+   "wrong": "piano",
+   "count": 1
+  },
+  {
+   "true": "house",
+   "wrong": "boat",
+   "count": 1
+  },
+  {
+   "true": "bridge",
+   "wrong": "wall",
+   "count": 1
+  },
+  {
+   "true": "mouth",
+   "wrong": "lips",
+   "count": 1
+  },
+  {
+   "true": "mouth",
+   "wrong": "teeth",
+   "count": 1
+  },
+  {
+   "true": "hat",
+   "wrong": "fan",
+   "count": 1
+  },
+  {
+   "true": "hat",
+   "wrong": "crown",
+   "count": 1
+  },
+  {
+   "true": "beard",
+   "wrong": "nose",
+   "count": 1
+  },
+  {
+   "true": "beard",
+   "wrong": "mouth",
+   "count": 1
+  },
+  {
+   "true": "lion",
+   "wrong": "monkey",
+   "count": 1
+  },
+  {
+   "true": "arch",
+   "wrong": "bowl",
+   "count": 1
+  },
+  {
+   "true": "lion",
+   "wrong": "tree",
+   "count": 1
+  },
+  {
+   "true": "lion",
+   "wrong": "bushes",
+   "count": 1
+  },
+  {
+   "true": "hair",
+   "wrong": "hat",
+   "count": 1
+  },
+  {
+   "true": "shoe",
+   "wrong": "rock",
+   "count": 1
+  },
+  {
+   "true": "window",
+   "wrong": "column",
+   "count": 1
+  },
+  {
+   "true": "flower",
+   "wrong": "teapot",
+   "count": 1
+  },
+  {
+   "true": "house",
+   "wrong": "tower",
+   "count": 1
+  },
+  {
+   "true": "machine",
+   "wrong": "windmill",
+   "count": 1
+  },
+  {
+   "true": "machine",
+   "wrong": "boat",
+   "count": 1
+  },
+  {
+   "true": "number",
+   "wrong": "text",
+   "count": 1
+  },
+  {
+   "true": "reed",
+   "wrong": "pharaoh",
+   "count": 1
+  },
+  {
+   "true": "bird",
+   "wrong": "gods",
+   "count": 1
+  },
+  {
+   "true": "bird",
+   "wrong": "Isis",
+   "count": 1
+  },
+  {
+   "true": "water",
+   "wrong": "Nephthys",
+   "count": 1
+  },
+  {
+   "true": "bird",
+   "wrong": "falcon",
+   "count": 1
+  },
+  {
+   "true": "arrow",
+   "wrong": "target",
+   "count": 1
+  },
+  {
+   "true": "lion",
+   "wrong": "eagle",
+   "count": 1
+  },
+  {
+   "true": "vulture",
+   "wrong": "bird",
+   "count": 1
+  },
+  {
+   "true": "vulture",
+   "wrong": "goddess",
+   "count": 1
+  },
+  {
+   "true": "headdress",
+   "wrong": "dresses",
+   "count": 1
+  },
+  {
+   "true": "headdress",
+   "wrong": "headbands",
+   "count": 1
+  },
+  {
+   "true": "headdress",
+   "wrong": "wigs",
+   "count": 1
+  },
+  {
+   "true": "pharaoh",
+   "wrong": "men",
+   "count": 1
+  },
+  {
+   "true": "goddess",
+   "wrong": "woman",
+   "count": 1
+  },
+  {
+   "true": "throne",
+   "wrong": "pharaoh",
+   "count": 1
+  },
+  {
+   "true": "throne",
+   "wrong": "boat",
+   "count": 1
+  },
+  {
+   "true": "goddess",
+   "wrong": "bird",
+   "count": 1
+  },
+  {
+   "true": "crown",
+   "wrong": "necklace",
+   "count": 1
+  },
+  {
+   "true": "crown",
+   "wrong": "headdress",
+   "count": 1
+  },
+  {
+   "true": "ferry",
+   "wrong": "ship",
+   "count": 1
+  },
+  {
+   "true": "gull",
+   "wrong": "birds",
+   "count": 1
+  },
+  {
+   "true": "tower",
+   "wrong": "chimneys",
+   "count": 1
+  },
+  {
+   "true": "rooftop",
+   "wrong": "clouds",
+   "count": 1
+  },
+  {
+   "true": "minaret",
+   "wrong": "lamppost",
+   "count": 1
+  },
+  {
+   "true": "dome",
+   "wrong": "domed building",
+   "count": 1
+  },
+  {
+   "true": "horse",
+   "wrong": "saddle",
+   "count": 1
+  },
+  {
+   "true": "horse",
+   "wrong": "spear",
+   "count": 1
+  },
+  {
+   "true": "cloak",
+   "wrong": "shield",
+   "count": 1
+  },
+  {
+   "true": "cloak",
+   "wrong": "banner",
+   "count": 1
+  },
+  {
+   "true": "rider",
+   "wrong": "rider's cap",
+   "count": 1
+  },
+  {
+   "true": "dome",
+   "wrong": "mosque",
+   "count": 1
+  },
+  {
+   "true": "wall",
+   "wrong": "minarets",
+   "count": 1
+  },
+  {
+   "true": "wall",
+   "wrong": "buildings",
+   "count": 1
+  },
+  {
+   "true": "wall",
+   "wrong": "pavement",
+   "count": 1
+  },
+  {
+   "true": "hand",
+   "wrong": "eyes",
+   "count": 1
+  },
+  {
+   "true": "hand",
+   "wrong": "mouths",
+   "count": 1
+  },
+  {
+   "true": "feather",
+   "wrong": "noses",
+   "count": 1
+  },
+  {
+   "true": "basket",
+   "wrong": "houses",
+   "count": 1
+  },
+  {
+   "true": "pole",
+   "wrong": "umbrellas",
+   "count": 1
+  },
+  {
+   "true": "dress",
+   "wrong": "robes",
+   "count": 1
+  },
+  {
+   "true": "sun",
+   "wrong": "lanterns",
+   "count": 1
+  },
+  {
+   "true": "boat",
+   "wrong": "sails",
+   "count": 1
+  },
+  {
+   "true": "water",
+   "wrong": "clouds",
+   "count": 1
+  },
+  {
+   "true": "wrap",
+   "wrong": "stilts",
+   "count": 1
+  },
+  {
+   "true": "wrap",
+   "wrong": "balls",
+   "count": 1
+  }
+ ],
+ "per_image": {
+  "F1-002": [
+   {
+    "wrong": "clouds",
+    "true": "sky",
+    "sim": 0.41
+   }
+  ],
+  "F1-003": [
+   {
+    "wrong": "castle",
+    "true": "fortress",
+    "sim": 0.625
+   },
+   {
+    "wrong": "hills",
+    "true": "mountains",
+    "sim": 0.667
+   }
+  ],
+  "F1-012": [
+   {
+    "wrong": "window",
+    "true": "cup",
+    "sim": 0.333
+   }
+  ],
+  "F1-013": [
+   {
+    "wrong": "bottles",
+    "true": "tables",
+    "sim": 0.368
+   }
+  ],
+  "F1-014": [
+   {
+    "wrong": "men",
+    "true": "woman",
+    "sim": 0.435
+   }
+  ],
+  "F1-016": [
+   {
+    "wrong": "bows",
+    "true": "hats",
+    "sim": 0.451
+   }
+  ],
+  "F1-017": [
+   {
+    "wrong": "banners",
+    "true": "coats",
+    "sim": 0.423
+   }
+  ],
+  "F1-019": [
+   {
+    "wrong": "boat",
+    "true": "balcony",
+    "sim": 0.355
+   }
+  ],
+  "F1-021": [
+   {
+    "wrong": "dress",
+    "true": "jacket",
+    "sim": 0.467
+   }
+  ],
+  "F1-026": [
+   {
+    "wrong": "clouds",
+    "true": "trees",
+    "sim": 0.445
+   }
+  ],
+  "F1-029": [
+   {
+    "wrong": "chalice",
+    "true": "musical instrument",
+    "sim": 0.342
+   }
+  ],
+  "F1-042": [
+   {
+    "wrong": "sidewalk",
+    "true": "street",
+    "sim": 0.556
+   }
+  ],
+  "F1-051": [
+   {
+    "wrong": "candle",
+    "true": "vase",
+    "sim": 0.441
+   },
+   {
+    "wrong": "plant",
+    "true": "flowers",
+    "sim": 0.619
+   }
+  ],
+  "F1-052": [
+   {
+    "wrong": "church",
+    "true": "houses",
+    "sim": 0.369
+   },
+   {
+    "wrong": "river",
+    "true": "hills",
+    "sim": 0.344
+   },
+   {
+    "wrong": "clouds",
+    "true": "trees",
+    "sim": 0.445
+   }
+  ],
+  "F1-056": [
+   {
+    "wrong": "leaves",
+    "true": "branches",
+    "sim": 0.351
+   }
+  ],
+  "F1-057": [
+   {
+    "wrong": "hats",
+    "true": "gowns",
+    "sim": 0.452
+   }
+  ],
+  "F1-058": [
+   {
+    "wrong": "bird",
+    "true": "ornament",
+    "sim": 0.303
+   }
+  ],
+  "F1-059": [
+   {
+    "wrong": "bench",
+    "true": null,
+    "sim": 0.226
+   }
+  ],
+  "F1-061": [
+   {
+    "wrong": "sky",
+    "true": null,
+    "sim": 0.213
+   }
+  ],
+  "F1-062": [
+   {
+    "wrong": "leaves",
+    "true": "branches",
+    "sim": 0.351
+   }
+  ],
+  "F1-063": [
+   {
+    "wrong": "bowl",
+    "true": "vase",
+    "sim": 0.409
+   }
+  ],
+  "F1-065": [
+   {
+    "wrong": "staff",
+    "true": null,
+    "sim": 0.297
+   },
+   {
+    "wrong": "tree",
+    "true": null,
+    "sim": 0.273
+   }
+  ],
+  "F1-069": [
+   {
+    "wrong": "woman",
+    "true": "dancer",
+    "sim": 0.342
+   },
+   {
+    "wrong": "dress",
+    "true": "dancer",
+    "sim": 0.328
+   },
+   {
+    "wrong": "hat",
+    "true": null,
+    "sim": 0.219
+   }
+  ],
+  "F1-074": [
+   {
+    "wrong": "clouds",
+    "true": "mountains",
+    "sim": 0.52
+   }
+  ],
+  "F1-076": [
+   {
+    "wrong": "flower",
+    "true": "tree",
+    "sim": 0.405
+   },
+   {
+    "wrong": "petals",
+    "true": "tree",
+    "sim": 0.353
+   }
+  ],
+  "F1-077": [
+   {
+    "wrong": "mountains",
+    "true": "hills",
+    "sim": 0.667
+   },
+   {
+    "wrong": "snow",
+    "true": "trees",
+    "sim": 0.336
+   }
+  ],
+  "F1-088": [
+   {
+    "wrong": "table",
+    "true": null,
+    "sim": 0.204
+   }
+  ],
+  "F2-003": [
+   {
+    "wrong": "stems",
+    "true": "blossoms",
+    "sim": 0.523
+   }
+  ],
+  "F2-004": [
+   {
+    "wrong": "hats",
+    "true": "wires",
+    "sim": 0.342
+   }
+  ],
+  "F2-006": [
+   {
+    "wrong": "feathers",
+    "true": "dots",
+    "sim": 0.368
+   }
+  ],
+  "F2-029": [
+   {
+    "wrong": "butterfly",
+    "true": "cat",
+    "sim": 0.384
+   }
+  ],
+  "F2-031": [
+   {
+    "wrong": "hat",
+    "true": null,
+    "sim": 0.218
+   },
+   {
+    "wrong": "fairy",
+    "true": "flower",
+    "sim": 0.445
+   }
+  ],
+  "F2-033": [
+   {
+    "wrong": "fountain",
+    "true": "rocks",
+    "sim": 0.313
+   },
+   {
+    "wrong": "grass",
+    "true": "trees",
+    "sim": 0.529
+   },
+   {
+    "wrong": "clouds",
+    "true": "trees",
+    "sim": 0.445
+   }
+  ],
+  "F2-035": [
+   {
+    "wrong": "cat",
+    "true": "coat",
+    "sim": 0.42
+   },
+   {
+    "wrong": "walking stick",
+    "true": "cane",
+    "sim": 0.469
+   },
+   {
+    "wrong": "ladder",
+    "true": "dagger",
+    "sim": 0.386
+   },
+   {
+    "wrong": "window",
+    "true": null,
+    "sim": 0.273
+   }
+  ],
+  "F2-039": [
+   {
+    "wrong": "cane",
+    "true": null,
+    "sim": 0.264
+   }
+  ],
+  "F2-048": [
+   {
+    "wrong": "bow",
+    "true": "hat",
+    "sim": 0.387
+   }
+  ],
+  "F2-049": [
+   {
+    "wrong": "armor",
+    "true": "hat",
+    "sim": 0.433
+   }
+  ],
+  "F2-055": [
+   {
+    "wrong": "hat",
+    "true": "headwrap",
+    "sim": 0.574
+   },
+   {
+    "wrong": "necklace",
+    "true": "balloon",
+    "sim": 0.41
+   }
+  ],
+  "F2-065": [
+   {
+    "wrong": "horns",
+    "true": "trumpets",
+    "sim": 0.658
+   },
+   {
+    "wrong": "beach",
+    "true": null,
+    "sim": 0.276
+   },
+   {
+    "wrong": "boats",
+    "true": "houses",
+    "sim": 0.458
+   }
+  ],
+  "F2-067": [
+   {
+    "wrong": "couch",
+    "true": null,
+    "sim": 0.22
+   }
+  ],
+  "F2-069": [
+   {
+    "wrong": "headband",
+    "true": "hair",
+    "sim": 0.412
+   }
+  ],
+  "F2-071": [
+   {
+    "wrong": "buildings",
+    "true": "houses",
+    "sim": 0.661
+   },
+   {
+    "wrong": "windows",
+    "true": "churches",
+    "sim": 0.312
+   }
+  ],
+  "F2-072": [
+   {
+    "wrong": "lamp post",
+    "true": null,
+    "sim": 0.258
+   }
+  ],
+  "F2-073": [
+   {
+    "wrong": "windows",
+    "true": null,
+    "sim": 0.266
+   },
+   {
+    "wrong": "river",
+    "true": "water",
+    "sim": 0.493
+   }
+  ],
+  "F2-074": [
+   {
+    "wrong": "black outline",
+    "true": null,
+    "sim": 0.268
+   }
+  ],
+  "F2-080": [
+   {
+    "wrong": "bus",
+    "true": "street",
+    "sim": 0.407
+   },
+   {
+    "wrong": "archway",
+    "true": "arch",
+    "sim": 0.657
+   }
+  ],
+  "F2-082": [
+   {
+    "wrong": "bread",
+    "true": "fruit",
+    "sim": 0.474
+   }
+  ],
+  "F2-087": [
+   {
+    "wrong": "scale",
+    "true": null,
+    "sim": 0.2
+   },
+   {
+    "wrong": "bowl",
+    "true": "clay pots",
+    "sim": 0.348
+   }
+  ],
+  "F2-090": [
+   {
+    "wrong": "sea",
+    "true": "sky",
+    "sim": 0.45
+   }
+  ],
+  "F2-092": [
+   {
+    "wrong": "piano",
+    "true": "desk",
+    "sim": 0.387
+   }
+  ],
+  "F2-094": [
+   {
+    "wrong": "boat",
+    "true": "houses",
+    "sim": 0.368
+   },
+   {
+    "wrong": "leaves",
+    "true": null,
+    "sim": 0.279
+   }
+  ],
+  "F2-096": [
+   {
+    "wrong": "wall",
+    "true": "bridge",
+    "sim": 0.427
+   }
+  ],
+  "F3-005": [
+   {
+    "wrong": "lips",
+    "true": "mouth",
+    "sim": 0.656
+   },
+   {
+    "wrong": "teeth",
+    "true": "mouth",
+    "sim": 0.618
+   }
+  ],
+  "F3-015": [
+   {
+    "wrong": "tree trunk",
+    "true": null,
+    "sim": 0.128
+   },
+   {
+    "wrong": "water",
+    "true": null,
+    "sim": 0.103
+   }
+  ],
+  "F3-019": [
+   {
+    "wrong": "fan",
+    "true": "hat",
+    "sim": 0.305
+   }
+  ],
+  "F3-020": [
+   {
+    "wrong": "crown",
+    "true": "hat",
+    "sim": 0.426
+   },
+   {
+    "wrong": "nose",
+    "true": "beard",
+    "sim": 0.482
+   },
+   {
+    "wrong": "mouth",
+    "true": "beard",
+    "sim": 0.346
+   },
+   {
+    "wrong": "table",
+    "true": null,
+    "sim": 0.193
+   },
+   {
+    "wrong": "leaves",
+    "true": null,
+    "sim": 0.238
+   },
+   {
+    "wrong": "fruits",
+    "true": null,
+    "sim": 0.282
+   }
+  ],
+  "F3-022": [
+   {
+    "wrong": "star",
+    "true": null,
+    "sim": 0.294
+   },
+   {
+    "wrong": "leaves",
+    "true": "branches",
+    "sim": 0.351
+   }
+  ],
+  "F3-025": [
+   {
+    "wrong": "monkey",
+    "true": "lion",
+    "sim": 0.521
+   },
+   {
+    "wrong": "bowl",
+    "true": "arch",
+    "sim": 0.314
+   },
+   {
+    "wrong": "house",
+    "true": null,
+    "sim": 0.278
+   },
+   {
+    "wrong": "tree",
+    "true": "lion",
+    "sim": 0.348
+   },
+   {
+    "wrong": "bushes",
+    "true": "lion",
+    "sim": 0.314
+   }
+  ],
+  "F3-031": [
+   {
+    "wrong": "hat",
+    "true": null,
+    "sim": 0.09
+   }
+  ],
+  "F3-037": [
+   {
+    "wrong": "hat",
+    "true": "hair",
+    "sim": 0.418
+   },
+   {
+    "wrong": "rock",
+    "true": "shoe",
+    "sim": 0.345
+   }
+  ],
+  "F3-039": [
+   {
+    "wrong": "column",
+    "true": "window",
+    "sim": 0.374
+   }
+  ],
+  "F3-043": [
+   {
+    "wrong": "door",
+    "true": null,
+    "sim": 0.282
+   }
+  ],
+  "F3-045": [
+   {
+    "wrong": "teapot",
+    "true": "flower",
+    "sim": 0.318
+   },
+   {
+    "wrong": "tower",
+    "true": "houses",
+    "sim": 0.367
+   }
+  ],
+  "F3-046": [
+   {
+    "wrong": "windmill",
+    "true": "flying machine",
+    "sim": 0.412
+   },
+   {
+    "wrong": "boat",
+    "true": "flying machine",
+    "sim": 0.322
+   },
+   {
+    "wrong": "text",
+    "true": "numbers",
+    "sim": 0.363
+   }
+  ],
+  "F3-050": [
+   {
+    "wrong": "staff",
+    "true": null,
+    "sim": 0.296
+   },
+   {
+    "wrong": "sun disk",
+    "true": null,
+    "sim": 0.245
+   }
+  ],
+  "F3-051": [
+   {
+    "wrong": "pharaoh",
+    "true": "papyrus reeds",
+    "sim": 0.341
+   },
+   {
+    "wrong": "gods",
+    "true": "birds",
+    "sim": 0.383
+   },
+   {
+    "wrong": "Isis",
+    "true": "birds",
+    "sim": 0.351
+   },
+   {
+    "wrong": "Nephthys",
+    "true": "water",
+    "sim": 0.357
+   },
+   {
+    "wrong": "falcon",
+    "true": "birds",
+    "sim": 0.393
+   },
+   {
+    "wrong": "scarab",
+    "true": null,
+    "sim": 0.23
+   }
+  ],
+  "F3-053": [
+   {
+    "wrong": "target",
+    "true": "arrow",
+    "sim": 0.396
+   },
+   {
+    "wrong": "palm branch",
+    "true": null,
+    "sim": 0.295
+   },
+   {
+    "wrong": "eagle",
+    "true": "lion",
+    "sim": 0.606
+   }
+  ],
+  "F3-054": [
+   {
+    "wrong": "women",
+    "true": null,
+    "sim": 0.296
+   },
+   {
+    "wrong": "bird",
+    "true": "vulture",
+    "sim": 0.564
+   }
+  ],
+  "F3-055": [
+   {
+    "wrong": "goddess",
+    "true": "vulture",
+    "sim": 0.409
+   }
+  ],
+  "F3-056": [
+   {
+    "wrong": "dresses",
+    "true": "headdresses",
+    "sim": 0.63
+   },
+   {
+    "wrong": "headbands",
+    "true": "headdresses",
+    "sim": 0.654
+   },
+   {
+    "wrong": "wigs",
+    "true": "headdresses",
+    "sim": 0.632
+   }
+  ],
+  "F3-057": [
+   {
+    "wrong": "men",
+    "true": "pharaohs",
+    "sim": 0.375
+   },
+   {
+    "wrong": "woman",
+    "true": "goddess",
+    "sim": 0.447
+   },
+   {
+    "wrong": "staff",
+    "true": null,
+    "sim": 0.295
+   }
+  ],
+  "F3-058": [
+   {
+    "wrong": "obelisk",
+    "true": null,
+    "sim": 0.282
+   }
+  ],
+  "F3-059": [
+   {
+    "wrong": "pharaoh",
+    "true": "throne",
+    "sim": 0.446
+   },
+   {
+    "wrong": "boat",
+    "true": "throne",
+    "sim": 0.37
+   },
+   {
+    "wrong": "staff",
+    "true": null,
+    "sim": 0.296
+   }
+  ],
+  "F3-062": [
+   {
+    "wrong": "basket",
+    "true": null,
+    "sim": 0.28
+   }
+  ],
+  "F3-063": [
+   {
+    "wrong": "bird",
+    "true": "goddess",
+    "sim": 0.362
+   },
+   {
+    "wrong": "necklace",
+    "true": "crowns",
+    "sim": 0.47
+   },
+   {
+    "wrong": "headdress",
+    "true": "crowns",
+    "sim": 0.385
+   }
+  ],
+  "F3-067": [
+   {
+    "wrong": "ship",
+    "true": "ferry",
+    "sim": 0.632
+   },
+   {
+    "wrong": "birds",
+    "true": "gulls",
+    "sim": 0.659
+   },
+   {
+    "wrong": "chimneys",
+    "true": "tower",
+    "sim": 0.445
+   }
+  ],
+  "F3-068": [
+   {
+    "wrong": "clouds",
+    "true": "rooftops",
+    "sim": 0.511
+   }
+  ],
+  "F3-069": [
+   {
+    "wrong": "lamppost",
+    "true": "minaret",
+    "sim": 0.419
+   },
+   {
+    "wrong": "domed building",
+    "true": "dome",
+    "sim": 0.649
+   }
+  ],
+  "F3-070": [
+   {
+    "wrong": "saddle",
+    "true": "horse",
+    "sim": 0.595
+   }
+  ],
+  "F3-072": [
+   {
+    "wrong": "spear",
+    "true": "horse",
+    "sim": 0.391
+   },
+   {
+    "wrong": "shield",
+    "true": "cloak",
+    "sim": 0.506
+   },
+   {
+    "wrong": "banner",
+    "true": "cloak",
+    "sim": 0.422
+   },
+   {
+    "wrong": "rider's cap",
+    "true": "rider",
+    "sim": 0.627
+   }
+  ],
+  "F3-080": [
+   {
+    "wrong": "mosque",
+    "true": "dome",
+    "sim": 0.386
+   },
+   {
+    "wrong": "minarets",
+    "true": "walls",
+    "sim": 0.443
+   },
+   {
+    "wrong": "buildings",
+    "true": "walls",
+    "sim": 0.563
+   },
+   {
+    "wrong": "pavement",
+    "true": "walls",
+    "sim": 0.407
+   }
+  ],
+  "F3-082": [
+   {
+    "wrong": "clouds",
+    "true": "trees",
+    "sim": 0.445
+   }
+  ],
+  "F3-084": [
+   {
+    "wrong": "eyes",
+    "true": "hands",
+    "sim": 0.477
+   },
+   {
+    "wrong": "mouths",
+    "true": "hands",
+    "sim": 0.547
+   },
+   {
+    "wrong": "noses",
+    "true": "feathers",
+    "sim": 0.522
+   }
+  ],
+  "F3-085": [
+   {
+    "wrong": "houses",
+    "true": "baskets",
+    "sim": 0.339
+   },
+   {
+    "wrong": "umbrellas",
+    "true": "shoulder poles",
+    "sim": 0.452
+   }
+  ],
+  "F3-087": [
+   {
+    "wrong": "robes",
+    "true": "dresses",
+    "sim": 0.656
+   },
+   {
+    "wrong": "lanterns",
+    "true": "sun",
+    "sim": 0.386
+   }
+  ],
+  "F3-089": [
+   {
+    "wrong": "sails",
+    "true": "boats",
+    "sim": 0.636
+   },
+   {
+    "wrong": "buildings",
+    "true": "stilt houses",
+    "sim": 0.61
+   },
+   {
+    "wrong": "clouds",
+    "true": "water",
+    "sim": 0.471
+   }
+  ],
+  "F3-090": [
+   {
+    "wrong": "stilts",
+    "true": "wraps",
+    "sim": 0.402
+   },
+   {
+    "wrong": "balls",
+    "true": "wraps",
+    "sim": 0.373
+   },
+   {
+    "wrong": "suitcase",
+    "true": null,
+    "sim": 0.293
+   }
+  ]
+ },
+ "hard": {
+  "F1-001": [
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "tree",
+    "wrong": "clouds"
+   },
+   {
+    "true": "tree",
+    "wrong": "snow"
+   },
+   {
+    "true": "tree",
+    "wrong": "petals"
+   },
+   {
+    "true": "tree",
+    "wrong": "flower"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   },
+   {
+    "true": "hills",
+    "wrong": "mountains"
+   }
+  ],
+  "F1-002": [
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "blossoming trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "blossoming trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "blossoming trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "blossoming trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "blossoming trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   },
+   {
+    "true": "hills",
+    "wrong": "mountains"
+   }
+  ],
+  "F1-003": [
+   {
+    "true": "fortress",
+    "wrong": "castle"
+   },
+   {
+    "true": "mountains",
+    "wrong": "hills"
+   },
+   {
+    "true": "towers",
+    "wrong": "chimneys"
+   }
+  ],
+  "F1-010": [
+   {
+    "true": "tree",
+    "wrong": "snow"
+   },
+   {
+    "true": "tree",
+    "wrong": "petals"
+   },
+   {
+    "true": "tree",
+    "wrong": "grass"
+   },
+   {
+    "true": "tree",
+    "wrong": "flower"
+   }
+  ],
+  "F1-012": [
+   {
+    "true": "cup",
+    "wrong": "window"
+   },
+   {
+    "true": "table",
+    "wrong": "bottles"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   }
+  ],
+  "F1-013": [
+   {
+    "true": "tables",
+    "wrong": "bottles"
+   },
+   {
+    "true": "windows",
+    "wrong": "column"
+   }
+  ],
+  "F1-014": [
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "table",
+    "wrong": "bottles"
+   },
+   {
+    "true": "cups",
+    "wrong": "window"
+   }
+  ],
+  "F1-016": [
+   {
+    "true": "hats",
+    "wrong": "bows"
+   },
+   {
+    "true": "hats",
+    "wrong": "armor"
+   },
+   {
+    "true": "hats",
+    "wrong": "crown"
+   },
+   {
+    "true": "hats",
+    "wrong": "fan"
+   },
+   {
+    "true": "hats",
+    "wrong": "bow"
+   },
+   {
+    "true": "coats",
+    "wrong": "cat"
+   },
+   {
+    "true": "coats",
+    "wrong": "banners"
+   },
+   {
+    "true": "dresses",
+    "wrong": "robes"
+   }
+  ],
+  "F1-017": [
+   {
+    "true": "coats",
+    "wrong": "banners"
+   },
+   {
+    "true": "hats",
+    "wrong": "bows"
+   },
+   {
+    "true": "hats",
+    "wrong": "armor"
+   },
+   {
+    "true": "hats",
+    "wrong": "crown"
+   },
+   {
+    "true": "hats",
+    "wrong": "fan"
+   },
+   {
+    "true": "hats",
+    "wrong": "bow"
+   },
+   {
+    "true": "coats",
+    "wrong": "cat"
+   },
+   {
+    "true": "dresses",
+    "wrong": "robes"
+   }
+  ],
+  "F1-019": [
+   {
+    "true": "balcony",
+    "wrong": "boat"
+   },
+   {
+    "true": "windows",
+    "wrong": "column"
+   },
+   {
+    "true": "dome",
+    "wrong": "mosque"
+   }
+  ],
+  "F1-021": [
+   {
+    "true": "jacket",
+    "wrong": "dress"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "shoes",
+    "wrong": "rock"
+   }
+  ],
+  "F1-026": [
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   }
+  ],
+  "F1-029": [
+   {
+    "true": "musical instrument",
+    "wrong": "chalice"
+   },
+   {
+    "true": "rocks",
+    "wrong": "fountain"
+   },
+   {
+    "true": "feather",
+    "wrong": "noses"
+   }
+  ],
+  "F1-038": [
+   {
+    "true": "tree",
+    "wrong": "clouds"
+   },
+   {
+    "true": "tree",
+    "wrong": "snow"
+   },
+   {
+    "true": "tree",
+    "wrong": "petals"
+   },
+   {
+    "true": "tree",
+    "wrong": "grass"
+   },
+   {
+    "true": "tree",
+    "wrong": "flower"
+   }
+  ],
+  "F1-042": [
+   {
+    "true": "street",
+    "wrong": "sidewalk"
+   },
+   {
+    "true": "windows",
+    "wrong": "column"
+   },
+   {
+    "true": "street",
+    "wrong": "bus"
+   }
+  ],
+  "F1-044": [
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "hats",
+    "wrong": "bows"
+   },
+   {
+    "true": "hats",
+    "wrong": "armor"
+   },
+   {
+    "true": "hats",
+    "wrong": "crown"
+   },
+   {
+    "true": "hats",
+    "wrong": "fan"
+   },
+   {
+    "true": "hats",
+    "wrong": "bow"
+   }
+  ],
+  "F1-051": [
+   {
+    "true": "vase",
+    "wrong": "candle"
+   },
+   {
+    "true": "flowers",
+    "wrong": "plant"
+   },
+   {
+    "true": "flowers",
+    "wrong": "teapot"
+   },
+   {
+    "true": "flowers",
+    "wrong": "fairy"
+   },
+   {
+    "true": "window",
+    "wrong": "column"
+   },
+   {
+    "true": "vase",
+    "wrong": "bowl"
+   }
+  ],
+  "F1-052": [
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "hills",
+    "wrong": "mountains"
+   }
+  ],
+  "F1-056": [
+   {
+    "true": "branches",
+    "wrong": "leaves"
+   }
+  ],
+  "F1-057": [
+   {
+    "true": "gowns",
+    "wrong": "hats"
+   }
+  ],
+  "F1-058": [
+   {
+    "true": "ornament",
+    "wrong": "bird"
+   }
+  ],
+  "F1-059": [
+   {
+    "true": null,
+    "wrong": "bench"
+   }
+  ],
+  "F1-061": [
+   {
+    "true": null,
+    "wrong": "sky"
+   },
+   {
+    "true": "hibiscus flowers",
+    "wrong": "plant"
+   },
+   {
+    "true": "hibiscus flowers",
+    "wrong": "teapot"
+   },
+   {
+    "true": "hibiscus flowers",
+    "wrong": "fairy"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F1-062": [
+   {
+    "true": "branches",
+    "wrong": "leaves"
+   }
+  ],
+  "F1-063": [
+   {
+    "true": "vase",
+    "wrong": "bowl"
+   },
+   {
+    "true": "fruits",
+    "wrong": "bread"
+   },
+   {
+    "true": "branch",
+    "wrong": "leaves"
+   },
+   {
+    "true": "table",
+    "wrong": "bottles"
+   },
+   {
+    "true": "flowers",
+    "wrong": "plant"
+   },
+   {
+    "true": "flowers",
+    "wrong": "teapot"
+   },
+   {
+    "true": "flowers",
+    "wrong": "fairy"
+   },
+   {
+    "true": "vase",
+    "wrong": "candle"
+   }
+  ],
+  "F1-065": [
+   {
+    "true": null,
+    "wrong": "staff"
+   },
+   {
+    "true": null,
+    "wrong": "tree"
+   },
+   {
+    "true": "musical instruments",
+    "wrong": "chalice"
+   }
+  ],
+  "F1-069": [
+   {
+    "true": "dancer",
+    "wrong": "woman"
+   },
+   {
+    "true": "dancer",
+    "wrong": "dress"
+   },
+   {
+    "true": null,
+    "wrong": "hat"
+   },
+   {
+    "true": "pointe shoes",
+    "wrong": "rock"
+   }
+  ],
+  "F1-074": [
+   {
+    "true": "mountains",
+    "wrong": "clouds"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   }
+  ],
+  "F1-076": [
+   {
+    "true": "tree",
+    "wrong": "flower"
+   },
+   {
+    "true": "tree",
+    "wrong": "petals"
+   },
+   {
+    "true": "tree",
+    "wrong": "clouds"
+   },
+   {
+    "true": "tree",
+    "wrong": "snow"
+   },
+   {
+    "true": "tree",
+    "wrong": "grass"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   },
+   {
+    "true": "hills",
+    "wrong": "mountains"
+   }
+  ],
+  "F1-077": [
+   {
+    "true": "hills",
+    "wrong": "mountains"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   },
+   {
+    "true": "bird",
+    "wrong": "falcon"
+   },
+   {
+    "true": "bird",
+    "wrong": "Isis"
+   }
+  ],
+  "F1-078": [
+   {
+    "true": "vase",
+    "wrong": "candle"
+   },
+   {
+    "true": "vase",
+    "wrong": "bowl"
+   }
+  ],
+  "F1-088": [
+   {
+    "true": null,
+    "wrong": "table"
+   }
+  ],
+  "F2-003": [
+   {
+    "true": "blossoms",
+    "wrong": "stems"
+   }
+  ],
+  "F2-004": [
+   {
+    "true": "wires",
+    "wrong": "hats"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   }
+  ],
+  "F2-005": [
+   {
+    "true": "dots",
+    "wrong": "feathers"
+   }
+  ],
+  "F2-006": [
+   {
+    "true": "dots",
+    "wrong": "feathers"
+   }
+  ],
+  "F2-008": [
+   {
+    "true": "dots",
+    "wrong": "feathers"
+   }
+  ],
+  "F2-029": [
+   {
+    "true": "cat",
+    "wrong": "butterfly"
+   },
+   {
+    "true": "dresses",
+    "wrong": "robes"
+   }
+  ],
+  "F2-031": [
+   {
+    "true": null,
+    "wrong": "hat"
+   },
+   {
+    "true": "flower",
+    "wrong": "fairy"
+   },
+   {
+    "true": "house",
+    "wrong": "boats"
+   },
+   {
+    "true": "house",
+    "wrong": "church"
+   },
+   {
+    "true": "house",
+    "wrong": "tower"
+   },
+   {
+    "true": "house",
+    "wrong": "buildings"
+   },
+   {
+    "true": "house",
+    "wrong": "boat"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "flower",
+    "wrong": "plant"
+   },
+   {
+    "true": "flower",
+    "wrong": "teapot"
+   }
+  ],
+  "F2-033": [
+   {
+    "true": "rocks",
+    "wrong": "fountain"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   }
+  ],
+  "F2-035": [
+   {
+    "true": "coat",
+    "wrong": "cat"
+   },
+   {
+    "true": "cane",
+    "wrong": "walking stick"
+   },
+   {
+    "true": "dagger",
+    "wrong": "ladder"
+   },
+   {
+    "true": null,
+    "wrong": "window"
+   },
+   {
+    "true": "fur hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "fur hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "fur hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "fur hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "fur hat",
+    "wrong": "bow"
+   },
+   {
+    "true": "beard",
+    "wrong": "nose"
+   },
+   {
+    "true": "beard",
+    "wrong": "mouth"
+   },
+   {
+    "true": "coat",
+    "wrong": "banners"
+   }
+  ],
+  "F2-039": [
+   {
+    "true": null,
+    "wrong": "cane"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "checkered jacket",
+    "wrong": "dress"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F2-048": [
+   {
+    "true": "hat",
+    "wrong": "bow"
+   },
+   {
+    "true": "child rider",
+    "wrong": "rider's cap"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "horse",
+    "wrong": "spear"
+   }
+  ],
+  "F2-049": [
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "child rider",
+    "wrong": "rider's cap"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   },
+   {
+    "true": "horse",
+    "wrong": "saddle"
+   },
+   {
+    "true": "horse",
+    "wrong": "spear"
+   }
+  ],
+  "F2-055": [
+   {
+    "true": "headwrap",
+    "wrong": "hat"
+   },
+   {
+    "true": "balloon",
+    "wrong": "necklace"
+   },
+   {
+    "true": "dress",
+    "wrong": "robes"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F2-057": [
+   {
+    "true": "hand",
+    "wrong": "mouths"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "dress",
+    "wrong": "robes"
+   }
+  ],
+  "F2-063": [
+   {
+    "true": "sun",
+    "wrong": "lanterns"
+   }
+  ],
+  "F2-065": [
+   {
+    "true": "trumpets",
+    "wrong": "horns"
+   },
+   {
+    "true": null,
+    "wrong": "beach"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "dresses",
+    "wrong": "robes"
+   }
+  ],
+  "F2-067": [
+   {
+    "true": null,
+    "wrong": "couch"
+   },
+   {
+    "true": "cane",
+    "wrong": "walking stick"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   }
+  ],
+  "F2-069": [
+   {
+    "true": "hair",
+    "wrong": "headband"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "hair",
+    "wrong": "hat"
+   }
+  ],
+  "F2-071": [
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "churches",
+    "wrong": "windows"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "palm tree",
+    "wrong": "snow"
+   },
+   {
+    "true": "palm tree",
+    "wrong": "petals"
+   },
+   {
+    "true": "palm tree",
+    "wrong": "grass"
+   },
+   {
+    "true": "palm tree",
+    "wrong": "flower"
+   },
+   {
+    "true": "bell tower",
+    "wrong": "chimneys"
+   },
+   {
+    "true": "domes",
+    "wrong": "domed building"
+   },
+   {
+    "true": "domes",
+    "wrong": "mosque"
+   }
+  ],
+  "F2-072": [
+   {
+    "true": null,
+    "wrong": "lamp post"
+   },
+   {
+    "true": "machine",
+    "wrong": "windmill"
+   },
+   {
+    "true": "paper boats",
+    "wrong": "sails"
+   }
+  ],
+  "F2-073": [
+   {
+    "true": null,
+    "wrong": "windows"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "stilt houses",
+    "wrong": "church"
+   },
+   {
+    "true": "stilt houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "stilt houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   },
+   {
+    "true": "boats",
+    "wrong": "sails"
+   }
+  ],
+  "F2-074": [
+   {
+    "true": null,
+    "wrong": "black outline"
+   },
+   {
+    "true": "cloak",
+    "wrong": "shield"
+   },
+   {
+    "true": "cloak",
+    "wrong": "banner"
+   }
+  ],
+  "F2-075": [
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "wires",
+    "wrong": "hats"
+   }
+  ],
+  "F2-079": [
+   {
+    "true": "shoulder pole",
+    "wrong": "umbrellas"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "mountains",
+    "wrong": "clouds"
+   },
+   {
+    "true": "mountains",
+    "wrong": "hills"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F2-080": [
+   {
+    "true": "street",
+    "wrong": "bus"
+   },
+   {
+    "true": "arch",
+    "wrong": "archway"
+   },
+   {
+    "true": "church tower",
+    "wrong": "chimneys"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "street",
+    "wrong": "sidewalk"
+   },
+   {
+    "true": "arch",
+    "wrong": "bowl"
+   }
+  ],
+  "F2-081": [
+   {
+    "true": "street",
+    "wrong": "bus"
+   },
+   {
+    "true": "street",
+    "wrong": "sidewalk"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "jacket",
+    "wrong": "dress"
+   }
+  ],
+  "F2-082": [
+   {
+    "true": "fruit",
+    "wrong": "bread"
+   },
+   {
+    "true": "baskets",
+    "wrong": "houses"
+   },
+   {
+    "true": "hats",
+    "wrong": "bows"
+   },
+   {
+    "true": "hats",
+    "wrong": "armor"
+   },
+   {
+    "true": "hats",
+    "wrong": "crown"
+   },
+   {
+    "true": "hats",
+    "wrong": "fan"
+   },
+   {
+    "true": "hats",
+    "wrong": "bow"
+   },
+   {
+    "true": "dresses",
+    "wrong": "robes"
+   }
+  ],
+  "F2-084": [
+   {
+    "true": "palm trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "palm trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   }
+  ],
+  "F2-085": [
+   {
+    "true": "acacia trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "acacia trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "acacia trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "acacia trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "acacia trees",
+    "wrong": "flower"
+   },
+   {
+    "true": "baskets",
+    "wrong": "houses"
+   }
+  ],
+  "F2-087": [
+   {
+    "true": null,
+    "wrong": "scale"
+   },
+   {
+    "true": "clay pots",
+    "wrong": "bowl"
+   },
+   {
+    "true": "head wraps",
+    "wrong": "balls"
+   },
+   {
+    "true": "head wraps",
+    "wrong": "stilts"
+   },
+   {
+    "true": "fruit",
+    "wrong": "bread"
+   },
+   {
+    "true": "table",
+    "wrong": "bottles"
+   },
+   {
+    "true": "baskets",
+    "wrong": "houses"
+   }
+  ],
+  "F2-090": [
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "sun",
+    "wrong": "lanterns"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "hills",
+    "wrong": "river"
+   },
+   {
+    "true": "hills",
+    "wrong": "mountains"
+   }
+  ],
+  "F2-092": [
+   {
+    "true": "desk",
+    "wrong": "piano"
+   }
+  ],
+  "F2-094": [
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": null,
+    "wrong": "leaves"
+   },
+   {
+    "true": "balconies",
+    "wrong": "boat"
+   },
+   {
+    "true": "table",
+    "wrong": "bottles"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "hats",
+    "wrong": "bows"
+   },
+   {
+    "true": "hats",
+    "wrong": "armor"
+   },
+   {
+    "true": "hats",
+    "wrong": "crown"
+   },
+   {
+    "true": "hats",
+    "wrong": "fan"
+   },
+   {
+    "true": "hats",
+    "wrong": "bow"
+   }
+  ],
+  "F2-096": [
+   {
+    "true": "bridge",
+    "wrong": "wall"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   }
+  ],
+  "F3-003": [
+   {
+    "true": "mouth",
+    "wrong": "lips"
+   },
+   {
+    "true": "mouth",
+    "wrong": "teeth"
+   }
+  ],
+  "F3-005": [
+   {
+    "true": "mouth",
+    "wrong": "lips"
+   },
+   {
+    "true": "mouth",
+    "wrong": "teeth"
+   }
+  ],
+  "F3-015": [
+   {
+    "true": null,
+    "wrong": "tree trunk"
+   },
+   {
+    "true": null,
+    "wrong": "water"
+   }
+  ],
+  "F3-018": [
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F3-019": [
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "beard",
+    "wrong": "nose"
+   },
+   {
+    "true": "beard",
+    "wrong": "mouth"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   }
+  ],
+  "F3-020": [
+   {
+    "true": "hat",
+    "wrong": "crown"
+   },
+   {
+    "true": "beard",
+    "wrong": "nose"
+   },
+   {
+    "true": "beard",
+    "wrong": "mouth"
+   },
+   {
+    "true": null,
+    "wrong": "table"
+   },
+   {
+    "true": null,
+    "wrong": "leaves"
+   },
+   {
+    "true": null,
+    "wrong": "fruits"
+   },
+   {
+    "true": "hat",
+    "wrong": "bows"
+   },
+   {
+    "true": "hat",
+    "wrong": "armor"
+   },
+   {
+    "true": "hat",
+    "wrong": "fan"
+   },
+   {
+    "true": "hat",
+    "wrong": "bow"
+   }
+  ],
+  "F3-022": [
+   {
+    "true": null,
+    "wrong": "star"
+   },
+   {
+    "true": "branches",
+    "wrong": "leaves"
+   },
+   {
+    "true": "flower",
+    "wrong": "teapot"
+   },
+   {
+    "true": "flower",
+    "wrong": "fairy"
+   }
+  ],
+  "F3-025": [
+   {
+    "true": "lion",
+    "wrong": "monkey"
+   },
+   {
+    "true": "arch",
+    "wrong": "bowl"
+   },
+   {
+    "true": null,
+    "wrong": "house"
+   },
+   {
+    "true": "lion",
+    "wrong": "tree"
+   },
+   {
+    "true": "lion",
+    "wrong": "bushes"
+   },
+   {
+    "true": "arch",
+    "wrong": "archway"
+   },
+   {
+    "true": "hands",
+    "wrong": "eyes"
+   },
+   {
+    "true": "hands",
+    "wrong": "mouths"
+   },
+   {
+    "true": "crown",
+    "wrong": "necklace"
+   },
+   {
+    "true": "crown",
+    "wrong": "headdress"
+   },
+   {
+    "true": "city walls",
+    "wrong": "minarets"
+   },
+   {
+    "true": "city walls",
+    "wrong": "buildings"
+   },
+   {
+    "true": "city walls",
+    "wrong": "pavement"
+   },
+   {
+    "true": "lion",
+    "wrong": "eagle"
+   }
+  ],
+  "F3-031": [
+   {
+    "true": null,
+    "wrong": "hat"
+   }
+  ],
+  "F3-037": [
+   {
+    "true": "hair",
+    "wrong": "hat"
+   },
+   {
+    "true": "shoe",
+    "wrong": "rock"
+   },
+   {
+    "true": "arch",
+    "wrong": "bowl"
+   },
+   {
+    "true": "arch",
+    "wrong": "archway"
+   },
+   {
+    "true": "dress",
+    "wrong": "robes"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   },
+   {
+    "true": "hair",
+    "wrong": "headband"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F3-039": [
+   {
+    "true": "window",
+    "wrong": "column"
+   }
+  ],
+  "F3-043": [
+   {
+    "true": null,
+    "wrong": "door"
+   },
+   {
+    "true": "ping-pong table",
+    "wrong": "bottles"
+   }
+  ],
+  "F3-045": [
+   {
+    "true": "flower",
+    "wrong": "teapot"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "church",
+    "wrong": "windows"
+   },
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "cypress trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "cypress trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "cypress trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "flower",
+    "wrong": "plant"
+   },
+   {
+    "true": "flower",
+    "wrong": "fairy"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   }
+  ],
+  "F3-046": [
+   {
+    "true": "flying machine",
+    "wrong": "windmill"
+   },
+   {
+    "true": "flying machine",
+    "wrong": "boat"
+   },
+   {
+    "true": "numbers",
+    "wrong": "text"
+   }
+  ],
+  "F3-050": [
+   {
+    "true": null,
+    "wrong": "staff"
+   },
+   {
+    "true": null,
+    "wrong": "sun disk"
+   },
+   {
+    "true": "throne",
+    "wrong": "boat"
+   },
+   {
+    "true": "crown",
+    "wrong": "necklace"
+   },
+   {
+    "true": "crown",
+    "wrong": "headdress"
+   },
+   {
+    "true": "lotus flowers",
+    "wrong": "plant"
+   },
+   {
+    "true": "lotus flowers",
+    "wrong": "teapot"
+   },
+   {
+    "true": "lotus flowers",
+    "wrong": "fairy"
+   },
+   {
+    "true": "pharaoh",
+    "wrong": "men"
+   },
+   {
+    "true": "goddess",
+    "wrong": "woman"
+   },
+   {
+    "true": "goddess",
+    "wrong": "bird"
+   }
+  ],
+  "F3-051": [
+   {
+    "true": "papyrus reeds",
+    "wrong": "pharaoh"
+   },
+   {
+    "true": "birds",
+    "wrong": "gods"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": null,
+    "wrong": "scarab"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "boat",
+    "wrong": "sails"
+   }
+  ],
+  "F3-053": [
+   {
+    "true": "arrow",
+    "wrong": "target"
+   },
+   {
+    "true": null,
+    "wrong": "palm branch"
+   },
+   {
+    "true": "lion",
+    "wrong": "eagle"
+   },
+   {
+    "true": "pharaoh",
+    "wrong": "men"
+   },
+   {
+    "true": "lion",
+    "wrong": "tree"
+   },
+   {
+    "true": "lion",
+    "wrong": "bushes"
+   },
+   {
+    "true": "lion",
+    "wrong": "monkey"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   },
+   {
+    "true": "birds",
+    "wrong": "gods"
+   }
+  ],
+  "F3-054": [
+   {
+    "true": null,
+    "wrong": "women"
+   },
+   {
+    "true": "vulture",
+    "wrong": "bird"
+   },
+   {
+    "true": "pharaoh",
+    "wrong": "men"
+   },
+   {
+    "true": "crown",
+    "wrong": "necklace"
+   },
+   {
+    "true": "crown",
+    "wrong": "headdress"
+   },
+   {
+    "true": "vulture",
+    "wrong": "goddess"
+   }
+  ],
+  "F3-055": [
+   {
+    "true": "vulture",
+    "wrong": "goddess"
+   },
+   {
+    "true": "pharaoh",
+    "wrong": "men"
+   },
+   {
+    "true": "arrow",
+    "wrong": "target"
+   },
+   {
+    "true": "vulture",
+    "wrong": "bird"
+   },
+   {
+    "true": "horse",
+    "wrong": "saddle"
+   },
+   {
+    "true": "horse",
+    "wrong": "spear"
+   }
+  ],
+  "F3-056": [
+   {
+    "true": "headdresses",
+    "wrong": "dresses"
+   },
+   {
+    "true": "headdresses",
+    "wrong": "headbands"
+   },
+   {
+    "true": "headdresses",
+    "wrong": "wigs"
+   },
+   {
+    "true": "dancers",
+    "wrong": "dress"
+   }
+  ],
+  "F3-057": [
+   {
+    "true": "pharaohs",
+    "wrong": "men"
+   },
+   {
+    "true": "goddess",
+    "wrong": "woman"
+   },
+   {
+    "true": null,
+    "wrong": "staff"
+   },
+   {
+    "true": "goddess",
+    "wrong": "bird"
+   }
+  ],
+  "F3-058": [
+   {
+    "true": null,
+    "wrong": "obelisk"
+   },
+   {
+    "true": "dress",
+    "wrong": "robes"
+   },
+   {
+    "true": "goddess",
+    "wrong": "woman"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "gods"
+   }
+  ],
+  "F3-059": [
+   {
+    "true": "throne",
+    "wrong": "pharaoh"
+   },
+   {
+    "true": "throne",
+    "wrong": "boat"
+   },
+   {
+    "true": null,
+    "wrong": "staff"
+   },
+   {
+    "true": "offering table",
+    "wrong": "bottles"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "winged goddess",
+    "wrong": "bird"
+   }
+  ],
+  "F3-062": [
+   {
+    "true": null,
+    "wrong": "basket"
+   },
+   {
+    "true": "musical instruments",
+    "wrong": "chalice"
+   }
+  ],
+  "F3-063": [
+   {
+    "true": "goddess",
+    "wrong": "bird"
+   },
+   {
+    "true": "crowns",
+    "wrong": "necklace"
+   },
+   {
+    "true": "crowns",
+    "wrong": "headdress"
+   },
+   {
+    "true": "goddess",
+    "wrong": "woman"
+   }
+  ],
+  "F3-065": [
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   },
+   {
+    "true": "minarets",
+    "wrong": "lamppost"
+   },
+   {
+    "true": "tower",
+    "wrong": "chimneys"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   },
+   {
+    "true": "ferry",
+    "wrong": "ship"
+   },
+   {
+    "true": "domes",
+    "wrong": "domed building"
+   },
+   {
+    "true": "domes",
+    "wrong": "mosque"
+   },
+   {
+    "true": "boat",
+    "wrong": "sails"
+   }
+  ],
+  "F3-066": [
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   }
+  ],
+  "F3-067": [
+   {
+    "true": "ferry",
+    "wrong": "ship"
+   },
+   {
+    "true": "gulls",
+    "wrong": "birds"
+   },
+   {
+    "true": "tower",
+    "wrong": "chimneys"
+   },
+   {
+    "true": "minarets",
+    "wrong": "lamppost"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   }
+  ],
+  "F3-068": [
+   {
+    "true": "rooftops",
+    "wrong": "clouds"
+   },
+   {
+    "true": "tower",
+    "wrong": "chimneys"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   }
+  ],
+  "F3-069": [
+   {
+    "true": "minaret",
+    "wrong": "lamppost"
+   },
+   {
+    "true": "dome",
+    "wrong": "domed building"
+   },
+   {
+    "true": "bridge",
+    "wrong": "wall"
+   },
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   }
+  ],
+  "F3-070": [
+   {
+    "true": "horse",
+    "wrong": "saddle"
+   },
+   {
+    "true": "tree",
+    "wrong": "clouds"
+   },
+   {
+    "true": "tree",
+    "wrong": "snow"
+   },
+   {
+    "true": "tree",
+    "wrong": "petals"
+   },
+   {
+    "true": "tree",
+    "wrong": "grass"
+   },
+   {
+    "true": "tree",
+    "wrong": "flower"
+   },
+   {
+    "true": "woman",
+    "wrong": "men"
+   },
+   {
+    "true": "cloak",
+    "wrong": "shield"
+   },
+   {
+    "true": "cloak",
+    "wrong": "banner"
+   }
+  ],
+  "F3-072": [
+   {
+    "true": "horse",
+    "wrong": "spear"
+   },
+   {
+    "true": "cloak",
+    "wrong": "shield"
+   },
+   {
+    "true": "cloak",
+    "wrong": "banner"
+   },
+   {
+    "true": "rider",
+    "wrong": "rider's cap"
+   },
+   {
+    "true": "horse",
+    "wrong": "saddle"
+   }
+  ],
+  "F3-076": [
+   {
+    "true": "walls",
+    "wrong": "pavement"
+   },
+   {
+    "true": "minaret",
+    "wrong": "lamppost"
+   }
+  ],
+  "F3-079": [
+   {
+    "true": "houses",
+    "wrong": "boats"
+   },
+   {
+    "true": "houses",
+    "wrong": "church"
+   },
+   {
+    "true": "houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "houses",
+    "wrong": "boat"
+   },
+   {
+    "true": "windows",
+    "wrong": "column"
+   }
+  ],
+  "F3-080": [
+   {
+    "true": "dome",
+    "wrong": "mosque"
+   },
+   {
+    "true": "walls",
+    "wrong": "minarets"
+   },
+   {
+    "true": "walls",
+    "wrong": "buildings"
+   },
+   {
+    "true": "walls",
+    "wrong": "pavement"
+   },
+   {
+    "true": "dome",
+    "wrong": "domed building"
+   },
+   {
+    "true": "poles",
+    "wrong": "umbrellas"
+   }
+  ],
+  "F3-082": [
+   {
+    "true": "trees",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "trees",
+    "wrong": "snow"
+   },
+   {
+    "true": "trees",
+    "wrong": "petals"
+   },
+   {
+    "true": "trees",
+    "wrong": "grass"
+   },
+   {
+    "true": "trees",
+    "wrong": "flower"
+   }
+  ],
+  "F3-084": [
+   {
+    "true": "hands",
+    "wrong": "eyes"
+   },
+   {
+    "true": "hands",
+    "wrong": "mouths"
+   },
+   {
+    "true": "feathers",
+    "wrong": "noses"
+   }
+  ],
+  "F3-085": [
+   {
+    "true": "baskets",
+    "wrong": "houses"
+   },
+   {
+    "true": "shoulder poles",
+    "wrong": "umbrellas"
+   },
+   {
+    "true": "conical hats",
+    "wrong": "bows"
+   },
+   {
+    "true": "conical hats",
+    "wrong": "armor"
+   },
+   {
+    "true": "conical hats",
+    "wrong": "crown"
+   },
+   {
+    "true": "conical hats",
+    "wrong": "fan"
+   },
+   {
+    "true": "conical hats",
+    "wrong": "bow"
+   }
+  ],
+  "F3-086": [
+   {
+    "true": "window",
+    "wrong": "column"
+   }
+  ],
+  "F3-087": [
+   {
+    "true": "dresses",
+    "wrong": "robes"
+   },
+   {
+    "true": "sun",
+    "wrong": "lanterns"
+   },
+   {
+    "true": "pots",
+    "wrong": "bowl"
+   }
+  ],
+  "F3-089": [
+   {
+    "true": "boats",
+    "wrong": "sails"
+   },
+   {
+    "true": "stilt houses",
+    "wrong": "buildings"
+   },
+   {
+    "true": "water",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "clouds"
+   },
+   {
+    "true": "sky",
+    "wrong": "sea"
+   },
+   {
+    "true": "birds",
+    "wrong": "falcon"
+   },
+   {
+    "true": "birds",
+    "wrong": "Isis"
+   },
+   {
+    "true": "stilt houses",
+    "wrong": "church"
+   },
+   {
+    "true": "stilt houses",
+    "wrong": "tower"
+   },
+   {
+    "true": "water",
+    "wrong": "river"
+   },
+   {
+    "true": "water",
+    "wrong": "Nephthys"
+   }
+  ],
+  "F3-090": [
+   {
+    "true": "wraps",
+    "wrong": "stilts"
+   },
+   {
+    "true": "wraps",
+    "wrong": "balls"
+   },
+   {
+    "true": null,
+    "wrong": "suitcase"
+   },
+   {
+    "true": "pots",
+    "wrong": "bowl"
+   }
+  ]
+ }
+}

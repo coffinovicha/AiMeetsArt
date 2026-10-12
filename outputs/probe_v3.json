@@ -1,0 +1,310 @@
+{
+ "summary": {
+  "accuracy": 0.6666666666666666,
+  "n": 48,
+  "lookalike_no_correct": 7,
+  "lookalike_no_total": 17
+ },
+ "items": {
+  "F1-040": {
+   "raw": "pomegranates: yes; apples: yes; jug: yes; bottle: yes",
+   "answers": {
+    "pomegranates": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "apples": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "jug": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "bottle": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    }
+   }
+  },
+  "F1-046": {
+   "raw": "pomegranates: yes; apples: yes; jug: yes; bottle: yes",
+   "answers": {
+    "pomegranates": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "apples": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "jug": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "bottle": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    }
+   }
+  },
+  "F1-084": {
+   "raw": "men: yes; women: yes; backgammon board: yes; stringed instrument: no",
+   "answers": {
+    "men": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "women": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "backgammon board": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "stringed instrument": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    }
+   }
+  },
+  "F3-073": {
+   "raw": "lance: yes; dragon: yes; horse: yes; cat: no",
+   "answers": {
+    "lance": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "dragon": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "horse": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "cat": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    }
+   }
+  },
+  "F3-041": {
+   "raw": "chairs: no; tables: yes; balls: yes; window: yes",
+   "answers": {
+    "chairs": {
+     "truth": "yes",
+     "got": "no",
+     "ok": false
+    },
+    "tables": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "balls": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "window": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    }
+   }
+  },
+  "F2-059": {
+   "raw": "children: yes; geese: no; cow: yes; man: yes",
+   "answers": {
+    "children": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "geese": {
+     "truth": "yes",
+     "got": "no",
+     "ok": false
+    },
+    "cow": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "man": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    }
+   }
+  },
+  "F3-060": {
+   "raw": "winged goddess: yes; throne: no; man: yes; hieroglyphs: yes",
+   "answers": {
+    "winged goddess": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "throne": {
+     "truth": "yes",
+     "got": "no",
+     "ok": false
+    },
+    "man": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "hieroglyphs": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    }
+   }
+  },
+  "F1-015": {
+   "raw": "chairs: no; tables: no; buildings: yes; train: yes",
+   "answers": {
+    "chairs": {
+     "truth": "yes",
+     "got": "no",
+     "ok": false
+    },
+    "tables": {
+     "truth": "yes",
+     "got": "no",
+     "ok": false
+    },
+    "buildings": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "train": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    }
+   }
+  },
+  "F1-036": {
+   "raw": "women: yes; child: no; hair: yes; cap: no",
+   "answers": {
+    "women": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "child": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    },
+    "hair": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "cap": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    }
+   }
+  },
+  "F1-020": {
+   "raw": "masks: yes; flowers: yes; elephant: no; figures: yes",
+   "answers": {
+    "masks": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "flowers": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "elephant": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    },
+    "figures": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    }
+   }
+  },
+  "F3-074": {
+   "raw": "angels: yes; swords: no; lute: yes; child: yes",
+   "answers": {
+    "angels": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "swords": {
+     "truth": "yes",
+     "got": "no",
+     "ok": false
+    },
+    "lute": {
+     "truth": "no",
+     "got": "yes",
+     "ok": false
+    },
+    "child": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    }
+   }
+  },
+  "F3-024": {
+   "raw": "birds: yes; sun: yes; rabbit: no; cat: no",
+   "answers": {
+    "birds": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "sun": {
+     "truth": "yes",
+     "got": "yes",
+     "ok": true
+    },
+    "rabbit": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    },
+    "cat": {
+     "truth": "no",
+     "got": "no",
+     "ok": true
+    }
+   }
+  }
+ }
+}

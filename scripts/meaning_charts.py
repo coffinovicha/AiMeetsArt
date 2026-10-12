@@ -8,13 +8,15 @@ from sentence_transformers import SentenceTransformer
 from vlm_common import ROOT, records
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--tags", default="base,lora,lora560,expl560")
+ap.add_argument("--tags", default="base,lora,lora560,expl560,verified2")
+ap.add_argument("--final", default="verified2")
+ap.add_argument("--review", default="manual_review_v2_val.csv:rating_verified2")
 ap.add_argument("--split", default="val")
 a = ap.parse_args()
 
 NAMES = {"base": "Base Qwen, no training", "lora": "Fine-tuned, 448 px", "lora560": "Fine-tuned, 560 px",
-         "expl560": "560 px + explanations"}
-ACC, ANCH = "#2a78d6", "#8a8984"
+         "expl560": "560 px + explanations", "verified2": "Final: v2 + verified mode"}
+ACC, ANCH, MUTED = "#2a78d6", "#8a8984", "#c9c7c0"
 INK, INK2, GRID, BG = "#0b0b0b", "#52514e", "#e6e5e0", "#fcfcfb"
 OUT = ROOT / "outputs" / "charts"
 plt.rcParams.update({"font.family": "Segoe UI", "font.size": 11, "axes.edgecolor": GRID, "axes.labelcolor": INK2,
@@ -91,7 +93,7 @@ rows = [("Reference: a different painting", mean_other, True)]
 rows += [(NAMES[t], v["same"], False) for t, v in M.items()]
 rows += [("Reference: same painting, 2nd human text", A["human_same_painting"], True)]
 scale_chart(rows, "How close in meaning are the model's descriptions?",
-            "Grey = reference points. 'Different painting' = model text compared with the wrong painting's description. Validation set, 29 images.",
+            "Grey = reference points. 'Different painting' = model text vs the wrong painting's description. Validation, 29 images, cleaned labels.",
             "9_meaning_scale.png")
 
 fig, ax = plt.subplots(figsize=(8.5, 0.62 * len(M) + 1.9))
@@ -112,12 +114,13 @@ ax.tick_params(axis="y", length=0)
 ax.set_title("Can the description pick out its own painting among 29?")
 save(fig, "10_picks_own_painting.png")
 
-rev = {r["id"]: r for r in csv.DictReader(open(ROOT / "outputs" / f"manual_review_{a.split}.csv", encoding="utf-8"))}
+rf_name, rkey = a.review.split(":")
+rev = {r["id"]: r for r in csv.DictReader(open(ROOT / "outputs" / rf_name, encoding="utf-8"))}
 order = [("correct", "Correct"), ("minor", "Minor errors"), ("invented", "Invented details"), ("wrong_subject", "Wrong subject")]
 fig, ax = plt.subplots(figsize=(8.5, 4.4))
 rng = np.random.default_rng(0)
 summary = {}
-for k, (key, tag) in enumerate([("rating_560", "lora560")]):
+for k, (key, tag) in enumerate([(rkey, a.final)]):
     per = M[tag]["per_image"]
     for x, (r, lab) in enumerate(order):
         vals = [per[i] for i in ids if rev.get(i, {}).get(key) == r]
@@ -128,39 +131,46 @@ for k, (key, tag) in enumerate([("rating_560", "lora560")]):
         mu = np.mean(vals)
         ax.hlines(mu, x - 0.28, x + 0.28, color=INK, lw=2)
         ax.text(x + 0.31, mu, f"avg {mu:.2f}", va="center", color=INK, fontsize=10)
-ax.set_xticks(range(len(order)), [f"{lab}\n({summary[r][0]} images)" for r, lab in order])
+ax.set_xticks(range(len(order)), [f"{lab}\n({summary[r][0]} image{'' if summary[r][0] == 1 else 's'})" for r, lab in order])
 ax.set_xlim(-0.5, len(order) - 0.2)
 ax.set_ylim(0.3, 1)
 ax.set_ylabel("Meaning similarity")
 ax.grid(axis="y", color=GRID)
 ax.set_axisbelow(True)
-ax.set_title("Does the score agree with a human reviewer? (560 px model)")
+ax.set_title(f"Does the score agree with a human reviewer? ({NAMES[a.final]})")
 save(fig, "11_score_vs_human_rating.png")
-res["by_rating_560"] = summary
+res["by_rating_final"] = summary
 
 E = res["explanations"]
-rf = ROOT / "outputs" / f"manual_review_expl_{a.split}.csv"
-if E and rf.exists():
+reviews = [("manual_review_expl_val.csv", "context_expl560", "expl560", "Run 3 (explanation model)", MUTED),
+           ("manual_review_expl_v2_val.csv", "context_verified2", "verified2", "Final: v2 + verified mode", ACC)]
+reviews = [x for x in reviews if (ROOT / "outputs" / x[0]).exists() and x[2] in E]
+if reviews:
     cats = [("sound", "Sound: matches the painting, or clearly hedged"), ("propagated", "Built on a misread object"),
             ("wrong_fact", "Wrong background fact"), ("unsupported", "Unsupported leap")]
-    rv = list(csv.DictReader(open(rf, encoding="utf-8")))
-    cnt = {k: sum(r["context_expl560"] == k for r in rv) for k, _ in cats}
-    res["explanation_claims"] = cnt
-    fig, ax = plt.subplots(figsize=(8.5, 3.6))
-    y = np.arange(len(cats))[::-1]
-    for yy, (k, lab) in zip(y, cats):
-        ax.barh(yy, cnt[k], 0.55, color=ACC)
-        ax.text(cnt[k] + 0.3, yy, f"{cnt[k]} of {len(rv)}", va="center", color=INK)
-    ax.set_yticks(y, [lab for _, lab in cats])
-    ax.set_xlim(0, len(rv))
-    ax.set_xlabel("Explanations (560 px + explanations model)")
+    fig, ax = plt.subplots(figsize=(8.5, 4.4))
+    h = 0.36 if len(reviews) > 1 else 0.55
+    res["explanation_claims"] = {}
+    for j, (fname, key, tag, lab, col) in enumerate(reviews):
+        rv = list(csv.DictReader(open(ROOT / "outputs" / fname, encoding="utf-8")))
+        cnt = {k: sum(r[key] == k for r in rv) for k, _ in cats}
+        res["explanation_claims"][tag] = cnt
+        off = (len(reviews) - 1) / 2 - j
+        for yy, (k, _) in zip(np.arange(len(cats))[::-1], cats):
+            yb = yy + off * (h + 0.04)
+            ax.barh(yb, cnt[k], h, color=col, label=lab if k == "sound" else None)
+            ax.text(cnt[k] + 0.3, yb, str(cnt[k]), va="center", color=INK, fontsize=10, fontweight="bold" if col == ACC else "normal")
+    ax.set_yticks(np.arange(len(cats))[::-1], [lab for _, lab in cats])
+    ax.set_xlim(0, res["n"])
+    ax.set_xlabel("Explanations (of 29, manual review)")
     ax.grid(axis="x", color=GRID)
     ax.set_axisbelow(True)
     ax.spines["left"].set_visible(False)
     ax.tick_params(axis="y", length=0)
+    ax.legend(frameon=False, loc="lower right", labelcolor=INK)
     ax.set_title("What are the explanations' interpretations based on?")
-    e = next(iter(E.values()))
-    fig.text(0.01, 0.015, f"Meaning similarity to human explanations: {e['same']:.2f} (different painting: {e['other']:.2f}); picks its own painting {e['top1']} of {res['n']}. Manual review, validation set.", color=INK2, fontsize=9)
+    foot = "; ".join(f"{lab.split(' (')[0].split(':')[0]}: meaning similarity {E[tag]['same']:.2f} (different painting {E[tag]['other']:.2f})" for _, _, tag, lab, _ in reviews)
+    fig.text(0.01, 0.015, foot + ". Validation set, cleaned labels.", color=INK2, fontsize=9)
     save(fig, "12_explanation_claims.png", rect=(0, 0.06, 1, 1))
 
 (ROOT / "outputs" / f"meaning_{a.split}.json").write_text(json.dumps(res, indent=1), encoding="utf-8")
