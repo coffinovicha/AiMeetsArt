@@ -1,0 +1,71 @@
+cached images from shard 0 2719
+cached images from shard 1 2628
+cached images from shard 2 2694
+cached images from shard 3 2648
+trainable params: 29,933,568 || all params: 3,784,556,544 || trainable%: 0.7909
+val loss before 2.7831
+epoch 1/1 step 25/1299 item 200/10389 loss 2.050 239s gpu 4.1GB
+epoch 1/1 step 50/1299 item 400/10389 loss 1.852 487s gpu 4.1GB
+epoch 1/1 step 75/1299 item 600/10389 loss 1.765 718s gpu 4.1GB
+epoch 1/1 step 100/1299 item 800/10389 loss 1.754 948s gpu 4.1GB
+epoch 1/1 step 125/1299 item 1000/10389 loss 1.743 1184s gpu 4.1GB
+epoch 1/1 step 150/1299 item 1200/10389 loss 1.735 1424s gpu 4.1GB
+epoch 1/1 step 175/1299 item 1400/10389 loss 1.720 1666s gpu 4.1GB
+epoch 1/1 step 200/1299 item 1600/10389 loss 1.705 1900s gpu 4.1GB
+epoch 1/1 step 225/1299 item 1800/10389 loss 1.711 2131s gpu 4.1GB
+epoch 1/1 step 250/1299 item 2000/10389 loss 1.692 2361s gpu 4.1GB
+epoch 1/1 step 275/1299 item 2200/10389 loss 1.692 2624s gpu 4.1GB
+epoch 1/1 step 300/1299 item 2400/10389 loss 1.672 2929s gpu 4.1GB
+epoch 1/1 step 325/1299 item 2600/10389 loss 1.666 3178s gpu 4.1GB
+epoch 1/1 step 350/1299 item 2800/10389 loss 1.656 3411s gpu 4.1GB
+epoch 1/1 step 375/1299 item 3000/10389 loss 1.650 3638s gpu 4.1GB
+epoch 1/1 step 400/1299 item 3200/10389 loss 1.644 3865s gpu 4.1GB
+epoch 1/1 step 425/1299 item 3400/10389 loss 1.640 4096s gpu 4.1GB
+epoch 1/1 step 450/1299 item 3600/10389 loss 1.637 4331s gpu 4.1GB
+epoch 1/1 step 475/1299 item 3800/10389 loss 1.631 4564s gpu 4.1GB
+epoch 1/1 step 500/1299 item 4000/10389 loss 1.631 4801s gpu 4.1GB
+epoch 1/1 step 525/1299 item 4200/10389 loss 1.632 5032s gpu 4.1GB
+epoch 1/1 step 550/1299 item 4400/10389 loss 1.632 5254s gpu 4.1GB
+epoch 1/1 step 575/1299 item 4600/10389 loss 1.633 5485s gpu 4.1GB
+epoch 1/1 step 600/1299 item 4800/10389 loss 1.631 5725s gpu 4.1GB
+epoch 1/1 step 625/1299 item 5000/10389 loss 1.628 5961s gpu 4.1GB
+epoch 1/1 step 650/1299 item 5200/10389 loss 1.627 6198s gpu 4.1GB
+epoch 1/1 step 675/1299 item 5400/10389 loss 1.634 6437s gpu 4.1GB
+epoch 1/1 step 700/1299 item 5600/10389 loss 1.633 6666s gpu 4.1GB
+epoch 1/1 step 725/1299 item 5800/10389 loss 1.632 6892s gpu 4.1GB
+epoch 1/1 step 750/1299 item 6000/10389 loss 1.632 7122s gpu 4.1GB
+epoch 1/1 step 775/1299 item 6200/10389 loss 1.631 7352s gpu 4.1GB
+epoch 1/1 step 800/1299 item 6400/10389 loss 1.629 7585s gpu 4.1GB
+epoch 1/1 step 825/1299 item 6600/10389 loss 1.627 7820s gpu 4.1GB
+epoch 1/1 step 850/1299 item 6800/10389 loss 1.622 8064s gpu 4.1GB
+epoch 1/1 step 875/1299 item 7000/10389 loss 1.621 8298s gpu 4.1GB
+epoch 1/1 step 900/1299 item 7200/10389 loss 1.621 8528s gpu 4.1GB
+epoch 1/1 step 925/1299 item 7400/10389 loss 1.618 8762s gpu 4.1GB
+epoch 1/1 step 950/1299 item 7600/10389 loss 1.618 9010s gpu 4.1GB
+epoch 1/1 step 975/1299 item 7800/10389 loss 1.614 9252s gpu 4.1GB
+epoch 1/1 step 1000/1299 item 8000/10389 loss 1.610 9491s gpu 4.1GB
+epoch 1/1 step 1025/1299 item 8200/10389 loss 1.609 9728s gpu 4.1GB
+epoch 1/1 step 1050/1299 item 8400/10389 loss 1.606 9963s gpu 4.1GB
+epoch 1/1 step 1075/1299 item 8600/10389 loss 1.605 10198s gpu 4.1GB
+epoch 1/1 step 1100/1299 item 8800/10389 loss 1.606 10476s gpu 4.1GB
+epoch 1/1 step 1125/1299 item 9000/10389 loss 1.602 10877s gpu 4.1GB
+epoch 1/1 step 1150/1299 item 9200/10389 loss 1.598 11280s gpu 4.1GB
+epoch 1/1 step 1175/1299 item 9400/10389 loss 1.597 11629s gpu 4.1GB
+epoch 1/1 step 1200/1299 item 9600/10389 loss 1.597 11870s gpu 4.1GB
+epoch 1/1 step 1225/1299 item 9800/10389 loss 1.596 12110s gpu 4.1GB
+epoch 1/1 step 1250/1299 item 10000/10389 loss 1.595 12356s gpu 4.1GB
+epoch 1/1 step 1275/1299 item 10200/10389 loss 1.592 12595s gpu 4.1GB
+epoch 1/1 step 1299/1299 item 10389/10389 loss 1.591 12813s gpu 4.1GB
+{'epoch': 1, 'train_loss': 1.5912676564712622, 'val_loss': 1.5440436555445194, 'sec': 12912.649294376373}
+best val 1.544
+trainable params: 29,933,568 || all params: 3,784,556,544 || trainable%: 0.7909
+val loss before 2.2999
+epoch 1/3 step 14/42 item 55/55 loss 2.488 68s gpu 4.1GB
+{'epoch': 1, 'train_loss': 2.487914534319531, 'val_loss': 2.0240336183239434, 'sec': 74.01225781440735}
+epoch 2/3 step 25/42 item 44/55 loss 1.916 53s gpu 4.1GB
+epoch 2/3 step 28/42 item 55/55 loss 1.872 67s gpu 4.1GB
+{'epoch': 2, 'train_loss': 1.8716571150855585, 'val_loss': 1.9268857266973047, 'sec': 72.37693572044373}
+epoch 3/3 step 42/42 item 55/55 loss 1.572 67s gpu 4.1GB
+{'epoch': 3, 'train_loss': 1.572038684649901, 'val_loss': 1.8903880228891092, 'sec': 72.69539332389832}
+best val 1.8904
+ALLDONE

@@ -1,0 +1,4235 @@
+{
+ "summary": {
+  "gallery_val": {
+   "n": 17,
+   "wikiart_only|artist_known": {
+    "top5_exact_hits": 5,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.365,
+    "top5_best_similarity_mean": 0.522,
+    "top1_with_unsupported_words": 10
+   },
+   "wikiart_only|artist_unknown": {
+    "top5_exact_hits": 5,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.434,
+    "top5_best_similarity_mean": 0.533,
+    "top1_with_unsupported_words": 10
+   },
+   "wikiart_then_gallery|artist_known": {
+    "top5_exact_hits": 8,
+    "top5_close_hits_sim_0.7": 9,
+    "similarity_to_real_top1": 0.539,
+    "top5_best_similarity_mean": 0.681,
+    "top1_with_unsupported_words": 11
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "top5_exact_hits": 7,
+    "top5_close_hits_sim_0.7": 7,
+    "similarity_to_real_top1": 0.484,
+    "top5_best_similarity_mean": 0.613,
+    "top1_with_unsupported_words": 11
+   },
+   "baseline_other_painting": 0.391
+  },
+  "wikiart_held_out": {
+   "n": 24,
+   "wikiart_only|artist_known": {
+    "top5_exact_hits": 0,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.348,
+    "top5_best_similarity_mean": 0.467,
+    "top1_with_unsupported_words": 13,
+    "top1_traced_to_artist": 8
+   },
+   "wikiart_only|artist_unknown": {
+    "top5_exact_hits": 1,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.335,
+    "top5_best_similarity_mean": 0.431,
+    "top1_with_unsupported_words": 12,
+    "top1_traced_to_artist": 7
+   },
+   "wikiart_then_gallery|artist_known": {
+    "top5_exact_hits": 0,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.369,
+    "top5_best_similarity_mean": 0.45,
+    "top1_with_unsupported_words": 15,
+    "top1_traced_to_artist": 7
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "top5_exact_hits": 1,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.35,
+    "top5_best_similarity_mean": 0.447,
+    "top1_with_unsupported_words": 16,
+    "top1_traced_to_artist": 5
+   },
+   "grounded_writer": {
+    "top5_exact_hits": 0,
+    "top5_close_hits_sim_0.7": 3,
+    "similarity_to_real_top1": 0.326,
+    "top5_best_similarity_mean": 0.338,
+    "top1_traced_to_artist": 8
+   },
+   "baseline_other_painting": 0.174,
+   "real_titles_traced_to_artist": 12
+  }
+ },
+ "rows": [
+  {
+   "set": "gallery_val",
+   "id": "F1-024",
+   "artist": "Dea Soselia",
+   "real": "Wine Country",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Landscape",
+     "Vineyard",
+     "Landscape with trees",
+     "Landscape with hills",
+     "Landscape with Trees"
+    ],
+    "unsupported": {
+     "Landscape": [],
+     "Vineyard": [],
+     "Landscape with trees": [],
+     "Landscape with hills": [],
+     "Landscape with Trees": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Landscape",
+     "Vineyard",
+     "Vineyards",
+     "Landscape with Trees",
+     "Landscape with trees"
+    ],
+    "unsupported": {
+     "Landscape": [],
+     "Vineyard": [],
+     "Vineyards": [],
+     "Landscape with Trees": [],
+     "Landscape with trees": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Landscape",
+     "Untitled",
+     "Vineyard",
+     "Vineyards",
+     "Hills"
+    ],
+    "unsupported": {
+     "Landscape": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Vineyard": [],
+     "Vineyards": [],
+     "Hills": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Landscape",
+     "Vineyard",
+     "Vineyards",
+     "Untitled",
+     "Hillside"
+    ],
+    "unsupported": {
+     "Landscape": [],
+     "Vineyard": [],
+     "Vineyards": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Hillside": []
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-036",
+   "artist": "Tekla Meladze",
+   "real": "Gossip Girls",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Untitled",
+     "unknown title",
+     "Composition",
+     "Two women",
+     "Two Women"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Two women": [
+      "women"
+     ],
+     "Two Women": [
+      "women"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Untitled (Two Women)",
+     "Untitled (Two Girls)",
+     "Untitled (Two Figures)",
+     "Untitled (Two Heads)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Two Women)": [
+      "untitled",
+      "women"
+     ],
+     "Untitled (Two Girls)": [
+      "untitled",
+      "girls"
+     ],
+     "Untitled (Two Figures)": [
+      "untitled"
+     ],
+     "Untitled (Two Heads)": [
+      "untitled",
+      "heads"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Self-Portrait",
+     "Abstraction",
+     "Self-portrait",
+     "unknown title"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Self-portrait": [
+      "self",
+      "portrait"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Double Self-Portrait",
+     "Self-Portrait",
+     "Untitled (Two Women)",
+     "Two Women and a Man"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Double Self-Portrait": [
+      "double",
+      "self",
+      "portrait"
+     ],
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Untitled (Two Women)": [
+      "untitled",
+      "women"
+     ],
+     "Two Women and a Man": [
+      "women",
+      "man"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-040",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still life with apples",
+     "Still Life with Bottle and Apples",
+     "Still life with bottle and apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Apples": [],
+     "Still life with apples": [],
+     "Still Life with Bottle and Apples": [],
+     "Still life with bottle and apples": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Apples and Bottle",
+     "Still life with bottle and apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Apples": [],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Apples and Bottle": [],
+     "Still life with bottle and apples": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Apples and Bottle",
+     "Still life with apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Apples": [],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Apples and Bottle": [],
+     "Still life with apples": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Apples and Bottle",
+     "Still Life with Bottle, Jug and Apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Apples": [],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Apples and Bottle": [],
+     "Still Life with Bottle, Jug and Apples": []
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-046",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Still Life",
+     "Still Life with Vase and Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Jug and Apples",
+     "Still life"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Vase and Apples": [
+      "vase"
+     ],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Jug and Apples": [],
+     "Still life": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Still Life",
+     "Still Life with Jug and Apples",
+     "Still Life with Vase and Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Jug and Apples": [],
+     "Still Life with Vase and Apples": [
+      "vase"
+     ],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Apples": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Vase and Apples",
+     "Still Life with Jug and Apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Apples": [],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Vase and Apples": [
+      "vase"
+     ],
+     "Still Life with Jug and Apples": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Still Life",
+     "Still Life with Bottle and Apples",
+     "Still Life with Apples",
+     "Still Life with Vase and Apples",
+     "Still Life with Jug and Apples"
+    ],
+    "unsupported": {
+     "Still Life": [],
+     "Still Life with Bottle and Apples": [],
+     "Still Life with Apples": [],
+     "Still Life with Vase and Apples": [
+      "vase"
+     ],
+     "Still Life with Jug and Apples": []
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-071",
+   "artist": "Vakho Bugadze",
+   "real": "Untitled",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "unknown title",
+     "Untitled",
+     "Reflections in the water",
+     "Composition",
+     "Reflections of the city"
+    ],
+    "unsupported": {
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Reflections in the water": [
+      "reflections",
+      "water"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Reflections of the city": [
+      "reflections",
+      "city"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Untitled (Reflections)",
+     "Untitled (Abstract)",
+     "unknown title",
+     "Untitled (Composition)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Reflections)": [
+      "untitled",
+      "reflections"
+     ],
+     "Untitled (Abstract)": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Untitled",
+     "Abstraction.",
+     "Abstraction. Landscape",
+     "Abstraction-Reflection"
+    ],
+    "unsupported": {
+     "Abstraction": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction.": [],
+     "Abstraction. Landscape": [
+      "landscape"
+     ],
+     "Abstraction-Reflection": [
+      "reflection"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "Abstraktní kompozice",
+     "Abstraktní Kompozice",
+     "Abstraktní kresba"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [],
+     "Abstraktní kompozice": [
+      "abstraktn",
+      "kompozice"
+     ],
+     "Abstraktní Kompozice": [
+      "abstraktn",
+      "kompozice"
+     ],
+     "Abstraktní kresba": [
+      "abstraktn",
+      "kresba"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-084",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Two girls with a glass of wine",
+     "Two women at the table",
+     "Two Women at the Table",
+     "Two women playing cards",
+     "Two Women at a Table"
+    ],
+    "unsupported": {
+     "Two girls with a glass of wine": [
+      "glass",
+      "wine"
+     ],
+     "Two women at the table": [],
+     "Two Women at the Table": [],
+     "Two women playing cards": [
+      "playing",
+      "cards"
+     ],
+     "Two Women at a Table": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Two Women at a Table",
+     "Two women playing cards",
+     "Two Women at the Table",
+     "Two Ladies at a Table",
+     "Two Girls at a Table"
+    ],
+    "unsupported": {
+     "Two Women at a Table": [],
+     "Two women playing cards": [
+      "playing",
+      "cards"
+     ],
+     "Two Women at the Table": [],
+     "Two Ladies at a Table": [],
+     "Two Girls at a Table": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Still Life with Two Women",
+     "Two Women at the Table",
+     "Two Women at a Table",
+     "Two Girls at the Table"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Still Life with Two Women": [
+      "still",
+      "life"
+     ],
+     "Two Women at the Table": [],
+     "Two Women at a Table": [],
+     "Two Girls at the Table": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Two Women at a Table",
+     "Two Women at the Table",
+     "Two Ladies at a Table",
+     "Two Women Playing Cards",
+     "The Game of Chess"
+    ],
+    "unsupported": {
+     "Two Women at a Table": [],
+     "Two Women at the Table": [],
+     "Two Ladies at a Table": [],
+     "Two Women Playing Cards": [
+      "playing",
+      "cards"
+     ],
+     "The Game of Chess": [
+      "game",
+      "chess"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-017",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "unknown title",
+     "Composition",
+     "Untitled",
+     "Still Life with Apples",
+     "Still life with apples"
+    ],
+    "unsupported": {
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Still Life with Apples": [
+      "still",
+      "life",
+      "apples"
+     ],
+     "Still life with apples": [
+      "still",
+      "life",
+      "apples"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "unknown title",
+     "Composition",
+     "Still Life with Apples",
+     "Untitled (Red)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Still Life with Apples": [
+      "still",
+      "life",
+      "apples"
+     ],
+     "Untitled (Red)": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Untitled",
+     "Abstraction.",
+     "unknown title",
+     "Abstraction I"
+    ],
+    "unsupported": {
+     "Abstraction": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction.": [],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Abstraction I": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Abstraction",
+     "Untitled",
+     "Abstraktní Kompozice",
+     "Still Life with Apples",
+     "Still Life with Red Apples"
+    ],
+    "unsupported": {
+     "Abstraction": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraktní Kompozice": [
+      "abstraktn",
+      "kompozice"
+     ],
+     "Still Life with Apples": [
+      "still",
+      "life",
+      "apples"
+     ],
+     "Still Life with Red Apples": [
+      "still",
+      "life",
+      "apples"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-019",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "unknown title",
+     "Composition",
+     "Untitled",
+     "Figures on a yellow background",
+     "Untitled (Composition)"
+    ],
+    "unsupported": {
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Figures on a yellow background": [
+      "figures",
+      "background"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "unknown title",
+     "Composition",
+     "Figures in a Landscape",
+     "Figures in a landscape"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Figures in a Landscape": [
+      "figures",
+      "landscape"
+     ],
+     "Figures in a landscape": [
+      "figures",
+      "landscape"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Untitled",
+     "Abstraktsi",
+     "Abstraction-Composition",
+     "Abstraction."
+    ],
+    "unsupported": {
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraktsi": [
+      "abstraktsi"
+     ],
+     "Abstraction-Composition": [
+      "abstraction",
+      "composition"
+     ],
+     "Abstraction.": [
+      "abstraction"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Abstraction",
+     "Untitled",
+     "unknown title",
+     "abstraction",
+     "Landscape"
+    ],
+    "unsupported": {
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "abstraction": [
+      "abstraction"
+     ],
+     "Landscape": [
+      "landscape"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-041",
+   "artist": "Irma Kukhianidze",
+   "real": "Girl With Dandelions",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Girl with dandelions",
+     "Girl with Dandelions",
+     "Girl with a bouquet of dandelions",
+     "Girl with dandelion",
+     "A girl with dandelions"
+    ],
+    "unsupported": {
+     "Girl with dandelions": [],
+     "Girl with Dandelions": [],
+     "Girl with a bouquet of dandelions": [],
+     "Girl with dandelion": [],
+     "A girl with dandelions": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Girl with Dandelions",
+     "Girl with dandelions",
+     "Girl With Dandelions",
+     "Girl with Daisies",
+     "Girl with Dandelion"
+    ],
+    "unsupported": {
+     "Girl with Dandelions": [],
+     "Girl with dandelions": [],
+     "Girl With Dandelions": [],
+     "Girl with Daisies": [],
+     "Girl with Dandelion": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Girl with Dandelions",
+     "Girl with dandelions",
+     "Girl With Dandelions",
+     "Girl with Dandelion",
+     "Dandelions"
+    ],
+    "unsupported": {
+     "Girl with Dandelions": [],
+     "Girl with dandelions": [],
+     "Girl With Dandelions": [],
+     "Girl with Dandelion": [],
+     "Dandelions": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Girl with Dandelions",
+     "Girl With Dandelions",
+     "Girl with dandelions",
+     "Girl with Daisies",
+     "Girl with Dandelion"
+    ],
+    "unsupported": {
+     "Girl with Dandelions": [],
+     "Girl With Dandelions": [],
+     "Girl with dandelions": [],
+     "Girl with Daisies": [],
+     "Girl with Dandelion": []
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-043",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "unknown title",
+     "Untitled",
+     "Flowers on a blue background",
+     "Bouquet of Flowers",
+     "Bouquet of flowers"
+    ],
+    "unsupported": {
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Flowers on a blue background": [
+      "flowers",
+      "background"
+     ],
+     "Bouquet of Flowers": [
+      "bouquet",
+      "flowers"
+     ],
+     "Bouquet of flowers": [
+      "bouquet",
+      "flowers"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Bouquet of Flowers on a Blue Background",
+     "Bouquet of Flowers",
+     "Bouquet of White Flowers on a Blue Background",
+     "Bouquet of White Flowers on a Blue Ground"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Bouquet of Flowers on a Blue Background": [
+      "bouquet",
+      "flowers",
+      "background"
+     ],
+     "Bouquet of Flowers": [
+      "bouquet",
+      "flowers"
+     ],
+     "Bouquet of White Flowers on a Blue Background": [
+      "bouquet",
+      "flowers",
+      "background"
+     ],
+     "Bouquet of White Flowers on a Blue Ground": [
+      "bouquet",
+      "flowers"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "Bouquet of Flowers",
+     "Bouquet",
+     "Bouquet (detail)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Bouquet of Flowers": [
+      "bouquet",
+      "flowers"
+     ],
+     "Bouquet": [
+      "bouquet"
+     ],
+     "Bouquet (detail)": [
+      "bouquet",
+      "detail"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Bouquet of Chrysanthemums",
+     "Abstraction",
+     "Bouquet of Flowers on a Blue Background",
+     "Bouquet of White Flowers on a Blue Background"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Bouquet of Chrysanthemums": [
+      "bouquet",
+      "chrysanthemums"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Bouquet of Flowers on a Blue Background": [
+      "bouquet",
+      "flowers",
+      "background"
+     ],
+     "Bouquet of White Flowers on a Blue Background": [
+      "bouquet",
+      "flowers",
+      "background"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-045",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Untitled",
+     "unknown title",
+     "Composition",
+     "Untitled (Composition)",
+     "Untitled (Blue, Green, Pink)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ],
+     "Untitled (Blue, Green, Pink)": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Untitled (Blue, Green, Pink)",
+     "Untitled (Blue, Green and Pink)",
+     "Untitled (Blue and Green)",
+     "Untitled (Blue, Pink, Green)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Blue, Green, Pink)": [
+      "untitled"
+     ],
+     "Untitled (Blue, Green and Pink)": [
+      "untitled"
+     ],
+     "Untitled (Blue and Green)": [
+      "untitled"
+     ],
+     "Untitled (Blue, Pink, Green)": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "unknown title",
+     "Abstract Composition",
+     "Unknown Title"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Abstract Composition": [
+      "abstract",
+      "composition"
+     ],
+     "Unknown Title": [
+      "unknown",
+      "title"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "Untitled (Blue, Green, Pink)",
+     "Untitled (Blue, Green and Pink)",
+     "Blue, Green and Pink"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Untitled (Blue, Green, Pink)": [
+      "untitled"
+     ],
+     "Untitled (Blue, Green and Pink)": [
+      "untitled"
+     ],
+     "Blue, Green and Pink": []
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-051",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Portrait of a girl in a red dress",
+     "Portrait of a lady in a red dress",
+     "Portrait of a woman in a red dress",
+     "Girl in a red dress",
+     "Portrait of a lady in red dress"
+    ],
+    "unsupported": {
+     "Portrait of a girl in a red dress": [
+      "portrait",
+      "girl"
+     ],
+     "Portrait of a lady in a red dress": [
+      "portrait",
+      "lady"
+     ],
+     "Portrait of a woman in a red dress": [
+      "portrait",
+      "woman"
+     ],
+     "Girl in a red dress": [
+      "girl"
+     ],
+     "Portrait of a lady in red dress": [
+      "portrait",
+      "lady"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Lady in Red",
+     "Portrait of a lady",
+     "Portrait of a Lady",
+     "Duchess",
+     "Portrait of a Lady in Red"
+    ],
+    "unsupported": {
+     "Lady in Red": [
+      "lady"
+     ],
+     "Portrait of a lady": [
+      "portrait",
+      "lady"
+     ],
+     "Portrait of a Lady": [
+      "portrait",
+      "lady"
+     ],
+     "Duchess": [
+      "duchess"
+     ],
+     "Portrait of a Lady in Red": [
+      "portrait",
+      "lady"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Portrait of a Lady",
+     "Portrait of a lady",
+     "Self-Portrait",
+     "Untitled",
+     "Red Dress"
+    ],
+    "unsupported": {
+     "Portrait of a Lady": [
+      "portrait",
+      "lady"
+     ],
+     "Portrait of a lady": [
+      "portrait",
+      "lady"
+     ],
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Red Dress": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Portrait of a Lady",
+     "Duchess",
+     "Portrait of a lady",
+     "Lady in Red",
+     "The Red Dress"
+    ],
+    "unsupported": {
+     "Portrait of a Lady": [
+      "portrait",
+      "lady"
+     ],
+     "Duchess": [
+      "duchess"
+     ],
+     "Portrait of a lady": [
+      "portrait",
+      "lady"
+     ],
+     "Lady in Red": [
+      "lady"
+     ],
+     "The Red Dress": []
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-059",
+   "artist": "Gogi Chagelishvili",
+   "real": "Rachuli Rhapsody",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "In the Village",
+     "Village Scene",
+     "In the village",
+     "Children in the village",
+     "Children in the Village"
+    ],
+    "unsupported": {
+     "In the Village": [
+      "village"
+     ],
+     "Village Scene": [
+      "village"
+     ],
+     "In the village": [
+      "village"
+     ],
+     "Children in the village": [
+      "children",
+      "village"
+     ],
+     "Children in the Village": [
+      "children",
+      "village"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Village Scene",
+     "In the Village",
+     "In the village",
+     "Children with a cow",
+     "Peasant Family"
+    ],
+    "unsupported": {
+     "Village Scene": [
+      "village"
+     ],
+     "In the Village": [
+      "village"
+     ],
+     "In the village": [
+      "village"
+     ],
+     "Children with a cow": [
+      "children"
+     ],
+     "Peasant Family": [
+      "peasant",
+      "family"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Village Scene",
+     "In the Village",
+     "Peasants",
+     "Peasant Family",
+     "Landscape with Figures"
+    ],
+    "unsupported": {
+     "Village Scene": [
+      "village"
+     ],
+     "In the Village": [
+      "village"
+     ],
+     "Peasants": [
+      "peasants"
+     ],
+     "Peasant Family": [
+      "peasant",
+      "family"
+     ],
+     "Landscape with Figures": [
+      "landscape",
+      "figures"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Village Scene",
+     "Peasant Family",
+     "In the Village",
+     "Peasants",
+     "Peasant Scene"
+    ],
+    "unsupported": {
+     "Village Scene": [
+      "village"
+     ],
+     "Peasant Family": [
+      "peasant",
+      "family"
+     ],
+     "In the Village": [
+      "village"
+     ],
+     "Peasants": [
+      "peasants"
+     ],
+     "Peasant Scene": [
+      "peasant"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-061",
+   "artist": "Elene Akhvlediani",
+   "real": "Old and New Tbilisi",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Construction in the city",
+     "Construction Site",
+     "Construction site",
+     "View of the city",
+     "Landscape with cranes"
+    ],
+    "unsupported": {
+     "Construction in the city": [],
+     "Construction Site": [
+      "site"
+     ],
+     "Construction site": [
+      "site"
+     ],
+     "View of the city": [
+      "view"
+     ],
+     "Landscape with cranes": [
+      "landscape"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Construction Site",
+     "Construction in the city",
+     "Construction",
+     "Construction in the City",
+     "City with cranes"
+    ],
+    "unsupported": {
+     "Construction Site": [
+      "site"
+     ],
+     "Construction in the city": [],
+     "Construction": [],
+     "Construction in the City": [],
+     "City with cranes": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "View of Tbilisi",
+     "Untitled",
+     "Landscape with cranes",
+     "View of the City",
+     "View of the city"
+    ],
+    "unsupported": {
+     "View of Tbilisi": [
+      "view",
+      "tbilisi"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape with cranes": [
+      "landscape"
+     ],
+     "View of the City": [
+      "view"
+     ],
+     "View of the city": [
+      "view"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "The City",
+     "Construction",
+     "Construction Site",
+     "Industrial Landscape"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "The City": [],
+     "Construction": [],
+     "Construction Site": [
+      "site"
+     ],
+     "Industrial Landscape": [
+      "industrial",
+      "landscape"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F3-024",
+   "artist": "Marc Shagal",
+   "real": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Untitled",
+     "unknown title",
+     "The Sun and the Moon",
+     "The Sun, Moon, Stars and Birds",
+     "The Sun, Moon and Stars"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "The Sun and the Moon": [],
+     "The Sun, Moon, Stars and Birds": [],
+     "The Sun, Moon and Stars": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Untitled (Astronomy)",
+     "Untitled (Zodiac)",
+     "Untitled (Planets)",
+     "Untitled (The Four Elements)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Astronomy)": [
+      "untitled",
+      "astronomy"
+     ],
+     "Untitled (Zodiac)": [
+      "untitled",
+      "zodiac"
+     ],
+     "Untitled (Planets)": [
+      "untitled"
+     ],
+     "Untitled (The Four Elements)": [
+      "untitled",
+      "four",
+      "elements"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Astronomy",
+     "Illustration for \"The Book of Genesis",
+     "Illustration for \"The Book of Days",
+     "Illustration to the Book of Genesis"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Astronomy": [
+      "astronomy"
+     ],
+     "Illustration for \"The Book of Genesis": [
+      "illustration",
+      "book",
+      "genesis"
+     ],
+     "Illustration for \"The Book of Days": [
+      "illustration",
+      "book",
+      "days"
+     ],
+     "Illustration to the Book of Genesis": [
+      "illustration",
+      "book",
+      "genesis"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Illustration for \"The Little Prince",
+     "Illustration for \"The Book of the Dead",
+     "Illustration for \"The Book of Days",
+     "Illustration for \"The Book of the Moon"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Illustration for \"The Little Prince": [
+      "illustration",
+      "prince"
+     ],
+     "Illustration for \"The Book of the Dead": [
+      "illustration",
+      "book",
+      "dead"
+     ],
+     "Illustration for \"The Book of Days": [
+      "illustration",
+      "book",
+      "days"
+     ],
+     "Illustration for \"The Book of the Moon": [
+      "illustration",
+      "book"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F3-041",
+   "artist": "Gia Edzgveradze",
+   "real": "The Heavy Burden of Waiting for Picnic",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Green tables",
+     "Green Tables",
+     "Two tables",
+     "Green benches",
+     "Green Chairs"
+    ],
+    "unsupported": {
+     "Green tables": [],
+     "Green Tables": [],
+     "Two tables": [],
+     "Green benches": [
+      "benches"
+     ],
+     "Green Chairs": [
+      "chairs"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Green Tables",
+     "Green Benches",
+     "Two Green Chairs",
+     "Green Chairs",
+     "Green tables"
+    ],
+    "unsupported": {
+     "Green Tables": [],
+     "Green Benches": [
+      "benches"
+     ],
+     "Two Green Chairs": [
+      "chairs"
+     ],
+     "Green Chairs": [
+      "chairs"
+     ],
+     "Green tables": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Untitled",
+     "Green Tables",
+     "Green Chairs",
+     "Green tables"
+    ],
+    "unsupported": {
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Green Tables": [],
+     "Green Chairs": [
+      "chairs"
+     ],
+     "Green tables": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Green Tables",
+     "Green Benches",
+     "Green Chairs",
+     "Two Green Chairs"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Green Tables": [],
+     "Green Benches": [
+      "benches"
+     ],
+     "Green Chairs": [
+      "chairs"
+     ],
+     "Two Green Chairs": [
+      "chairs"
+     ]
+    }
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F3-077",
+   "artist": "Giorgi Mirzashvili",
+   "real": "White House",
+   "wikiart_only|artist_known": {
+    "titles": [
+     "House",
+     "White house",
+     "House with trees",
+     "White House",
+     "House in the forest"
+    ],
+    "unsupported": {
+     "House": [],
+     "White house": [],
+     "House with trees": [],
+     "White House": [],
+     "House in the forest": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "White House",
+     "Landscape with house",
+     "House in the Woods",
+     "House",
+     "Landscape with House"
+    ],
+    "unsupported": {
+     "White House": [],
+     "Landscape with house": [],
+     "House in the Woods": [],
+     "House": [],
+     "Landscape with House": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abandoned House",
+     "Untitled",
+     "Landscape with a House",
+     "Landscape with a house",
+     "Abandoned house"
+    ],
+    "unsupported": {
+     "Abandoned House": [
+      "abandoned"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape with a House": [],
+     "Landscape with a house": [],
+     "Abandoned house": [
+      "abandoned"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Abandoned House",
+     "Landscape with House",
+     "White House",
+     "The House"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abandoned House": [
+      "abandoned"
+     ],
+     "Landscape with House": [],
+     "White House": [],
+     "The House": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 86733,
+   "artist": "Piet Mondrian",
+   "real": "On the Lappenbrink",
+   "grounded_writer": [
+    "Cloudy Day Light",
+    "Red Bricks and Roofs",
+    "Red Roofed Houses"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Woman in a Street",
+     "Old Woman in a Street",
+     "Woman in the Street",
+     "Woman in a Village",
+     "Woman on a Street"
+    ],
+    "unsupported": {
+     "Woman in a Street": [],
+     "Old Woman in a Street": [
+      "old"
+     ],
+     "Woman in the Street": [],
+     "Woman in a Village": [],
+     "Woman on a Street": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Old Woman in the Street",
+     "Old Woman in a Street",
+     "Woman on the Street",
+     "Woman in the Street",
+     "Old Woman in a Village"
+    ],
+    "unsupported": {
+     "Old Woman in the Street": [
+      "old"
+     ],
+     "Old Woman in a Street": [
+      "old"
+     ],
+     "Woman on the Street": [],
+     "Woman in the Street": [],
+     "Old Woman in a Village": [
+      "old"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Woman in a Street",
+     "Woman in the Street",
+     "Woman on a Street",
+     "Woman in a Village",
+     "Woman on the Street"
+    ],
+    "unsupported": {
+     "Woman in a Street": [],
+     "Woman in the Street": [],
+     "Woman on a Street": [],
+     "Woman in a Village": [],
+     "Woman on the Street": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "The Old Woman",
+     "Woman on the Street",
+     "Woman in the Street",
+     "Woman in a Street",
+     "Woman on a Street"
+    ],
+    "unsupported": {
+     "The Old Woman": [
+      "old"
+     ],
+     "Woman on the Street": [],
+     "Woman in the Street": [],
+     "Woman in a Street": [],
+     "Woman on a Street": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 20768,
+   "artist": "Piet Mondrian",
+   "real": "Church tower at Domburg",
+   "grounded_writer": [
+    "Red Brick Church at Night",
+    "Church Windows at Sunset",
+    "Church of Midnight"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "The Red Church",
+     "Abandoned Church",
+     "Church with Blue Sky",
+     "Church in Red and Blue",
+     "Red Church"
+    ],
+    "unsupported": {
+     "The Red Church": [],
+     "Abandoned Church": [
+      "abandoned"
+     ],
+     "Church with Blue Sky": [
+      "sky"
+     ],
+     "Church in Red and Blue": [],
+     "Red Church": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Red Church",
+     "Church of the Holy Sepulchre",
+     "Abandoned Church",
+     "The Church",
+     "The Red Church"
+    ],
+    "unsupported": {
+     "Red Church": [],
+     "Church of the Holy Sepulchre": [
+      "holy",
+      "sepulchre"
+     ],
+     "Abandoned Church": [
+      "abandoned"
+     ],
+     "The Church": [],
+     "The Red Church": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abandoned Church",
+     "The Red Church",
+     "Abbeville",
+     "Abbeville Church",
+     "The Church"
+    ],
+    "unsupported": {
+     "Abandoned Church": [
+      "abandoned"
+     ],
+     "The Red Church": [],
+     "Abbeville": [
+      "abbeville"
+     ],
+     "Abbeville Church": [
+      "abbeville"
+     ],
+     "The Church": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Abandoned Church",
+     "Abbeville",
+     "The Church",
+     "Red Church",
+     "The Red Church"
+    ],
+    "unsupported": {
+     "Abandoned Church": [
+      "abandoned"
+     ],
+     "Abbeville": [
+      "abbeville"
+     ],
+     "The Church": [],
+     "Red Church": [],
+     "The Red Church": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 96105,
+   "artist": "Piet Mondrian",
+   "real": "Nature died with Sunflower",
+   "grounded_writer": [
+    "Still Life with Sunflowers",
+    "Still Life with Two Sunflowers",
+    "Sunflowers in Green Vase"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Still Life with Sunflowers",
+     "Still Life with Vase of Sunflowers",
+     "Vase with Sunflowers",
+     "Still life with sunflowers",
+     "Vase of Sunflowers"
+    ],
+    "unsupported": {
+     "Still Life with Sunflowers": [],
+     "Still Life with Vase of Sunflowers": [],
+     "Vase with Sunflowers": [],
+     "Still life with sunflowers": [],
+     "Vase of Sunflowers": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Still Life with Sunflowers",
+     "Still life with sunflowers",
+     "Vase of Sunflowers",
+     "Vase with Sunflowers",
+     "Still Life with Vase of Sunflowers"
+    ],
+    "unsupported": {
+     "Still Life with Sunflowers": [],
+     "Still life with sunflowers": [],
+     "Vase of Sunflowers": [],
+     "Vase with Sunflowers": [],
+     "Still Life with Vase of Sunflowers": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Still Life with Sunflowers",
+     "Still Life with Vase of Sunflowers",
+     "Still Life with a Vase of Sunflowers",
+     "Still life with sunflowers",
+     "Vase with Sunflowers"
+    ],
+    "unsupported": {
+     "Still Life with Sunflowers": [],
+     "Still Life with Vase of Sunflowers": [],
+     "Still Life with a Vase of Sunflowers": [],
+     "Still life with sunflowers": [],
+     "Vase with Sunflowers": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Still Life with Sunflowers",
+     "Still Life with Vase of Sunflowers",
+     "Still Life with a Vase of Sunflowers",
+     "Vase of Sunflowers",
+     "Still Life"
+    ],
+    "unsupported": {
+     "Still Life with Sunflowers": [],
+     "Still Life with Vase of Sunflowers": [],
+     "Still Life with a Vase of Sunflowers": [],
+     "Vase of Sunflowers": [],
+     "Still Life": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 14937,
+   "artist": "Wassily Kandinsky",
+   "real": "Grungasse in Murnau",
+   "grounded_writer": [
+    "Ochre houses",
+    "White gate",
+    "Dog run"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Village Street",
+     "Houses in the Garden",
+     "Houses in the Village",
+     "Houses in a Village",
+     "Houses in the Sun"
+    ],
+    "unsupported": {
+     "Village Street": [],
+     "Houses in the Garden": [
+      "garden"
+     ],
+     "Houses in the Village": [],
+     "Houses in a Village": [],
+     "Houses in the Sun": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Village Street",
+     "Houses in the Village",
+     "Houses in a Village",
+     "Houses in the Garden",
+     "Village street"
+    ],
+    "unsupported": {
+     "Village Street": [],
+     "Houses in the Village": [],
+     "Houses in a Village": [],
+     "Houses in the Garden": [
+      "garden"
+     ],
+     "Village street": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Village Street",
+     "Houses in the Village",
+     "Houses in the Garden",
+     "Houses in a Village",
+     "Houses in the Sun"
+    ],
+    "unsupported": {
+     "Village Street": [],
+     "Houses in the Village": [],
+     "Houses in the Garden": [
+      "garden"
+     ],
+     "Houses in a Village": [],
+     "Houses in the Sun": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Village Street",
+     "Houses in the Village",
+     "Houses in a Village",
+     "Houses in the Garden",
+     "Houses"
+    ],
+    "unsupported": {
+     "Village Street": [],
+     "Houses in the Village": [],
+     "Houses in a Village": [],
+     "Houses in the Garden": [
+      "garden"
+     ],
+     "Houses": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 88491,
+   "artist": "Wassily Kandinsky",
+   "real": "Blue mountain",
+   "grounded_writer": [
+    "Purple Red Trees",
+    "Vivid Trees",
+    "Tall Dark Trees"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Landscape with Figures",
+     "Landscape with figures",
+     "Mountain Landscape with Figures",
+     "Landscape with trees and figures",
+     "Mountain landscape with figures"
+    ],
+    "unsupported": {
+     "Landscape with Figures": [],
+     "Landscape with figures": [],
+     "Mountain Landscape with Figures": [
+      "mountain"
+     ],
+     "Landscape with trees and figures": [],
+     "Mountain landscape with figures": [
+      "mountain"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Landscape with Figures",
+     "unknown title",
+     "Landscape with figures",
+     "Untitled",
+     "Mountain Landscape with Figures"
+    ],
+    "unsupported": {
+     "Landscape with Figures": [],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Landscape with figures": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Mountain Landscape with Figures": [
+      "mountain"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Landscape with Figures",
+     "Abstraction",
+     "Untitled",
+     "Landscape with figures",
+     "Landscape"
+    ],
+    "unsupported": {
+     "Landscape with Figures": [],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape with figures": [],
+     "Landscape": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Landscape with Figures",
+     "Landscape",
+     "Aboriginal Landscape",
+     "Landscape with figures"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape with Figures": [],
+     "Landscape": [],
+     "Aboriginal Landscape": [
+      "aboriginal"
+     ],
+     "Landscape with figures": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 49543,
+   "artist": "Wassily Kandinsky",
+   "real": "Volga song",
+   "grounded_writer": [
+    "Rower in the shadows"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Fishing Boats",
+     "Fishing boats",
+     "Fishing Village",
+     "Fishermen",
+     "Boats in harbour"
+    ],
+    "unsupported": {
+     "Fishing Boats": [
+      "fishing"
+     ],
+     "Fishing boats": [
+      "fishing"
+     ],
+     "Fishing Village": [
+      "fishing",
+      "village"
+     ],
+     "Fishermen": [
+      "fishermen"
+     ],
+     "Boats in harbour": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Fishing Boats",
+     "Fishing Village",
+     "Fishing boats",
+     "Fishing Harbour",
+     "Fishermen"
+    ],
+    "unsupported": {
+     "Fishing Boats": [
+      "fishing"
+     ],
+     "Fishing Village": [
+      "fishing",
+      "village"
+     ],
+     "Fishing boats": [
+      "fishing"
+     ],
+     "Fishing Harbour": [
+      "fishing"
+     ],
+     "Fishermen": [
+      "fishermen"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Fishing Boats",
+     "Fishing Village",
+     "Fishermen",
+     "Fishing boats",
+     "Fishing Harbour"
+    ],
+    "unsupported": {
+     "Fishing Boats": [
+      "fishing"
+     ],
+     "Fishing Village": [
+      "fishing",
+      "village"
+     ],
+     "Fishermen": [
+      "fishermen"
+     ],
+     "Fishing boats": [
+      "fishing"
+     ],
+     "Fishing Harbour": [
+      "fishing"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Fishing Boats",
+     "Fishing Village",
+     "Fishing Harbour",
+     "Fishermen",
+     "The Harbour"
+    ],
+    "unsupported": {
+     "Fishing Boats": [
+      "fishing"
+     ],
+     "Fishing Village": [
+      "fishing",
+      "village"
+     ],
+     "Fishing Harbour": [
+      "fishing"
+     ],
+     "Fishermen": [
+      "fishermen"
+     ],
+     "The Harbour": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 102227,
+   "artist": "Paul Klee",
+   "real": "The vase",
+   "grounded_writer": [
+    "Red Leaves, Green Shapes",
+    "Shapes and Dot",
+    "Blue Orange Line"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Untitled",
+     "unknown title",
+     "Untitled (Composition)",
+     "Composition",
+     "Composition with the number 7"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Composition with the number 7": [
+      "composition"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Composition",
+     "unknown title",
+     "Untitled (Composition)",
+     "Untitled (Blue and Orange)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ],
+     "Untitled (Blue and Orange)": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "The Number 7",
+     "The Number Seven",
+     "The Four Elements"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "The Number 7": [],
+     "The Number Seven": [
+      "seven"
+     ],
+     "The Four Elements": [
+      "four",
+      "elements"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "Composition",
+     "Drawing for a Tapestry",
+     "Abstract Composition"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Drawing for a Tapestry": [
+      "tapestry"
+     ],
+     "Abstract Composition": [
+      "composition"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 69322,
+   "artist": "Paul Klee",
+   "real": "Fish Image",
+   "grounded_writer": [
+    "Red and Pink Dots Dream",
+    "The flying lines",
+    "The dancing dots"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Untitled",
+     "Untitled (Composition)",
+     "Untitled (Fish)",
+     "Untitled (Blue)",
+     "unknown title"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ],
+     "Untitled (Fish)": [
+      "untitled"
+     ],
+     "Untitled (Blue)": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Untitled (Blue)",
+     "unknown title",
+     "Untitled (Composition)",
+     "Composition in Blue"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Blue)": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Untitled (Composition)": [
+      "untitled",
+      "composition"
+     ],
+     "Composition in Blue": [
+      "composition"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Untitled",
+     "Untitled (Blue)",
+     "Abstraction",
+     "Abstraction in Blue",
+     "Flowers and Fish"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Untitled (Blue)": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Abstraction in Blue": [
+      "abstraction"
+     ],
+     "Flowers and Fish": [
+      "flowers"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Abstraction",
+     "Untitled (Blue)",
+     "Abstraction in Blue",
+     "Abstraction (Blue)"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Untitled (Blue)": [
+      "untitled"
+     ],
+     "Abstraction in Blue": [
+      "abstraction"
+     ],
+     "Abstraction (Blue)": [
+      "abstraction"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 35466,
+   "artist": "Paul Klee",
+   "real": "Pierrot Lunaire",
+   "grounded_writer": [
+    "Face in Darkness",
+    "Face in Shadows",
+    "Puzzled Face Shape"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Self-Portrait",
+     "Self-portrait",
+     "Self-portrait in front of the mirror",
+     "Self-portrait in front of a mirror",
+     "Self-Portrait in the Light of the Moon"
+    ],
+    "unsupported": {
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Self-portrait": [
+      "self",
+      "portrait"
+     ],
+     "Self-portrait in front of the mirror": [
+      "self",
+      "portrait",
+      "front",
+      "mirror"
+     ],
+     "Self-portrait in front of a mirror": [
+      "self",
+      "portrait",
+      "front",
+      "mirror"
+     ],
+     "Self-Portrait in the Light of the Moon": [
+      "self",
+      "portrait",
+      "moon"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Self-Portrait",
+     "Self-portrait",
+     "Untitled",
+     "Head of a Woman",
+     "Untitled (Face)"
+    ],
+    "unsupported": {
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Self-portrait": [
+      "self",
+      "portrait"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Head of a Woman": [
+      "woman"
+     ],
+     "Untitled (Face)": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Self-Portrait",
+     "Self-portrait",
+     "Self-Portrait in the Light of the Moon",
+     "Self-portrait in the Light of the Moon",
+     "Self-Portrait in the Light of the Sun"
+    ],
+    "unsupported": {
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Self-portrait": [
+      "self",
+      "portrait"
+     ],
+     "Self-Portrait in the Light of the Moon": [
+      "self",
+      "portrait",
+      "moon"
+     ],
+     "Self-portrait in the Light of the Moon": [
+      "self",
+      "portrait",
+      "moon"
+     ],
+     "Self-Portrait in the Light of the Sun": [
+      "self",
+      "portrait",
+      "sun"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Self-Portrait",
+     "Self-portrait",
+     "Untitled",
+     "Abstraction",
+     "Self Portrait"
+    ],
+    "unsupported": {
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "Self-portrait": [
+      "self",
+      "portrait"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Self Portrait": [
+      "self",
+      "portrait"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 49977,
+   "artist": "Claude Monet",
+   "real": "Woman Sitting under the Willows",
+   "grounded_writer": [
+    "Willow Trees and Flowers",
+    "Yellow Flowers and Grass",
+    "Village in Distance"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Woman Seated in a Garden",
+     "Woman Seated in a Landscape",
+     "Woman Reading in a Garden",
+     "Woman Seated in an Orchard",
+     "Woman in a Garden"
+    ],
+    "unsupported": {
+     "Woman Seated in a Garden": [],
+     "Woman Seated in a Landscape": [],
+     "Woman Reading in a Garden": [
+      "reading"
+     ],
+     "Woman Seated in an Orchard": [
+      "orchard"
+     ],
+     "Woman in a Garden": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Spring in the Park",
+     "Spring",
+     "Picnic in the Park",
+     "Landscape with a Girl",
+     "Spring Landscape"
+    ],
+    "unsupported": {
+     "Spring in the Park": [
+      "park"
+     ],
+     "Spring": [],
+     "Picnic in the Park": [
+      "park"
+     ],
+     "Landscape with a Girl": [
+      "girl"
+     ],
+     "Spring Landscape": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Woman Seated in a Garden",
+     "Spring",
+     "Woman Seated in a Landscape",
+     "Woman Seated in an Orchard",
+     "Woman Reading in a Garden"
+    ],
+    "unsupported": {
+     "Woman Seated in a Garden": [],
+     "Spring": [],
+     "Woman Seated in a Landscape": [],
+     "Woman Seated in an Orchard": [
+      "orchard"
+     ],
+     "Woman Reading in a Garden": [
+      "reading"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Spring",
+     "The Picnic",
+     "Landscape",
+     "Landscape with a Girl",
+     "Picnic in the Park"
+    ],
+    "unsupported": {
+     "Spring": [],
+     "The Picnic": [],
+     "Landscape": [],
+     "Landscape with a Girl": [
+      "girl"
+     ],
+     "Picnic in the Park": [
+      "park"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 23099,
+   "artist": "Claude Monet",
+   "real": "Portrait of Pere Paul",
+   "grounded_writer": [
+    "Chef's White Hat",
+    "Chef's Hat",
+    "White Apron"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "The Baker",
+     "Portrait of a Baker",
+     "Self-Portrait as a Baker",
+     "Head of a Fisherman",
+     "Portrait of a Fisherman"
+    ],
+    "unsupported": {
+     "The Baker": [
+      "baker"
+     ],
+     "Portrait of a Baker": [
+      "baker"
+     ],
+     "Self-Portrait as a Baker": [
+      "self",
+      "baker"
+     ],
+     "Head of a Fisherman": [
+      "fisherman"
+     ],
+     "Portrait of a Fisherman": [
+      "fisherman"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "The Baker",
+     "Self-Portrait as a Baker",
+     "Portrait of a Baker",
+     "Portrait of a Fisherman",
+     "Portrait of a baker"
+    ],
+    "unsupported": {
+     "The Baker": [
+      "baker"
+     ],
+     "Self-Portrait as a Baker": [
+      "self",
+      "baker"
+     ],
+     "Portrait of a Baker": [
+      "baker"
+     ],
+     "Portrait of a Fisherman": [
+      "fisherman"
+     ],
+     "Portrait of a baker": [
+      "baker"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "The Baker",
+     "Portrait of a Baker",
+     "Self-Portrait as a Baker",
+     "Portrait of a Fisherman",
+     "Head of a Fisherman"
+    ],
+    "unsupported": {
+     "The Baker": [
+      "baker"
+     ],
+     "Portrait of a Baker": [
+      "baker"
+     ],
+     "Self-Portrait as a Baker": [
+      "self",
+      "baker"
+     ],
+     "Portrait of a Fisherman": [
+      "fisherman"
+     ],
+     "Head of a Fisherman": [
+      "fisherman"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "The Baker",
+     "Portrait of a Baker",
+     "Self-Portrait as a Baker",
+     "Self-Portrait",
+     "Portrait of a Fisherman"
+    ],
+    "unsupported": {
+     "The Baker": [
+      "baker"
+     ],
+     "Portrait of a Baker": [
+      "baker"
+     ],
+     "Self-Portrait as a Baker": [
+      "self",
+      "baker"
+     ],
+     "Self-Portrait": [
+      "self"
+     ],
+     "Portrait of a Fisherman": [
+      "fisherman"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 9956,
+   "artist": "Claude Monet",
+   "real": "The Sea, Port in Amsterdam",
+   "grounded_writer": [
+    "Calm Waters at Dusk",
+    "Masts in the Glow"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "The Port of Le Havre",
+     "Ships in the Harbor",
+     "Harbour Scene",
+     "Ships in a Harbor",
+     "Ships in a Harbour"
+    ],
+    "unsupported": {
+     "The Port of Le Havre": [
+      "port",
+      "havre"
+     ],
+     "Ships in the Harbor": [],
+     "Harbour Scene": [],
+     "Ships in a Harbor": [],
+     "Ships in a Harbour": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Ships in the Harbor",
+     "Harbour Scene",
+     "Ships in the harbor",
+     "Ships in the Harbour",
+     "Ships in the harbour"
+    ],
+    "unsupported": {
+     "Ships in the Harbor": [],
+     "Harbour Scene": [],
+     "Ships in the harbor": [],
+     "Ships in the Harbour": [],
+     "Ships in the harbour": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "The Port of Le Havre",
+     "Harbour at Le Havre",
+     "Harbour Scene",
+     "Ships in the Harbor",
+     "Harbour"
+    ],
+    "unsupported": {
+     "The Port of Le Havre": [
+      "port",
+      "havre"
+     ],
+     "Harbour at Le Havre": [
+      "havre"
+     ],
+     "Harbour Scene": [],
+     "Ships in the Harbor": [],
+     "Harbour": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Harbour Scene",
+     "Ships in the Harbor",
+     "Harbour",
+     "Sailing Ships",
+     "Ships in the Harbour"
+    ],
+    "unsupported": {
+     "Harbour Scene": [],
+     "Ships in the Harbor": [],
+     "Harbour": [],
+     "Sailing Ships": [],
+     "Ships in the Harbour": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 15066,
+   "artist": "Henri de Toulouse-Lautrec",
+   "real": "At the Opera Ball",
+   "grounded_writer": [
+    "Lively Café Scene, Three Men",
+    "Woman in Yellow Dress, Balcony",
+    "City Street, Red Brick Wall"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "At the Moulin de la Galette",
+     "At the Moulin Rouge",
+     "At the Circus",
+     "At the Moulin de la Galette (detail)",
+     "The Circus"
+    ],
+    "unsupported": {
+     "At the Moulin de la Galette": [
+      "moulin",
+      "galette"
+     ],
+     "At the Moulin Rouge": [
+      "moulin",
+      "rouge"
+     ],
+     "At the Circus": [
+      "circus"
+     ],
+     "At the Moulin de la Galette (detail)": [
+      "moulin",
+      "galette",
+      "detail"
+     ],
+     "The Circus": [
+      "circus"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "The Dance at the Moulin de la Galette",
+     "At the Moulin de la Galette",
+     "The Dance at the Moulin Rouge",
+     "The Dance at the Moulin-Rouge",
+     "The Dance at the Moulin De la Galette"
+    ],
+    "unsupported": {
+     "The Dance at the Moulin de la Galette": [
+      "dance",
+      "moulin",
+      "galette"
+     ],
+     "At the Moulin de la Galette": [
+      "moulin",
+      "galette"
+     ],
+     "The Dance at the Moulin Rouge": [
+      "dance",
+      "moulin",
+      "rouge"
+     ],
+     "The Dance at the Moulin-Rouge": [
+      "dance",
+      "moulin",
+      "rouge"
+     ],
+     "The Dance at the Moulin De la Galette": [
+      "dance",
+      "moulin",
+      "galette"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "At the Moulin de la Galette",
+     "At the Moulin Rouge",
+     "At the Moulin de la Gaufrette",
+     "The Circus",
+     "At the Circus"
+    ],
+    "unsupported": {
+     "At the Moulin de la Galette": [
+      "moulin",
+      "galette"
+     ],
+     "At the Moulin Rouge": [
+      "moulin",
+      "rouge"
+     ],
+     "At the Moulin de la Gaufrette": [
+      "moulin",
+      "gaufrette"
+     ],
+     "The Circus": [
+      "circus"
+     ],
+     "At the Circus": [
+      "circus"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "At the Moulin de la Galette",
+     "At the Moulin Rouge",
+     "At the Moulin de la Gaufrette",
+     "At the Casino",
+     "At the Moulin De la Galette"
+    ],
+    "unsupported": {
+     "At the Moulin de la Galette": [
+      "moulin",
+      "galette"
+     ],
+     "At the Moulin Rouge": [
+      "moulin",
+      "rouge"
+     ],
+     "At the Moulin de la Gaufrette": [
+      "moulin",
+      "gaufrette"
+     ],
+     "At the Casino": [
+      "casino"
+     ],
+     "At the Moulin De la Galette": [
+      "moulin",
+      "galette"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 44389,
+   "artist": "Henri de Toulouse-Lautrec",
+   "real": "Mademoiselle Marcelle Lender, Standing",
+   "grounded_writer": [
+    "White Dress And Black Bird",
+    "Flying Red Flower, Lady In Dress",
+    "Lady With Flying Hair, Red Flower"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Woman with a Red Ribbon",
+     "Woman with a Fan",
+     "The Red Rose",
+     "Woman with a Red Flower",
+     "Woman with a Red Rose"
+    ],
+    "unsupported": {
+     "Woman with a Red Ribbon": [
+      "ribbon"
+     ],
+     "Woman with a Fan": [
+      "fan"
+     ],
+     "The Red Rose": [
+      "rose"
+     ],
+     "Woman with a Red Flower": [],
+     "Woman with a Red Rose": [
+      "rose"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Woman with a Red Flower",
+     "Woman with a Red Ribbon",
+     "The Red Rose",
+     "Woman with a Red Rose",
+     "Woman with a red flower"
+    ],
+    "unsupported": {
+     "Woman with a Red Flower": [],
+     "Woman with a Red Ribbon": [
+      "ribbon"
+     ],
+     "The Red Rose": [
+      "rose"
+     ],
+     "Woman with a Red Rose": [
+      "rose"
+     ],
+     "Woman with a red flower": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "The Red Rose",
+     "Woman with a Red Ribbon",
+     "Woman with a Fan",
+     "Woman with a Red Flower",
+     "Woman in a White Dress"
+    ],
+    "unsupported": {
+     "The Red Rose": [
+      "rose"
+     ],
+     "Woman with a Red Ribbon": [
+      "ribbon"
+     ],
+     "Woman with a Fan": [
+      "fan"
+     ],
+     "Woman with a Red Flower": [],
+     "Woman in a White Dress": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Self-Portrait",
+     "The Red Rose",
+     "Dancer",
+     "The Red Flower"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Self-Portrait": [
+      "self",
+      "portrait"
+     ],
+     "The Red Rose": [
+      "rose"
+     ],
+     "Dancer": [
+      "dancer"
+     ],
+     "The Red Flower": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 87544,
+   "artist": "Henri de Toulouse-Lautrec",
+   "real": "At the Music Hall Loie Fuller",
+   "grounded_writer": [
+    "Woman in Orange Robe, Elegant",
+    "Woman in Flowing Robe",
+    "Woman in Orange Robe"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Woman in a Red Dress",
+     "The Red Dress",
+     "The Red Flower",
+     "Woman with Orange Hair",
+     "Dancer with Red Hair"
+    ],
+    "unsupported": {
+     "Woman in a Red Dress": [
+      "dress"
+     ],
+     "The Red Dress": [
+      "dress"
+     ],
+     "The Red Flower": [],
+     "Woman with Orange Hair": [],
+     "Dancer with Red Hair": [
+      "dancer"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "unknown title",
+     "Lotus",
+     "Lotus Flower",
+     "Lotus and Birds",
+     "Lotus and Fish"
+    ],
+    "unsupported": {
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Lotus": [
+      "lotus"
+     ],
+     "Lotus Flower": [
+      "lotus"
+     ],
+     "Lotus and Birds": [
+      "lotus",
+      "birds"
+     ],
+     "Lotus and Fish": [
+      "lotus",
+      "fish"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Woman in a Red Dress",
+     "Woman in a Yellow Dress",
+     "Woman with Orange Hair",
+     "The Red Dress",
+     "Lotus"
+    ],
+    "unsupported": {
+     "Woman in a Red Dress": [
+      "dress"
+     ],
+     "Woman in a Yellow Dress": [
+      "dress"
+     ],
+     "Woman with Orange Hair": [],
+     "The Red Dress": [
+      "dress"
+     ],
+     "Lotus": [
+      "lotus"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Lotus",
+     "Untitled",
+     "unknown title",
+     "Lotus Flower",
+     "The Lotus"
+    ],
+    "unsupported": {
+     "Lotus": [
+      "lotus"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Lotus Flower": [
+      "lotus"
+     ],
+     "The Lotus": [
+      "lotus"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 83322,
+   "artist": "Pyotr Konchalovsky",
+   "real": "Still life with fruits and watermelon",
+   "grounded_writer": [
+    "Still Life. Summer Fruits.",
+    "Still Life. Bright Berries.",
+    "Still Life. Blue napkin with fruit."
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Fruit on the table",
+     "Still life with fruit",
+     "Still life with fruits",
+     "Still Life with Fruits",
+     "Fruits on the table"
+    ],
+    "unsupported": {
+     "Fruit on the table": [
+      "table"
+     ],
+     "Still life with fruit": [],
+     "Still life with fruits": [],
+     "Still Life with Fruits": [],
+     "Fruits on the table": [
+      "table"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Still Life with Fruit",
+     "Still Life with Fruits",
+     "Still life with fruit",
+     "Still Life with Watermelon",
+     "Still life with fruits"
+    ],
+    "unsupported": {
+     "Still Life with Fruit": [],
+     "Still Life with Fruits": [],
+     "Still life with fruit": [],
+     "Still Life with Watermelon": [],
+     "Still life with fruits": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Still Life with Fruits",
+     "Still Life with Watermelon",
+     "Still Life with Melons",
+     "Still life with fruits",
+     "Still Life with Fruit"
+    ],
+    "unsupported": {
+     "Still Life with Fruits": [],
+     "Still Life with Watermelon": [],
+     "Still Life with Melons": [],
+     "Still life with fruits": [],
+     "Still Life with Fruit": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Still Life with Fruit",
+     "Still Life with Fruits",
+     "Still Life",
+     "Still Life with Watermelon",
+     "Still Life with Melons"
+    ],
+    "unsupported": {
+     "Still Life with Fruit": [],
+     "Still Life with Fruits": [],
+     "Still Life": [],
+     "Still Life with Watermelon": [],
+     "Still Life with Melons": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 62985,
+   "artist": "Pyotr Konchalovsky",
+   "real": "Essentuki",
+   "grounded_writer": [
+    "Trees. Sunny Bench.",
+    "Path. Cheerful Trees.",
+    "Path. Sunny Trees."
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "In the park",
+     "In the Park",
+     "Pavilion in the Park",
+     "Pavlovsk Park",
+     "Pavilion in the park"
+    ],
+    "unsupported": {
+     "In the park": [],
+     "In the Park": [],
+     "Pavilion in the Park": [
+      "pavilion"
+     ],
+     "Pavlovsk Park": [
+      "pavlovsk"
+     ],
+     "Pavilion in the park": [
+      "pavilion"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "In the Park",
+     "Pavilion in the Park",
+     "In the park",
+     "Landscape with trees",
+     "Trees in the Park"
+    ],
+    "unsupported": {
+     "In the Park": [],
+     "Pavilion in the Park": [
+      "pavilion"
+     ],
+     "In the park": [],
+     "Landscape with trees": [],
+     "Trees in the Park": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Pavlovsk Park",
+     "A Walk in the Park",
+     "Landscape",
+     "In the Park",
+     "Pavlovsk park"
+    ],
+    "unsupported": {
+     "Pavlovsk Park": [
+      "pavlovsk"
+     ],
+     "A Walk in the Park": [
+      "walk"
+     ],
+     "Landscape": [],
+     "In the Park": [],
+     "Pavlovsk park": [
+      "pavlovsk"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Landscape",
+     "A Walk in the Park",
+     "Pavlovsk Park",
+     "In the Park",
+     "Pavilion in the Park"
+    ],
+    "unsupported": {
+     "Landscape": [],
+     "A Walk in the Park": [
+      "walk"
+     ],
+     "Pavlovsk Park": [
+      "pavlovsk"
+     ],
+     "In the Park": [],
+     "Pavilion in the Park": [
+      "pavilion"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 26293,
+   "artist": "Pyotr Konchalovsky",
+   "real": "Still Life. Lilacs in a tub.",
+   "grounded_writer": [
+    "Still Life. Lilacs",
+    "Lilacs in Bloom",
+    "Basket of Lilacs"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Lilacs",
+     "Lilac",
+     "Bouquet of lilacs",
+     "Vase with lilacs",
+     "Still life with lilacs"
+    ],
+    "unsupported": {
+     "Lilacs": [],
+     "Lilac": [],
+     "Bouquet of lilacs": [],
+     "Vase with lilacs": [
+      "vase"
+     ],
+     "Still life with lilacs": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Lilacs",
+     "Vase of Lilacs",
+     "Bouquet of Lilacs",
+     "Vase with Lilacs",
+     "Still Life with Lilacs"
+    ],
+    "unsupported": {
+     "Lilacs": [],
+     "Vase of Lilacs": [
+      "vase"
+     ],
+     "Bouquet of Lilacs": [],
+     "Vase with Lilacs": [
+      "vase"
+     ],
+     "Still Life with Lilacs": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Lilacs",
+     "Still Life with Lilacs",
+     "Still life with lilacs",
+     "Still life with lilac",
+     "Still Life with Lilac"
+    ],
+    "unsupported": {
+     "Lilacs": [],
+     "Still Life with Lilacs": [],
+     "Still life with lilacs": [],
+     "Still life with lilac": [],
+     "Still Life with Lilac": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Still Life with Lilacs",
+     "Lilacs",
+     "Still Life with Lilac",
+     "Bouquet of Lilacs",
+     "Still life with lilacs"
+    ],
+    "unsupported": {
+     "Still Life with Lilacs": [],
+     "Lilacs": [],
+     "Still Life with Lilac": [],
+     "Bouquet of Lilacs": [],
+     "Still life with lilacs": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 62753,
+   "artist": "Martiros Saryan",
+   "real": "Fairy tale",
+   "grounded_writer": [
+    "Dreamy tree",
+    "Glowing red dress",
+    "Blue sky glow"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "unknown title",
+     "Composition",
+     "Untitled",
+     "Landscape with Figures",
+     "Landscape with figures"
+    ],
+    "unsupported": {
+     "unknown title": [
+      "unknown",
+      "title"
+     ],
+     "Composition": [
+      "composition"
+     ],
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape with Figures": [],
+     "Landscape with figures": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Landscape with Fire and Moon",
+     "Landscape with Figures",
+     "Landscape with Moon and Fire",
+     "Landscape with figures",
+     "Landscape with two figures"
+    ],
+    "unsupported": {
+     "Landscape with Fire and Moon": [
+      "fire",
+      "moon"
+     ],
+     "Landscape with Figures": [],
+     "Landscape with Moon and Fire": [
+      "moon",
+      "fire"
+     ],
+     "Landscape with figures": [],
+     "Landscape with two figures": [
+      "two"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Landscape",
+     "Untitled",
+     "Landscape with Figures",
+     "Landscape with Fire"
+    ],
+    "unsupported": {
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Landscape": [],
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape with Figures": [],
+     "Landscape with Fire": [
+      "fire"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Abstraction",
+     "Landscape with Fire and Moon",
+     "Landscape with Figures",
+     "Landscape with Two Figures",
+     "Landscape with Moon and Fire"
+    ],
+    "unsupported": {
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Landscape with Fire and Moon": [
+      "fire",
+      "moon"
+     ],
+     "Landscape with Figures": [],
+     "Landscape with Two Figures": [
+      "two"
+     ],
+     "Landscape with Moon and Fire": [
+      "moon",
+      "fire"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 22121,
+   "artist": "Martiros Saryan",
+   "real": "Date palm",
+   "grounded_writer": [
+    "Elephant village",
+    "Happy elephants"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Palm Tree",
+     "Palm tree",
+     "The Palm Tree",
+     "Palm Trees",
+     "Palm"
+    ],
+    "unsupported": {
+     "Palm Tree": [],
+     "Palm tree": [],
+     "The Palm Tree": [],
+     "Palm Trees": [],
+     "Palm": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Palm Tree",
+     "Untitled (Palm Tree)",
+     "The Palm Tree",
+     "The Tree of Life",
+     "Untitled (Palm)"
+    ],
+    "unsupported": {
+     "Palm Tree": [],
+     "Untitled (Palm Tree)": [
+      "untitled"
+     ],
+     "The Palm Tree": [],
+     "The Tree of Life": [
+      "life"
+     ],
+     "Untitled (Palm)": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Palm Tree",
+     "The Palm Tree",
+     "Palm",
+     "African Landscape",
+     "Untitled"
+    ],
+    "unsupported": {
+     "Palm Tree": [],
+     "The Palm Tree": [],
+     "Palm": [],
+     "African Landscape": [
+      "landscape"
+     ],
+     "Untitled": [
+      "untitled"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Palm Tree",
+     "The Tree of Life",
+     "African Landscape",
+     "The Palm Tree"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Palm Tree": [],
+     "The Tree of Life": [
+      "life"
+     ],
+     "African Landscape": [
+      "landscape"
+     ],
+     "The Palm Tree": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 85609,
+   "artist": "Martiros Saryan",
+   "real": "Scene from the Train Window",
+   "grounded_writer": [
+    "Colorful Figures in the City",
+    "Green Tree in City Life",
+    "Building in warmth"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Landscape",
+     "Landscape with Clouds",
+     "Landscape with clouds",
+     "Untitled (Landscape)",
+     "Landscape with mountains"
+    ],
+    "unsupported": {
+     "Landscape": [
+      "landscape"
+     ],
+     "Landscape with Clouds": [
+      "landscape",
+      "clouds"
+     ],
+     "Landscape with clouds": [
+      "landscape",
+      "clouds"
+     ],
+     "Untitled (Landscape)": [
+      "untitled",
+      "landscape"
+     ],
+     "Landscape with mountains": [
+      "landscape",
+      "mountains"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Landscape",
+     "Untitled (Landscape)",
+     "Landscape with Clouds",
+     "Untitled (Landscape with Clouds)",
+     "Landscape with clouds"
+    ],
+    "unsupported": {
+     "Landscape": [
+      "landscape"
+     ],
+     "Untitled (Landscape)": [
+      "untitled",
+      "landscape"
+     ],
+     "Landscape with Clouds": [
+      "landscape",
+      "clouds"
+     ],
+     "Untitled (Landscape with Clouds)": [
+      "untitled",
+      "landscape",
+      "clouds"
+     ],
+     "Landscape with clouds": [
+      "landscape",
+      "clouds"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Landscape",
+     "Landscape with Clouds",
+     "Abstraction",
+     "Abstraction-Landscape",
+     "Abstraction-landscape"
+    ],
+    "unsupported": {
+     "Landscape": [
+      "landscape"
+     ],
+     "Landscape with Clouds": [
+      "landscape",
+      "clouds"
+     ],
+     "Abstraction": [
+      "abstraction"
+     ],
+     "Abstraction-Landscape": [
+      "abstraction",
+      "landscape"
+     ],
+     "Abstraction-landscape": [
+      "abstraction",
+      "landscape"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Untitled",
+     "Landscape",
+     "Untitled (Landscape)",
+     "Aboriginal Landscape",
+     "Landscape with Clouds"
+    ],
+    "unsupported": {
+     "Untitled": [
+      "untitled"
+     ],
+     "Landscape": [
+      "landscape"
+     ],
+     "Untitled (Landscape)": [
+      "untitled",
+      "landscape"
+     ],
+     "Aboriginal Landscape": [
+      "aboriginal",
+      "landscape"
+     ],
+     "Landscape with Clouds": [
+      "landscape",
+      "clouds"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 27500,
+   "artist": "Gustav Klimt",
+   "real": "Portrait of a Girl",
+   "grounded_writer": [
+    "Girl with Bonnet and Lace Collar",
+    "Young Girl in Bonnet and Dress"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Portrait of a Woman in White",
+     "Portrait of a Young Woman in White",
+     "Portrait of a Young Girl",
+     "Portrait of a Young Woman",
+     "Portrait of a Girl in White"
+    ],
+    "unsupported": {
+     "Portrait of a Woman in White": [
+      "portrait"
+     ],
+     "Portrait of a Young Woman in White": [
+      "portrait"
+     ],
+     "Portrait of a Young Girl": [
+      "portrait"
+     ],
+     "Portrait of a Young Woman": [
+      "portrait"
+     ],
+     "Portrait of a Girl in White": [
+      "portrait"
+     ]
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Girl in a Bonnet",
+     "Portrait of a Young Girl",
+     "Portrait of a Girl",
+     "Girl with Bonnet",
+     "Portrait of a Girl in White"
+    ],
+    "unsupported": {
+     "Girl in a Bonnet": [],
+     "Portrait of a Young Girl": [
+      "portrait"
+     ],
+     "Portrait of a Girl": [
+      "portrait"
+     ],
+     "Girl with Bonnet": [],
+     "Portrait of a Girl in White": [
+      "portrait"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Portrait of a Lady",
+     "Portrait of a Young Woman",
+     "Portrait of a Young Girl",
+     "Portrait of the Artist's Daughter",
+     "Portrait of a Young Lady"
+    ],
+    "unsupported": {
+     "Portrait of a Lady": [
+      "portrait",
+      "lady"
+     ],
+     "Portrait of a Young Woman": [
+      "portrait"
+     ],
+     "Portrait of a Young Girl": [
+      "portrait"
+     ],
+     "Portrait of the Artist's Daughter": [
+      "portrait",
+      "artist",
+      "daughter"
+     ],
+     "Portrait of a Young Lady": [
+      "portrait",
+      "lady"
+     ]
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Portrait of a Girl",
+     "Portrait of a Young Girl",
+     "Portrait of the Artist's Daughter",
+     "Girl in a Bonnet",
+     "Portrait of a Young Woman"
+    ],
+    "unsupported": {
+     "Portrait of a Girl": [
+      "portrait"
+     ],
+     "Portrait of a Young Girl": [
+      "portrait"
+     ],
+     "Portrait of the Artist's Daughter": [
+      "portrait",
+      "artist",
+      "daughter"
+     ],
+     "Girl in a Bonnet": [],
+     "Portrait of a Young Woman": [
+      "portrait"
+     ]
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 65585,
+   "artist": "Gustav Klimt",
+   "real": "Portrait of Hermine Gallia",
+   "grounded_writer": [
+    "Lady with Fan, elegant",
+    "Lady with High-Collar Dress",
+    "Lady with High Collar and Hat"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Lady with Fan",
+     "Portrait of a Lady",
+     "Portrait of a Lady in White",
+     "Portrait of a Lady with a Fan",
+     "Woman in White"
+    ],
+    "unsupported": {
+     "Lady with Fan": [],
+     "Portrait of a Lady": [],
+     "Portrait of a Lady in White": [],
+     "Portrait of a Lady with a Fan": [],
+     "Woman in White": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "Portrait of a Lady",
+     "Woman in a White Dress",
+     "Woman with a Fan",
+     "Portrait of a Lady in White",
+     "Portrait of a Woman in White"
+    ],
+    "unsupported": {
+     "Portrait of a Lady": [],
+     "Woman in a White Dress": [],
+     "Woman with a Fan": [],
+     "Portrait of a Lady in White": [],
+     "Portrait of a Woman in White": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Portrait of a Lady",
+     "Lady with Fan",
+     "Woman in a White Dress",
+     "Woman in White",
+     "Lady with fan"
+    ],
+    "unsupported": {
+     "Portrait of a Lady": [],
+     "Lady with Fan": [],
+     "Woman in a White Dress": [],
+     "Woman in White": [],
+     "Lady with fan": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Portrait of a Lady",
+     "Woman in a White Dress",
+     "Portrait of a Woman",
+     "Woman with a Fan",
+     "Woman in White"
+    ],
+    "unsupported": {
+     "Portrait of a Lady": [],
+     "Woman in a White Dress": [],
+     "Portrait of a Woman": [],
+     "Woman with a Fan": [],
+     "Woman in White": []
+    }
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 15044,
+   "artist": "Gustav Klimt",
+   "real": "Female organ player",
+   "grounded_writer": [
+    "Lady playing piano"
+   ],
+   "wikiart_only|artist_known": {
+    "titles": [
+     "Woman at the Piano",
+     "Sleeping Beauty",
+     "Woman at the piano",
+     "The Music Lesson",
+     "Woman at a Window"
+    ],
+    "unsupported": {
+     "Woman at the Piano": [],
+     "Sleeping Beauty": [
+      "sleeping",
+      "beauty"
+     ],
+     "Woman at the piano": [],
+     "The Music Lesson": [
+      "lesson"
+     ],
+     "Woman at a Window": []
+    }
+   },
+   "wikiart_only|artist_unknown": {
+    "titles": [
+     "The Piano Lesson",
+     "Woman at the Piano",
+     "Sleeping Beauty",
+     "Woman at the piano",
+     "At the Piano"
+    ],
+    "unsupported": {
+     "The Piano Lesson": [
+      "lesson"
+     ],
+     "Woman at the Piano": [],
+     "Sleeping Beauty": [
+      "sleeping",
+      "beauty"
+     ],
+     "Woman at the piano": [],
+     "At the Piano": []
+    }
+   },
+   "wikiart_then_gallery|artist_known": {
+    "titles": [
+     "Sleeping Beauty",
+     "Woman at the Piano",
+     "The Music Lesson",
+     "Sleeping Muse",
+     "Woman at a Window"
+    ],
+    "unsupported": {
+     "Sleeping Beauty": [
+      "sleeping",
+      "beauty"
+     ],
+     "Woman at the Piano": [],
+     "The Music Lesson": [
+      "lesson"
+     ],
+     "Sleeping Muse": [
+      "sleeping",
+      "muse"
+     ],
+     "Woman at a Window": []
+    }
+   },
+   "wikiart_then_gallery|artist_unknown": {
+    "titles": [
+     "Sleeping Beauty",
+     "Woman at the Piano",
+     "The Piano Lesson",
+     "The Dream",
+     "The Concert"
+    ],
+    "unsupported": {
+     "Sleeping Beauty": [
+      "sleeping",
+      "beauty"
+     ],
+     "Woman at the Piano": [],
+     "The Piano Lesson": [
+      "lesson"
+     ],
+     "The Dream": [
+      "dream"
+     ],
+     "The Concert": [
+      "concert"
+     ]
+    }
+   }
+  }
+ ]
+}

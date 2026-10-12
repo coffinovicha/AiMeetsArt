@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 artificio_data/images_256/
 artificio_data/full/*.npy
+artificio_data/full/title_images/

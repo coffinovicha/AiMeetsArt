@@ -1,0 +1,41 @@
+W1012 22:48:27.374000 10976 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\modeling_utils.py:5106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<08:37,  1.59it/s]Loading weights:   0%|          | 4/824 [00:00<02:06,  6.50it/s]Loading weights:   2%|▏         | 15/824 [00:00<00:30, 26.49it/s]Loading weights:   3%|▎         | 23/824 [00:00<00:21, 37.60it/s]Loading weights:   4%|▎         | 30/824 [00:01<00:19, 41.72it/s]Loading weights:   5%|▍         | 40/824 [00:01<00:14, 54.62it/s]Loading weights:   6%|▌         | 51/824 [00:01<00:11, 66.97it/s]Loading weights:   7%|▋         | 60/824 [00:01<00:10, 71.47it/s]Loading weights:   8%|▊         | 69/824 [00:01<00:11, 68.57it/s]Loading weights:   9%|▉         | 77/824 [00:01<00:11, 64.89it/s]Loading weights:  11%|█         | 88/824 [00:01<00:09, 74.31it/s]Loading weights:  12%|█▏        | 99/824 [00:01<00:09, 78.48it/s]Loading weights:  13%|█▎        | 108/824 [00:02<00:09, 75.18it/s]Loading weights:  14%|█▍        | 116/824 [00:02<00:10, 66.90it/s]Loading weights:  15%|█▌        | 124/824 [00:02<00:10, 65.90it/s]Loading weights:  16%|█▋        | 135/824 [00:02<00:09, 72.03it/s]Loading weights:  17%|█▋        | 143/824 [00:02<00:09, 70.30it/s]Loading weights:  18%|█▊        | 151/824 [00:02<00:10, 62.49it/s]Loading weights:  19%|█▉        | 160/824 [00:02<00:10, 65.32it/s]Loading weights:  21%|██        | 171/824 [00:03<00:08, 73.07it/s]Loading weights:  22%|██▏       | 179/824 [00:03<00:08, 72.96it/s]Loading weights:  23%|██▎       | 187/824 [00:03<00:09, 68.70it/s]Loading weights:  24%|██▍       | 196/824 [00:03<00:08, 71.36it/s]Loading weights:  25%|██▌       | 207/824 [00:03<00:08, 75.12it/s]Loading weights:  26%|██▌       | 215/824 [00:03<00:08, 71.78it/s]Loading weights:  27%|██▋       | 223/824 [00:03<00:09, 63.90it/s]Loading weights:  28%|██▊       | 232/824 [00:03<00:09, 65.05it/s]Loading weights:  29%|██▉       | 243/824 [00:04<00:08, 69.77it/s]Loading weights:  30%|███       | 251/824 [00:04<00:08, 68.06it/s]Loading weights:  31%|███▏      | 258/824 [00:04<00:09, 58.96it/s]Loading weights:  33%|███▎      | 268/824 [00:04<00:08, 63.63it/s]Loading weights:  34%|███▍      | 279/824 [00:04<00:07, 70.19it/s]Loading weights:  35%|███▍      | 287/824 [00:04<00:07, 68.65it/s]Loading weights:  36%|███▌      | 294/824 [00:04<00:08, 60.54it/s]Loading weights:  37%|███▋      | 304/824 [00:05<00:07, 66.19it/s]Loading weights:  38%|███▊      | 315/824 [00:05<00:07, 72.12it/s]Loading weights:  39%|███▉      | 323/824 [00:05<00:07, 69.68it/s]Loading weights:  40%|████      | 331/824 [00:05<00:07, 64.08it/s]Loading weights:  41%|████▏     | 340/824 [00:05<00:07, 65.54it/s]Loading weights:  43%|████▎     | 351/824 [00:05<00:06, 72.54it/s]Loading weights:  44%|████▎     | 359/824 [00:05<00:06, 70.75it/s]Loading weights:  45%|████▍     | 367/824 [00:05<00:07, 63.21it/s]Loading weights:  46%|████▌     | 376/824 [00:06<00:06, 66.28it/s]Loading weights:  47%|████▋     | 387/824 [00:06<00:06, 72.00it/s]Loading weights:  48%|████▊     | 395/824 [00:06<00:06, 70.38it/s]Loading weights:  49%|████▉     | 403/824 [00:06<00:06, 64.34it/s]Loading weights:  50%|█████     | 412/824 [00:06<00:06, 61.65it/s]Loading weights:  51%|█████▏    | 423/824 [00:06<00:06, 64.83it/s]Loading weights:  52%|█████▏    | 430/824 [00:06<00:06, 60.18it/s]Loading weights:  55%|█████▍    | 452/824 [00:07<00:03, 96.05it/s]Loading weights:  57%|█████▋    | 472/824 [00:07<00:02, 120.88it/s]Loading weights:  59%|█████▉    | 486/824 [00:07<00:02, 124.92it/s]Loading weights:  61%|██████    | 502/824 [00:07<00:02, 133.79it/s]Loading weights:  63%|██████▎   | 522/824 [00:07<00:02, 149.74it/s]Loading weights:  65%|██████▌   | 538/824 [00:07<00:01, 149.56it/s]Loading weights:  68%|██████▊   | 558/824 [00:07<00:01, 161.92it/s]Loading weights:  70%|██████▉   | 576/824 [00:07<00:01, 161.72it/s]Loading weights:  72%|███████▏  | 596/824 [00:07<00:01, 170.75it/s]Loading weights:  75%|███████▍  | 614/824 [00:07<00:01, 172.60it/s]Loading weights:  77%|███████▋  | 632/824 [00:08<00:01, 172.67it/s]Loading weights:  79%|███████▉  | 652/824 [00:08<00:00, 179.60it/s]Loading weights:  81%|████████▏ | 671/824 [00:08<00:00, 173.02it/s]Loading weights:  84%|████████▎ | 690/824 [00:08<00:00, 176.63it/s]Loading weights:  86%|████████▌ | 708/824 [00:08<00:00, 173.62it/s]Loading weights:  88%|████████▊ | 728/824 [00:08<00:00, 179.66it/s]Loading weights:  91%|█████████ | 748/824 [00:08<00:00, 183.86it/s]Loading weights:  93%|█████████▎| 767/824 [00:08<00:00, 177.86it/s]Loading weights:  95%|█████████▌| 786/824 [00:08<00:00, 178.46it/s]Loading weights:  98%|█████████▊| 804/824 [00:09<00:00, 174.05it/s]Loading weights: 100%|█████████▉| 822/824 [00:09<00:00, 151.86it/s]Loading weights: 100%|██████████| 824/824 [00:09<00:00, 89.07it/s] 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  23%|██▎       | 45/199 [00:00<00:00, 422.28it/s]Loading weights:  44%|████▍     | 88/199 [00:00<00:00, 336.72it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 585.64it/s]
+F2-017 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
+F2-019 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
+F2-041 | real: Girl With Dandelions | {'artist_known_grounded': ('b', ['The Girl']), 'artist_unknown_grounded': ('b', ['The Girl'])}
+F2-043 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Dreamy Leaves']), 'artist_unknown_grounded': ('b', ['Dreamy Leaves'])}
+F2-045 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Textured Forests']), 'artist_unknown_grounded': ('b', ['Textured Forests'])}
+F2-051 | real: Untitled | {'artist_known_grounded': ('a', ['Untitled']), 'artist_unknown_grounded': ('c', ['Playful Fashion Doll'])}
+F2-059 | real: Rachuli Rhapsody | {'artist_known_grounded': ('a', ['The Thatched Hut']), 'artist_unknown_grounded': ('c', ['Man of the Countryside'])}
+F2-061 | real: Old and New Tbilisi | {'artist_known_grounded': ('c', ['Grey Skyscrapers and Mountains']), 'artist_unknown_grounded': ('c', ['Grey Skyscrapers and Mountains'])}
+F3-024 | real: "Tribe of Judah" & "Tribe of Simeon" (from the series "12 Windows of Jerusalem") | {'artist_known_grounded': ('a', ['Birds in the Dream Sky']), 'artist_unknown_grounded': ('b', ['Birds in the Dream Sky'])}
+F3-041 | real: The Heavy Burden of Waiting for Picnic | {'artist_known_grounded': ('c', ['Thick Green Tables']), 'artist_unknown_grounded': ('c', ['Thick Green Tables'])}
+F3-077 | real: White House | {'artist_known_grounded': ('b', ['Untitled House']), 'artist_unknown_grounded': ('b', ['Untitled House'])}
+{
+ "artist_known_grounded": {
+  "similarity_to_real_top1": 0.448,
+  "top5_exact_hits": 4,
+  "top5_close_hits_sim_0.7": 4,
+  "top5_best_similarity_mean": 0.471,
+  "paths": {
+   "a": 8,
+   "b": 2,
+   "c": 7
+  }
+ },
+ "artist_unknown_grounded": {
+  "similarity_to_real_top1": 0.396,
+  "top5_exact_hits": 2,
+  "top5_close_hits_sim_0.7": 2,
+  "top5_best_similarity_mean": 0.404,
+  "paths": {
+   "a": 0,
+   "b": 9,
+   "c": 8
+  }
+ },
+ "baseline_other_painting": 0.391
+}

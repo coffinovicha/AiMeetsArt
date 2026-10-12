@@ -1,43 +1,6 @@
 F1-024 | real: Wine Country | {'artist_known_grounded': ('c', ['Rolling Hill Vineyard']), 'artist_unknown_grounded': ('c', ['Rolling Hill Vineyard'])}
 F1-036 | real: Gossip Girls | {'artist_known_grounded': ('c', ['Dreamy Family Figures']), 'artist_unknown_grounded': ('c', ['Dreamy Family Figures'])}
-F1-040 | real: Still Life | {'artist_known_grounded': ('c', ['Dark Green Jug']), 'artist_unknown_grounded': ('c', ['Dark Green Jug'])}
-F1-046 | real: Still Life | {'artist_known_grounded': ('c', ["Cloth's Calm Shadow"]), 'artist_unknown_grounded': ('c', ["Cloth's Calm Shadow"])}
+F1-040 | real: Still Life | {'artist_known_grounded': ('c', ['Dark Green Jug']), 'artist_unknown_grounded': ('b', ['Still Life With Bottle'])}
+F1-046 | real: Still Life | {'artist_known_grounded': ('c', ["Cloth's Calm Shadow"]), 'artist_unknown_grounded': ('b', ['Apples & Jug Still Life'])}
 F1-071 | real: Untitled | {'artist_known_grounded': ('c', ['Abstract Band Blues']), 'artist_unknown_grounded': ('c', ['Abstract Band Blues'])}
 F1-084 | real: Untitled | {'artist_known_grounded': ('a', ['Untitled']), 'artist_unknown_grounded': ('c', ['Dining Table With Two Women'])}
-F2-017 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
-F2-019 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
-F2-041 | real: Girl With Dandelions | {'artist_known_grounded': ('c', ['Childhood and innocence']), 'artist_unknown_grounded': ('c', ['Childhood and innocence'])}
-F2-043 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Dreamy Leaves']), 'artist_unknown_grounded': ('b', ['Dreamy Leaves'])}
-F2-045 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Textured Forests']), 'artist_unknown_grounded': ('b', ['Textured Forests'])}
-F2-051 | real: Untitled | {'artist_known_grounded': ('a', ['Untitled']), 'artist_unknown_grounded': ('c', ['Playful Fashion Doll'])}
-F2-059 | real: Rachuli Rhapsody | {'artist_known_grounded': ('a', ['The Thatched Hut']), 'artist_unknown_grounded': ('c', ['Man of the Countryside'])}
-F2-061 | real: Old and New Tbilisi | {'artist_known_grounded': ('c', ['Grey Skyscrapers and Mountains']), 'artist_unknown_grounded': ('c', ['Grey Skyscrapers and Mountains'])}
-F3-024 | real: "Tribe of Judah" & "Tribe of Simeon" (from the series "12 Windows of Jerusalem") | {'artist_known_grounded': ('a', ['Birds in the Dream Sky']), 'artist_unknown_grounded': ('b', ['Birds in the Dream Sky'])}
-F3-041 | real: The Heavy Burden of Waiting for Picnic | {'artist_known_grounded': ('c', ['Thick Green Tables']), 'artist_unknown_grounded': ('c', ['Thick Green Tables'])}
-F3-077 | real: White House | {'artist_known_grounded': ('c', ['Night House Blues']), 'artist_unknown_grounded': ('c', ['Night House Blues'])}
-{
- "artist_known_grounded": {
-  "similarity_to_real_top1": 0.425,
-  "top5_exact_hits": 4,
-  "top5_close_hits_sim_0.7": 4,
-  "top5_best_similarity_mean": 0.466,
-  "paths": {
-   "a": 8,
-   "b": 0,
-   "c": 9
-  }
- },
- "artist_unknown_grounded": {
-  "similarity_to_real_top1": 0.33,
-  "top5_exact_hits": 2,
-  "top5_close_hits_sim_0.7": 2,
-  "top5_best_similarity_mean": 0.37,
-  "paths": {
-   "a": 0,
-   "b": 5,
-   "c": 12
-  }
- },
- "baseline_other_painting": 0.391
-}
-ALLDONE

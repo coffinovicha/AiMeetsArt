@@ -6,7 +6,8 @@ import torch
 from db_index import load_db
 from verify_objects import head
 
-B_THRESHOLD = 0.75
+B_THRESHOLD = 0.70
+HABIT_B_MIN = 0.85
 DUP_THRESHOLD = 0.99
 N_CAND = 10
 STOP = {"the", "a", "an", "of", "in", "on", "with", "and", "at", "to", "for", "by", "from", "no", "de", "la", "le", "les", "du",
@@ -476,6 +477,8 @@ def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclud
         for x in all_titles:
             first_form.setdefault(norm(x), x)
         habitual = {k: c / len(all_titles) for k, c in uses.items() if c >= 2 and c / len(all_titles) >= 0.5}
+        if path == "b" and top1 and top1["score"] < HABIT_B_MIN:
+            habitual = {}
         ctx["habitual"] = habitual
         ctx["habitual_forms"] = [first_form[k] for k in habitual]
         ctx.update(forbid_copy={x for x, c in uses.items() if c == 1}, words=(max(1, stats["words_p10"]), stats["words_p90"] + 2),
