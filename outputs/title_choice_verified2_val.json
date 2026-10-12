@@ -1,0 +1,248 @@
+{
+ "summary": {
+  "paintings": 17,
+  "accuracy": 0.494,
+  "chance": 0.2,
+  "paintings_mostly_right": 9
+ },
+ "rows": [
+  {
+   "id": "F1-024",
+   "real": "Wine Country",
+   "correct": 7,
+   "draws": 10,
+   "example_options": [
+    "Wine Country",
+    "From the series \"Vivaldi's Seasons\"",
+    "In Order of Appearance No.06 (from the series In Order of Appearance)",
+    "Landscape",
+    "Female Torso"
+   ],
+   "example_pick": "Landscape"
+  },
+  {
+   "id": "F1-036",
+   "real": "Gossip Girls",
+   "correct": 0,
+   "draws": 10,
+   "example_options": [
+    "Gossip Girls",
+    "Echo is My Song",
+    "Sitters on Break",
+    "In Order of Appearance No.06 (from the series In Order of Appearance)",
+    "12 Dreams of Margarita"
+   ],
+   "example_pick": "12 Dreams of Margarita"
+  },
+  {
+   "id": "F1-040",
+   "real": "Still Life",
+   "correct": 1,
+   "draws": 10,
+   "example_options": [
+    "Still Life",
+    "In Order of Appearance No.02 (from the series In Order of Appearance)",
+    "Spring",
+    "From the series \"Vivaldi's Seasons\"",
+    "The Heavy Burden of Waiting for Picnic"
+   ],
+   "example_pick": "The Heavy Burden of Waiting for Picnic"
+  },
+  {
+   "id": "F1-046",
+   "real": "Still Life",
+   "correct": 3,
+   "draws": 10,
+   "example_options": [
+    "Still Life",
+    "Dinner",
+    "In Order of Appearance No.06 (from the series In Order of Appearance)",
+    "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+    "The Heavy Burden of Waiting for Picnic"
+   ],
+   "example_pick": "The Heavy Burden of Waiting for Picnic"
+  },
+  {
+   "id": "F1-071",
+   "real": "Untitled",
+   "correct": 10,
+   "draws": 10,
+   "example_options": [
+    "Untitled",
+    "Samson and Dalilah",
+    "Dresden",
+    "Unknown Labyrinths",
+    "A Cosmic Event"
+   ],
+   "example_pick": "Untitled"
+  },
+  {
+   "id": "F1-084",
+   "real": "Untitled",
+   "correct": 6,
+   "draws": 10,
+   "example_options": [
+    "Untitled",
+    "Old and New Tbilisi",
+    "Authentic Behavior",
+    "The Legend of the Founding of Tbilisi",
+    "Follio"
+   ],
+   "example_pick": "Untitled"
+  },
+  {
+   "id": "F2-017",
+   "real": "Abstraction",
+   "correct": 3,
+   "draws": 10,
+   "example_options": [
+    "Abstraction",
+    "We are",
+    "Rolex",
+    "Female Torso",
+    "Old and New Tbilisi"
+   ],
+   "example_pick": "Abstraction"
+  },
+  {
+   "id": "F2-019",
+   "real": "Abstraction",
+   "correct": 2,
+   "draws": 10,
+   "example_options": [
+    "Abstraction",
+    "Still Life with Lemon",
+    "Untitled",
+    "African Elephant",
+    "The Slow Steps Towards the Concrete Time"
+   ],
+   "example_pick": "Untitled"
+  },
+  {
+   "id": "F2-041",
+   "real": "Girl With Dandelions",
+   "correct": 10,
+   "draws": 10,
+   "example_options": [
+    "Girl With Dandelions",
+    "The Legend of the Founding of Tbilisi",
+    "Abstraction",
+    "Wine Country",
+    "Aristocrats"
+   ],
+   "example_pick": "Girl With Dandelions"
+  },
+  {
+   "id": "F2-043",
+   "real": "Plant and Chairs",
+   "correct": 10,
+   "draws": 10,
+   "example_options": [
+    "Plant and Chairs",
+    "Follio",
+    "Still Life with Lemon",
+    "Woman In a Fish Hat",
+    "Vazha-Pshavela"
+   ],
+   "example_pick": "Plant and Chairs"
+  },
+  {
+   "id": "F2-045",
+   "real": "Plant and Chairs",
+   "correct": 7,
+   "draws": 10,
+   "example_options": [
+    "Plant and Chairs",
+    "Dinner",
+    "From the Series of \"Belly Hair\"",
+    "Old and New Tbilisi",
+    "Gossip Girls"
+   ],
+   "example_pick": "Plant and Chairs"
+  },
+  {
+   "id": "F2-051",
+   "real": "Untitled",
+   "correct": 10,
+   "draws": 10,
+   "example_options": [
+    "Untitled",
+    "Aristocrats",
+    "Sitters on Break",
+    "Pirosmani and Me",
+    "African Elephant"
+   ],
+   "example_pick": "Untitled"
+  },
+  {
+   "id": "F2-059",
+   "real": "Rachuli Rhapsody",
+   "correct": 0,
+   "draws": 10,
+   "example_options": [
+    "Rachuli Rhapsody",
+    "Girl With Dandelions",
+    "Wine Country",
+    "In Order of Appearance No.06 (from the series In Order of Appearance)",
+    "Still Life with Lemon"
+   ],
+   "example_pick": "Wine Country"
+  },
+  {
+   "id": "F2-061",
+   "real": "Old and New Tbilisi",
+   "correct": 9,
+   "draws": 10,
+   "example_options": [
+    "Old and New Tbilisi",
+    "White House",
+    "Samson and Dalilah",
+    "Aristocrats",
+    "Vazha-Pshavela"
+   ],
+   "example_pick": "Old and New Tbilisi"
+  },
+  {
+   "id": "F3-024",
+   "real": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+   "correct": 0,
+   "draws": 10,
+   "example_options": [
+    "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+    "African Elephant",
+    "Still Life with Lemon",
+    "Landscape",
+    "Woman In a Fish Hat"
+   ],
+   "example_pick": "Landscape"
+  },
+  {
+   "id": "F3-041",
+   "real": "The Heavy Burden of Waiting for Picnic",
+   "correct": 0,
+   "draws": 10,
+   "example_options": [
+    "The Heavy Burden of Waiting for Picnic",
+    "Plant and Chairs",
+    "Rolex",
+    "Café",
+    "Authentic Behavior"
+   ],
+   "example_pick": "Plant and Chairs"
+  },
+  {
+   "id": "F3-077",
+   "real": "White House",
+   "correct": 6,
+   "draws": 10,
+   "example_options": [
+    "White House",
+    "Self-Portrait",
+    "Café",
+    "Still Life with Lemon",
+    "Musicians"
+   ],
+   "example_pick": "Self-Portrait"
+  }
+ ]
+}

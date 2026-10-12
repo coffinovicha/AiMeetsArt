@@ -1,0 +1,32 @@
+metadata rows 103250
+  return t.to(
+shard 1/4 rows 0-4096 of 25813 92s
+shard 1/4 rows 4096-8192 of 25813 91s
+shard 1/4 rows 8192-12288 of 25813 90s
+shard 1/4 rows 12288-16384 of 25813 90s
+shard 1/4 rows 16384-20480 of 25813 90s
+shard 1/4 rows 20480-24576 of 25813 90s
+shard 1/4 rows 24576-25813 of 25813 27s
+shard 2/4 rows 0-4096 of 25813 90s
+shard 2/4 rows 4096-8192 of 25813 90s
+shard 2/4 rows 8192-12288 of 25813 90s
+shard 2/4 rows 12288-16384 of 25813 90s
+shard 2/4 rows 16384-20480 of 25813 91s
+shard 2/4 rows 20480-24576 of 25813 90s
+shard 2/4 rows 24576-25813 of 25813 27s
+shard 3/4 rows 0-4096 of 25812 90s
+shard 3/4 rows 4096-8192 of 25812 89s
+shard 3/4 rows 8192-12288 of 25812 90s
+shard 3/4 rows 12288-16384 of 25812 90s
+shard 3/4 rows 16384-20480 of 25812 90s
+shard 3/4 rows 20480-24576 of 25812 90s
+shard 3/4 rows 24576-25812 of 25812 27s
+shard 4/4 rows 0-4096 of 25812 92s
+shard 4/4 rows 4096-8192 of 25812 90s
+shard 4/4 rows 8192-12288 of 25812 91s
+shard 4/4 rows 12288-16384 of 25812 93s
+shard 4/4 rows 16384-20480 of 25812 94s
+shard 4/4 rows 20480-24576 of 25812 91s
+shard 4/4 rows 24576-25812 of 25812 27s
+ALL EMBEDDED
+ALLDONE

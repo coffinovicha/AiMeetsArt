@@ -1,0 +1,2335 @@
+{
+ "summary": {
+  "real": {
+   "n": 24,
+   "artist_identified": 12,
+   "chance": 3.0
+  },
+  "a": {
+   "n": 24,
+   "artist_identified": 10,
+   "chance": 3.0
+  },
+  "c": {
+   "n": 24,
+   "artist_identified": 7,
+   "chance": 3.0
+  },
+  "copies": 0
+ },
+ "rows": [
+  {
+   "artist": "Piet Mondrian",
+   "row": 13153,
+   "real": "On the Lappenbrink",
+   "description": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses with red roofs. The sky is pale blue with white clouds. The picture is painted in soft pastel colors.",
+   "pred": {
+    "description": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses with red roofs. The sky is pale blue with white clouds. The picture is painted in soft pastel colors.",
+    "theme": "everyday life in a small town",
+    "mood": "calm, nostalgic",
+    "objects": [
+     "woman",
+     "bench",
+     "houses",
+     "roofs",
+     "windows",
+     "clouds"
+    ],
+    "style_guess": "realist figurative",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "soft daylight",
+    "composition": "figure in the lower left, houses along the right side",
+    "explanation": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses. The calm, soft colors make the scene feel quiet and nostalgic. It may be read as a simple portrait of everyday life in a small town, where people go about their daily business. The white bonnet stands out against the red houses and blue sky."
+   },
+   "a": [
+    "Red Houses and Blue Sky",
+    "Bench Beneath Blushing Skies",
+    "White Bonnet Amidst Blues"
+   ],
+   "a_path": "a",
+   "c": [
+    "Woman in Bonnet, Small Town Life",
+    "Serene Street, Small-town Feel",
+    "Quiet Street, Nostalgic Scene"
+   ],
+   "a_rejected": [
+    {
+     "title": "Woman in Bonnet",
+     "fit": 0.404,
+     "pattern_rank": 684,
+     "pattern_margin": -0.012,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Daily Business Quietness",
+     "fit": 0.262,
+     "pattern_rank": 265,
+     "pattern_margin": 0.046,
+     "rejected": "uses 'quietness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Clouds Overhead Serenity",
+     "fit": 0.228,
+     "pattern_rank": 33,
+     "pattern_margin": 0.169,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Pale Blue Sky Serenity",
+     "fit": 0.254,
+     "pattern_rank": 30,
+     "pattern_margin": 0.167,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Woman Bonneted on Bench",
+     "fit": 0.409,
+     "pattern_rank": 390,
+     "pattern_margin": 0.03,
+     "rejected": "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Daydreams of a Quiet Town",
+     "fit": 0.485,
+     "pattern_rank": 300,
+     "pattern_margin": 0.072,
+     "rejected": "uses 'daydreams', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nostalgic Streetscape in Lightness",
+     "fit": 0.418,
+     "pattern_rank": 174,
+     "pattern_margin": 0.114,
+     "rejected": "uses 'streetscape', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Pleasant Daydreams of a Quaint City",
+     "fit": 0.448,
+     "pattern_rank": 408,
+     "pattern_margin": 0.054,
+     "rejected": "uses 'daydreams', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Daydreamer Among Coated Heads",
+     "fit": 0.259,
+     "pattern_rank": 476,
+     "pattern_margin": 0.021,
+     "rejected": "uses 'daydreamer', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Soft Pastels, Nostalgic Mood",
+     "fit": 0.481,
+     "rejected": "uses 'pastels', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nostalgic Townscape",
+     "fit": 0.5,
+     "rejected": "uses 'townscape', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Daydream of a Village",
+     "fit": 0.487,
+     "rejected": "uses 'daydream', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Silent Benchside Serenity",
+     "fit": 0.291,
+     "rejected": "uses 'benchside', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Praline Moments in Small-town Life",
+     "fit": 0.405,
+     "rejected": "uses 'praline', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Piet Mondrian",
+   "row": 4763,
+   "real": "Church tower at Domburg",
+   "description": "A red brick church with a tall tower stands in the center, surrounded by a blue and green patterned field. The church is lit from behind, so its walls glow red and the windows are dark blue.",
+   "pred": {
+    "description": "A red brick church with a tall tower stands in the center, surrounded by a blue and green patterned field. The church is lit from behind, so its walls glow red and the windows are dark blue.",
+    "theme": "church at dusk",
+    "mood": "calm, spiritual",
+    "objects": [
+     "church",
+     "tower",
+     "windows"
+    ],
+    "style_guess": "naive / decorative figurative",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "backlighting from behind the church",
+    "composition": "central church figure in a diagonal field",
+    "explanation": "A red brick church with a tall tower stands in a blue and green patterned field, lit from behind so its walls glow red and the windows are dark blue. The church is a symbol of faith and community, often shown at dusk when the light is soft and calm. The patterned field around it makes the church stand out like a glowing beacon."
+   },
+   "a": [
+    "Dusk Over the Church",
+    "Church Tower at Twilight",
+    "Dusk Chapel"
+   ],
+   "a_path": "a",
+   "c": [
+    "Glowing Church Walls",
+    "Serene Twilight Sanctuary",
+    "Dusk's Radiant Beacon"
+   ],
+   "a_rejected": [
+    {
+     "title": "Calmness in the Night",
+     "fit": 0.372,
+     "pattern_rank": 293,
+     "pattern_margin": 0.059,
+     "rejected": "uses 'calmness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Serenity Tower",
+     "fit": 0.369,
+     "pattern_rank": 67,
+     "pattern_margin": 0.146,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nightglow Beacon",
+     "fit": 0.377,
+     "pattern_rank": 12,
+     "pattern_margin": 0.197,
+     "rejected": "uses 'nightglow', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Red Brick Dawnlight",
+     "fit": 0.394,
+     "rejected": "uses 'dawnlight', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Serenity's Glowing Presence",
+     "fit": 0.359,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dusk's Serenity",
+     "fit": 0.494,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sunlit Church",
+     "fit": 0.666,
+     "rejected": "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Piet Mondrian",
+   "row": 17028,
+   "real": "Nature died with Sunflower",
+   "description": "A still life of two sunflowers in a green vase on a dark table, with a blue bird on the right and a green cloth draped over the left side. The background is a warm yellow-green.",
+   "pred": {
+    "description": "A still life of two sunflowers in a green vase on a dark table, with a blue bird on the right and a green cloth draped over the left side. The background is a warm yellow-green.",
+    "theme": "still life of flowers",
+    "mood": "calm, nostalgic",
+    "objects": [
+     "sunflowers",
+     "vase",
+     "bird",
+     "tablecloth"
+    ],
+    "style_guess": "realist still life",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "vase centered, sunflowers filling the upper half",
+    "explanation": "Two sunflowers stand in a green vase on a dark table, with a blue bird and a green cloth nearby. Sunflowers are often linked with summer, warmth and happiness. The still life format makes the flowers the main focus, while the bird and cloth add interest. The warm colors make the scene feel calm and nostalgic."
+   },
+   "a": [
+    "Still Life with Sunflowers",
+    "Still Life of Flowers",
+    "Still Life with Flowers"
+   ],
+   "a_path": "a",
+   "c": [
+    "Stillness in Bloom",
+    "Sunflowers in Green Vase",
+    "Sunflowers and Blues"
+   ],
+   "a_rejected": [
+    {
+     "title": "Clove Delights in Vase",
+     "fit": 0.354,
+     "pattern_rank": 130,
+     "pattern_margin": 0.101,
+     "rejected": "uses 'clove', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Solitary Sunflower",
+     "fit": 0.45,
+     "pattern_rank": 1,
+     "pattern_margin": 0.235,
+     "rejected": "uses 'sunflower', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Sunflowers' Radiance",
+     "fit": 0.51,
+     "rejected": "uses 'sunflowers'', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Blue Bird's Serenity",
+     "fit": 0.422,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Green Vase Serenity",
+     "fit": 0.538,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sunflower Solitude",
+     "fit": 0.531,
+     "rejected": "uses 'sunflower', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sunflower Dreaming",
+     "fit": 0.55,
+     "rejected": "uses 'sunflower', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 12274,
+   "real": "Grungasse in Murnau",
+   "description": "A village street with houses in ochre, green and blue, a red roof and a white gate on the right. A woman in a red dress walks along the path in the middle, and a dog runs towards her. The paint is applied thickly.",
+   "pred": {
+    "description": "A village street with houses in ochre, green and blue, a red roof and a white gate on the right. A woman in a red dress walks along the path in the middle, and a dog runs towards her. The paint is applied thickly.",
+    "theme": "village life",
+    "mood": "lively, warm",
+    "objects": [
+     "houses",
+     "doorway",
+     "gate",
+     "woman",
+     "dog"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "bright daylight",
+    "composition": "houses on both sides, figure in the center",
+    "explanation": "A village street with houses in ochre, green and blue, a red roof and a white gate, with a woman in a red dress walking and a dog running towards her. The paint is applied thickly, so the colors feel strong and the figures jump out. It may be read as a happy, everyday moment in a small community."
+   },
+   "a": [
+    "Village joy",
+    "Village street joy",
+    "Happy village"
+   ],
+   "a_path": "a",
+   "c": [
+    "Colorful Village Stroll",
+    "Cheerful Village Street",
+    "A Day in Village Life"
+   ],
+   "a_rejected": [
+    {
+     "title": "Springtime",
+     "fit": 0.204,
+     "pattern_rank": 82,
+     "pattern_margin": 0.15,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Ocher dream",
+     "fit": 0.317,
+     "pattern_rank": 7,
+     "pattern_margin": 0.163,
+     "rejected": "uses 'ocher', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dogged progress",
+     "fit": 0.196,
+     "pattern_rank": 58,
+     "pattern_margin": 0.112,
+     "rejected": "uses 'dogged', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Ochre Homes' Cheerfulness",
+     "fit": 0.572,
+     "rejected": "uses 'cheerfulness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dog's Joyful Pursuit",
+     "fit": 0.294,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Woman in Red's Serenity",
+     "fit": 0.335,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Thick Paint's Vibrancy",
+     "fit": 0.304,
+     "rejected": "uses 'vibrancy', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "House Colours Painted Vividly",
+     "fit": 0.5,
+     "rejected": "uses 'vividly', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 10891,
+   "real": "Blue mountain",
+   "description": "A dense, colorful landscape with tall dark purple and red trees on the right and a bright orange and yellow sky behind them. A few small figures in white and blue walk along a path in the lower center.",
+   "pred": {
+    "description": "A dense, colorful landscape with tall dark purple and red trees on the right and a bright orange and yellow sky behind them. A few small figures in white and blue walk along a path in the lower center.",
+    "theme": "autumn forest",
+    "mood": "warm, vibrant",
+    "objects": [
+     "trees",
+     "figures",
+     "path"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "bright, warm daylight",
+    "composition": "trees on the right, figures in the lower center",
+    "explanation": "Tall dark trees stand against a bright orange and yellow sky, while a few small figures walk along a path below. The colors are so strong that they almost glow. The figures are tiny compared to the trees, so the forest feels huge and wild. It may be read as a celebration of autumn and nature."
+   },
+   "a": [
+    "Vivid Forest Night",
+    "Vivid Autumn",
+    "Vast Autumn Woods"
+   ],
+   "a_path": "a",
+   "c": [
+    "Forest's Vibrant Palette",
+    "Forest's Vibrant Colors",
+    "Autumn's Warm embrace"
+   ],
+   "a_rejected": [
+    {
+     "title": "Autumn Radiance",
+     "fit": 0.568,
+     "pattern_rank": 133,
+     "pattern_margin": 0.13,
+     "rejected": "uses 'radiance', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Echoes Through Twilight Treetops",
+     "fit": 0.453,
+     "pattern_rank": 252,
+     "pattern_margin": 0.089,
+     "rejected": "uses 'treetops', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Vibrant Wildness",
+     "fit": 0.53,
+     "rejected": "uses 'wildness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nightshade in Sunlight",
+     "fit": 0.191,
+     "rejected": "uses 'nightshade', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 10906,
+   "real": "Volga song",
+   "description": "A dark, almost black painting of a harbor with three large boats in the foreground, each rowed by a man. Small figures stand on the boats and on the quay. The background is a dark silhouette of houses and a city skyline. The paint is applied thickly.",
+   "pred": {
+    "description": "A dark, almost black painting of a harbor with three large boats in the foreground, each rowed by a man. Small figures stand on the boats and on the quay. The background is a dark silhouette of houses and a city skyline. The paint is applied thickly.",
+    "theme": "harbor life",
+    "mood": "dark, nostalgic",
+    "objects": [
+     "boats",
+     "men",
+     "rowers",
+     "quay",
+     "houses",
+     "city"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "flat, dark",
+    "composition": "three boats across the lower half, quay on the right",
+    "explanation": "Three large boats are rowed by men in a dark harbor, with small figures on the boats and on the quay. The paint is applied thickly, so the scene feels heavy and almost black. Rowing boats is a daily task that connects people to their work and community. The dark color may be read as a memory of a past time."
+   },
+   "a": [
+    "Night’s Harbor",
+    "Harbor’s Dream",
+    "Dark Harbor Dance"
+   ],
+   "a_path": "a",
+   "c": [
+    "Three Rowers, Dark Harbor",
+    "Shadow Boats, Sadness at Dusk",
+    "Rowers' Souls, City Silhouettes"
+   ],
+   "a_rejected": [
+    {
+     "title": "Boat's Heavy Weight",
+     "fit": 0.484,
+     "pattern_rank": 706,
+     "pattern_margin": -0.017,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Quay's Silent Presence",
+     "fit": 0.316,
+     "pattern_rank": 862,
+     "pattern_margin": -0.046,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Dock’s Mystery",
+     "fit": 0.41,
+     "pattern_rank": 826,
+     "pattern_margin": -0.041,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Moonlit March",
+     "fit": 0.237,
+     "pattern_rank": 63,
+     "pattern_margin": 0.132,
+     "rejected": "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Quay’s Echoes",
+     "fit": 0.454,
+     "pattern_rank": 670,
+     "pattern_margin": -0.013,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Dark Rows, Silent Quayside",
+     "fit": 0.451,
+     "rejected": "uses 'quayside', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Heavy Harbor, Lightless Days",
+     "fit": 0.538,
+     "rejected": "uses 'lightless', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Quayside Figures, Heavy Night",
+     "fit": 0.466,
+     "rejected": "uses 'quayside', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Moonlit Harbor, Solitary Faces",
+     "fit": 0.498,
+     "rejected": "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nightscape Boats, Sleepy Streetlights",
+     "fit": 0.602,
+     "rejected": "uses 'nightscape', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 20911,
+   "real": "The vase",
+   "description": "A greyish beige canvas with large blue, orange and black letters '17' in the center, surrounded by small red and green leaf-like shapes. A black dot appears above the '1', and a black line runs across the top edge.",
+   "pred": {
+    "description": "A greyish beige canvas with large blue, orange and black letters '17' in the center, surrounded by small red and green leaf-like shapes. A black dot appears above the '1', and a black line runs across the top edge.",
+    "theme": "numbers and growth",
+    "mood": "playful, abstract",
+    "objects": [
+     "letters",
+     "dots",
+     "lines",
+     "leaf shapes"
+    ],
+    "style_guess": "abstract / decorative",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "central letters surrounded by leaves, diagonal line across top",
+    "explanation": "Large blue, orange and black letters '17' stand out against a grey beige background, surrounded by small leaf-like shapes. The letters look like they are growing or being written, while the leaves suggest growth, nature or a garden. The simple shapes and flat colors make the work feel playful and modern. It may be read as a playful way to show numbers and growth."
+   },
+   "a": [
+    "Numbers in Garden",
+    "Growing symbols",
+    "Painted digits"
+   ],
+   "a_path": "a",
+   "c": [
+    "Numbers Growing Playfully",
+    "Numbers in Nature's Garden",
+    "Numbers in Nature's Dress"
+   ],
+   "a_rejected": [
+    {
+     "title": "Numbers in Modernity",
+     "fit": 0.465,
+     "pattern_rank": 405,
+     "pattern_margin": 0.021,
+     "rejected": "uses 'modernity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Numerals emerge",
+     "fit": 0.469,
+     "pattern_rank": 261,
+     "pattern_margin": 0.048,
+     "rejected": "uses 'numerals', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Articulating number",
+     "fit": 0.336,
+     "pattern_rank": 406,
+     "pattern_margin": 0.023,
+     "rejected": "uses 'articulating', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Abstract numina",
+     "fit": 0.235,
+     "pattern_rank": 309,
+     "pattern_margin": 0.056,
+     "rejected": "uses 'numina', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Leafy Numerals Play",
+     "fit": 0.457,
+     "rejected": "uses 'leafy', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Leafy Numbered World",
+     "fit": 0.41,
+     "rejected": "uses 'leafy', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Playful Numerals",
+     "fit": 0.513,
+     "rejected": "uses 'numerals', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 3879,
+   "real": "Fish Image",
+   "description": "A blue field with long thin white and green lines curving across it like fish or birds in flight. Small red and pink dots appear among the lines.",
+   "pred": {
+    "description": "A blue field with long thin white and green lines curving across it like fish or birds in flight. Small red and pink dots appear among the lines.",
+    "theme": "flight, movement",
+    "mood": "light, dreamy",
+    "objects": [
+     "lines",
+     "dots"
+    ],
+    "style_guess": "contemporary abstract",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "curving lines across the vertical frame",
+    "explanation": "Long white and green lines curve across a blue field, like fish or birds flying. The lines look like they are moving quickly through the air. The small red and pink dots add a touch of color and life. It may be read as a picture of flight, freedom or dreams. The simple shapes and flat colors make it feel calm and dreamlike."
+   },
+   "a": [
+    "Flying Skies",
+    "The blue sky",
+    "Dreamy flight"
+   ],
+   "a_path": "a",
+   "c": [
+    "Dream Birds in Flight",
+    "Serene Strokes of Fantasy",
+    "**Dreamy Flight**"
+   ],
+   "a_rejected": [
+    {
+     "title": "Airswept Fields",
+     "fit": 0.212,
+     "pattern_rank": 138,
+     "pattern_margin": 0.083,
+     "rejected": "uses 'airswept', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dreamline",
+     "fit": 0.414,
+     "pattern_rank": 11,
+     "pattern_margin": 0.171,
+     "rejected": "length 1 outside 2-7 words"
+    },
+    {
+     "title": "Greenwardens",
+     "fit": 0.227,
+     "pattern_rank": 28,
+     "pattern_margin": 0.164,
+     "rejected": "length 1 outside 2-7 words"
+    },
+    {
+     "title": "Hovering Flotsam",
+     "fit": 0.357,
+     "pattern_rank": 40,
+     "pattern_margin": 0.124,
+     "rejected": "uses 'flotsam', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "**Blue Sky Dreams**",
+     "fit": 0.425,
+     "rejected": "looks like it names people or places"
+    },
+    {
+     "title": "**Whimsical Birds**",
+     "fit": 0.394,
+     "rejected": "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Flight's Lasso",
+     "fit": 0.252,
+     "rejected": "uses 'lasso', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Ethereal Flyers Glide",
+     "fit": 0.365,
+     "rejected": "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Serenity's Winged Dance",
+     "fit": 0.363,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Skyward Journeys Unfold",
+     "fit": 0.364,
+     "rejected": "uses 'skyward', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Whimsical Whirlpools in Blue",
+     "fit": 0.438,
+     "rejected": "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 15737,
+   "real": "Pierrot Lunaire",
+   "description": "A face-like shape with a round yellow head and a small red nose set against a dark brown background. The face has two black dots for eyes and a small curved line for a mouth. The color palette is warm orange, red and yellow on a cool brown ground.",
+   "pred": {
+    "description": "A face-like shape with a round yellow head and a small red nose set against a dark brown background. The face has two black dots for eyes and a small curved line for a mouth. The color palette is warm orange, red and yellow on a cool brown ground.",
+    "theme": "face in darkness",
+    "mood": "puzzled, mysterious",
+    "objects": [
+     "face"
+    ],
+    "style_guess": "naive / expressive figurative",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "head centered in a square frame",
+    "explanation": "A round yellow face with a red nose and black eyes appears against a dark brown background. Faces often stand for identity, emotion or thought, so the picture may be read as a puzzle about who we are or what we look like. The warm colors make the face feel bright and strong against the cool ground. It may be read as a simple, honest portrait."
+   },
+   "a": [
+    "Dark innocence",
+    "Face in twilight",
+    "Rising sun in the garden"
+   ],
+   "a_path": "a",
+   "c": [
+    "Mysterious Face",
+    "Face in Shadows",
+    "Bright yellow amidst darkness."
+   ],
+   "a_rejected": [
+    {
+     "title": "The mask with the little flag",
+     "fit": 0.371,
+     "pattern_rank": 38,
+     "pattern_margin": 0.149,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Death and fire",
+     "fit": 0.251,
+     "pattern_rank": 20,
+     "pattern_margin": 0.184,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Refuge",
+     "fit": 0.163,
+     "pattern_rank": 3,
+     "pattern_margin": 0.193,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "The singer L as Fioridigli",
+     "fit": 0.152,
+     "pattern_rank": 372,
+     "pattern_margin": 0.06,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Bad band",
+     "fit": 0.173,
+     "pattern_rank": 42,
+     "pattern_margin": 0.122,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Angel Still Feminine",
+     "fit": 0.103,
+     "pattern_rank": 95,
+     "pattern_margin": 0.117,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Cat and Bird",
+     "fit": 0.16,
+     "pattern_rank": 17,
+     "pattern_margin": 0.183,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Senecio",
+     "fit": 0.091,
+     "pattern_rank": 281,
+     "pattern_margin": 0.074,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "An allegory of propaganda",
+     "fit": 0.291,
+     "pattern_rank": 62,
+     "pattern_margin": 0.143,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Eyeless soul",
+     "fit": 0.295,
+     "pattern_rank": 83,
+     "pattern_margin": 0.113,
+     "rejected": "uses 'eyeless', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Mysterious visage",
+     "fit": 0.499,
+     "pattern_rank": 80,
+     "pattern_margin": 0.124,
+     "rejected": "uses 'visage', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Silent visage",
+     "fit": 0.372,
+     "pattern_rank": 58,
+     "pattern_margin": 0.134,
+     "rejected": "uses 'visage', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Puzzling in the dark faces.",
+     "fit": 0.674,
+     "rejected": "uses 'puzzling', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Warm visage hidden deep.",
+     "fit": 0.509,
+     "rejected": "uses 'visage', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 12995,
+   "real": "Woman Sitting under the Willows",
+   "description": "A spring landscape with two tall willow trees on the left, a woman in a red dress sitting on the grass in the foreground, and a village in the distance. The ground is covered with yellow flowers and the sky is soft golden. The paint is applied in loose, dappled strokes.",
+   "pred": {
+    "description": "A spring landscape with two tall willow trees on the left, a woman in a red dress sitting on the grass in the foreground, and a village in the distance. The ground is covered with yellow flowers and the sky is soft golden. The paint is applied in loose, dappled strokes.",
+    "theme": "spring picnic",
+    "mood": "bright, peaceful",
+    "objects": [
+     "willow trees",
+     "woman",
+     "grass",
+     "flowers",
+     "village"
+    ],
+    "style_guess": "impressionist landscape (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "soft golden light",
+    "composition": "figure in the lower right, willows on the left, village across the middle",
+    "explanation": "A woman sits on the grass in a field of yellow flowers, with tall willow trees and a village in the background. The paint is applied loosely, so the colors blend together like a dream. The soft golden light suggests early spring, when the world is waking up after winter. It may be read as a peaceful moment of leisure in nature."
+   },
+   "a": [
+    "Spring Picnic Scene",
+    "Serene Daytime Landscape",
+    "Golden Hour Landscape"
+   ],
+   "a_path": "a",
+   "c": [
+    "Golden Morning Picnic",
+    "Serene Sunset Picnic",
+    "Golden Dawn Picnic"
+   ],
+   "a_rejected": [
+    {
+     "title": "Springtime Serenity",
+     "fit": 0.44,
+     "pattern_rank": 429,
+     "pattern_margin": 0.042,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Springtime Bliss",
+     "fit": 0.503,
+     "pattern_rank": 491,
+     "pattern_margin": 0.027,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Spring Picnic Serenity",
+     "fit": 0.685,
+     "pattern_rank": 311,
+     "pattern_margin": 0.083,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Blossoming Meadow Near Village",
+     "fit": 0.363,
+     "pattern_rank": 109,
+     "pattern_margin": 0.223,
+     "rejected": "uses 'blossoming', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Villager's Picnic under Golden Skies",
+     "fit": 0.619,
+     "pattern_rank": 172,
+     "pattern_margin": 0.114,
+     "rejected": "uses 'villager', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Spring Serenity",
+     "fit": 0.425,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dreamy Meadow",
+     "fit": 0.426,
+     "rejected": "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Early Spring Serenade",
+     "fit": 0.478,
+     "rejected": "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Spring's Awakening Serenity",
+     "fit": 0.465,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Early Sunshades",
+     "fit": 0.285,
+     "rejected": "uses 'sunshades', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Willow Shadows Mingle",
+     "fit": 0.235,
+     "rejected": "uses 'mingle', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Blissful Blossoms Soothing",
+     "fit": 0.433,
+     "rejected": "uses 'blissful', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 1826,
+   "real": "Portrait of Pere Paul",
+   "description": "A portrait of a bearded man in a white chef's hat and apron, with a black neckerchief. His face is painted with quick, loose strokes in pale green, yellow and white.",
+   "pred": {
+    "description": "A portrait of a bearded man in a white chef's hat and apron, with a black neckerchief. His face is painted with quick, loose strokes in pale green, yellow and white.",
+    "theme": "portrait of a chef",
+    "mood": "lively, cheerful",
+    "objects": [
+     "man",
+     "chef's hat",
+     "apron",
+     "neckerchief"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 20th – 21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "head and shoulders centered, figure filling the frame",
+    "explanation": "A bearded man in a chef's hat and apron is shown in a quick, loose portrait. The quick brushwork makes his face feel warm and friendly. The white hat and apron stand out against the pale background. It may be read as a cheerful portrait of a happy, hard-working chef."
+   },
+   "a": [
+    "Chef's Apprentice, Quick Sketch in Green and Yellow"
+   ],
+   "a_path": "a",
+   "c": [
+    "Lively, Cheerful Chef",
+    "Chef's Warm Smile",
+    "Cheerful Cook's Hat"
+   ],
+   "a_rejected": [
+    {
+     "title": "Chef's Hat and Apron",
+     "fit": 0.559,
+     "pattern_rank": 685,
+     "pattern_margin": -0.015,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Man in White Chef's Hat",
+     "fit": 0.528,
+     "pattern_rank": 674,
+     "pattern_margin": -0.01,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Bearded Chef Portrait",
+     "fit": 0.665,
+     "pattern_rank": 843,
+     "pattern_margin": -0.053,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Quick Brushstroke Chef",
+     "fit": 0.285,
+     "pattern_rank": 359,
+     "pattern_margin": 0.024,
+     "rejected": "uses 'brushstroke', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lively Chef's Face",
+     "fit": 0.676,
+     "pattern_rank": 812,
+     "pattern_margin": -0.046,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Cheerful Cook's Hat",
+     "fit": 0.621,
+     "pattern_rank": 654,
+     "pattern_margin": -0.011,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "White Apron Contrast",
+     "fit": 0.33,
+     "pattern_rank": 711,
+     "pattern_margin": -0.013,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Chef's Cap and Apron",
+     "fit": 0.502,
+     "pattern_rank": 703,
+     "pattern_margin": -0.015,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Cooking Hat and Uniform",
+     "fit": 0.438,
+     "pattern_rank": 843,
+     "pattern_margin": -0.037,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Warm-hearted Chef",
+     "fit": 0.615,
+     "pattern_rank": 851,
+     "pattern_margin": -0.052,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Cheeky Cook, White Hat On",
+     "fit": 0.524,
+     "pattern_rank": 736,
+     "pattern_margin": -0.021,
+     "rejected": "uses 'cheeky', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Whiskered Waiter, Loose Paintbrush Skys",
+     "fit": 0.348,
+     "pattern_rank": 554,
+     "pattern_margin": 0.008,
+     "rejected": "uses 'whiskered', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Cheeky Chef's Face, Warm Glow Strokes",
+     "fit": 0.6,
+     "pattern_rank": 734,
+     "pattern_margin": -0.027,
+     "rejected": "uses 'cheeky', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "White Apron Chef, Quick Brushstroke",
+     "fit": 0.429,
+     "pattern_rank": 580,
+     "pattern_margin": 0.004,
+     "rejected": "uses 'brushstroke', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "The Bearded Cook's Happy Face",
+     "fit": 0.633,
+     "pattern_rank": 923,
+     "pattern_margin": -0.075,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Quick Sketch, Cheery Cook's Hat",
+     "fit": 0.644,
+     "pattern_rank": 655,
+     "pattern_margin": -0.013,
+     "rejected": "uses 'cheery', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "A Chef With a Beard, Yellow-Green Stroke",
+     "fit": 0.571,
+     "pattern_rank": 699,
+     "pattern_margin": -0.016,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Quick Strokes for a Joyful Chef",
+     "fit": 0.504,
+     "pattern_rank": 757,
+     "pattern_margin": -0.027,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Busy Chefs Assistant, Quick Stroke Smile",
+     "fit": 0.499,
+     "pattern_rank": 877,
+     "pattern_margin": -0.06,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Cheery Cook's Necktie",
+     "fit": 0.499,
+     "rejected": "uses 'cheery', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Quick Sketch Cheeky Man",
+     "fit": 0.311,
+     "rejected": "uses 'cheeky', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Cheery Sketched Face",
+     "fit": 0.427,
+     "rejected": "uses 'cheery', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Quirky Chef's Hat Smirk",
+     "fit": 0.552,
+     "rejected": "uses 'quirky', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Friendly Beard Gourmet",
+     "fit": 0.415,
+     "rejected": "uses 'gourmet', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 20799,
+   "real": "The Sea, Port in Amsterdam",
+   "description": "A harbor scene with tall masts of sailing ships in the middle ground, reflected in calm water. The sky is blue with white clouds and a faint glow of light. Small figures stand on the right.",
+   "pred": {
+    "description": "A harbor scene with tall masts of sailing ships in the middle ground, reflected in calm water. The sky is blue with white clouds and a faint glow of light. Small figures stand on the right.",
+    "theme": "harbor at dusk",
+    "mood": "calm, nostalgic",
+    "objects": [
+     "ships",
+     "masts",
+     "water",
+     "figures"
+    ],
+    "style_guess": "impressionist seascapes",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 19th – early 20th century (guess)",
+    "lighting": "soft, diffuse daylight",
+    "composition": "ships across the middle, figures on the right",
+    "explanation": "Sails rise from calm water under a soft blue sky, with small figures on the right. The calm water reflects the masts, so everything looks doubled. The gentle light suggests dusk or dawn, when the day is fading. It may be read as a quiet harbor scene, a memory of a time when ships were a part of everyday life."
+   },
+   "a": [
+    "Evening Harbor Reflections",
+    "Harbor Scene at Twilight",
+    "Calm Harbor at Dawn"
+   ],
+   "a_path": "a",
+   "c": [
+    "Harbor's Silent Twilight",
+    "Harbor Dusk Reflections",
+    "Serene Harbor Scene"
+   ],
+   "a_rejected": [
+    {
+     "title": "Moonlit Harbor",
+     "fit": 0.566,
+     "pattern_rank": 38,
+     "pattern_margin": 0.242,
+     "rejected": "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Harbor Twilight's Serenity",
+     "fit": 0.507,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 21229,
+   "real": "At the Opera Ball",
+   "description": "A lively café scene with three men in black hats and suits sitting on a balcony, drinking orange juice from tall glasses. A woman in a yellow dress sits next to them, and a man in a white hat stands behind her. The background shows a city street with buildings and a red-brick wall.",
+   "pred": {
+    "description": "A lively café scene with three men in black hats and suits sitting on a balcony, drinking orange juice from tall glasses. A woman in a yellow dress sits next to them, and a man in a white hat stands behind her. The background shows a city street with buildings and a red-brick wall.",
+    "theme": "cafés and café society",
+    "mood": "lively, cheerful",
+    "objects": [
+     "men",
+     "women",
+     "glasses",
+     "balcony",
+     "city street"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "1900s (guess)",
+    "lighting": "bright, flat",
+    "composition": "figures filling the lower half, balcony across the middle",
+    "explanation": "Three men in black hats sit on a balcony, drinking orange juice, while a woman in a yellow dress watches. The scene is full of energy and laughter, like a café where people come to talk and drink. The bright colors and quick lines make it feel fast-paced and lively. It may be read as a celebration of café culture and social life."
+   },
+   "a": [
+    "Balcony Laugh, Yellow Dress",
+    "City Street Cafe Scene",
+    "Balcony Scene, Black Hats"
+   ],
+   "a_path": "a",
+   "c": [
+    "Café Life",
+    "Lively Café Chat",
+    "City's Laughing Crowd"
+   ],
+   "a_rejected": [
+    {
+     "title": "Two Drinkers on Terrace",
+     "fit": 0.279,
+     "pattern_rank": 372,
+     "pattern_margin": 0.046,
+     "rejected": "uses 'drinkers', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Black Hat Talkers",
+     "fit": 0.361,
+     "rejected": "uses 'talkers', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Yellow Dress Watcher",
+     "fit": 0.286,
+     "rejected": "uses 'watcher', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "City's Daydreams",
+     "fit": 0.425,
+     "rejected": "uses 'daydreams', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sociable Drinkers",
+     "fit": 0.431,
+     "rejected": "uses 'sociable', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Café Cheerfulness",
+     "fit": 0.684,
+     "rejected": "uses 'cheerfulness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "City Daydreaming",
+     "fit": 0.391,
+     "rejected": "uses 'daydreaming', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Balcony Brunch Bunch",
+     "fit": 0.414,
+     "rejected": "uses 'brunch', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Manly Mingle",
+     "fit": 0.283,
+     "rejected": "uses 'mingle', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 6002,
+   "real": "Mademoiselle Marcelle Lender, Standing",
+   "description": "A woman in a long white dress with a red flower on her waistband walks leftward, her head turned back and hair flying. Her right arm is raised, holding a small black bird. The background is a simple grey field.",
+   "pred": {
+    "description": "A woman in a long white dress with a red flower on her waistband walks leftward, her head turned back and hair flying. Her right arm is raised, holding a small black bird. The background is a simple grey field.",
+    "theme": "woman and bird",
+    "mood": "lively, playful",
+    "objects": [
+     "woman",
+     "bird",
+     "flower"
+    ],
+    "style_guess": "expressive figurative",
+    "medium_guess": "lithograph (print on paper)",
+    "era_guess": "late 20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "figure filling the vertical frame, bird in the upper right",
+    "explanation": "A woman in a long white dress walks leftward, her head turned back and hair flying, while holding a small black bird. The bird is often a symbol of freedom and joy. The simple grey background makes the figure stand out. It may be read as a playful, joyful image of a woman enjoying a moment alone."
+   },
+   "a": [
+    "White Dress With Black Bird",
+    "Woman of Elegance",
+    "Lady with Black Feather"
+   ],
+   "a_path": "a",
+   "c": [
+    "Playful Bird's Flight",
+    "Girl, Bird, and Red Flowers, Playful Skirt",
+    "Lively Lady's Flight"
+   ],
+   "a_rejected": [
+    {
+     "title": "Red Blossom Amidst Grey",
+     "fit": 0.188,
+     "pattern_rank": 635,
+     "pattern_margin": -0.006,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Wisp of Hair Floating",
+     "fit": 0.169,
+     "pattern_rank": 297,
+     "pattern_margin": 0.041,
+     "rejected": "uses 'wisp', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Bird's Joyful Dance",
+     "fit": 0.584,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "White Dress Whirlwind",
+     "fit": 0.414,
+     "rejected": "uses 'whirlwind', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Woman's Flighty Moment",
+     "fit": 0.474,
+     "rejected": "uses 'flighty', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Bird's Flighty Moment",
+     "fit": 0.568,
+     "rejected": "uses 'flighty', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lady's Flighty Moment",
+     "fit": 0.468,
+     "rejected": "uses 'flighty', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Woman Dancing with Feathered Muse",
+     "fit": 0.42,
+     "rejected": "uses 'feathered', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Whimsical Birds in White Dress Parade",
+     "fit": 0.612,
+     "rejected": "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dress, Dance, Hummingbird",
+     "fit": 0.479,
+     "rejected": "uses 'hummingbird', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Long White Robe, Fluttering Hair, Joyous Stroll",
+     "fit": 0.546,
+     "rejected": "uses 'joyous', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Feminine Figure, Fluffy Feathers, Lighthearted Gaze",
+     "fit": 0.632,
+     "rejected": "uses 'lighthearted', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Flirtatious Flight, Danceable Dress",
+     "fit": 0.493,
+     "rejected": "uses 'flirtatious', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Cruising in Flit, Smiling Dress, Hummingbird Catch",
+     "fit": 0.546,
+     "rejected": "uses 'flit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 984,
+   "real": "At the Music Hall Loie Fuller",
+   "description": "A figure in a flowing orange robe stands on a yellow ground, with a dark blue and green plant-like shape behind them. The figure's long hair flows back over their shoulder.",
+   "pred": {
+    "description": "A figure in a flowing orange robe stands on a yellow ground, with a dark blue and green plant-like shape behind them. The figure's long hair flows back over their shoulder.",
+    "theme": "a woman in a robe",
+    "mood": "calm, elegant",
+    "objects": [
+     "woman",
+     "robe",
+     "hair",
+     "plant"
+    ],
+    "style_guess": "contemporary Asian decorative (guess)",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "figure centered on diagonal",
+    "explanation": "A woman in a flowing orange robe stands on a yellow ground, with a dark plant-like shape behind her. The figure's long hair and the bright colors make her stand out against the simple background. The painting feels calm and elegant, like a portrait of a graceful lady. It may be read as a simple, modern image of beauty."
+   },
+   "a": [
+    "Woman in Flowing Dress",
+    "Woman in Orange Robe",
+    "Lady in orange gown, plant shapes behind."
+   ],
+   "a_path": "a",
+   "c": [
+    "Calm Lady in Orange Robe",
+    "Orange Robe Lady",
+    "Flowing Orange Robe"
+   ],
+   "a_rejected": [
+    {
+     "title": "Orange-wrapped form amid greenery.",
+     "fit": 0.419,
+     "pattern_rank": 565,
+     "pattern_margin": 0.011,
+     "rejected": "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lady in orangy attire, foliage to rear.",
+     "fit": 0.419,
+     "pattern_rank": 191,
+     "pattern_margin": 0.104,
+     "rejected": "uses 'orangy', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Radiant Figurine on Ground",
+     "fit": 0.218,
+     "rejected": "uses 'figurine', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Zen Portrait with Flowy Robe",
+     "fit": 0.528,
+     "rejected": "uses 'flowy', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 1600,
+   "real": "Still life with fruits and watermelon",
+   "description": "A still life of sliced watermelons, grapes and a mango on a red tablecloth, with a blue napkin and a white cloth in the background. The fruit is painted in thick, flat colors.",
+   "pred": {
+    "description": "A still life of sliced watermelons, grapes and a mango on a red tablecloth, with a blue napkin and a white cloth in the background. The fruit is painted in thick, flat colors.",
+    "theme": "still life of summer fruits",
+    "mood": "bright, cheerful",
+    "objects": [
+     "watermelons",
+     "grapes",
+     "mango",
+     "tablecloth",
+     "napkin",
+     "cloth"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "fruit in the lower left, tablecloth across the bottom, napkin and cloth upper right",
+    "explanation": "Sliced watermelons, grapes and a mango sit on a red tablecloth, with a blue napkin and white cloth behind them. The fruit is painted in thick, flat colors, so the shapes stand out against the flat background. The bright colors make the still life feel fresh and sunny. It may be read as a cheerful picture of summer fruit."
+   },
+   "a": [
+    "Fruits in a Mood",
+    "Still Life on Red Cloth",
+    "Summer's Harvest"
+   ],
+   "a_path": "a",
+   "c": [
+    "Grapes' Glistening Glow",
+    "Vibrant Summer",
+    "Colorful Harvest"
+   ],
+   "a_rejected": [
+    {
+     "title": "Summer Melons on Red Cloth",
+     "fit": 0.582,
+     "pattern_rank": 48,
+     "pattern_margin": 0.157,
+     "rejected": "uses 'melons', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Mangoes and Grapes on Blue",
+     "fit": 0.573,
+     "pattern_rank": 34,
+     "pattern_margin": 0.175,
+     "rejected": "uses 'mangoes', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Watermelon Slices on Red",
+     "fit": 0.478,
+     "pattern_rank": 47,
+     "pattern_margin": 0.125,
+     "rejected": "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Summer Melons and Grapes",
+     "fit": 0.561,
+     "pattern_rank": 75,
+     "pattern_margin": 0.146,
+     "rejected": "uses 'melons', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Mangoes and Melons on Cloth",
+     "fit": 0.452,
+     "pattern_rank": 101,
+     "pattern_margin": 0.11,
+     "rejected": "uses 'mangoes', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Melon Slices on Cloth",
+     "fit": 0.346,
+     "pattern_rank": 102,
+     "pattern_margin": 0.078,
+     "rejected": "uses 'melon', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Midnight Glow, Midnight Still Life, Nightfruit",
+     "fit": 0.328,
+     "pattern_rank": 45,
+     "pattern_margin": 0.153,
+     "rejected": "uses 'nightfruit', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nightfruit in Midnight Glow",
+     "fit": 0.296,
+     "pattern_rank": 77,
+     "pattern_margin": 0.118,
+     "rejected": "uses 'nightfruit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Freshness in Every Slice",
+     "fit": 0.29,
+     "rejected": "uses 'freshness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Brightly Baked Melons",
+     "fit": 0.456,
+     "rejected": "uses 'melons', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Mangoes in the Sunlight",
+     "fit": 0.56,
+     "rejected": "uses 'mangoes', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Watermelon Whispers",
+     "fit": 0.37,
+     "rejected": "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Melon's Radiant Beauty",
+     "fit": 0.486,
+     "rejected": "uses 'melon', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sunlit Delights",
+     "fit": 0.461,
+     "rejected": "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 7826,
+   "real": "Essentuki",
+   "description": "A sunny park scene with a wide path winding through trees on the left, leading to a grassy area with a few figures in the distance. A blue bench sits under a tree on the right. The sky is blue with white clouds.",
+   "pred": {
+    "description": "A sunny park scene with a wide path winding through trees on the left, leading to a grassy area with a few figures in the distance. A blue bench sits under a tree on the right. The sky is blue with white clouds.",
+    "theme": "park in spring",
+    "mood": "bright, cheerful",
+    "objects": [
+     "trees",
+     "path",
+     "bench",
+     "figures"
+    ],
+    "style_guess": "expressive impressionist landscape",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "bright daylight",
+    "composition": "wide path across the middle, trees on the left, figures in the distance",
+    "explanation": "A sunny park with a wide path winding through trees, a blue bench and a few people in the distance. The bright colors and loose brushwork make the scene feel warm and cheerful. It may be read as a simple, happy picture of a pleasant day outdoors. The artist uses color and movement more than realistic detail."
+   },
+   "a": [
+    "Cheerful. Scene.",
+    "Blue. Sky.",
+    "Path. Spring."
+   ],
+   "a_path": "a",
+   "c": [
+    "Spring's Warm Welcome",
+    "Colorful Park Moments",
+    "Sunny Park Bench"
+   ],
+   "a_rejected": [
+    {
+     "title": "Still Life. Trees and Bench",
+     "fit": 0.348,
+     "pattern_rank": 12,
+     "pattern_margin": 0.277,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Portrait of Spring Park",
+     "fit": 0.614,
+     "pattern_rank": 72,
+     "pattern_margin": 0.161,
+     "rejected": "template 'Portrait of' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Path and Figures",
+     "fit": 0.28,
+     "pattern_rank": 16,
+     "pattern_margin": 0.238,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Blue Bench",
+     "fit": 0.241,
+     "pattern_rank": 10,
+     "pattern_margin": 0.236,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Trees and Sky",
+     "fit": 0.39,
+     "pattern_rank": 9,
+     "pattern_margin": 0.314,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Path and Clouds",
+     "fit": 0.332,
+     "pattern_rank": 9,
+     "pattern_margin": 0.247,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Bench and Figures",
+     "fit": 0.185,
+     "pattern_rank": 12,
+     "pattern_margin": 0.237,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Trees and Sunlight",
+     "fit": 0.34,
+     "pattern_rank": 11,
+     "pattern_margin": 0.296,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Path and Blue Sky",
+     "fit": 0.456,
+     "pattern_rank": 5,
+     "pattern_margin": 0.297,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still Life. Trees and Grass",
+     "fit": 0.363,
+     "pattern_rank": 13,
+     "pattern_margin": 0.308,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    },
+    {
+     "title": "Still life. Trees.",
+     "fit": 0.271,
+     "pattern_rank": 15,
+     "pattern_margin": 0.31,
+     "rejected": "template 'Still Life.' does not fit this painting"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Sunny Bench Serenity",
+     "fit": 0.455,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Springtime Pathway",
+     "fit": 0.41,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Springtime Bench Blues",
+     "fit": 0.412,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Blue Bench Serenity",
+     "fit": 0.276,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Springtime's Brightness",
+     "fit": 0.591,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Joyful Greenery Scene",
+     "fit": 0.611,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Daydreaming in Nature",
+     "fit": 0.384,
+     "rejected": "uses 'daydreaming', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sunlit Garden Happiness",
+     "fit": 0.593,
+     "rejected": "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 7655,
+   "real": "Still Life. Lilacs in a tub.",
+   "description": "A still life of a wooden basket filled with pink lilacs on a dark brown table. The flowers spill out of the basket, with green leaves and a few buds. The background is a dark brown field.",
+   "pred": {
+    "description": "A still life of a wooden basket filled with pink lilacs on a dark brown table. The flowers spill out of the basket, with green leaves and a few buds. The background is a dark brown field.",
+    "theme": "still life of lilacs",
+    "mood": "soft, delicate",
+    "objects": [
+     "basket",
+     "lilacs",
+     "leaves"
+    ],
+    "style_guess": "realist still life",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "basket centered in the lower half, flowers filling the upper half",
+    "explanation": "Pink lilacs spill out of a wooden basket onto a dark brown table, with green leaves and buds. Lilacs are often linked with spring and romance. The still life format shows the flowers as the main subject, with the basket and table as simple, uncluttered support. The soft color and gentle spill make the flowers feel delicate and fresh."
+   },
+   "a": [
+    "Still Life. Lilacs in a vase",
+    "Still Life. Lilacs on a table",
+    "Still Life. Lilacs in a pot"
+   ],
+   "a_path": "a",
+   "c": [
+    "Lilacs in Bloom",
+    "Soft Lilacs Dance",
+    "The Gently Spilled Bloom"
+   ],
+   "a_rejected": [
+    {
+     "title": "Still Life. Lilacs in a basket, spillway",
+     "fit": 0.693,
+     "pattern_rank": 3,
+     "pattern_margin": 0.308,
+     "rejected": "uses 'spillway', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Lilac Delight",
+     "fit": 0.621,
+     "rejected": "uses 'lilac', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Freshness Found",
+     "fit": 0.137,
+     "rejected": "uses 'freshness', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lilac Lullaby",
+     "fit": 0.597,
+     "rejected": "uses 'lilac', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lilac's Lament",
+     "fit": 0.609,
+     "rejected": "uses 'lilac', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Delicate Springtime Scene",
+     "fit": 0.459,
+     "rejected": "uses 'springtime', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lilacs' Lullaby",
+     "fit": 0.643,
+     "rejected": "uses 'lilacs'', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 1853,
+   "real": "Fairy tale",
+   "description": "A night landscape with a dark blue sky and a glowing red-orange light in the upper right. A dark figure in a red dress walks along a path on the left, while a small green tree appears below. The colors are bold and flat.",
+   "pred": {
+    "description": "A night landscape with a dark blue sky and a glowing red-orange light in the upper right. A dark figure in a red dress walks along a path on the left, while a small green tree appears below. The colors are bold and flat.",
+    "theme": "night walk",
+    "mood": "dreamy, mysterious",
+    "objects": [
+     "figure",
+     "dress",
+     "path",
+     "tree",
+     "sky"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "glowing red-orange light",
+    "composition": "dark figure on the left, bright light in the upper right",
+    "explanation": "A dark figure in a red dress walks along a path under a dark blue sky, with a glowing red-orange light in the upper right. The colors are so strong that they almost seem flat. Walking alone at night can be a strange, dreamlike experience. The glowing light may be read as hope or a memory. It may be read as a journey into the unknown."
+   },
+   "a": [
+    "Dark path",
+    "Flower's light",
+    "Mystery on the Path"
+   ],
+   "a_path": "a",
+   "c": [
+    "Dream-like Night Stroll",
+    "Night's Solitary Journey",
+    "Night's Intimate Shadows"
+   ],
+   "a_rejected": [
+    {
+     "title": "Ararat's mystery",
+     "fit": 0.211,
+     "pattern_rank": 1,
+     "pattern_margin": 0.243,
+     "rejected": "uses 'ararat', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dreamscape",
+     "fit": 0.362,
+     "pattern_rank": 22,
+     "pattern_margin": 0.175,
+     "rejected": "uses 'dreamscape', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Gloomy Night Stroll",
+     "fit": 0.7,
+     "pattern_rank": 107,
+     "pattern_margin": 0.12,
+     "rejected": "uses 'gloomy', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Solitary Night Wanderer",
+     "fit": 0.6,
+     "pattern_rank": 128,
+     "pattern_margin": 0.1,
+     "rejected": "uses 'wanderer', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dreamlike Figures",
+     "fit": 0.338,
+     "pattern_rank": 123,
+     "pattern_margin": 0.097,
+     "rejected": "uses 'dreamlike', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Colorful Skyward Journeys",
+     "fit": 0.416,
+     "pattern_rank": 77,
+     "pattern_margin": 0.127,
+     "rejected": "uses 'skyward', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Lonely Nightlight Glimpse",
+     "fit": 0.537,
+     "pattern_rank": 173,
+     "pattern_margin": 0.079,
+     "rejected": "uses 'nightlight', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Midnight Wanderer",
+     "fit": 0.459,
+     "rejected": "uses 'wanderer', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Mysterious Moonlit Path",
+     "fit": 0.437,
+     "rejected": "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 6504,
+   "real": "Date palm",
+   "description": "A bright tropical scene with a tall palm tree in the center, its trunk painted in dark blue and red leaves in orange and red. Two small figures sit under the tree, and two elephants stand nearby. Yellow and blue buildings form a row behind them. The sky is a clear blue.",
+   "pred": {
+    "description": "A bright tropical scene with a tall palm tree in the center, its trunk painted in dark blue and red leaves in orange and red. Two small figures sit under the tree, and two elephants stand nearby. Yellow and blue buildings form a row behind them. The sky is a clear blue.",
+    "theme": "tropical village",
+    "mood": "lively, cheerful",
+    "objects": [
+     "palm tree",
+     "figures",
+     "elephants",
+     "buildings"
+    ],
+    "style_guess": "naive / decorative African art",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "bright, flat daylight",
+    "composition": "tree in the center, figures and elephants below, buildings along the right edge",
+    "explanation": "A tall palm tree stands in the middle of a bright tropical village, with two small figures sitting under it and two elephants nearby. The colors are very strong and the scene feels cheerful and lively. It may be read as a happy picture of life in a sunny, warm place. The painting is done in a simple, decorative style that makes it feel like a children's book illustration."
+   },
+   "a": [
+    "Tropical village charm",
+    "Tropical village joy",
+    "Tropical village joy."
+   ],
+   "a_path": "a",
+   "c": [
+    "Vibrant Tropical Village",
+    "Cheerful Palm Tree Scene",
+    "Cheerful Village Scene"
+   ],
+   "a_rejected": [
+    {
+     "title": "Dancing in dappled light.",
+     "fit": 0.292,
+     "pattern_rank": 134,
+     "pattern_margin": 0.108,
+     "rejected": "uses 'dappled', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Tropical village serenity.",
+     "fit": 0.446,
+     "pattern_rank": 13,
+     "pattern_margin": 0.228,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Joyful jungle getaway.",
+     "fit": 0.405,
+     "pattern_rank": 35,
+     "pattern_margin": 0.17,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Joyful Village Moment",
+     "fit": 0.429,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Sunlit Village Serenity",
+     "fit": 0.389,
+     "rejected": "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Cheerful Village Daydream",
+     "fit": 0.584,
+     "rejected": "uses 'daydream', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Joyful Village Scene",
+     "fit": 0.623,
+     "rejected": "uses 'joyful', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Vibrant Village Vibrancy",
+     "fit": 0.566,
+     "rejected": "uses 'vibrancy', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 2260,
+   "real": "Scene from the Train Window",
+   "description": "A watercolor-like cityscape with a red building on the right, a green tree in the left foreground and a blue sky above. Figures in dark blue and red stand on a red platform in the lower middle. The paint is loose and expressive.",
+   "pred": {
+    "description": "A watercolor-like cityscape with a red building on the right, a green tree in the left foreground and a blue sky above. Figures in dark blue and red stand on a red platform in the lower middle. The paint is loose and expressive.",
+    "theme": "city life",
+    "mood": "lively, warm",
+    "objects": [
+     "building",
+     "tree",
+     "figures",
+     "platform"
+    ],
+    "style_guess": "expressive cityscape (guess)",
+    "medium_guess": "watercolor (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "building on the right, figures across the bottom",
+    "explanation": "People in dark blue and red stand on a red platform in front of a tall red building, with a green tree and blue sky behind them. The paint is loose and quick, so the scene feels warm and alive. It may be read as a picture of daily life in the city, with people going about their work or play."
+   },
+   "a": [
+    "City in vibrant hues",
+    "Red Building",
+    "City Life"
+   ],
+   "a_path": "a",
+   "c": [
+    "Red Building's Heartbeat",
+    "Red Skyscrapers & Green Trees",
+    "Urban Warmth"
+   ],
+   "a_rejected": [
+    {
+     "title": "Portrait of figures on platform",
+     "fit": 0.154,
+     "pattern_rank": 446,
+     "pattern_margin": 0.031,
+     "rejected": "template 'Portrait of' does not fit this painting"
+    },
+    {
+     "title": "Loose paint evokes warmth",
+     "fit": 0.431,
+     "pattern_rank": 438,
+     "pattern_margin": 0.031,
+     "rejected": "uses 'evokes', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Vivid city life snapshot",
+     "fit": 0.503,
+     "pattern_rank": 85,
+     "pattern_margin": 0.139,
+     "rejected": "uses 'snapshot', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Nighttime cityscapes兴起",
+     "fit": 0.393,
+     "pattern_rank": 24,
+     "pattern_margin": 0.22,
+     "rejected": "uses 'cityscapes', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Warm Citiescape",
+     "fit": 0.568,
+     "rejected": "uses 'citiescape', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Colorful City Strollers",
+     "fit": 0.386,
+     "rejected": "uses 'strollers', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 16383,
+   "real": "Portrait of a Girl",
+   "description": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar. She looks down, her face half hidden by the bonnet. The background is a warm yellow.",
+   "pred": {
+    "description": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar. She looks down, her face half hidden by the bonnet. The background is a warm yellow.",
+    "theme": "childhood innocence",
+    "mood": "gentle, nostalgic",
+    "objects": [
+     "girl",
+     "bonnet",
+     "dress",
+     "hair"
+    ],
+    "style_guess": "realist figurative",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "soft, even",
+    "composition": "figure filling the vertical frame, head tilted",
+    "explanation": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar, looking down. Her face is partly hidden by the bonnet, so we see only part of her face. The warm yellow background makes her look soft and gentle. The picture shows childhood innocence and quiet moments. It may be read as a gentle portrait of a child."
+   },
+   "a": [
+    "Gentle portrait of a young girl",
+    "Charming depiction of a young girl",
+    "Childhood innocence in white attire"
+   ],
+   "a_path": "a",
+   "c": [
+    "Innocent Childhood Portrait",
+    "Gentle Nostalgic Beauty",
+    "Warm Yellow Innocence"
+   ],
+   "a_rejected": [
+    {
+     "title": "Childhood innocence evoked",
+     "fit": 0.557,
+     "pattern_rank": 103,
+     "pattern_margin": 0.116,
+     "rejected": "uses 'evoked', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Serene face veiled by bonnet",
+     "fit": 0.596,
+     "pattern_rank": 70,
+     "pattern_margin": 0.118,
+     "rejected": "uses 'veiled', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Dress adorned by bonneted head",
+     "fit": 0.57,
+     "pattern_rank": 81,
+     "pattern_margin": 0.121,
+     "rejected": "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Wear white bonnet to soften gaze",
+     "fit": 0.45,
+     "pattern_rank": 251,
+     "pattern_margin": 0.045,
+     "rejected": "uses 'soften', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Gentle Bonneted Girl",
+     "fit": 0.709,
+     "rejected": "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Bonneted Beauty凝视",
+     "fit": 0.501,
+     "rejected": "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Bonneted Innocence凝望",
+     "fit": 0.625,
+     "rejected": "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Soft Childhood Serenity",
+     "fit": 0.488,
+     "rejected": "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Young Girl's Cherished Moments",
+     "fit": 0.563,
+     "rejected": "uses 'cherished', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Gentle Innocence's Dappled Light",
+     "fit": 0.615,
+     "rejected": "uses 'dappled', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 14573,
+   "real": "Portrait of Hermine Gallia",
+   "description": "A woman in a long white dress with a high collar and a hat stands with her hands on her hips. She holds a fan in her right hand. The background is dark with a blue band across the top and a patterned floor.",
+   "pred": {
+    "description": "A woman in a long white dress with a high collar and a hat stands with her hands on her hips. She holds a fan in her right hand. The background is dark with a blue band across the top and a patterned floor.",
+    "theme": "portrait of a lady",
+    "mood": "elegant, confident",
+    "objects": [
+     "woman",
+     "hat",
+     "fan",
+     "dress",
+     "floor"
+    ],
+    "style_guess": "realist portrait",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 19th – early 20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "figure centered, body filling the vertical frame",
+    "explanation": "A woman in a long white dress and hat stands with her hands on her hips, holding a fan. Her pose suggests confidence and elegance. The dark background makes her figure stand out. It may be read as a portrait of a lady who is proud and poised."
+   },
+   "a": [
+    "Lady with High Collar, Fan and Hips",
+    "Lady with Hips, Fan and Collar",
+    "Lady with Collar, Fan and Hips"
+   ],
+   "a_path": "a",
+   "c": [
+    "Lady's Confidence",
+    "White Dress Elegance",
+    "Elegant Pose"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 1544,
+   "real": "Female organ player",
+   "description": "A woman in a white dress kneels before a large piano, her head bowed. She plays a single note on the keyboard while a figure in a dark cloak sits behind her. The scene is framed by a round window or mirror-like oval shape.",
+   "pred": {
+    "description": "A woman in a white dress kneels before a large piano, her head bowed. She plays a single note on the keyboard while a figure in a dark cloak sits behind her. The scene is framed by a round window or mirror-like oval shape.",
+    "theme": "music and devotion",
+    "mood": "solemn, reverent",
+    "objects": [
+     "woman",
+     "piano",
+     "cloak",
+     "window"
+    ],
+    "style_guess": "realist figurative",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 20th century (guess)",
+    "lighting": "soft, warm light",
+    "composition": "knight's-nose frame around the oval scene",
+    "explanation": "A woman in a white dress kneels before a piano, playing a single note while a dark figure sits behind her. The round window or mirror-like frame makes us look through her eyes. Playing music is often connected with prayer and devotion. The soft, warm light gives the scene a calm, sacred feeling."
+   },
+   "a": [
+    "Devotion's piano",
+    "Piano's devotion",
+    "Piano's prayer"
+   ],
+   "a_path": "a",
+   "c": [
+    "Solemn Pianist",
+    "Reverent Piano Moment",
+    "Solemn Piano Solitude"
+   ],
+   "a_rejected": [
+    {
+     "title": "Solemn serenade",
+     "fit": 0.609,
+     "pattern_rank": 102,
+     "pattern_margin": 0.111,
+     "rejected": "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "The Beethoven Frieze at the Piano",
+     "fit": 0.392,
+     "pattern_rank": 12,
+     "pattern_margin": 0.165,
+     "rejected": "uses 'frieze', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Seraphic Note Beneath Cloaked Vein",
+     "fit": 0.292,
+     "pattern_rank": 222,
+     "pattern_margin": 0.056,
+     "rejected": "uses 'seraphic', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "In the Light of attersee Eyes",
+     "fit": 0.272,
+     "pattern_rank": 97,
+     "pattern_margin": 0.116,
+     "rejected": "uses 'attersee', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Piano Soliloquy Seated in Shadow",
+     "fit": 0.528,
+     "pattern_rank": 63,
+     "pattern_margin": 0.134,
+     "rejected": "uses 'soliloquy', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Cloaked Figure in Piano Focus",
+     "fit": 0.305,
+     "pattern_rank": 137,
+     "pattern_margin": 0.088,
+     "rejected": "uses 'cloaked', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Devoted Note Beneath Veiled Grace",
+     "fit": 0.58,
+     "pattern_rank": 62,
+     "pattern_margin": 0.156,
+     "rejected": "uses 'veiled', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ],
+   "c_rejected": [
+    {
+     "title": "Reverence Through Reflection",
+     "fit": 0.434,
+     "rejected": "uses 'reverence', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Solemnity's Piano Solo",
+     "fit": 0.593,
+     "rejected": "uses 'solemnity', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Devotional Piano Scene",
+     "fit": 0.644,
+     "rejected": "uses 'devotional', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Devotion's Serenade",
+     "fit": 0.529,
+     "rejected": "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Quiet Reverence",
+     "fit": 0.424,
+     "rejected": "uses 'reverence', which is neither in the analysis nor a common word (a name or place?)"
+    },
+    {
+     "title": "Devotional Solitude",
+     "fit": 0.394,
+     "rejected": "uses 'devotional', which is neither in the analysis nor a common word (a name or place?)"
+    }
+   ]
+  }
+ ]
+}

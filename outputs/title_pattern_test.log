@@ -1,0 +1,42 @@
+Piet Mondrian | On the Lappenbrink | a: ['Cloudy Day Light', 'Red Bricks and Roofs', 'Red Roofed Houses'] | c: ['Red Roofs and Bonnets', 'Woman in Bonnet']
+Piet Mondrian | Church tower at Domburg | a: ['Red Brick Church at Night', 'Church Windows at Sunset', 'Church of Midnight'] | c: ['Dusk Church Glow', 'Midnight Glow, Tower', 'Tower Luminous Red']
+Piet Mondrian | Nature died with Sunflower | a: ['Still Life with Sunflowers', 'Still Life with Two Sunflowers', 'Sunflowers in Green Vase'] | c: ['Still life of flowers']
+Wassily Kandinsky | Grungasse in Murnau | a: ['Ochre houses', 'White gate', 'Dog run'] | c: ['Red Roof and White Gate', "Woman's Red Dress Path", 'Woman in Red Dress Walking']
+Wassily Kandinsky | Blue mountain | a: ['Purple Red Trees', 'Vivid Trees', 'Tall Dark Trees'] | c: ['Tall Dark Trees', 'Purple Trees in Sunlight', 'Figures in White and Blue']
+Wassily Kandinsky | Volga song | a: ['Rower in the shadows'] | c: ['Dark Harbor Boats', 'Three Rowers, Dark Harbor', 'Boat Shadows']
+Paul Klee | The vase | a: ['Red Leaves, Green Shapes', 'Shapes and Dot', 'Blue Orange Line'] | c: ['Growing Shapes', 'Black Dot Above', 'Line Across Top']
+Paul Klee | Fish Image | a: ['Red and Pink Dots Dream', 'The flying lines', 'The dancing dots'] | c: ['Curved Lines Like Birds', 'Dreamy Red Dots Among White', 'Dreamy Red Dots']
+Paul Klee | Pierrot Lunaire | a: ['Face in Darkness', 'Face in Shadows', 'Puzzled Face Shape'] | c: ['Face in Darkness', 'Face in Shadows', 'Puzzled Face Shape']
+Claude Monet | Woman Sitting under the Willows | a: ['Willow Trees and Flowers', 'Yellow Flowers and Grass', 'Village in Distance'] | c: ['Yellow Flowers Bloom', "Woman's Red Dress Peace", 'Village In The Distance']
+Claude Monet | Portrait of Pere Paul | a: ["Chef's White Hat", "Chef's Hat", 'White Apron'] | c: ["Chef's White Hat", "Chef's Hat", 'White Apron']
+Claude Monet | The Sea, Port in Amsterdam | a: ['Calm Waters at Dusk', 'Masts in the Glow'] | c: ['Nostalgic Waterfront Scene', 'Figures by the Water']
+Henri de Toulouse-Lautrec | At the Opera Ball | a: ['Lively Café Scene, Three Men', 'Woman in Yellow Dress, Balcony', 'City Street, Red Brick Wall'] | c: ['Cheerful Café Society Scene with Women', 'Men in Black Hats Sipping Orange Juice', 'City Street Background with Red Bricks']
+Henri de Toulouse-Lautrec | Mademoiselle Marcelle Lender, Standing | a: ['White Dress And Black Bird', 'Flying Red Flower, Lady In Dress', 'Lady With Flying Hair, Red Flower'] | c: ['White Dress, Red Flower', 'Bird in Flight, White Dress', 'Lively, Playful Woman']
+Henri de Toulouse-Lautrec | At the Music Hall Loie Fuller | a: ['Woman in Orange Robe, Elegant', 'Woman in Flowing Robe', 'Woman in Orange Robe'] | c: ['Elegant Woman in Robe', 'Elegant woman in flowing robe.', 'Orange Robe Over Woman']
+Pyotr Konchalovsky | Still life with fruits and watermelon | a: ['Still Life. Summer Fruits.', 'Still Life. Bright Berries.', 'Still Life. Blue napkin with fruit.'] | c: ['Summer Fruits on Red Cloth', 'Summer Fruits on Cloth', 'Sliced Watermelons and Grapes']
+Pyotr Konchalovsky | Essentuki | a: ['Trees. Sunny Bench.', 'Path. Cheerful Trees.', 'Path. Sunny Trees.'] | c: ['Spring Park Path', 'Sunny Bench Scene', 'Spring Park Pathway']
+Pyotr Konchalovsky | Still Life. Lilacs in a tub. | a: ['Still Life. Lilacs', 'Lilacs in Bloom', 'Basket of Lilacs'] | c: ['Lilacs in Bloom', 'Basket of Pink Lilacs', 'Soft Lilacs']
+Martiros Saryan | Fairy tale | a: ['Dreamy tree', 'Glowing red dress', 'Blue sky glow'] | c: ['Dark Blue Skies', 'Red Dress Walks', 'Dreamy Pathway']
+Martiros Saryan | Date palm | a: ['Elephant village', 'Happy elephants'] | c: ['Tropical village']
+Martiros Saryan | Scene from the Train Window | a: ['Colorful Figures in the City', 'Green Tree in City Life', 'Building in warmth'] | c: ['Lively Figures on Red Platform']
+Gustav Klimt | Portrait of a Girl | a: ['Girl with Bonnet and Lace Collar', 'Young Girl in Bonnet and Dress'] | c: ["Young Girl's Face", 'Hair Tied Bun']
+Gustav Klimt | Portrait of Hermine Gallia | a: ['Lady with Fan, elegant', 'Lady with High-Collar Dress', 'Lady with High Collar and Hat'] | c: ["Lady's Long White Dress", 'Lady in White Dress', "Lady's Hat"]
+Gustav Klimt | Female organ player | a: ['Lady playing piano'] | c: ["Piano's Solemn Note", 'Woman in White Devotion']
+{
+ "real": {
+  "n": 24,
+  "artist_identified": 12,
+  "chance": 3.0
+ },
+ "a": {
+  "n": 24,
+  "artist_identified": 10,
+  "chance": 3.0
+ },
+ "c": {
+  "n": 24,
+  "artist_identified": 7,
+  "chance": 3.0
+ },
+ "copies": 0
+}

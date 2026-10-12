@@ -1,0 +1,536 @@
+{
+ "summary": {
+  "real": {
+   "n": 24,
+   "artist_identified": 12,
+   "chance": 3.0
+  },
+  "a": {
+   "n": 24,
+   "artist_identified": 8,
+   "chance": 3.0
+  },
+  "c": {
+   "n": 24,
+   "artist_identified": 7,
+   "chance": 3.0
+  },
+  "copies": 0
+ },
+ "rows": [
+  {
+   "artist": "Piet Mondrian",
+   "row": 13153,
+   "real": "On the Lappenbrink",
+   "description": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses with red roofs. The sky is pale blue with white clouds. The picture is painted in soft pastel colors.",
+   "a": [
+    "Red Bricks and Blue Sky",
+    "Narrow Street Scene",
+    "Pastel Clouds Over Town"
+   ],
+   "a_path": "a",
+   "c": [
+    "Pastel Town Scene",
+    "Soft Colors, Nostalgic Town",
+    "Serene Small-town Life"
+   ],
+   "a_rejected": [
+    {
+     "title": "Woman in Bonnet",
+     "fit": 0.432,
+     "pattern_rank": 673,
+     "pattern_margin": -0.011,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Piet Mondrian",
+   "row": 4763,
+   "real": "Church tower at Domburg",
+   "description": "A red brick church with a tall tower stands in the center, surrounded by a blue and green patterned field. The church is lit from behind, so its walls glow red and the windows are dark blue.",
+   "a": [
+    "Sunlit Church Tower",
+    "Red Tower Church",
+    "Dusk Glow Church"
+   ],
+   "a_path": "a",
+   "c": [
+    "Dusk Church Glow",
+    "Twilight Church",
+    "Red Brick Serenity"
+   ],
+   "a_rejected": [
+    {
+     "title": "Calm Church Scene",
+     "fit": 0.597,
+     "pattern_rank": 632,
+     "pattern_margin": -0.006,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Piet Mondrian",
+   "row": 17028,
+   "real": "Nature died with Sunflower",
+   "description": "A still life of two sunflowers in a green vase on a dark table, with a blue bird on the right and a green cloth draped over the left side. The background is a warm yellow-green.",
+   "a": [
+    "Still Life with Sunflowers",
+    "Sunflowers in Vase",
+    "Vase With Warm Background"
+   ],
+   "a_path": "a",
+   "c": [
+    "Sunflowers in Green Vase",
+    "Green Cloth and Sunflowers",
+    "Blue Bird and Yellow Table"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 12274,
+   "real": "Grungasse in Murnau",
+   "description": "A village street with houses in ochre, green and blue, a red roof and a white gate on the right. A woman in a red dress walks along the path in the middle, and a dog runs towards her. The paint is applied thickly.",
+   "a": [
+    "Ochre Houses",
+    "Village Life",
+    "Green Pathway"
+   ],
+   "a_path": "a",
+   "c": [
+    "Village Street Scene",
+    "Thick Painted Houses",
+    "Red Dress Walks"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 10891,
+   "real": "Blue mountain",
+   "description": "A dense, colorful landscape with tall dark purple and red trees on the right and a bright orange and yellow sky behind them. A few small figures in white and blue walk along a path in the lower center.",
+   "a": [
+    "Colorful Forest Walk",
+    "Forest Symphony",
+    "Warm Autumn Scene"
+   ],
+   "a_path": "a",
+   "c": [
+    "Warm Autumn Landscape Scene",
+    "Autumn Forest Panorama",
+    "Vibrant Pathway Through Woods"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 10906,
+   "real": "Volga song",
+   "description": "A dark, almost black painting of a harbor with three large boats in the foreground, each rowed by a man. Small figures stand on the boats and on the quay. The background is a dark silhouette of houses and a city skyline. The paint is applied thickly.",
+   "a": [
+    "Harbor Night",
+    "Dark Harbor",
+    "Boatman's Tale"
+   ],
+   "a_path": "a",
+   "c": [
+    "Harbor Shadows",
+    "Boats at Night",
+    "Dark Quayside"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 20911,
+   "real": "The vase",
+   "description": "A greyish beige canvas with large blue, orange and black letters '17' in the center, surrounded by small red and green leaf-like shapes. A black dot appears above the '1', and a black line runs across the top edge.",
+   "a": [
+    "Garden of Growth",
+    "The Numbers Garden",
+    "Red Green Leaves"
+   ],
+   "a_path": "a",
+   "c": [
+    "Leafy Numbers",
+    "Dot Line Canvas",
+    "Playful Numbers"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 3879,
+   "real": "Fish Image",
+   "description": "A blue field with long thin white and green lines curving across it like fish or birds in flight. Small red and pink dots appear among the lines.",
+   "a": [
+    "Blue Field Flight",
+    "Curved Fish Dream",
+    "Green Lines Dance"
+   ],
+   "a_path": "a",
+   "c": [
+    "Blue Field of Flight",
+    "Light Blue Sky with Fish Shapes",
+    "Curving Lines Like Birds"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 15737,
+   "real": "Pierrot Lunaire",
+   "description": "A face-like shape with a round yellow head and a small red nose set against a dark brown background. The face has two black dots for eyes and a small curved line for a mouth. The color palette is warm orange, red and yellow on a cool brown ground.",
+   "a": [
+    "Dark garden face",
+    "Face in darkness",
+    "Yellow mask"
+   ],
+   "a_path": "a",
+   "c": [
+    "Puzzled Face Shape",
+    "Face in Shadows",
+    "Dark Brown Enigma"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 12995,
+   "real": "Woman Sitting under the Willows",
+   "description": "A spring landscape with two tall willow trees on the left, a woman in a red dress sitting on the grass in the foreground, and a village in the distance. The ground is covered with yellow flowers and the sky is soft golden. The paint is applied in loose, dappled strokes.",
+   "a": [
+    "Spring Picnic Scene",
+    "Willow Trees and Flowers",
+    "Yellow Flowers and Grass"
+   ],
+   "a_path": "a",
+   "c": [
+    "Spring Picnic Scene",
+    "Willow Trees and Woman",
+    "Yellow Flowers and Village"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 1826,
+   "real": "Portrait of Pere Paul",
+   "description": "A portrait of a bearded man in a white chef's hat and apron, with a black neckerchief. His face is painted with quick, loose strokes in pale green, yellow and white.",
+   "a": [
+    "Chef's Necktie Detail"
+   ],
+   "a_path": "a",
+   "c": [
+    "Chef's Portrait in Green",
+    "Chef's Hat and Apron",
+    "Lively Chef's Face"
+   ],
+   "a_rejected": [
+    {
+     "title": "Chef in White Hat",
+     "fit": 0.701,
+     "pattern_rank": 602,
+     "pattern_margin": 0.0,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Quick Strokes Chef",
+     "fit": 0.463,
+     "pattern_rank": 611,
+     "pattern_margin": -0.001,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Bearded Chef Portrait",
+     "fit": 0.803,
+     "pattern_rank": 799,
+     "pattern_margin": -0.044,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Chef's Hat and Apron",
+     "fit": 0.672,
+     "pattern_rank": 677,
+     "pattern_margin": -0.013,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Green Yellow White Chef",
+     "fit": 0.578,
+     "pattern_rank": 886,
+     "pattern_margin": -0.067,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 20799,
+   "real": "The Sea, Port in Amsterdam",
+   "description": "A harbor scene with tall masts of sailing ships in the middle ground, reflected in calm water. The sky is blue with white clouds and a faint glow of light. Small figures stand on the right.",
+   "a": [
+    "Serene Harbor Scene",
+    "Harbor Masts at Twilight",
+    "Calm Waters Reflecting Ships"
+   ],
+   "a_path": "a",
+   "c": [
+    "Harbor Dusk Reflections",
+    "Calm Harbor Scene",
+    "Nostalgic Harbor Night"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 21229,
+   "real": "At the Opera Ball",
+   "description": "A lively café scene with three men in black hats and suits sitting on a balcony, drinking orange juice from tall glasses. A woman in a yellow dress sits next to them, and a man in a white hat stands behind her. The background shows a city street with buildings and a red-brick wall.",
+   "a": [
+    "Men in Black Hats, Orange Juice",
+    "Balcony Drinkers, City Street",
+    "City Street Sitters, White Hat"
+   ],
+   "a_path": "a",
+   "c": [
+    "Café Life",
+    "Three Hats, One Cup",
+    "Yellow Dress, Red Wall"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 6002,
+   "real": "Mademoiselle Marcelle Lender, Standing",
+   "description": "A woman in a long white dress with a red flower on her waistband walks leftward, her head turned back and hair flying. Her right arm is raised, holding a small black bird. The background is a simple grey field.",
+   "a": [
+    "Woman in Long White Dress with Black Bird",
+    "Lively Scene with Woman and Bird",
+    "Woman in White Dress with Red Flower"
+   ],
+   "a_path": "a",
+   "c": [
+    "Woman Walking with Bird",
+    "Woman in White with Red Flower",
+    "Woman in Long Dress"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 984,
+   "real": "At the Music Hall Loie Fuller",
+   "description": "A figure in a flowing orange robe stands on a yellow ground, with a dark blue and green plant-like shape behind them. The figure's long hair flows back over their shoulder.",
+   "a": [
+    "Orange Robe and Plant",
+    "Robe and Blue Green Plant",
+    "Woman in Flowing Dress"
+   ],
+   "a_path": "a",
+   "c": [
+    "Robed Figure and Plant",
+    "Flowing Hair and Plant",
+    "Woman in Robe with Hair"
+   ],
+   "a_rejected": [
+    {
+     "title": "Plant Behind Figure",
+     "fit": 0.536,
+     "pattern_rank": 611,
+     "pattern_margin": -0.001,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 1600,
+   "real": "Still life with fruits and watermelon",
+   "description": "A still life of sliced watermelons, grapes and a mango on a red tablecloth, with a blue napkin and a white cloth in the background. The fruit is painted in thick, flat colors.",
+   "a": [
+    "Watermelon, Grape, Mango",
+    "Summer Melons and Grapes",
+    "Mangoes and Melons on Cloth"
+   ],
+   "a_path": "a",
+   "c": [
+    "Colorful Summer Fruits",
+    "Summer Melons and Grapes",
+    "Bright Fruit Display"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 7826,
+   "real": "Essentuki",
+   "description": "A sunny park scene with a wide path winding through trees on the left, leading to a grassy area with a few figures in the distance. A blue bench sits under a tree on the right. The sky is blue with white clouds.",
+   "a": [
+    "Sunny Figures",
+    "Grassy Area",
+    "Park Bench"
+   ],
+   "a_path": "a",
+   "c": [
+    "Sunny Bench Scene",
+    "Spring Park Path",
+    "Serene Spring Day"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 7655,
+   "real": "Still Life. Lilacs in a tub.",
+   "description": "A still life of a wooden basket filled with pink lilacs on a dark brown table. The flowers spill out of the basket, with green leaves and a few buds. The background is a dark brown field.",
+   "a": [
+    "Still Life. Lilacs in Bloom",
+    "Bouquet of Pink Lilacs",
+    "Lilacs by Basket"
+   ],
+   "a_path": "a",
+   "c": [
+    "Pink Lilacs in Basket",
+    "Wooden Basket Lilacs",
+    "Lilacs and Green Leaves"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 1853,
+   "real": "Fairy tale",
+   "description": "A night landscape with a dark blue sky and a glowing red-orange light in the upper right. A dark figure in a red dress walks along a path on the left, while a small green tree appears below. The colors are bold and flat.",
+   "a": [
+    "Glowing night stroll",
+    "Dark figure journey",
+    "Night glow"
+   ],
+   "a_path": "a",
+   "c": [
+    "Night Sky Walk",
+    "Red Dress in Shadows",
+    "Forest Path at Night"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 6504,
+   "real": "Date palm",
+   "description": "A bright tropical scene with a tall palm tree in the center, its trunk painted in dark blue and red leaves in orange and red. Two small figures sit under the tree, and two elephants stand nearby. Yellow and blue buildings form a row behind them. The sky is a clear blue.",
+   "a": [
+    "Tropical village",
+    "Palm tree",
+    "Lively village"
+   ],
+   "a_path": "a",
+   "c": [
+    "Vibrant Tropical Village",
+    "Palm Tree Majesty",
+    "Tropical Paradise"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 2260,
+   "real": "Scene from the Train Window",
+   "description": "A watercolor-like cityscape with a red building on the right, a green tree in the left foreground and a blue sky above. Figures in dark blue and red stand on a red platform in the lower middle. The paint is loose and expressive.",
+   "a": [
+    "City Life",
+    "Red Building",
+    "Blue Sky"
+   ],
+   "a_path": "a",
+   "c": [
+    "Expressive Watercolor City",
+    "Vivid Cityscape with Trees",
+    "Blue Sky Over City Life"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 16383,
+   "real": "Portrait of a Girl",
+   "description": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar. She looks down, her face half hidden by the bonnet. The background is a warm yellow.",
+   "a": [
+    "Young Girl's Bonneted Face",
+    "Girl in Bonnet and Dress",
+    "Girl with Lace Collar and Bonnet"
+   ],
+   "a_path": "a",
+   "c": [
+    "White Bonnet Girl",
+    "Bonneted Beauty",
+    "Innocent Childhood"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 14573,
+   "real": "Portrait of Hermine Gallia",
+   "description": "A woman in a long white dress with a high collar and a hat stands with her hands on her hips. She holds a fan in her right hand. The background is dark with a blue band across the top and a patterned floor.",
+   "a": [
+    "High-Collar Dress and Fan",
+    "Lady in White with Fan",
+    "Woman in High-Collar Dress"
+   ],
+   "a_path": "a",
+   "c": [
+    "Lady's Portrait",
+    "Woman with Fan",
+    "High-Collar Lady"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 1544,
+   "real": "Female organ player",
+   "description": "A woman in a white dress kneels before a large piano, her head bowed. She plays a single note on the keyboard while a figure in a dark cloak sits behind her. The scene is framed by a round window or mirror-like oval shape.",
+   "a": [
+    "Woman at Piano",
+    "Piano's Solitude",
+    "Music's Devotion"
+   ],
+   "a_path": "a",
+   "c": [
+    "Solemn Piano Scene",
+    "Woman in White Before Piano",
+    "Woman Kneeling with Piano"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  }
+ ]
+}

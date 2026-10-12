@@ -1,0 +1,1019 @@
+{
+ "summary": {
+  "real": {
+   "n": 24,
+   "artist_identified": 12,
+   "chance": 3.0
+  },
+  "a": {
+   "n": 24,
+   "artist_identified": 10,
+   "chance": 3.0
+  },
+  "c": {
+   "n": 24,
+   "artist_identified": 8,
+   "chance": 3.0
+  },
+  "copies": 0
+ },
+ "rows": [
+  {
+   "artist": "Piet Mondrian",
+   "row": 13153,
+   "real": "On the Lappenbrink",
+   "description": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses with red roofs. The sky is pale blue with white clouds. The picture is painted in soft pastel colors.",
+   "pred": {
+    "description": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses with red roofs. The sky is pale blue with white clouds. The picture is painted in soft pastel colors.",
+    "theme": "everyday life in a small town",
+    "mood": "calm, nostalgic",
+    "objects": [
+     "woman",
+     "bench",
+     "houses",
+     "roofs",
+     "windows",
+     "clouds"
+    ],
+    "style_guess": "realist figurative",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "soft daylight",
+    "composition": "figure in the lower left, houses along the right side",
+    "explanation": "A woman in a white bonnet and blue dress sits on a bench in a narrow street between red-brick houses. The calm, soft colors make the scene feel quiet and nostalgic. It may be read as a simple portrait of everyday life in a small town, where people go about their daily business. The white bonnet stands out against the red houses and blue sky."
+   },
+   "a": [
+    "Red Roofed Houses Near Woman",
+    "Woman on Bench Among Houses",
+    "Red Bricks and Blue Sky"
+   ],
+   "a_path": "a",
+   "c": [
+    "Pastel Town Scene",
+    "Serene Small-town Life",
+    "Bench Among Houses"
+   ],
+   "a_rejected": [
+    {
+     "title": "Woman in Bonnet",
+     "fit": 0.432,
+     "pattern_rank": 684,
+     "pattern_margin": -0.012,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Piet Mondrian",
+   "row": 4763,
+   "real": "Church tower at Domburg",
+   "description": "A red brick church with a tall tower stands in the center, surrounded by a blue and green patterned field. The church is lit from behind, so its walls glow red and the windows are dark blue.",
+   "pred": {
+    "description": "A red brick church with a tall tower stands in the center, surrounded by a blue and green patterned field. The church is lit from behind, so its walls glow red and the windows are dark blue.",
+    "theme": "church at dusk",
+    "mood": "calm, spiritual",
+    "objects": [
+     "church",
+     "tower",
+     "windows"
+    ],
+    "style_guess": "naive / decorative figurative",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "backlighting from behind the church",
+    "composition": "central church figure in a diagonal field",
+    "explanation": "A red brick church with a tall tower stands in a blue and green patterned field, lit from behind so its walls glow red and the windows are dark blue. The church is a symbol of faith and community, often shown at dusk when the light is soft and calm. The patterned field around it makes the church stand out like a glowing beacon."
+   },
+   "a": [
+    "Sunlit Church",
+    "Church Tower at Twilight",
+    "Dusk Over the Church"
+   ],
+   "a_path": "a",
+   "c": [
+    "Towering Red Church",
+    "Red Brick Church Interior",
+    "Dusk Church Glow"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Piet Mondrian",
+   "row": 17028,
+   "real": "Nature died with Sunflower",
+   "description": "A still life of two sunflowers in a green vase on a dark table, with a blue bird on the right and a green cloth draped over the left side. The background is a warm yellow-green.",
+   "pred": {
+    "description": "A still life of two sunflowers in a green vase on a dark table, with a blue bird on the right and a green cloth draped over the left side. The background is a warm yellow-green.",
+    "theme": "still life of flowers",
+    "mood": "calm, nostalgic",
+    "objects": [
+     "sunflowers",
+     "vase",
+     "bird",
+     "tablecloth"
+    ],
+    "style_guess": "realist still life",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "vase centered, sunflowers filling the upper half",
+    "explanation": "Two sunflowers stand in a green vase on a dark table, with a blue bird and a green cloth nearby. Sunflowers are often linked with summer, warmth and happiness. The still life format makes the flowers the main focus, while the bird and cloth add interest. The warm colors make the scene feel calm and nostalgic."
+   },
+   "a": [
+    "Still Life with Sunflowers",
+    "Sunflowers in Green Vase",
+    "Vase Holds Sunflowers"
+   ],
+   "a_path": "a",
+   "c": [
+    "Sunflowers in a Green Vase",
+    "Sunflowers in Green Vase",
+    "Still Life of Two Sunflowers"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 12274,
+   "real": "Grungasse in Murnau",
+   "description": "A village street with houses in ochre, green and blue, a red roof and a white gate on the right. A woman in a red dress walks along the path in the middle, and a dog runs towards her. The paint is applied thickly.",
+   "pred": {
+    "description": "A village street with houses in ochre, green and blue, a red roof and a white gate on the right. A woman in a red dress walks along the path in the middle, and a dog runs towards her. The paint is applied thickly.",
+    "theme": "village life",
+    "mood": "lively, warm",
+    "objects": [
+     "houses",
+     "doorway",
+     "gate",
+     "woman",
+     "dog"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "bright daylight",
+    "composition": "houses on both sides, figure in the center",
+    "explanation": "A village street with houses in ochre, green and blue, a red roof and a white gate, with a woman in a red dress walking and a dog running towards her. The paint is applied thickly, so the colors feel strong and the figures jump out. It may be read as a happy, everyday moment in a small community."
+   },
+   "a": [
+    "Village Street Scene",
+    "Blue Sky Above Village",
+    "Lively Village Life Scene"
+   ],
+   "a_path": "a",
+   "c": [
+    "Village Street Scene",
+    "Red Roof House",
+    "Village Life Theme"
+   ],
+   "a_rejected": [
+    {
+     "title": "Woman Walking Pathway",
+     "fit": 0.278,
+     "pattern_rank": 762,
+     "pattern_margin": -0.019,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 10891,
+   "real": "Blue mountain",
+   "description": "A dense, colorful landscape with tall dark purple and red trees on the right and a bright orange and yellow sky behind them. A few small figures in white and blue walk along a path in the lower center.",
+   "pred": {
+    "description": "A dense, colorful landscape with tall dark purple and red trees on the right and a bright orange and yellow sky behind them. A few small figures in white and blue walk along a path in the lower center.",
+    "theme": "autumn forest",
+    "mood": "warm, vibrant",
+    "objects": [
+     "trees",
+     "figures",
+     "path"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "bright, warm daylight",
+    "composition": "trees on the right, figures in the lower center",
+    "explanation": "Tall dark trees stand against a bright orange and yellow sky, while a few small figures walk along a path below. The colors are so strong that they almost glow. The figures are tiny compared to the trees, so the forest feels huge and wild. It may be read as a celebration of autumn and nature."
+   },
+   "a": [
+    "Forest Symphony",
+    "Red Trees Gaze",
+    "Orange Sky Serenade"
+   ],
+   "a_path": "a",
+   "c": [
+    "Colorful Autumn Forest",
+    "Vibrant Autumn Landscape",
+    "Autumn Forest Panorama"
+   ],
+   "a_rejected": [
+    {
+     "title": "Blue Pathway Leads",
+     "fit": 0.196,
+     "pattern_rank": 644,
+     "pattern_margin": -0.006,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Wassily Kandinsky",
+   "row": 10906,
+   "real": "Volga song",
+   "description": "A dark, almost black painting of a harbor with three large boats in the foreground, each rowed by a man. Small figures stand on the boats and on the quay. The background is a dark silhouette of houses and a city skyline. The paint is applied thickly.",
+   "pred": {
+    "description": "A dark, almost black painting of a harbor with three large boats in the foreground, each rowed by a man. Small figures stand on the boats and on the quay. The background is a dark silhouette of houses and a city skyline. The paint is applied thickly.",
+    "theme": "harbor life",
+    "mood": "dark, nostalgic",
+    "objects": [
+     "boats",
+     "men",
+     "rowers",
+     "quay",
+     "houses",
+     "city"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "flat, dark",
+    "composition": "three boats across the lower half, quay on the right",
+    "explanation": "Three large boats are rowed by men in a dark harbor, with small figures on the boats and on the quay. The paint is applied thickly, so the scene feels heavy and almost black. Rowing boats is a daily task that connects people to their work and community. The dark color may be read as a memory of a past time."
+   },
+   "a": [
+    "Dark harbor night",
+    "Nostalgic harbor",
+    "Harbor melancholy"
+   ],
+   "a_path": "a",
+   "c": [
+    "Dark Harbor Silhouettes",
+    "Nostalgic Harbor Scene",
+    "Harbor Shadows"
+   ],
+   "a_rejected": [
+    {
+     "title": "Quay reflections",
+     "fit": 0.489,
+     "pattern_rank": 726,
+     "pattern_margin": -0.031,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 20911,
+   "real": "The vase",
+   "description": "A greyish beige canvas with large blue, orange and black letters '17' in the center, surrounded by small red and green leaf-like shapes. A black dot appears above the '1', and a black line runs across the top edge.",
+   "pred": {
+    "description": "A greyish beige canvas with large blue, orange and black letters '17' in the center, surrounded by small red and green leaf-like shapes. A black dot appears above the '1', and a black line runs across the top edge.",
+    "theme": "numbers and growth",
+    "mood": "playful, abstract",
+    "objects": [
+     "letters",
+     "dots",
+     "lines",
+     "leaf shapes"
+    ],
+    "style_guess": "abstract / decorative",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "central letters surrounded by leaves, diagonal line across top",
+    "explanation": "Large blue, orange and black letters '17' stand out against a grey beige background, surrounded by small leaf-like shapes. The letters look like they are growing or being written, while the leaves suggest growth, nature or a garden. The simple shapes and flat colors make the work feel playful and modern. It may be read as a playful way to show numbers and growth."
+   },
+   "a": [
+    "Abstract Garden",
+    "Blue and Orange Garden",
+    "Garden of Growth"
+   ],
+   "a_path": "a",
+   "c": [
+    "Grey Beige Canvas",
+    "Red Green Leaf Shapes",
+    "Large Letters '17"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 3879,
+   "real": "Fish Image",
+   "description": "A blue field with long thin white and green lines curving across it like fish or birds in flight. Small red and pink dots appear among the lines.",
+   "pred": {
+    "description": "A blue field with long thin white and green lines curving across it like fish or birds in flight. Small red and pink dots appear among the lines.",
+    "theme": "flight, movement",
+    "mood": "light, dreamy",
+    "objects": [
+     "lines",
+     "dots"
+    ],
+    "style_guess": "contemporary abstract",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "curving lines across the vertical frame",
+    "explanation": "Long white and green lines curve across a blue field, like fish or birds flying. The lines look like they are moving quickly through the air. The small red and pink dots add a touch of color and life. It may be read as a picture of flight, freedom or dreams. The simple shapes and flat colors make it feel calm and dreamlike."
+   },
+   "a": [
+    "The blue field",
+    "Landscape dreams",
+    "Garden of motion"
+   ],
+   "a_path": "a",
+   "c": [
+    "Dreamy Blue Field With Curves",
+    "Blue Field of Flight",
+    "Fish-like White Lines Across Field"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Paul Klee",
+   "row": 15737,
+   "real": "Pierrot Lunaire",
+   "description": "A face-like shape with a round yellow head and a small red nose set against a dark brown background. The face has two black dots for eyes and a small curved line for a mouth. The color palette is warm orange, red and yellow on a cool brown ground.",
+   "pred": {
+    "description": "A face-like shape with a round yellow head and a small red nose set against a dark brown background. The face has two black dots for eyes and a small curved line for a mouth. The color palette is warm orange, red and yellow on a cool brown ground.",
+    "theme": "face in darkness",
+    "mood": "puzzled, mysterious",
+    "objects": [
+     "face"
+    ],
+    "style_guess": "naive / expressive figurative",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "head centered in a square frame",
+    "explanation": "A round yellow face with a red nose and black eyes appears against a dark brown background. Faces often stand for identity, emotion or thought, so the picture may be read as a puzzle about who we are or what we look like. The warm colors make the face feel bright and strong against the cool ground. It may be read as a simple, honest portrait."
+   },
+   "a": [
+    "Puzzled Face Shape",
+    "Face in Shadows",
+    "Mysterious Orange Face"
+   ],
+   "a_path": "c",
+   "c": [
+    "Puzzled Face Shape",
+    "Face in Shadows",
+    "Mysterious Orange Face"
+   ],
+   "a_rejected": [
+    {
+     "title": "The mask with the little flag",
+     "fit": 0.415,
+     "pattern_rank": 38,
+     "pattern_margin": 0.149,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Death and fire",
+     "fit": 0.2,
+     "pattern_rank": 20,
+     "pattern_margin": 0.184,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Refuge",
+     "fit": 0.149,
+     "pattern_rank": 3,
+     "pattern_margin": 0.193,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "The singer L as Fioridigli",
+     "fit": 0.139,
+     "pattern_rank": 372,
+     "pattern_margin": 0.06,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Bad band",
+     "fit": 0.148,
+     "pattern_rank": 42,
+     "pattern_margin": 0.122,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Angel Still Feminine",
+     "fit": 0.102,
+     "pattern_rank": 95,
+     "pattern_margin": 0.117,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Cat and Bird",
+     "fit": 0.281,
+     "pattern_rank": 17,
+     "pattern_margin": 0.183,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "Senecio",
+     "fit": 0.193,
+     "pattern_rank": 281,
+     "pattern_margin": 0.074,
+     "rejected": "copies an existing title"
+    },
+    {
+     "title": "An allegory of propaganda",
+     "fit": 0.146,
+     "pattern_rank": 62,
+     "pattern_margin": 0.143,
+     "rejected": "copies an existing title"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 12995,
+   "real": "Woman Sitting under the Willows",
+   "description": "A spring landscape with two tall willow trees on the left, a woman in a red dress sitting on the grass in the foreground, and a village in the distance. The ground is covered with yellow flowers and the sky is soft golden. The paint is applied in loose, dappled strokes.",
+   "pred": {
+    "description": "A spring landscape with two tall willow trees on the left, a woman in a red dress sitting on the grass in the foreground, and a village in the distance. The ground is covered with yellow flowers and the sky is soft golden. The paint is applied in loose, dappled strokes.",
+    "theme": "spring picnic",
+    "mood": "bright, peaceful",
+    "objects": [
+     "willow trees",
+     "woman",
+     "grass",
+     "flowers",
+     "village"
+    ],
+    "style_guess": "impressionist landscape (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "soft golden light",
+    "composition": "figure in the lower right, willows on the left, village across the middle",
+    "explanation": "A woman sits on the grass in a field of yellow flowers, with tall willow trees and a village in the background. The paint is applied loosely, so the colors blend together like a dream. The soft golden light suggests early spring, when the world is waking up after winter. It may be read as a peaceful moment of leisure in nature."
+   },
+   "a": [
+    "Spring Landscape with Willow",
+    "Spring Picnic Under Willow",
+    "Willow Trees and Flowers"
+   ],
+   "a_path": "a",
+   "c": [
+    "Spring Picnic Scene",
+    "Willows & Grass",
+    "Dappled Landscape"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 1826,
+   "real": "Portrait of Pere Paul",
+   "description": "A portrait of a bearded man in a white chef's hat and apron, with a black neckerchief. His face is painted with quick, loose strokes in pale green, yellow and white.",
+   "pred": {
+    "description": "A portrait of a bearded man in a white chef's hat and apron, with a black neckerchief. His face is painted with quick, loose strokes in pale green, yellow and white.",
+    "theme": "portrait of a chef",
+    "mood": "lively, cheerful",
+    "objects": [
+     "man",
+     "chef's hat",
+     "apron",
+     "neckerchief"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 20th – 21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "head and shoulders centered, figure filling the frame",
+    "explanation": "A bearded man in a chef's hat and apron is shown in a quick, loose portrait. The quick brushwork makes his face feel warm and friendly. The white hat and apron stand out against the pale background. It may be read as a cheerful portrait of a happy, hard-working chef."
+   },
+   "a": [
+    "Chef's Hat, Quick Strokes",
+    "Quick Strokes, Chef's Hat",
+    "Chefs' Attire, Green Yellow"
+   ],
+   "a_path": "a",
+   "c": [
+    "Chef's Portrait in Green",
+    "Chef's Hat and Apron",
+    "Chef's White Hat"
+   ],
+   "a_rejected": [
+    {
+     "title": "Man in Chef's Hat",
+     "fit": 0.637,
+     "pattern_rank": 774,
+     "pattern_margin": -0.021,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Chef's Attire, Quick Strokes",
+     "fit": 0.584,
+     "pattern_rank": 612,
+     "pattern_margin": -0.002,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Bearded Chef, White Hat",
+     "fit": 0.778,
+     "pattern_rank": 793,
+     "pattern_margin": -0.032,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Lively Chef Portrait",
+     "fit": 0.719,
+     "pattern_rank": 711,
+     "pattern_margin": -0.025,
+     "rejected": "does not follow the artist's pattern"
+    },
+    {
+     "title": "Chef's Apron, Loose Brush",
+     "fit": 0.465,
+     "pattern_rank": 700,
+     "pattern_margin": -0.016,
+     "rejected": "does not follow the artist's pattern"
+    }
+   ],
+   "c_rejected": []
+  },
+  {
+   "artist": "Claude Monet",
+   "row": 20799,
+   "real": "The Sea, Port in Amsterdam",
+   "description": "A harbor scene with tall masts of sailing ships in the middle ground, reflected in calm water. The sky is blue with white clouds and a faint glow of light. Small figures stand on the right.",
+   "pred": {
+    "description": "A harbor scene with tall masts of sailing ships in the middle ground, reflected in calm water. The sky is blue with white clouds and a faint glow of light. Small figures stand on the right.",
+    "theme": "harbor at dusk",
+    "mood": "calm, nostalgic",
+    "objects": [
+     "ships",
+     "masts",
+     "water",
+     "figures"
+    ],
+    "style_guess": "impressionist seascapes",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 19th – early 20th century (guess)",
+    "lighting": "soft, diffuse daylight",
+    "composition": "ships across the middle, figures on the right",
+    "explanation": "Sails rise from calm water under a soft blue sky, with small figures on the right. The calm water reflects the masts, so everything looks doubled. The gentle light suggests dusk or dawn, when the day is fading. It may be read as a quiet harbor scene, a memory of a time when ships were a part of everyday life."
+   },
+   "a": [
+    "Masts and Ships in Serene Harbor View",
+    "Harbor Masts Under Blue Sky",
+    "Blue Sky Over Harbor Scene"
+   ],
+   "a_path": "a",
+   "c": [
+    "Serene Harbor Scene",
+    "Harbor Dusk Reflections",
+    "Harbor at Evening Glow"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 21229,
+   "real": "At the Opera Ball",
+   "description": "A lively café scene with three men in black hats and suits sitting on a balcony, drinking orange juice from tall glasses. A woman in a yellow dress sits next to them, and a man in a white hat stands behind her. The background shows a city street with buildings and a red-brick wall.",
+   "pred": {
+    "description": "A lively café scene with three men in black hats and suits sitting on a balcony, drinking orange juice from tall glasses. A woman in a yellow dress sits next to them, and a man in a white hat stands behind her. The background shows a city street with buildings and a red-brick wall.",
+    "theme": "cafés and café society",
+    "mood": "lively, cheerful",
+    "objects": [
+     "men",
+     "women",
+     "glasses",
+     "balcony",
+     "city street"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "1900s (guess)",
+    "lighting": "bright, flat",
+    "composition": "figures filling the lower half, balcony across the middle",
+    "explanation": "Three men in black hats sit on a balcony, drinking orange juice, while a woman in a yellow dress watches. The scene is full of energy and laughter, like a café where people come to talk and drink. The bright colors and quick lines make it feel fast-paced and lively. It may be read as a celebration of café culture and social life."
+   },
+   "a": [
+    "Lively Café Scene",
+    "Men in Black Hats, Orange Juice",
+    "Balcony, Three Men"
+   ],
+   "a_path": "a",
+   "c": [
+    "Café Life",
+    "Three Hats, One Cup",
+    "City's Daydream"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 6002,
+   "real": "Mademoiselle Marcelle Lender, Standing",
+   "description": "A woman in a long white dress with a red flower on her waistband walks leftward, her head turned back and hair flying. Her right arm is raised, holding a small black bird. The background is a simple grey field.",
+   "pred": {
+    "description": "A woman in a long white dress with a red flower on her waistband walks leftward, her head turned back and hair flying. Her right arm is raised, holding a small black bird. The background is a simple grey field.",
+    "theme": "woman and bird",
+    "mood": "lively, playful",
+    "objects": [
+     "woman",
+     "bird",
+     "flower"
+    ],
+    "style_guess": "expressive figurative",
+    "medium_guess": "lithograph (print on paper)",
+    "era_guess": "late 20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "figure filling the vertical frame, bird in the upper right",
+    "explanation": "A woman in a long white dress walks leftward, her head turned back and hair flying, while holding a small black bird. The bird is often a symbol of freedom and joy. The simple grey background makes the figure stand out. It may be read as a playful, joyful image of a woman enjoying a moment alone."
+   },
+   "a": [
+    "Lively Scene with Woman and Bird",
+    "Woman in White Dress with Red Flower",
+    "Woman in White Dress with Flying Hair"
+   ],
+   "a_path": "a",
+   "c": [
+    "Red Flower, Black Bird",
+    "Woman Holding Small Bird",
+    "Woman in White Dress"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Henri de Toulouse-Lautrec",
+   "row": 984,
+   "real": "At the Music Hall Loie Fuller",
+   "description": "A figure in a flowing orange robe stands on a yellow ground, with a dark blue and green plant-like shape behind them. The figure's long hair flows back over their shoulder.",
+   "pred": {
+    "description": "A figure in a flowing orange robe stands on a yellow ground, with a dark blue and green plant-like shape behind them. The figure's long hair flows back over their shoulder.",
+    "theme": "a woman in a robe",
+    "mood": "calm, elegant",
+    "objects": [
+     "woman",
+     "robe",
+     "hair",
+     "plant"
+    ],
+    "style_guess": "contemporary Asian decorative (guess)",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "figure centered on diagonal",
+    "explanation": "A woman in a flowing orange robe stands on a yellow ground, with a dark plant-like shape behind her. The figure's long hair and the bright colors make her stand out against the simple background. The painting feels calm and elegant, like a portrait of a graceful lady. It may be read as a simple, modern image of beauty."
+   },
+   "a": [
+    "Orange Robe and Plant",
+    "Plant Behind Woman",
+    "Woman in Orange Robe"
+   ],
+   "a_path": "a",
+   "c": [
+    "Robe and Hair, Plant Shape",
+    "Robe and Hair, Plant Presence",
+    "Robed Figure, Yellow Ground"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 1600,
+   "real": "Still life with fruits and watermelon",
+   "description": "A still life of sliced watermelons, grapes and a mango on a red tablecloth, with a blue napkin and a white cloth in the background. The fruit is painted in thick, flat colors.",
+   "pred": {
+    "description": "A still life of sliced watermelons, grapes and a mango on a red tablecloth, with a blue napkin and a white cloth in the background. The fruit is painted in thick, flat colors.",
+    "theme": "still life of summer fruits",
+    "mood": "bright, cheerful",
+    "objects": [
+     "watermelons",
+     "grapes",
+     "mango",
+     "tablecloth",
+     "napkin",
+     "cloth"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "fruit in the lower left, tablecloth across the bottom, napkin and cloth upper right",
+    "explanation": "Sliced watermelons, grapes and a mango sit on a red tablecloth, with a blue napkin and white cloth behind them. The fruit is painted in thick, flat colors, so the shapes stand out against the flat background. The bright colors make the still life feel fresh and sunny. It may be read as a cheerful picture of summer fruit."
+   },
+   "a": [
+    "Still Life with Summer Colors",
+    "Red Tablecloth and Summer Fruits",
+    "Red Tablecloth with Summer Fruits"
+   ],
+   "a_path": "a",
+   "c": [
+    "Red Tablecloth with Fruits",
+    "Colorful Summer Fruits",
+    "Mangoes & Grapes on Cloth"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 7826,
+   "real": "Essentuki",
+   "description": "A sunny park scene with a wide path winding through trees on the left, leading to a grassy area with a few figures in the distance. A blue bench sits under a tree on the right. The sky is blue with white clouds.",
+   "pred": {
+    "description": "A sunny park scene with a wide path winding through trees on the left, leading to a grassy area with a few figures in the distance. A blue bench sits under a tree on the right. The sky is blue with white clouds.",
+    "theme": "park in spring",
+    "mood": "bright, cheerful",
+    "objects": [
+     "trees",
+     "path",
+     "bench",
+     "figures"
+    ],
+    "style_guess": "expressive impressionist landscape",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "bright daylight",
+    "composition": "wide path across the middle, trees on the left, figures in the distance",
+    "explanation": "A sunny park with a wide path winding through trees, a blue bench and a few people in the distance. The bright colors and loose brushwork make the scene feel warm and cheerful. It may be read as a simple, happy picture of a pleasant day outdoors. The artist uses color and movement more than realistic detail."
+   },
+   "a": [
+    "Sunny Park Scene",
+    "Trees and Bench",
+    "Grass Under Trees"
+   ],
+   "a_path": "a",
+   "c": [
+    "Sunny Bench Scene",
+    "Park with Blue Sky",
+    "Trees and Blue Sky"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Pyotr Konchalovsky",
+   "row": 7655,
+   "real": "Still Life. Lilacs in a tub.",
+   "description": "A still life of a wooden basket filled with pink lilacs on a dark brown table. The flowers spill out of the basket, with green leaves and a few buds. The background is a dark brown field.",
+   "pred": {
+    "description": "A still life of a wooden basket filled with pink lilacs on a dark brown table. The flowers spill out of the basket, with green leaves and a few buds. The background is a dark brown field.",
+    "theme": "still life of lilacs",
+    "mood": "soft, delicate",
+    "objects": [
+     "basket",
+     "lilacs",
+     "leaves"
+    ],
+    "style_guess": "realist still life",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "basket centered in the lower half, flowers filling the upper half",
+    "explanation": "Pink lilacs spill out of a wooden basket onto a dark brown table, with green leaves and buds. Lilacs are often linked with spring and romance. The still life format shows the flowers as the main subject, with the basket and table as simple, uncluttered support. The soft color and gentle spill make the flowers feel delicate and fresh."
+   },
+   "a": [
+    "Lilacs in Bloom",
+    "Basket of Lilacs"
+   ],
+   "a_path": "a",
+   "c": [
+    "Pink Lilacs in Basket",
+    "Lilacs and Greenery",
+    "Delicate Lilacs on Table"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 1853,
+   "real": "Fairy tale",
+   "description": "A night landscape with a dark blue sky and a glowing red-orange light in the upper right. A dark figure in a red dress walks along a path on the left, while a small green tree appears below. The colors are bold and flat.",
+   "pred": {
+    "description": "A night landscape with a dark blue sky and a glowing red-orange light in the upper right. A dark figure in a red dress walks along a path on the left, while a small green tree appears below. The colors are bold and flat.",
+    "theme": "night walk",
+    "mood": "dreamy, mysterious",
+    "objects": [
+     "figure",
+     "dress",
+     "path",
+     "tree",
+     "sky"
+    ],
+    "style_guess": "expressive figurative (guess)",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "20th century (guess)",
+    "lighting": "glowing red-orange light",
+    "composition": "dark figure on the left, bright light in the upper right",
+    "explanation": "A dark figure in a red dress walks along a path under a dark blue sky, with a glowing red-orange light in the upper right. The colors are so strong that they almost seem flat. Walking alone at night can be a strange, dreamlike experience. The glowing light may be read as hope or a memory. It may be read as a journey into the unknown."
+   },
+   "a": [
+    "Blue sky",
+    "Night figure",
+    "Green tree"
+   ],
+   "a_path": "a",
+   "c": [
+    "Mysterious Night Scene",
+    "Night Sky Walk",
+    "Red Dress in Shadows"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 6504,
+   "real": "Date palm",
+   "description": "A bright tropical scene with a tall palm tree in the center, its trunk painted in dark blue and red leaves in orange and red. Two small figures sit under the tree, and two elephants stand nearby. Yellow and blue buildings form a row behind them. The sky is a clear blue.",
+   "pred": {
+    "description": "A bright tropical scene with a tall palm tree in the center, its trunk painted in dark blue and red leaves in orange and red. Two small figures sit under the tree, and two elephants stand nearby. Yellow and blue buildings form a row behind them. The sky is a clear blue.",
+    "theme": "tropical village",
+    "mood": "lively, cheerful",
+    "objects": [
+     "palm tree",
+     "figures",
+     "elephants",
+     "buildings"
+    ],
+    "style_guess": "naive / decorative African art",
+    "medium_guess": "acrylic on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "bright, flat daylight",
+    "composition": "tree in the center, figures and elephants below, buildings along the right edge",
+    "explanation": "A tall palm tree stands in the middle of a bright tropical village, with two small figures sitting under it and two elephants nearby. The colors are very strong and the scene feels cheerful and lively. It may be read as a happy picture of life in a sunny, warm place. The painting is done in a simple, decorative style that makes it feel like a children's book illustration."
+   },
+   "a": [
+    "Tropical village",
+    "Elephant village",
+    "Palm tree village"
+   ],
+   "a_path": "a",
+   "c": [
+    "Tropical Village Scene",
+    "Palm Tree and Figures",
+    "Vibrant Tropical Village"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Martiros Saryan",
+   "row": 2260,
+   "real": "Scene from the Train Window",
+   "description": "A watercolor-like cityscape with a red building on the right, a green tree in the left foreground and a blue sky above. Figures in dark blue and red stand on a red platform in the lower middle. The paint is loose and expressive.",
+   "pred": {
+    "description": "A watercolor-like cityscape with a red building on the right, a green tree in the left foreground and a blue sky above. Figures in dark blue and red stand on a red platform in the lower middle. The paint is loose and expressive.",
+    "theme": "city life",
+    "mood": "lively, warm",
+    "objects": [
+     "building",
+     "tree",
+     "figures",
+     "platform"
+    ],
+    "style_guess": "expressive cityscape (guess)",
+    "medium_guess": "watercolor (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "flat, even",
+    "composition": "building on the right, figures across the bottom",
+    "explanation": "People in dark blue and red stand on a red platform in front of a tall red building, with a green tree and blue sky behind them. The paint is loose and quick, so the scene feels warm and alive. It may be read as a picture of daily life in the city, with people going about their work or play."
+   },
+   "a": [
+    "Cityscape生机勃勃的红蓝交响曲",
+    "蓝色天空下的绿色树木",
+    "城市的灵魂在蓝天之下"
+   ],
+   "a_path": "a",
+   "c": [
+    "Expressive Cityscape with Figures",
+    "Loose Watercolor Cityscape",
+    "Blue Sky Over City Life"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 16383,
+   "real": "Portrait of a Girl",
+   "description": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar. She looks down, her face half hidden by the bonnet. The background is a warm yellow.",
+   "pred": {
+    "description": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar. She looks down, her face half hidden by the bonnet. The background is a warm yellow.",
+    "theme": "childhood innocence",
+    "mood": "gentle, nostalgic",
+    "objects": [
+     "girl",
+     "bonnet",
+     "dress",
+     "hair"
+    ],
+    "style_guess": "realist figurative",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "21st century (guess)",
+    "lighting": "soft, even",
+    "composition": "figure filling the vertical frame, head tilted",
+    "explanation": "A young girl with dark hair tied in a loose bun wears a white bonnet and a white dress with a lace collar, looking down. Her face is partly hidden by the bonnet, so we see only part of her face. The warm yellow background makes her look soft and gentle. The picture shows childhood innocence and quiet moments. It may be read as a gentle portrait of a child."
+   },
+   "a": [
+    "White Bonneted Girl",
+    "Bonneted Beauty",
+    "Bonneted Innocence"
+   ],
+   "a_path": "a",
+   "c": [
+    "White Bonnet Girl",
+    "Bonneted Innocence",
+    "Bonneted Beauty"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 14573,
+   "real": "Portrait of Hermine Gallia",
+   "description": "A woman in a long white dress with a high collar and a hat stands with her hands on her hips. She holds a fan in her right hand. The background is dark with a blue band across the top and a patterned floor.",
+   "pred": {
+    "description": "A woman in a long white dress with a high collar and a hat stands with her hands on her hips. She holds a fan in her right hand. The background is dark with a blue band across the top and a patterned floor.",
+    "theme": "portrait of a lady",
+    "mood": "elegant, confident",
+    "objects": [
+     "woman",
+     "hat",
+     "fan",
+     "dress",
+     "floor"
+    ],
+    "style_guess": "realist portrait",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 19th – early 20th century (guess)",
+    "lighting": "flat, even",
+    "composition": "figure centered, body filling the vertical frame",
+    "explanation": "A woman in a long white dress and hat stands with her hands on her hips, holding a fan. Her pose suggests confidence and elegance. The dark background makes her figure stand out. It may be read as a portrait of a lady who is proud and poised."
+   },
+   "a": [
+    "Lady with Fan and High-Collar Dress",
+    "High-Collar Lady with Fan",
+    "Lady in White with Fan and High-Collar"
+   ],
+   "a_path": "a",
+   "c": [
+    "Lady's Portrait",
+    "Lady's Dress",
+    "Lady with Fan"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  },
+  {
+   "artist": "Gustav Klimt",
+   "row": 1544,
+   "real": "Female organ player",
+   "description": "A woman in a white dress kneels before a large piano, her head bowed. She plays a single note on the keyboard while a figure in a dark cloak sits behind her. The scene is framed by a round window or mirror-like oval shape.",
+   "pred": {
+    "description": "A woman in a white dress kneels before a large piano, her head bowed. She plays a single note on the keyboard while a figure in a dark cloak sits behind her. The scene is framed by a round window or mirror-like oval shape.",
+    "theme": "music and devotion",
+    "mood": "solemn, reverent",
+    "objects": [
+     "woman",
+     "piano",
+     "cloak",
+     "window"
+    ],
+    "style_guess": "realist figurative",
+    "medium_guess": "oil on canvas (guess)",
+    "era_guess": "late 20th century (guess)",
+    "lighting": "soft, warm light",
+    "composition": "knight's-nose frame around the oval scene",
+    "explanation": "A woman in a white dress kneels before a piano, playing a single note while a dark figure sits behind her. The round window or mirror-like frame makes us look through her eyes. Playing music is often connected with prayer and devotion. The soft, warm light gives the scene a calm, sacred feeling."
+   },
+   "a": [
+    "Piano's Solitude",
+    "Piano's Penitence",
+    "Solemn Soloist"
+   ],
+   "a_path": "a",
+   "c": [
+    "Devotional Piano Scene",
+    "Woman in White Before Piano",
+    "Woman Kneeling Near Piano"
+   ],
+   "a_rejected": [],
+   "c_rejected": []
+  }
+ ]
+}

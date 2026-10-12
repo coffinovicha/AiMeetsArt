@@ -1,0 +1,6632 @@
+[
+ {
+  "id": "F1-001",
+  "top": [
+   {
+    "row": 10774,
+    "score": 0.716,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Old Osiers",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_16140.jpg"
+   },
+   {
+    "row": 11388,
+    "score": 0.715,
+    "artist": "Pietro Lazzari",
+    "title": "Abstract Forest Scene",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_2864.jpg"
+   },
+   {
+    "row": 7585,
+    "score": 0.703,
+    "artist": "Henri Matisse",
+    "title": "The olive",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_2638.jpg"
+   }
+  ],
+  "z": 4.16,
+  "gap10": 0.034,
+  "mean": 0.418,
+  "style_guess": "expressionist landscape (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-002",
+  "top": [
+   {
+    "row": 11252,
+    "score": 0.704,
+    "artist": "Bela Czobel",
+    "title": "Szentendre",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_4600.jpg"
+   },
+   {
+    "row": 10774,
+    "score": 0.701,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Old Osiers",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_16140.jpg"
+   },
+   {
+    "row": 7209,
+    "score": 0.699,
+    "artist": "Ion Pacea",
+    "title": "2 Mai Beach",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_12300.jpg"
+   }
+  ],
+  "z": 3.64,
+  "gap10": 0.019,
+  "mean": 0.431,
+  "style_guess": "naive / expressive landscape",
+  "known_artist": "Tengiz Mirzashvili (Chubchika)"
+ },
+ {
+  "id": "F1-003",
+  "top": [
+   {
+    "row": 10683,
+    "score": 0.67,
+    "artist": "Nicholas Roerich",
+    "title": "Tibetian fortress",
+    "style": "Symbolism",
+    "file": "images\\artificio_3_4101.jpg"
+   },
+   {
+    "row": 12655,
+    "score": 0.663,
+    "artist": "Constant Permeke",
+    "title": "The Mountains at Vevey, Switzerland",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_7459.jpg"
+   },
+   {
+    "row": 20524,
+    "score": 0.66,
+    "artist": "Charles Cottet",
+    "title": "Petit village au pied de la falaise",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_22478.jpg"
+   }
+  ],
+  "z": 4.14,
+  "gap10": 0.025,
+  "mean": 0.387,
+  "style_guess": "impressionist landscape (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-004",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.797,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.763,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.759,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   }
+  ],
+  "z": 4.31,
+  "gap10": 0.066,
+  "mean": 0.434,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F1-005",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.774,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 11932,
+    "score": 0.759,
+    "artist": "Arthur Beecher Carles",
+    "title": "Table with Flowers",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15136.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.752,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   }
+  ],
+  "z": 3.96,
+  "gap10": 0.037,
+  "mean": 0.454,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F1-006",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.774,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.77,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 17831,
+    "score": 0.769,
+    "artist": "Patrick Henry Bruce",
+    "title": "Composition III",
+    "style": "Cubism",
+    "file": "images\\artificio_3_3508.jpg"
+   }
+  ],
+  "z": 3.82,
+  "gap10": 0.029,
+  "mean": 0.446,
+  "style_guess": "abstract expressionism (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-007",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.759,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.747,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 17831,
+    "score": 0.747,
+    "artist": "Patrick Henry Bruce",
+    "title": "Composition III",
+    "style": "Cubism",
+    "file": "images\\artificio_3_3508.jpg"
+   }
+  ],
+  "z": 3.8,
+  "gap10": 0.031,
+  "mean": 0.438,
+  "style_guess": "abstract expressionism (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-008",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.782,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.768,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 11932,
+    "score": 0.766,
+    "artist": "Arthur Beecher Carles",
+    "title": "Table with Flowers",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15136.jpg"
+   }
+  ],
+  "z": 3.85,
+  "gap10": 0.039,
+  "mean": 0.454,
+  "style_guess": "abstract expressionism (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-009",
+  "top": [
+   {
+    "row": 9585,
+    "score": 0.683,
+    "artist": "Paul Thek",
+    "title": "Untitled (Blue Zig-Zags)",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_12503.jpg"
+   },
+   {
+    "row": 3879,
+    "score": 0.68,
+    "artist": "Paul Klee",
+    "title": "Fish Image",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_17696.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.672,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   }
+  ],
+  "z": 4.07,
+  "gap10": 0.038,
+  "mean": 0.372,
+  "style_guess": "lyrical abstraction (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-010",
+  "top": [
+   {
+    "row": 21196,
+    "score": 0.609,
+    "artist": "Balthus",
+    "title": "Landscape in Morvan",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_20075.jpg"
+   },
+   {
+    "row": 18154,
+    "score": 0.606,
+    "artist": "Jack Bush",
+    "title": "Untitled (WC127)",
+    "style": "Cubism",
+    "file": "images\\artificio_2_18805.jpg"
+   },
+   {
+    "row": 600,
+    "score": 0.604,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "Rainy Landscape II",
+    "style": "Cubism",
+    "file": "images\\artificio_3_4920.jpg"
+   }
+  ],
+  "z": 3.74,
+  "gap10": 0.018,
+  "mean": 0.356,
+  "style_guess": "atmospheric landscape (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-011",
+  "top": [
+   {
+    "row": 12370,
+    "score": 0.718,
+    "artist": "Vicente Manansala",
+    "title": "Untitled",
+    "style": "Cubism",
+    "file": "images\\artificio_0_20024.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.715,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.714,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   }
+  ],
+  "z": 3.7,
+  "gap10": 0.018,
+  "mean": 0.412,
+  "style_guess": "abstract, gestural (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-012",
+  "top": [
+   {
+    "row": 8316,
+    "score": 0.572,
+    "artist": "Rik Wouters",
+    "title": "Baby with blue cap",
+    "style": "Fauvism",
+    "file": "images\\artificio_3_10968.jpg"
+   },
+   {
+    "row": 18612,
+    "score": 0.563,
+    "artist": "Margareta Sterian",
+    "title": "The Circus in the Tent",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_11343.jpg"
+   },
+   {
+    "row": 6609,
+    "score": 0.561,
+    "artist": "Samuel Peploe",
+    "title": "The Yellow Dress",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_13130.jpg"
+   }
+  ],
+  "z": 4.22,
+  "gap10": 0.046,
+  "mean": 0.339,
+  "style_guess": "illustrative / fantasy figurative (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-013",
+  "top": [
+   {
+    "row": 10817,
+    "score": 0.692,
+    "artist": "Gerard Sekoto",
+    "title": "FIGURES IN A SHEBEEN",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_7326.jpg"
+   },
+   {
+    "row": 21834,
+    "score": 0.686,
+    "artist": "Lesser Ury",
+    "title": "Woman at writing desk",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_14648.jpg"
+   },
+   {
+    "row": 3915,
+    "score": 0.685,
+    "artist": "Rik Wouters",
+    "title": "Dining Table",
+    "style": "Fauvism",
+    "file": "images\\artificio_3_24480.jpg"
+   }
+  ],
+  "z": 3.98,
+  "gap10": 0.029,
+  "mean": 0.43,
+  "style_guess": "impressionist figurative (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-014",
+  "top": [
+   {
+    "row": 15799,
+    "score": 0.701,
+    "artist": "Max Weber",
+    "title": "Family Reunion",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_15454.jpg"
+   },
+   {
+    "row": 20976,
+    "score": 0.676,
+    "artist": "Otto Dix",
+    "title": "The Family of the Painter Adalbert Trillhaase",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_16261.jpg"
+   },
+   {
+    "row": 23403,
+    "score": 0.674,
+    "artist": "John Bratby",
+    "title": "The Artist's Friends",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_20965.jpg"
+   }
+  ],
+  "z": 3.64,
+  "gap10": 0.041,
+  "mean": 0.408,
+  "style_guess": "naive / caricature figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-015",
+  "top": [
+   {
+    "row": 8059,
+    "score": 0.728,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 12370,
+    "score": 0.709,
+    "artist": "Vicente Manansala",
+    "title": "Untitled",
+    "style": "Cubism",
+    "file": "images\\artificio_0_20024.jpg"
+   },
+   {
+    "row": 7734,
+    "score": 0.697,
+    "artist": "Karl Knaths",
+    "title": "Untitled",
+    "style": "Cubism",
+    "file": "images\\artificio_2_7605.jpg"
+   }
+  ],
+  "z": 3.95,
+  "gap10": 0.049,
+  "mean": 0.395,
+  "style_guess": "cubist / expressionist (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-016",
+  "top": [
+   {
+    "row": 12859,
+    "score": 0.736,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   },
+   {
+    "row": 11725,
+    "score": 0.735,
+    "artist": "Patrick Procktor",
+    "title": "Red Army Ensemble",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_1300.jpg"
+   },
+   {
+    "row": 619,
+    "score": 0.732,
+    "artist": "R. B. Kitaj",
+    "title": "Portrait of Walter Lippman",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_23041.jpg"
+   }
+  ],
+  "z": 3.36,
+  "gap10": 0.035,
+  "mean": 0.444,
+  "style_guess": "mixed-media figurative collage (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-017",
+  "top": [
+   {
+    "row": 12859,
+    "score": 0.719,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   },
+   {
+    "row": 619,
+    "score": 0.717,
+    "artist": "R. B. Kitaj",
+    "title": "Portrait of Walter Lippman",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_23041.jpg"
+   },
+   {
+    "row": 2540,
+    "score": 0.716,
+    "artist": "R. B. Kitaj",
+    "title": "The friendship and the shadow of betrayal",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_5479.jpg"
+   }
+  ],
+  "z": 3.44,
+  "gap10": 0.039,
+  "mean": 0.421,
+  "style_guess": "mixed-media figurative collage (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-018",
+  "top": [
+   {
+    "row": 14339,
+    "score": 0.682,
+    "artist": "Johannes Sveinsson Kjarval",
+    "title": "Land and Air",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_12296.jpg"
+   },
+   {
+    "row": 5724,
+    "score": 0.672,
+    "artist": "Allan D'Arcangelo",
+    "title": "Looking North at 121 Mile Marker",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_21103.jpg"
+   },
+   {
+    "row": 10715,
+    "score": 0.667,
+    "artist": "Ben Nicholson",
+    "title": "Feb 28-53 (vertical seconds)",
+    "style": "Cubism",
+    "file": "images\\artificio_2_4099.jpg"
+   }
+  ],
+  "z": 3.95,
+  "gap10": 0.032,
+  "mean": 0.38,
+  "style_guess": "abstracted urban scene (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-019",
+  "top": [
+   {
+    "row": 8306,
+    "score": 0.71,
+    "artist": "Jean David",
+    "title": "Port Scene",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18208.jpg"
+   },
+   {
+    "row": 1031,
+    "score": 0.697,
+    "artist": "M. H. Maxy",
+    "title": "St. George Place in Crotches",
+    "style": "Cubism",
+    "file": "images\\artificio_1_21205.jpg"
+   },
+   {
+    "row": 12082,
+    "score": 0.68,
+    "artist": "Vajda Lajos",
+    "title": "Floating Houses",
+    "style": "Cubism",
+    "file": "images\\artificio_2_8824.jpg"
+   }
+  ],
+  "z": 4.22,
+  "gap10": 0.047,
+  "mean": 0.4,
+  "style_guess": "atmospheric semi-abstract cityscape (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-020",
+  "top": [
+   {
+    "row": 12859,
+    "score": 0.713,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   },
+   {
+    "row": 8617,
+    "score": 0.693,
+    "artist": "Marjorie Strider",
+    "title": "We Mourn, We Weep, We Love Again",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_18559.jpg"
+   },
+   {
+    "row": 10649,
+    "score": 0.688,
+    "artist": "Vasile Kazar",
+    "title": "Dialogue with the Chimera",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_3352.jpg"
+   }
+  ],
+  "z": 3.29,
+  "gap10": 0.047,
+  "mean": 0.403,
+  "style_guess": "decorative fantasy illustration (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F1-021",
+  "top": [
+   {
+    "row": 1972,
+    "score": 0.675,
+    "artist": "Marevna (Marie Vorobieff)",
+    "title": "Self-Portrait with Still Life",
+    "style": "Cubism",
+    "file": "images\\artificio_2_4263.jpg"
+   },
+   {
+    "row": 6609,
+    "score": 0.675,
+    "artist": "Samuel Peploe",
+    "title": "The Yellow Dress",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_13130.jpg"
+   },
+   {
+    "row": 20394,
+    "score": 0.669,
+    "artist": "Jack Bush",
+    "title": "Nude",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_3886.jpg"
+   }
+  ],
+  "z": 3.34,
+  "gap10": 0.025,
+  "mean": 0.401,
+  "style_guess": "expressive figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-022",
+  "top": [
+   {
+    "row": 11759,
+    "score": 0.626,
+    "artist": "Evelyne Axell",
+    "title": "Axell-ération",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_1198.jpg"
+   },
+   {
+    "row": 1766,
+    "score": 0.601,
+    "artist": "Andy Warhol",
+    "title": "Shoes",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_16151.jpg"
+   },
+   {
+    "row": 12108,
+    "score": 0.577,
+    "artist": "Patrick Procktor",
+    "title": "Seated Figures",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_13527.jpg"
+   }
+  ],
+  "z": 4.63,
+  "gap10": 0.076,
+  "mean": 0.347,
+  "style_guess": "realist figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-023",
+  "top": [
+   {
+    "row": 16442,
+    "score": 0.59,
+    "artist": "Arthur Dove",
+    "title": "Lake Afternoon",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_21978.jpg"
+   },
+   {
+    "row": 8493,
+    "score": 0.587,
+    "artist": "Ion Pacea",
+    "title": "Peisaj de litoral",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_21061.jpg"
+   },
+   {
+    "row": 2283,
+    "score": 0.582,
+    "artist": "Walasse Ting",
+    "title": "Three Ladies and Parrots",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_5726.jpg"
+   }
+  ],
+  "z": 3.92,
+  "gap10": 0.029,
+  "mean": 0.347,
+  "style_guess": "naive / caricature figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-024",
+  "top": [
+   {
+    "row": 20560,
+    "score": 0.684,
+    "artist": "Nikolaos Lytras",
+    "title": "Landscape of Athens",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_10442.jpg"
+   },
+   {
+    "row": 20059,
+    "score": 0.671,
+    "artist": "Martiros Saryan",
+    "title": "Gohtan (Tanakert)",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18417.jpg"
+   },
+   {
+    "row": 17121,
+    "score": 0.67,
+    "artist": "Dumitru Ghiatza",
+    "title": "Cherry Trees in Blossom",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_11243.jpg"
+   }
+  ],
+  "z": 3.9,
+  "gap10": 0.031,
+  "mean": 0.401,
+  "style_guess": "simplified landscape",
+  "known_artist": "Dea Soselia"
+ },
+ {
+  "id": "F1-026",
+  "top": [
+   {
+    "row": 13353,
+    "score": 0.739,
+    "artist": "Mikhail Vrubel",
+    "title": "Fantastic landscape",
+    "style": "Symbolism",
+    "file": "images\\artificio_3_8199.jpg"
+   },
+   {
+    "row": 5592,
+    "score": 0.701,
+    "artist": "Luis Dourdil",
+    "title": "Landscape",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_11933.jpg"
+   },
+   {
+    "row": 20652,
+    "score": 0.683,
+    "artist": "Martiros Saryan",
+    "title": "Dream",
+    "style": "Symbolism",
+    "file": "images\\artificio_1_22577.jpg"
+   }
+  ],
+  "z": 4.17,
+  "gap10": 0.074,
+  "mean": 0.409,
+  "style_guess": "loose expressive landscape",
+  "known_artist": "Irakli Bugiani"
+ },
+ {
+  "id": "F1-028",
+  "top": [
+   {
+    "row": 526,
+    "score": 0.679,
+    "artist": "Edward Burne-Jones",
+    "title": "An Angel Playing a Flageolet",
+    "style": "Romanticism",
+    "file": "images\\artificio_1_22713.jpg"
+   },
+   {
+    "row": 7276,
+    "score": 0.666,
+    "artist": "Gustave Moreau",
+    "title": "Voices of Evening",
+    "style": "Symbolism",
+    "file": "images\\artificio_3_18711.jpg"
+   },
+   {
+    "row": 15286,
+    "score": 0.655,
+    "artist": "Mikhail Nesterov",
+    "title": "Annunciation",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_11676.jpg"
+   }
+  ],
+  "z": 3.89,
+  "gap10": 0.049,
+  "mean": 0.401,
+  "style_guess": "naive religious illustration",
+  "known_artist": null
+ },
+ {
+  "id": "F1-029",
+  "top": [
+   {
+    "row": 526,
+    "score": 0.62,
+    "artist": "Edward Burne-Jones",
+    "title": "An Angel Playing a Flageolet",
+    "style": "Romanticism",
+    "file": "images\\artificio_1_22713.jpg"
+   },
+   {
+    "row": 19711,
+    "score": 0.591,
+    "artist": "Konstantin Korovin",
+    "title": "Fedor Shalaypin as Demon in Rubinstein`s opera",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_7460.jpg"
+   },
+   {
+    "row": 21633,
+    "score": 0.573,
+    "artist": "Natalia Goncharova",
+    "title": "Liturgy six winged Seraph",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_16844.jpg"
+   }
+  ],
+  "z": 4.46,
+  "gap10": 0.068,
+  "mean": 0.339,
+  "style_guess": "folk / miniature painting",
+  "known_artist": null
+ },
+ {
+  "id": "F1-030",
+  "top": [
+   {
+    "row": 19785,
+    "score": 0.741,
+    "artist": "Endre Bartos",
+    "title": "Wide-eyed",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_3008.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.739,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 9365,
+    "score": 0.738,
+    "artist": "Vasile Kazar",
+    "title": "unknown title",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_2444.jpg"
+   }
+  ],
+  "z": 3.78,
+  "gap10": 0.032,
+  "mean": 0.415,
+  "style_guess": "abstract expressionism (guess)",
+  "known_artist": "Giorgi Gvenetadze"
+ },
+ {
+  "id": "F1-032",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.723,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 7734,
+    "score": 0.691,
+    "artist": "Karl Knaths",
+    "title": "Untitled",
+    "style": "Cubism",
+    "file": "images\\artificio_2_7605.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.69,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   }
+  ],
+  "z": 4.06,
+  "gap10": 0.06,
+  "mean": 0.388,
+  "style_guess": "drip painting / abstract expressionism",
+  "known_artist": "Keti Shengelia"
+ },
+ {
+  "id": "F1-034",
+  "top": [
+   {
+    "row": 4227,
+    "score": 0.689,
+    "artist": "Morris Graves",
+    "title": "Vessel in a Drift of Diamond Light in the Sky of the Mind",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_24872.jpg"
+   },
+   {
+    "row": 9585,
+    "score": 0.688,
+    "artist": "Paul Thek",
+    "title": "Untitled (Blue Zig-Zags)",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_12503.jpg"
+   },
+   {
+    "row": 8464,
+    "score": 0.688,
+    "artist": "M.F. Husain",
+    "title": "Untitled (Lovers)",
+    "style": "Cubism",
+    "file": "images\\artificio_2_18695.jpg"
+   }
+  ],
+  "z": 3.78,
+  "gap10": 0.031,
+  "mean": 0.394,
+  "style_guess": "abstract mixed media",
+  "known_artist": "Gotcha Gaios (Shatirishvili)"
+ },
+ {
+  "id": "F1-036",
+  "top": [
+   {
+    "row": 4862,
+    "score": 0.672,
+    "artist": "Walasse Ting",
+    "title": "Blue Lady, Purple Lady",
+    "style": "Pop_Art",
+    "file": "images\\artificio_0_17451.jpg"
+   },
+   {
+    "row": 10649,
+    "score": 0.666,
+    "artist": "Vasile Kazar",
+    "title": "Dialogue with the Chimera",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_3352.jpg"
+   },
+   {
+    "row": 12859,
+    "score": 0.665,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   }
+  ],
+  "z": 3.32,
+  "gap10": 0.023,
+  "mean": 0.395,
+  "style_guess": "expressive figurative drawing",
+  "known_artist": "Tekla Meladze"
+ },
+ {
+  "id": "F1-038",
+  "top": [
+   {
+    "row": 8518,
+    "score": 0.56,
+    "artist": "Vasily Vereshchagin",
+    "title": "Vehicle of rich people in Delhi",
+    "style": "Realism",
+    "file": "images\\artificio_1_4725.jpg"
+   },
+   {
+    "row": 2662,
+    "score": 0.553,
+    "artist": "Jean Paul Lemieux",
+    "title": "Les masques",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_5889.jpg"
+   },
+   {
+    "row": 5817,
+    "score": 0.543,
+    "artist": "Henri de Toulouse-Lautrec",
+    "title": "La Charrette Anglaise The English Dog Cart",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_19575.jpg"
+   }
+  ],
+  "z": 3.91,
+  "gap10": 0.033,
+  "mean": 0.341,
+  "style_guess": "surrealist figurative",
+  "known_artist": "Oleg Timchenko"
+ },
+ {
+  "id": "F1-040",
+  "top": [
+   {
+    "row": 7106,
+    "score": 0.692,
+    "artist": "Ilya Mashkov",
+    "title": "Tangerines and glass",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_15353.jpg"
+   },
+   {
+    "row": 7898,
+    "score": 0.685,
+    "artist": "Ion Pacea",
+    "title": "Still Life With Pomegranates",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_3461.jpg"
+   },
+   {
+    "row": 10669,
+    "score": 0.683,
+    "artist": "Constantine Maleas",
+    "title": "Still Life",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_5732.jpg"
+   }
+  ],
+  "z": 4.55,
+  "gap10": 0.022,
+  "mean": 0.396,
+  "style_guess": "academic still life",
+  "known_artist": "Mariam Shengelia"
+ },
+ {
+  "id": "F1-042",
+  "top": [
+   {
+    "row": 5384,
+    "score": 0.608,
+    "artist": "Boris Kustodiev",
+    "title": "Paris Boulevard at Night",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_9905.jpg"
+   },
+   {
+    "row": 10291,
+    "score": 0.604,
+    "artist": "Fikret Mualla Saygi",
+    "title": "Pembe Kahve",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_16033.jpg"
+   },
+   {
+    "row": 2528,
+    "score": 0.602,
+    "artist": "Otto Dix",
+    "title": "The Street of Brothels",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_23868.jpg"
+   }
+  ],
+  "z": 4.09,
+  "gap10": 0.03,
+  "mean": 0.354,
+  "style_guess": "naive / expressive figurative",
+  "known_artist": "Oleg Timchenko"
+ },
+ {
+  "id": "F1-044",
+  "top": [
+   {
+    "row": 20168,
+    "score": 0.672,
+    "artist": "Nutzi Acontz",
+    "title": "Dobrujan Street",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_15479.jpg"
+   },
+   {
+    "row": 18891,
+    "score": 0.663,
+    "artist": "Ligia Macovei",
+    "title": "Partygoers",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_4809.jpg"
+   },
+   {
+    "row": 9704,
+    "score": 0.663,
+    "artist": "Pierre Bonnard",
+    "title": "The Bourgeois Afternoon or The Terrasse Family",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_11401.jpg"
+   }
+  ],
+  "z": 3.86,
+  "gap10": 0.028,
+  "mean": 0.437,
+  "style_guess": "naive figurative",
+  "known_artist": "Vazha Bekauri"
+ },
+ {
+  "id": "F1-046",
+  "top": [
+   {
+    "row": 7898,
+    "score": 0.7,
+    "artist": "Ion Pacea",
+    "title": "Still Life With Pomegranates",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_3461.jpg"
+   },
+   {
+    "row": 11235,
+    "score": 0.7,
+    "artist": "Paul Cezanne",
+    "title": "Still Life with Water Jug",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_16393.jpg"
+   },
+   {
+    "row": 11789,
+    "score": 0.696,
+    "artist": "Corneliu Michailescu",
+    "title": "Still Life With Grapes and Carafe",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_11838.jpg"
+   }
+  ],
+  "z": 4.47,
+  "gap10": 0.015,
+  "mean": 0.402,
+  "style_guess": "academic still life",
+  "known_artist": "Mariam Shengelia"
+ },
+ {
+  "id": "F1-048",
+  "top": [
+   {
+    "row": 1539,
+    "score": 0.731,
+    "artist": "Nzante Spee",
+    "title": "The Kora Quartet",
+    "style": "Cubism",
+    "file": "images\\artificio_3_10171.jpg"
+   },
+   {
+    "row": 19712,
+    "score": 0.725,
+    "artist": "Nzante Spee",
+    "title": "The Man, the Women and the Child",
+    "style": "Cubism",
+    "file": "images\\artificio_2_2804.jpg"
+   },
+   {
+    "row": 8059,
+    "score": 0.711,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   }
+  ],
+  "z": 3.97,
+  "gap10": 0.037,
+  "mean": 0.394,
+  "style_guess": "decorative geometric abstraction",
+  "known_artist": "Levan Jokhadze"
+ },
+ {
+  "id": "F1-050",
+  "top": [
+   {
+    "row": 18103,
+    "score": 0.733,
+    "artist": "Otto Eckmann",
+    "title": "Schwertlilien",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_17375.jpg"
+   },
+   {
+    "row": 7547,
+    "score": 0.719,
+    "artist": "Max Pechstein",
+    "title": "Irises in Evening Shadows",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_4685.jpg"
+   },
+   {
+    "row": 9712,
+    "score": 0.661,
+    "artist": "Vincent van Gogh",
+    "title": "Garden with Flowers",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_9222.jpg"
+   }
+  ],
+  "z": 5.25,
+  "gap10": 0.113,
+  "mean": 0.404,
+  "style_guess": "realist floral still life",
+  "known_artist": null
+ },
+ {
+  "id": "F1-051",
+  "top": [
+   {
+    "row": 16286,
+    "score": 0.657,
+    "artist": "Salvador Dali",
+    "title": "The Patio of Port Lligat",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_4657.jpg"
+   },
+   {
+    "row": 192,
+    "score": 0.651,
+    "artist": "Margareta Sterian",
+    "title": "Anxious Flowers",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_18589.jpg"
+   },
+   {
+    "row": 21441,
+    "score": 0.648,
+    "artist": "Ilya Mashkov",
+    "title": "Flowers in a Vase",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_9624.jpg"
+   }
+  ],
+  "z": 3.88,
+  "gap10": 0.032,
+  "mean": 0.395,
+  "style_guess": "textile art, impressionistic",
+  "known_artist": null
+ },
+ {
+  "id": "F1-052",
+  "top": [
+   {
+    "row": 8181,
+    "score": 0.665,
+    "artist": "Ion Alin Gheorghiu",
+    "title": "Hanging Garden",
+    "style": "Cubism",
+    "file": "images\\artificio_0_2555.jpg"
+   },
+   {
+    "row": 16947,
+    "score": 0.659,
+    "artist": "Paul Klee",
+    "title": "Castle Garden",
+    "style": "Cubism",
+    "file": "images\\artificio_3_5614.jpg"
+   },
+   {
+    "row": 2810,
+    "score": 0.654,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "The first morning of the world, stage design for the dance-drama Persephone",
+    "style": "Cubism",
+    "file": "images\\artificio_1_4487.jpg"
+   }
+  ],
+  "z": 3.56,
+  "gap10": 0.022,
+  "mean": 0.413,
+  "style_guess": "textile art, impressionistic",
+  "known_artist": null
+ },
+ {
+  "id": "F1-053",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.687,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 938,
+    "score": 0.667,
+    "artist": "Auguste Rodin",
+    "title": "Minerva",
+    "style": "Impressionism",
+    "file": "images\\artificio_1_7923.jpg"
+   },
+   {
+    "row": 4227,
+    "score": 0.667,
+    "artist": "Morris Graves",
+    "title": "Vessel in a Drift of Diamond Light in the Sky of the Mind",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_24872.jpg"
+   }
+  ],
+  "z": 3.82,
+  "gap10": 0.034,
+  "mean": 0.401,
+  "style_guess": "stylized figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-054",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.705,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 12113,
+    "score": 0.683,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Oaş Dance",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_21749.jpg"
+   },
+   {
+    "row": 113,
+    "score": 0.681,
+    "artist": "Walasse Ting",
+    "title": "Orange and Yellow Sunflowers",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_24917.jpg"
+   }
+  ],
+  "z": 4.01,
+  "gap10": 0.036,
+  "mean": 0.39,
+  "style_guess": "expressive / drip landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F1-056",
+  "top": [
+   {
+    "row": 19761,
+    "score": 0.657,
+    "artist": "Oswaldo Guayasamin",
+    "title": "Napalm",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_10019.jpg"
+   },
+   {
+    "row": 428,
+    "score": 0.64,
+    "artist": "Charles Lapicque",
+    "title": "Ezechiel mesurant le temple",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_23892.jpg"
+   },
+   {
+    "row": 20479,
+    "score": 0.628,
+    "artist": "David Alfaro Siqueiros",
+    "title": "Portrait of Angelica",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_23525.jpg"
+   }
+  ],
+  "z": 3.55,
+  "gap10": 0.046,
+  "mean": 0.393,
+  "style_guess": "surrealist figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-057",
+  "top": [
+   {
+    "row": 8023,
+    "score": 0.676,
+    "artist": "Maurice Prendergast",
+    "title": "Summer in the Park",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_18922.jpg"
+   },
+   {
+    "row": 3823,
+    "score": 0.67,
+    "artist": "Henri Rousseau",
+    "title": "Centennial of Independence",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_14983.jpg"
+   },
+   {
+    "row": 11001,
+    "score": 0.661,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Tumblers",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_15053.jpg"
+   }
+  ],
+  "z": 3.82,
+  "gap10": 0.021,
+  "mean": 0.423,
+  "style_guess": "expressive figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-058",
+  "top": [
+   {
+    "row": 10493,
+    "score": 0.639,
+    "artist": "Aldo Mondino",
+    "title": "Turcata",
+    "style": "Pop_Art",
+    "file": "images\\artificio_0_5562.jpg"
+   },
+   {
+    "row": 10601,
+    "score": 0.613,
+    "artist": "Aldo Mondino",
+    "title": "Untitled",
+    "style": "Pop_Art",
+    "file": "images\\artificio_0_23204.jpg"
+   },
+   {
+    "row": 10939,
+    "score": 0.588,
+    "artist": "Osman Hamdi",
+    "title": "Girl Reciting Qu'ran",
+    "style": "Romanticism",
+    "file": "images\\artificio_2_23639.jpg"
+   }
+  ],
+  "z": 3.52,
+  "gap10": 0.063,
+  "mean": 0.358,
+  "style_guess": "Islamic calligraphic art",
+  "known_artist": null
+ },
+ {
+  "id": "F1-059",
+  "top": [
+   {
+    "row": 13802,
+    "score": 0.707,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Two Female Nudes",
+    "style": "Cubism",
+    "file": "images\\artificio_2_12642.jpg"
+   },
+   {
+    "row": 17892,
+    "score": 0.697,
+    "artist": "Edward Burne-Jones",
+    "title": "The Three Graces",
+    "style": "Symbolism",
+    "file": "images\\artificio_1_10044.jpg"
+   },
+   {
+    "row": 4783,
+    "score": 0.697,
+    "artist": "Salvador Dali",
+    "title": "Les Dlemoilselles D'Avignon (The Girls of Avignon)",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_24705.jpg"
+   }
+  ],
+  "z": 3.82,
+  "gap10": 0.034,
+  "mean": 0.421,
+  "style_guess": "stylized figurative, relief texture",
+  "known_artist": "Judi Panjikidze"
+ },
+ {
+  "id": "F1-061",
+  "top": [
+   {
+    "row": 4771,
+    "score": 0.656,
+    "artist": "Walasse Ting",
+    "title": "Still Waiting For You",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_17306.jpg"
+   },
+   {
+    "row": 14695,
+    "score": 0.635,
+    "artist": "Jury Annenkov",
+    "title": "Hommage a Modigliani [Nude]",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_20039.jpg"
+   },
+   {
+    "row": 5577,
+    "score": 0.635,
+    "artist": "Walasse Ting",
+    "title": "Do You Want Me?",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_11467.jpg"
+   }
+  ],
+  "z": 3.64,
+  "gap10": 0.029,
+  "mean": 0.39,
+  "style_guess": "decorative figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-062",
+  "top": [
+   {
+    "row": 19761,
+    "score": 0.657,
+    "artist": "Oswaldo Guayasamin",
+    "title": "Napalm",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_10019.jpg"
+   },
+   {
+    "row": 428,
+    "score": 0.628,
+    "artist": "Charles Lapicque",
+    "title": "Ezechiel mesurant le temple",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_23892.jpg"
+   },
+   {
+    "row": 20479,
+    "score": 0.62,
+    "artist": "David Alfaro Siqueiros",
+    "title": "Portrait of Angelica",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_23525.jpg"
+   }
+  ],
+  "z": 3.65,
+  "gap10": 0.05,
+  "mean": 0.388,
+  "style_guess": "surrealist figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F1-063",
+  "top": [
+   {
+    "row": 18729,
+    "score": 0.654,
+    "artist": "Vladimir Tatlin",
+    "title": "Flower-Piece",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_21844.jpg"
+   },
+   {
+    "row": 10626,
+    "score": 0.647,
+    "artist": "Stefan Popescu",
+    "title": "Still Life with Gourd",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_10368.jpg"
+   },
+   {
+    "row": 3197,
+    "score": 0.639,
+    "artist": "Aleksandra Ekster",
+    "title": "Still life",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_17338.jpg"
+   }
+  ],
+  "z": 4.41,
+  "gap10": 0.037,
+  "mean": 0.375,
+  "style_guess": "decorative still life",
+  "known_artist": "Omar Durmishidze"
+ },
+ {
+  "id": "F1-065",
+  "top": [
+   {
+    "row": 19690,
+    "score": 0.723,
+    "artist": "Yov Kondzelevych",
+    "title": "Ascension.",
+    "style": "Baroque",
+    "file": "images\\artificio_2_21121.jpg"
+   },
+   {
+    "row": 11417,
+    "score": 0.699,
+    "artist": "Ivan Bilibin",
+    "title": "Resurrection of Christ. The sketch for the fresco of the church of the Assumption in Olshany",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_812.jpg"
+   },
+   {
+    "row": 6565,
+    "score": 0.698,
+    "artist": "Yov Kondzelevych",
+    "title": "Icon of Apostles Peter and Matthew",
+    "style": "Baroque",
+    "file": "images\\artificio_0_19586.jpg"
+   }
+  ],
+  "z": 4.07,
+  "gap10": 0.05,
+  "mean": 0.415,
+  "style_guess": "mixed-media collage",
+  "known_artist": "Keti Matabeli"
+ },
+ {
+  "id": "F1-067",
+  "top": [
+   {
+    "row": 14759,
+    "score": 0.69,
+    "artist": "Paul Klee",
+    "title": "The Goldfish",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_4034.jpg"
+   },
+   {
+    "row": 23628,
+    "score": 0.654,
+    "artist": "Theo van Rysselberghe",
+    "title": "Aquarium",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_0_11645.jpg"
+   },
+   {
+    "row": 19689,
+    "score": 0.654,
+    "artist": "Mordecai Ardon",
+    "title": "The Fish and the Moon",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_552.jpg"
+   }
+  ],
+  "z": 4.19,
+  "gap10": 0.066,
+  "mean": 0.402,
+  "style_guess": "realist still life",
+  "known_artist": "Omar Durmishidze"
+ },
+ {
+  "id": "F1-069",
+  "top": [
+   {
+    "row": 387,
+    "score": 0.687,
+    "artist": "Jack Bush",
+    "title": "Nude Study",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_22477.jpg"
+   },
+   {
+    "row": 6000,
+    "score": 0.683,
+    "artist": "Bela Kadar",
+    "title": "Bending Nude from Behind",
+    "style": "Cubism",
+    "file": "images\\artificio_3_8679.jpg"
+   },
+   {
+    "row": 447,
+    "score": 0.67,
+    "artist": "Giovanni Boldini",
+    "title": "Young Lady Entering Bath",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_14105.jpg"
+   }
+  ],
+  "z": 4.15,
+  "gap10": 0.053,
+  "mean": 0.377,
+  "style_guess": "expressive figurative",
+  "known_artist": "Bacho Chamelashvili"
+ },
+ {
+  "id": "F1-071",
+  "top": [
+   {
+    "row": 5735,
+    "score": 0.731,
+    "artist": "Margareta Sterian",
+    "title": "Sunday in Breaza",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_9308.jpg"
+   },
+   {
+    "row": 8306,
+    "score": 0.72,
+    "artist": "Jean David",
+    "title": "Port Scene",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18208.jpg"
+   },
+   {
+    "row": 18039,
+    "score": 0.695,
+    "artist": "John Marin",
+    "title": "Wehawken Sequence",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_8285.jpg"
+   }
+  ],
+  "z": 4.0,
+  "gap10": 0.047,
+  "mean": 0.421,
+  "style_guess": "expressive semi-abstract cityscape",
+  "known_artist": "Vakho Bugadze"
+ },
+ {
+  "id": "F1-073",
+  "top": [
+   {
+    "row": 18776,
+    "score": 0.676,
+    "artist": "Adolphe Joseph Thomas Monticelli",
+    "title": "Seascape Near Marseille (Fantastic Village)",
+    "style": "Romanticism",
+    "file": "images\\artificio_0_3365.jpg"
+   },
+   {
+    "row": 20728,
+    "score": 0.66,
+    "artist": "Francisc Sirato",
+    "title": "City Outskirts",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_23845.jpg"
+   },
+   {
+    "row": 23447,
+    "score": 0.652,
+    "artist": "Stefan Popescu",
+    "title": "Landscape with Houses",
+    "style": "Impressionism",
+    "file": "images\\artificio_0_24618.jpg"
+   }
+  ],
+  "z": 3.84,
+  "gap10": 0.04,
+  "mean": 0.374,
+  "style_guess": "impressionist townscape",
+  "known_artist": null
+ },
+ {
+  "id": "F1-074",
+  "top": [
+   {
+    "row": 5735,
+    "score": 0.69,
+    "artist": "Margareta Sterian",
+    "title": "Sunday in Breaza",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_9308.jpg"
+   },
+   {
+    "row": 15853,
+    "score": 0.677,
+    "artist": "Margareta Sterian",
+    "title": "Parish in the Mountains with Painted Houses",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_18677.jpg"
+   },
+   {
+    "row": 5756,
+    "score": 0.658,
+    "artist": "Auguste Herbin",
+    "title": "Le massif du Canigou",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_19679.jpg"
+   }
+  ],
+  "z": 4.04,
+  "gap10": 0.049,
+  "mean": 0.418,
+  "style_guess": "sketch landscape",
+  "known_artist": "Tengiz Mirzashvili"
+ },
+ {
+  "id": "F1-076",
+  "top": [
+   {
+    "row": 21196,
+    "score": 0.701,
+    "artist": "Balthus",
+    "title": "Landscape in Morvan",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_20075.jpg"
+   },
+   {
+    "row": 1299,
+    "score": 0.686,
+    "artist": "Piet Mondrian",
+    "title": "Dune IV",
+    "style": "Fauvism",
+    "file": "images\\artificio_2_19628.jpg"
+   },
+   {
+    "row": 16254,
+    "score": 0.685,
+    "artist": "Endre Bartos",
+    "title": "Trees in blue",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_9753.jpg"
+   }
+  ],
+  "z": 3.64,
+  "gap10": 0.031,
+  "mean": 0.408,
+  "style_guess": "expressive landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F1-077",
+  "top": [
+   {
+    "row": 5856,
+    "score": 0.678,
+    "artist": "Ivan Albright",
+    "title": "Road to Kairouan, Tunisia",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_13539.jpg"
+   },
+   {
+    "row": 5592,
+    "score": 0.669,
+    "artist": "Luis Dourdil",
+    "title": "Landscape",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_11933.jpg"
+   },
+   {
+    "row": 5735,
+    "score": 0.66,
+    "artist": "Margareta Sterian",
+    "title": "Sunday in Breaza",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_9308.jpg"
+   }
+  ],
+  "z": 3.61,
+  "gap10": 0.04,
+  "mean": 0.392,
+  "style_guess": "naive landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F1-078",
+  "top": [
+   {
+    "row": 18729,
+    "score": 0.691,
+    "artist": "Vladimir Tatlin",
+    "title": "Flower-Piece",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_21844.jpg"
+   },
+   {
+    "row": 16396,
+    "score": 0.679,
+    "artist": "Rudolf Schweitzer-Cumpana",
+    "title": "Vase with Roses",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_17157.jpg"
+   },
+   {
+    "row": 8878,
+    "score": 0.678,
+    "artist": "Nicolae Darascu",
+    "title": "Vase with Flowers",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_2643.jpg"
+   }
+  ],
+  "z": 4.62,
+  "gap10": 0.042,
+  "mean": 0.398,
+  "style_guess": "naive still life",
+  "known_artist": null
+ },
+ {
+  "id": "F1-079",
+  "top": [
+   {
+    "row": 16777,
+    "score": 0.688,
+    "artist": "Victor Hugo",
+    "title": "Ruined Aqueduct",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_1688.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.686,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 21121,
+    "score": 0.685,
+    "artist": "Ion Tuculescu",
+    "title": "Depth",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_23525.jpg"
+   }
+  ],
+  "z": 3.63,
+  "gap10": 0.028,
+  "mean": 0.387,
+  "style_guess": "simplified landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F1-080",
+  "top": [
+   {
+    "row": 22664,
+    "score": 0.68,
+    "artist": "Antoine Blanchard",
+    "title": "Le boulevard Paris",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_23301.jpg"
+   },
+   {
+    "row": 9066,
+    "score": 0.654,
+    "artist": "Antoine Blanchard",
+    "title": "Place de la Madeleine, Marche aux Fleurs",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_1375.jpg"
+   },
+   {
+    "row": 18468,
+    "score": 0.652,
+    "artist": "Konstantin Korovin",
+    "title": "Paris in the morning",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_23022.jpg"
+   }
+  ],
+  "z": 4.92,
+  "gap10": 0.052,
+  "mean": 0.368,
+  "style_guess": "impressionist cityscape",
+  "known_artist": "Grigol Gvania"
+ },
+ {
+  "id": "F1-082",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.738,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 18039,
+    "score": 0.726,
+    "artist": "John Marin",
+    "title": "Wehawken Sequence",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_8285.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.724,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   }
+  ],
+  "z": 3.86,
+  "gap10": 0.033,
+  "mean": 0.44,
+  "style_guess": "expressive semi-abstract",
+  "known_artist": "Vakho Bugadze"
+ },
+ {
+  "id": "F1-084",
+  "top": [
+   {
+    "row": 7259,
+    "score": 0.66,
+    "artist": "Milton Avery",
+    "title": "Checker Players",
+    "style": "Fauvism",
+    "file": "images\\artificio_3_7514.jpg"
+   },
+   {
+    "row": 13610,
+    "score": 0.648,
+    "artist": "Max Weber",
+    "title": "Solo",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1707.jpg"
+   },
+   {
+    "row": 18707,
+    "score": 0.633,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "Two friends",
+    "style": "Cubism",
+    "file": "images\\artificio_2_78.jpg"
+   }
+  ],
+  "z": 4.06,
+  "gap10": 0.06,
+  "mean": 0.379,
+  "style_guess": "naive figurative",
+  "known_artist": "Oleg Timchenko"
+ },
+ {
+  "id": "F1-086",
+  "top": [
+   {
+    "row": 22136,
+    "score": 0.668,
+    "artist": "Lesser Ury",
+    "title": "Train station Nollendorfplatz at night",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_2995.jpg"
+   },
+   {
+    "row": 5735,
+    "score": 0.661,
+    "artist": "Margareta Sterian",
+    "title": "Sunday in Breaza",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_9308.jpg"
+   },
+   {
+    "row": 4505,
+    "score": 0.645,
+    "artist": "Tano Festa",
+    "title": "Elsinore",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_5873.jpg"
+   }
+  ],
+  "z": 3.9,
+  "gap10": 0.045,
+  "mean": 0.403,
+  "style_guess": "surrealist architectural",
+  "known_artist": "Nika Khabelashvili"
+ },
+ {
+  "id": "F1-088",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.712,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 9365,
+    "score": 0.709,
+    "artist": "Vasile Kazar",
+    "title": "unknown title",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_2444.jpg"
+   },
+   {
+    "row": 12859,
+    "score": 0.707,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   }
+  ],
+  "z": 3.45,
+  "gap10": 0.029,
+  "mean": 0.411,
+  "style_guess": "mixed-media / transfer abstraction",
+  "known_artist": "Levan Chogoshvili"
+ },
+ {
+  "id": "F2-001",
+  "top": [
+   {
+    "row": 6578,
+    "score": 0.696,
+    "artist": "Giacomo Balla",
+    "title": "Girl Running on a Balcony",
+    "style": "Pointillism",
+    "file": "images\\artificio_2_19134.jpg"
+   },
+   {
+    "row": 3334,
+    "score": 0.693,
+    "artist": "Ion Tuculescu",
+    "title": "Looks",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_12914.jpg"
+   },
+   {
+    "row": 4392,
+    "score": 0.692,
+    "artist": "Roberto Sambonet",
+    "title": "unknown title",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_11497.jpg"
+   }
+  ],
+  "z": 4.17,
+  "gap10": 0.028,
+  "mean": 0.373,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-002",
+  "top": [
+   {
+    "row": 1539,
+    "score": 0.66,
+    "artist": "Nzante Spee",
+    "title": "The Kora Quartet",
+    "style": "Cubism",
+    "file": "images\\artificio_3_10171.jpg"
+   },
+   {
+    "row": 16254,
+    "score": 0.636,
+    "artist": "Endre Bartos",
+    "title": "Trees in blue",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_9753.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.636,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   }
+  ],
+  "z": 4.35,
+  "gap10": 0.04,
+  "mean": 0.346,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-003",
+  "top": [
+   {
+    "row": 4508,
+    "score": 0.638,
+    "artist": "Walasse Ting",
+    "title": "The Pinkest Flowers",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_8617.jpg"
+   },
+   {
+    "row": 672,
+    "score": 0.62,
+    "artist": "Martiros Saryan",
+    "title": "Flower",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_20943.jpg"
+   },
+   {
+    "row": 4984,
+    "score": 0.614,
+    "artist": "Endre Bartos",
+    "title": "Water-Lilies",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_8111.jpg"
+   }
+  ],
+  "z": 4.58,
+  "gap10": 0.052,
+  "mean": 0.331,
+  "style_guess": "decorative floral",
+  "known_artist": null
+ },
+ {
+  "id": "F2-004",
+  "top": [
+   {
+    "row": 3879,
+    "score": 0.681,
+    "artist": "Paul Klee",
+    "title": "Fish Image",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_17696.jpg"
+   },
+   {
+    "row": 16814,
+    "score": 0.674,
+    "artist": "Margareta Sterian",
+    "title": "Daughter of the Pharaoh",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_7590.jpg"
+   },
+   {
+    "row": 12859,
+    "score": 0.673,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   }
+  ],
+  "z": 3.69,
+  "gap10": 0.042,
+  "mean": 0.401,
+  "style_guess": "naive / decorative figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-005",
+  "top": [
+   {
+    "row": 9824,
+    "score": 0.635,
+    "artist": "Koloman Moser",
+    "title": "Design for the fabric",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_23569.jpg"
+   },
+   {
+    "row": 8617,
+    "score": 0.626,
+    "artist": "Marjorie Strider",
+    "title": "We Mourn, We Weep, We Love Again",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_18559.jpg"
+   },
+   {
+    "row": 13075,
+    "score": 0.621,
+    "artist": "Raoul Dufy",
+    "title": "Fishing (Design for fabric)",
+    "style": "Cubism",
+    "file": "images\\artificio_3_23320.jpg"
+   }
+  ],
+  "z": 3.88,
+  "gap10": 0.027,
+  "mean": 0.358,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-006",
+  "top": [
+   {
+    "row": 3075,
+    "score": 0.671,
+    "artist": "Max Ernst",
+    "title": "33 Little Girls Chasing Butterflies",
+    "style": "Cubism",
+    "file": "images\\artificio_1_17782.jpg"
+   },
+   {
+    "row": 20427,
+    "score": 0.66,
+    "artist": "Kimon Loghi",
+    "title": "The Night",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_23776.jpg"
+   },
+   {
+    "row": 18788,
+    "score": 0.657,
+    "artist": "Endre Bartos",
+    "title": "The painter dreams about a forest",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_14224.jpg"
+   }
+  ],
+  "z": 4.29,
+  "gap10": 0.038,
+  "mean": 0.354,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-007",
+  "top": [
+   {
+    "row": 7533,
+    "score": 0.622,
+    "artist": "Nzante Spee",
+    "title": "The Drummer and the dancers",
+    "style": "Cubism",
+    "file": "images\\artificio_2_9988.jpg"
+   },
+   {
+    "row": 17829,
+    "score": 0.612,
+    "artist": "Nzante Spee",
+    "title": "Echoes of Music",
+    "style": "Cubism",
+    "file": "images\\artificio_1_10042.jpg"
+   },
+   {
+    "row": 600,
+    "score": 0.603,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "Rainy Landscape II",
+    "style": "Cubism",
+    "file": "images\\artificio_3_4920.jpg"
+   }
+  ],
+  "z": 4.22,
+  "gap10": 0.029,
+  "mean": 0.322,
+  "style_guess": "decorative / naive landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F2-008",
+  "top": [
+   {
+    "row": 8262,
+    "score": 0.647,
+    "artist": "Filipp Malyavin",
+    "title": "Dancing woman",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_23547.jpg"
+   },
+   {
+    "row": 17743,
+    "score": 0.614,
+    "artist": "Charles Rennie Mackintosh",
+    "title": "Roses",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_863.jpg"
+   },
+   {
+    "row": 7538,
+    "score": 0.61,
+    "artist": "Salvador Dali",
+    "title": "Beatrice",
+    "style": "Symbolism",
+    "file": "images\\artificio_0_17236.jpg"
+   }
+  ],
+  "z": 4.79,
+  "gap10": 0.067,
+  "mean": 0.299,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-009",
+  "top": [
+   {
+    "row": 1539,
+    "score": 0.741,
+    "artist": "Nzante Spee",
+    "title": "The Kora Quartet",
+    "style": "Cubism",
+    "file": "images\\artificio_3_10171.jpg"
+   },
+   {
+    "row": 21121,
+    "score": 0.718,
+    "artist": "Ion Tuculescu",
+    "title": "Depth",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_23525.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.715,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   }
+  ],
+  "z": 4.07,
+  "gap10": 0.036,
+  "mean": 0.399,
+  "style_guess": "decorative semi-abstract",
+  "known_artist": null
+ },
+ {
+  "id": "F2-010",
+  "top": [
+   {
+    "row": 18788,
+    "score": 0.73,
+    "artist": "Endre Bartos",
+    "title": "The painter dreams about a forest",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_14224.jpg"
+   },
+   {
+    "row": 600,
+    "score": 0.694,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "Rainy Landscape II",
+    "style": "Cubism",
+    "file": "images\\artificio_3_4920.jpg"
+   },
+   {
+    "row": 13934,
+    "score": 0.68,
+    "artist": "Victor Pasmore",
+    "title": "Hanging Gardens of Hammersmith No.2",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_0_7418.jpg"
+   }
+  ],
+  "z": 4.7,
+  "gap10": 0.079,
+  "mean": 0.375,
+  "style_guess": "decorative pattern / naturalist",
+  "known_artist": null
+ },
+ {
+  "id": "F2-011",
+  "top": [
+   {
+    "row": 17743,
+    "score": 0.653,
+    "artist": "Charles Rennie Mackintosh",
+    "title": "Roses",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_863.jpg"
+   },
+   {
+    "row": 18788,
+    "score": 0.621,
+    "artist": "Endre Bartos",
+    "title": "The painter dreams about a forest",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_14224.jpg"
+   },
+   {
+    "row": 14339,
+    "score": 0.611,
+    "artist": "Johannes Sveinsson Kjarval",
+    "title": "Land and Air",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_12296.jpg"
+   }
+  ],
+  "z": 4.37,
+  "gap10": 0.061,
+  "mean": 0.343,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-012",
+  "top": [
+   {
+    "row": 8059,
+    "score": 0.693,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 7533,
+    "score": 0.686,
+    "artist": "Nzante Spee",
+    "title": "The Drummer and the dancers",
+    "style": "Cubism",
+    "file": "images\\artificio_2_9988.jpg"
+   },
+   {
+    "row": 1539,
+    "score": 0.685,
+    "artist": "Nzante Spee",
+    "title": "The Kora Quartet",
+    "style": "Cubism",
+    "file": "images\\artificio_3_10171.jpg"
+   }
+  ],
+  "z": 4.15,
+  "gap10": 0.039,
+  "mean": 0.371,
+  "style_guess": "decorative pattern abstraction",
+  "known_artist": "Gela Dumbadze"
+ },
+ {
+  "id": "F2-015",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.798,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.765,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.762,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   }
+  ],
+  "z": 4.2,
+  "gap10": 0.059,
+  "mean": 0.451,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-017",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.764,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 11932,
+    "score": 0.735,
+    "artist": "Arthur Beecher Carles",
+    "title": "Table with Flowers",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15136.jpg"
+   },
+   {
+    "row": 12859,
+    "score": 0.724,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   }
+  ],
+  "z": 4.11,
+  "gap10": 0.061,
+  "mean": 0.434,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-019",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.767,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.756,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 13606,
+    "score": 0.756,
+    "artist": "Ligia Macovei",
+    "title": "Vegetal",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_17667.jpg"
+   }
+  ],
+  "z": 3.84,
+  "gap10": 0.038,
+  "mean": 0.442,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-021",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.779,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.777,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 9365,
+    "score": 0.771,
+    "artist": "Vasile Kazar",
+    "title": "unknown title",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_2444.jpg"
+   }
+  ],
+  "z": 3.83,
+  "gap10": 0.023,
+  "mean": 0.455,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-023",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.769,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.745,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 11932,
+    "score": 0.737,
+    "artist": "Arthur Beecher Carles",
+    "title": "Table with Flowers",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15136.jpg"
+   }
+  ],
+  "z": 4.06,
+  "gap10": 0.051,
+  "mean": 0.44,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-025",
+  "top": [
+   {
+    "row": 19785,
+    "score": 0.758,
+    "artist": "Endre Bartos",
+    "title": "Wide-eyed",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_3008.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.746,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.738,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   }
+  ],
+  "z": 3.86,
+  "gap10": 0.03,
+  "mean": 0.434,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-027",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.761,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 13606,
+    "score": 0.749,
+    "artist": "Ligia Macovei",
+    "title": "Vegetal",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_17667.jpg"
+   },
+   {
+    "row": 11932,
+    "score": 0.741,
+    "artist": "Arthur Beecher Carles",
+    "title": "Table with Flowers",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15136.jpg"
+   }
+  ],
+  "z": 3.97,
+  "gap10": 0.05,
+  "mean": 0.437,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F2-029",
+  "top": [
+   {
+    "row": 19441,
+    "score": 0.641,
+    "artist": "Maria Helena Vieira da Silva",
+    "title": "La recólte",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_17719.jpg"
+   },
+   {
+    "row": 2903,
+    "score": 0.628,
+    "artist": "Paul Guiragossian",
+    "title": "Allégresse",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_6543.jpg"
+   },
+   {
+    "row": 13802,
+    "score": 0.625,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Two Female Nudes",
+    "style": "Cubism",
+    "file": "images\\artificio_2_12642.jpg"
+   }
+  ],
+  "z": 3.42,
+  "gap10": 0.026,
+  "mean": 0.392,
+  "style_guess": "naive / decorative figurative",
+  "known_artist": "Susanne Heitz"
+ },
+ {
+  "id": "F2-031",
+  "top": [
+   {
+    "row": 249,
+    "score": 0.67,
+    "artist": "Lucian Freud",
+    "title": "Bella and Esther",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_5216.jpg"
+   },
+   {
+    "row": 18287,
+    "score": 0.654,
+    "artist": "John Ruskin",
+    "title": "Copy of the Head of St Ursula from Carpaccio",
+    "style": "Romanticism",
+    "file": "images\\artificio_1_5746.jpg"
+   },
+   {
+    "row": 7724,
+    "score": 0.652,
+    "artist": "Henri de Toulouse-Lautrec",
+    "title": "The Two Friends",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_17787.jpg"
+   }
+  ],
+  "z": 3.55,
+  "gap10": 0.048,
+  "mean": 0.403,
+  "style_guess": "surrealist figurative",
+  "known_artist": "Niniko Morbedadze"
+ },
+ {
+  "id": "F2-033",
+  "top": [
+   {
+    "row": 16405,
+    "score": 0.702,
+    "artist": "Giovanni Domenico Tiepolo",
+    "title": "Preaching of John the Baptist",
+    "style": "Rococo",
+    "file": "images\\artificio_1_23751.jpg"
+   },
+   {
+    "row": 22772,
+    "score": 0.701,
+    "artist": "Saturnino Herran",
+    "title": "Nuestros dioses",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_12611.jpg"
+   },
+   {
+    "row": 16785,
+    "score": 0.699,
+    "artist": "Jules Pascin",
+    "title": "The Temptation of Saint Anthony",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_7423.jpg"
+   }
+  ],
+  "z": 3.48,
+  "gap10": 0.029,
+  "mean": 0.455,
+  "style_guess": "romantic / narrative history painting",
+  "known_artist": "Lado Gudiashvili (1896-1980)"
+ },
+ {
+  "id": "F2-035",
+  "top": [
+   {
+    "row": 4506,
+    "score": 0.691,
+    "artist": "Mikhail Vrubel",
+    "title": "Portrait of Doctor Fiodor Usoltsev with an Icon in the Background",
+    "style": "Symbolism",
+    "file": "images\\artificio_3_22501.jpg"
+   },
+   {
+    "row": 15449,
+    "score": 0.688,
+    "artist": "Edwin Dickinson",
+    "title": "Self-Portrait in Gray Shirt",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_11116.jpg"
+   },
+   {
+    "row": 21749,
+    "score": 0.683,
+    "artist": "Georges Braque",
+    "title": "Night",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_20897.jpg"
+   }
+  ],
+  "z": 3.35,
+  "gap10": 0.029,
+  "mean": 0.426,
+  "style_guess": "expressive monochrome portrait",
+  "known_artist": "Onisime Chikvaidze"
+ },
+ {
+  "id": "F2-037",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.739,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.714,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.709,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   }
+  ],
+  "z": 3.93,
+  "gap10": 0.051,
+  "mean": 0.41,
+  "style_guess": "gestural abstraction",
+  "known_artist": null
+ },
+ {
+  "id": "F2-039",
+  "top": [
+   {
+    "row": 16268,
+    "score": 0.63,
+    "artist": "Paritosh Sen",
+    "title": "Woman Enjoying The Shower",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_10681.jpg"
+   },
+   {
+    "row": 656,
+    "score": 0.583,
+    "artist": "Menez",
+    "title": "Figura",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_12533.jpg"
+   },
+   {
+    "row": 20479,
+    "score": 0.572,
+    "artist": "David Alfaro Siqueiros",
+    "title": "Portrait of Angelica",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_23525.jpg"
+   }
+  ],
+  "z": 4.1,
+  "gap10": 0.076,
+  "mean": 0.336,
+  "style_guess": "surrealist portrait",
+  "known_artist": "Mariam Shengelia"
+ },
+ {
+  "id": "F2-041",
+  "top": [
+   {
+    "row": 16620,
+    "score": 0.629,
+    "artist": "Lucian Freud",
+    "title": "Child with a Toy Dog",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_6449.jpg"
+   },
+   {
+    "row": 21705,
+    "score": 0.629,
+    "artist": "Victor Borisov-Musatov",
+    "title": "Woman in Blue Dress",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_7126.jpg"
+   },
+   {
+    "row": 16678,
+    "score": 0.62,
+    "artist": "Alexej von Jawlensky",
+    "title": "Seated Woman",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_4366.jpg"
+   }
+  ],
+  "z": 3.72,
+  "gap10": 0.032,
+  "mean": 0.377,
+  "style_guess": "naive figurative",
+  "known_artist": "Irma Kukhianidze"
+ },
+ {
+  "id": "F2-043",
+  "top": [
+   {
+    "row": 18788,
+    "score": 0.694,
+    "artist": "Endre Bartos",
+    "title": "The painter dreams about a forest",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_14224.jpg"
+   },
+   {
+    "row": 600,
+    "score": 0.673,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "Rainy Landscape II",
+    "style": "Cubism",
+    "file": "images\\artificio_3_4920.jpg"
+   },
+   {
+    "row": 2262,
+    "score": 0.673,
+    "artist": "Le Pho",
+    "title": "Composition",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_7584.jpg"
+   }
+  ],
+  "z": 4.24,
+  "gap10": 0.048,
+  "mean": 0.383,
+  "style_guess": "mixed-media botanical abstraction",
+  "known_artist": "Mamuka Japaridze"
+ },
+ {
+  "id": "F2-045",
+  "top": [
+   {
+    "row": 8666,
+    "score": 0.721,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 600,
+    "score": 0.707,
+    "artist": "Nikos Hadjikyriakos-Ghikas",
+    "title": "Rainy Landscape II",
+    "style": "Cubism",
+    "file": "images\\artificio_3_4920.jpg"
+   },
+   {
+    "row": 16616,
+    "score": 0.701,
+    "artist": "John Ferren",
+    "title": "The Bush",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_5638.jpg"
+   }
+  ],
+  "z": 3.96,
+  "gap10": 0.037,
+  "mean": 0.407,
+  "style_guess": "mixed-media botanical abstraction",
+  "known_artist": "Mamuka Japaridze"
+ },
+ {
+  "id": "F2-048",
+  "top": [
+   {
+    "row": 21579,
+    "score": 0.633,
+    "artist": "Messenger of Shambhala",
+    "title": "Great rider. Rigden Jyepo",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_19854.jpg"
+   },
+   {
+    "row": 13951,
+    "score": 0.62,
+    "artist": "Yov Kondzelevych",
+    "title": "Saint George",
+    "style": "Baroque",
+    "file": "images\\artificio_2_3817.jpg"
+   },
+   {
+    "row": 22571,
+    "score": 0.618,
+    "artist": "John Bauer",
+    "title": "En riddare red fram",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_12289.jpg"
+   }
+  ],
+  "z": 3.54,
+  "gap10": 0.03,
+  "mean": 0.377,
+  "style_guess": "naive pastiche of baroque portraiture",
+  "known_artist": null
+ },
+ {
+  "id": "F2-049",
+  "top": [
+   {
+    "row": 4961,
+    "score": 0.647,
+    "artist": "Walasse Ting",
+    "title": "Red Horse, Orange Background",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_5661.jpg"
+   },
+   {
+    "row": 5746,
+    "score": 0.618,
+    "artist": "Ivan Milev",
+    "title": "King Marko",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_17861.jpg"
+   },
+   {
+    "row": 11471,
+    "score": 0.615,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Verona",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_3413.jpg"
+   }
+  ],
+  "z": 3.63,
+  "gap10": 0.042,
+  "mean": 0.385,
+  "style_guess": "naive pastiche of baroque portraiture",
+  "known_artist": null
+ },
+ {
+  "id": "F2-050",
+  "top": [
+   {
+    "row": 20736,
+    "score": 0.678,
+    "artist": "Franz Stuck",
+    "title": "Mary",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_17944.jpg"
+   },
+   {
+    "row": 13738,
+    "score": 0.677,
+    "artist": "Juan Carreno de Miranda",
+    "title": "La Infanta Maria Teresa",
+    "style": "Baroque",
+    "file": "images\\artificio_1_23543.jpg"
+   },
+   {
+    "row": 9438,
+    "score": 0.671,
+    "artist": "Francisco de Zurbaran",
+    "title": "Sainte Marine",
+    "style": "Baroque",
+    "file": "images\\artificio_0_20613.jpg"
+   }
+  ],
+  "z": 3.41,
+  "gap10": 0.026,
+  "mean": 0.394,
+  "style_guess": "naive pastiche of baroque portraiture",
+  "known_artist": null
+ },
+ {
+  "id": "F2-051",
+  "top": [
+   {
+    "row": 17975,
+    "score": 0.674,
+    "artist": "John Everett Millais",
+    "title": "The Minuet",
+    "style": "Romanticism",
+    "file": "images\\artificio_2_18511.jpg"
+   },
+   {
+    "row": 20736,
+    "score": 0.672,
+    "artist": "Franz Stuck",
+    "title": "Mary",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_17944.jpg"
+   },
+   {
+    "row": 8170,
+    "score": 0.668,
+    "artist": "Juan Carreno de Miranda",
+    "title": "Portrait of Ines de Zuñiga y Velasco",
+    "style": "Baroque",
+    "file": "images\\artificio_0_24419.jpg"
+   }
+  ],
+  "z": 3.71,
+  "gap10": 0.035,
+  "mean": 0.365,
+  "style_guess": "naive pastiche of baroque portraiture",
+  "known_artist": "Oleg Timchenko"
+ },
+ {
+  "id": "F2-053",
+  "top": [
+   {
+    "row": 8059,
+    "score": 0.675,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 22636,
+    "score": 0.67,
+    "artist": "Aldo Mondino",
+    "title": "Untitled",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_2987.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.658,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   }
+  ],
+  "z": 3.93,
+  "gap10": 0.031,
+  "mean": 0.373,
+  "style_guess": "drip painting / abstract expressionism",
+  "known_artist": "Tamuna Chikovani"
+ },
+ {
+  "id": "F2-055",
+  "top": [
+   {
+    "row": 11363,
+    "score": 0.662,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Encounter in the Dream",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_15537.jpg"
+   },
+   {
+    "row": 20054,
+    "score": 0.66,
+    "artist": "Oskar Kokoschka",
+    "title": "Mother and Child",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_11040.jpg"
+   },
+   {
+    "row": 11158,
+    "score": 0.649,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Spanish Woman",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_4474.jpg"
+   }
+  ],
+  "z": 3.52,
+  "gap10": 0.028,
+  "mean": 0.396,
+  "style_guess": "expressive figurative",
+  "known_artist": "Gogi Chagelishvili"
+ },
+ {
+  "id": "F2-057",
+  "top": [
+   {
+    "row": 11158,
+    "score": 0.695,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Spanish Woman",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_4474.jpg"
+   },
+   {
+    "row": 16678,
+    "score": 0.691,
+    "artist": "Alexej von Jawlensky",
+    "title": "Seated Woman",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_4366.jpg"
+   },
+   {
+    "row": 12937,
+    "score": 0.686,
+    "artist": "Alexej von Jawlensky",
+    "title": "Head in Black and Green",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_24487.jpg"
+   }
+  ],
+  "z": 3.34,
+  "gap10": 0.024,
+  "mean": 0.417,
+  "style_guess": "expressive figurative, cubist influence",
+  "known_artist": "Gogi Chagelishvili"
+ },
+ {
+  "id": "F2-059",
+  "top": [
+   {
+    "row": 16857,
+    "score": 0.661,
+    "artist": "Grégoire Michonze",
+    "title": "Figures in the Village",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_1971.jpg"
+   },
+   {
+    "row": 6129,
+    "score": 0.659,
+    "artist": "Maurice Prendergast",
+    "title": "The Swans",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_20859.jpg"
+   },
+   {
+    "row": 14341,
+    "score": 0.657,
+    "artist": "Arturo Souto",
+    "title": "Galician interior",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_16954.jpg"
+   }
+  ],
+  "z": 3.56,
+  "gap10": 0.027,
+  "mean": 0.44,
+  "style_guess": "naive / expressive figurative",
+  "known_artist": "Gogi Chagelishvili"
+ },
+ {
+  "id": "F2-061",
+  "top": [
+   {
+    "row": 23483,
+    "score": 0.672,
+    "artist": "John Bratby",
+    "title": "Roofscape",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1584.jpg"
+   },
+   {
+    "row": 1031,
+    "score": 0.643,
+    "artist": "M. H. Maxy",
+    "title": "St. George Place in Crotches",
+    "style": "Cubism",
+    "file": "images\\artificio_1_21205.jpg"
+   },
+   {
+    "row": 8306,
+    "score": 0.634,
+    "artist": "Jean David",
+    "title": "Port Scene",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18208.jpg"
+   }
+  ],
+  "z": 4.34,
+  "gap10": 0.057,
+  "mean": 0.392,
+  "style_guess": "expressive realist cityscape",
+  "known_artist": "Elene Akhvlediani"
+ },
+ {
+  "id": "F2-063",
+  "top": [
+   {
+    "row": 7622,
+    "score": 0.669,
+    "artist": "Marcel Janco",
+    "title": "Bel a Zurich",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11636.jpg"
+   },
+   {
+    "row": 1499,
+    "score": 0.666,
+    "artist": "David Bomberg",
+    "title": "In the Hold",
+    "style": "Cubism",
+    "file": "images\\artificio_1_16822.jpg"
+   },
+   {
+    "row": 10464,
+    "score": 0.662,
+    "artist": "Jacques Villon",
+    "title": "Soldats en marche",
+    "style": "Cubism",
+    "file": "images\\artificio_0_13408.jpg"
+   }
+  ],
+  "z": 3.65,
+  "gap10": 0.015,
+  "mean": 0.398,
+  "style_guess": "cubist animal painting",
+  "known_artist": "Tengiz Kacheishvili"
+ },
+ {
+  "id": "F2-065",
+  "top": [
+   {
+    "row": 2628,
+    "score": 0.721,
+    "artist": "Filipp Malyavin",
+    "title": "Farandole",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_8151.jpg"
+   },
+   {
+    "row": 14869,
+    "score": 0.719,
+    "artist": "Endre Bartos",
+    "title": "The idol-admirers",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_16729.jpg"
+   },
+   {
+    "row": 22481,
+    "score": 0.712,
+    "artist": "Candido Portinari",
+    "title": "Coffee Harvest",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_16331.jpg"
+   }
+  ],
+  "z": 3.92,
+  "gap10": 0.036,
+  "mean": 0.433,
+  "style_guess": "expressive figurative",
+  "known_artist": "Zurab (Piko) Nizharadze"
+ },
+ {
+  "id": "F2-067",
+  "top": [
+   {
+    "row": 14869,
+    "score": 0.77,
+    "artist": "Endre Bartos",
+    "title": "The idol-admirers",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_16729.jpg"
+   },
+   {
+    "row": 134,
+    "score": 0.762,
+    "artist": "Oskar Kokoschka",
+    "title": "Double Nude: Two Women",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_20381.jpg"
+   },
+   {
+    "row": 14567,
+    "score": 0.756,
+    "artist": "Endre Bartos",
+    "title": "Dancers",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_4278.jpg"
+   }
+  ],
+  "z": 3.64,
+  "gap10": 0.039,
+  "mean": 0.455,
+  "style_guess": "expressive figurative",
+  "known_artist": "Zurab (Piko) Nizharadze"
+ },
+ {
+  "id": "F2-069",
+  "top": [
+   {
+    "row": 10920,
+    "score": 0.794,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Among Flowers",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_2670.jpg"
+   },
+   {
+    "row": 20394,
+    "score": 0.765,
+    "artist": "Jack Bush",
+    "title": "Nude",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_3886.jpg"
+   },
+   {
+    "row": 23689,
+    "score": 0.754,
+    "artist": "Robert Brackman",
+    "title": "Nude Portrait",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_23145.jpg"
+   }
+  ],
+  "z": 4.08,
+  "gap10": 0.067,
+  "mean": 0.453,
+  "style_guess": "expressive figurative",
+  "known_artist": "Zurab (Piko) Nizharadze"
+ },
+ {
+  "id": "F2-071",
+  "top": [
+   {
+    "row": 5533,
+    "score": 0.592,
+    "artist": "Margareta Sterian",
+    "title": "Easter in the Village",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_19188.jpg"
+   },
+   {
+    "row": 14045,
+    "score": 0.584,
+    "artist": "Natalia Goncharova",
+    "title": "Design for final backcloth",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_11026.jpg"
+   },
+   {
+    "row": 7633,
+    "score": 0.573,
+    "artist": "Vasily Surikov",
+    "title": "Milan's Cathedral",
+    "style": "Realism",
+    "file": "images\\artificio_0_17984.jpg"
+   }
+  ],
+  "z": 3.75,
+  "gap10": 0.051,
+  "mean": 0.335,
+  "style_guess": "photorealist / photographic print (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F2-072",
+  "top": [
+   {
+    "row": 20954,
+    "score": 0.631,
+    "artist": "Alfred Manessier",
+    "title": "Les Pélerins d'Emmaus",
+    "style": "Cubism",
+    "file": "images\\artificio_0_20634.jpg"
+   },
+   {
+    "row": 18891,
+    "score": 0.621,
+    "artist": "Ligia Macovei",
+    "title": "Partygoers",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_4809.jpg"
+   },
+   {
+    "row": 11677,
+    "score": 0.615,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Magi´s Council",
+    "style": "Fauvism",
+    "file": "images\\artificio_3_22985.jpg"
+   }
+  ],
+  "z": 3.8,
+  "gap10": 0.03,
+  "mean": 0.381,
+  "style_guess": "naive / expressive figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-073",
+  "top": [
+   {
+    "row": 16984,
+    "score": 0.702,
+    "artist": "Albert Huie",
+    "title": "Quiet Sunday Ocho Rios, Jamaica",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_16510.jpg"
+   },
+   {
+    "row": 1031,
+    "score": 0.655,
+    "artist": "M. H. Maxy",
+    "title": "St. George Place in Crotches",
+    "style": "Cubism",
+    "file": "images\\artificio_1_21205.jpg"
+   },
+   {
+    "row": 11252,
+    "score": 0.647,
+    "artist": "Bela Czobel",
+    "title": "Szentendre",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_4600.jpg"
+   }
+  ],
+  "z": 4.78,
+  "gap10": 0.085,
+  "mean": 0.369,
+  "style_guess": "expressive impressionist",
+  "known_artist": null
+ },
+ {
+  "id": "F2-074",
+  "top": [
+   {
+    "row": 93,
+    "score": 0.602,
+    "artist": "Man of Peace",
+    "title": "Gandhi",
+    "style": "Cubism",
+    "file": "images\\artificio_0_16907.jpg"
+   },
+   {
+    "row": 8059,
+    "score": 0.598,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 10920,
+    "score": 0.596,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Among Flowers",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_2670.jpg"
+   }
+  ],
+  "z": 3.4,
+  "gap10": 0.022,
+  "mean": 0.362,
+  "style_guess": "contemporary African figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-075",
+  "top": [
+   {
+    "row": 9717,
+    "score": 0.664,
+    "artist": "Walter Battiss",
+    "title": "The Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_10646.jpg"
+   },
+   {
+    "row": 23094,
+    "score": 0.647,
+    "artist": "Walter Battiss",
+    "title": "A Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_7669.jpg"
+   },
+   {
+    "row": 22525,
+    "score": 0.642,
+    "artist": "Candido Portinari",
+    "title": "Carnaval",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18526.jpg"
+   }
+  ],
+  "z": 4.49,
+  "gap10": 0.067,
+  "mean": 0.363,
+  "style_guess": "contemporary African expressive",
+  "known_artist": null
+ },
+ {
+  "id": "F2-076",
+  "top": [
+   {
+    "row": 9903,
+    "score": 0.642,
+    "artist": "Aldo Mondino",
+    "title": "Knawa Maroc",
+    "style": "Pop_Art",
+    "file": "images\\artificio_0_5878.jpg"
+   },
+   {
+    "row": 14520,
+    "score": 0.618,
+    "artist": "Oskar Kokoschka",
+    "title": "Arab Woman and Child",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16597.jpg"
+   },
+   {
+    "row": 5112,
+    "score": 0.617,
+    "artist": "Mikhail Vrubel",
+    "title": "Viking Merchant (Costume design for the opera \"Sadko\")",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_1839.jpg"
+   }
+  ],
+  "z": 3.52,
+  "gap10": 0.042,
+  "mean": 0.387,
+  "style_guess": "contemporary African figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-077",
+  "top": [
+   {
+    "row": 21341,
+    "score": 0.691,
+    "artist": "M. H. Maxy",
+    "title": "String Trio",
+    "style": "Cubism",
+    "file": "images\\artificio_3_2439.jpg"
+   },
+   {
+    "row": 7622,
+    "score": 0.687,
+    "artist": "Marcel Janco",
+    "title": "Bel a Zurich",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11636.jpg"
+   },
+   {
+    "row": 22525,
+    "score": 0.676,
+    "artist": "Candido Portinari",
+    "title": "Carnaval",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18526.jpg"
+   }
+  ],
+  "z": 3.9,
+  "gap10": 0.039,
+  "mean": 0.394,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-078",
+  "top": [
+   {
+    "row": 9717,
+    "score": 0.777,
+    "artist": "Walter Battiss",
+    "title": "The Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_10646.jpg"
+   },
+   {
+    "row": 2903,
+    "score": 0.759,
+    "artist": "Paul Guiragossian",
+    "title": "Allégresse",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_6543.jpg"
+   },
+   {
+    "row": 7622,
+    "score": 0.738,
+    "artist": "Marcel Janco",
+    "title": "Bel a Zurich",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11636.jpg"
+   }
+  ],
+  "z": 4.63,
+  "gap10": 0.068,
+  "mean": 0.438,
+  "style_guess": "expressive impressionist / abstract",
+  "known_artist": null
+ },
+ {
+  "id": "F2-079",
+  "top": [
+   {
+    "row": 3427,
+    "score": 0.675,
+    "artist": "David Burliuk",
+    "title": "Japanese Village",
+    "style": "Realism",
+    "file": "images\\artificio_1_10219.jpg"
+   },
+   {
+    "row": 16984,
+    "score": 0.647,
+    "artist": "Albert Huie",
+    "title": "Quiet Sunday Ocho Rios, Jamaica",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_16510.jpg"
+   },
+   {
+    "row": 12220,
+    "score": 0.629,
+    "artist": "Adam Baltatu",
+    "title": "Village Boundary",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_10063.jpg"
+   }
+  ],
+  "z": 5.15,
+  "gap10": 0.076,
+  "mean": 0.368,
+  "style_guess": "impressionist landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F2-080",
+  "top": [
+   {
+    "row": 11475,
+    "score": 0.674,
+    "artist": "Konstantin Yuon",
+    "title": "Near The Simon's Monastery",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_18568.jpg"
+   },
+   {
+    "row": 13875,
+    "score": 0.663,
+    "artist": "Mstislav Dobuzhinsky",
+    "title": "Roadway in Vilnius",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_14387.jpg"
+   },
+   {
+    "row": 223,
+    "score": 0.66,
+    "artist": "Maurice Utrillo",
+    "title": "Church of Saint John the Baptiste",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_6067.jpg"
+   }
+  ],
+  "z": 4.8,
+  "gap10": 0.037,
+  "mean": 0.379,
+  "style_guess": "impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F2-081",
+  "top": [
+   {
+    "row": 21972,
+    "score": 0.65,
+    "artist": "Lesser Ury",
+    "title": "Berliner Straße mit Droschken in Regen",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_23951.jpg"
+   },
+   {
+    "row": 22728,
+    "score": 0.577,
+    "artist": "Lesser Ury",
+    "title": "Nächtliche Straßenszene, Berlin",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_7684.jpg"
+   },
+   {
+    "row": 3829,
+    "score": 0.566,
+    "artist": "Kees van Dongen",
+    "title": "Sheaf binders",
+    "style": "Pointillism",
+    "file": "images\\artificio_1_1823.jpg"
+   }
+  ],
+  "z": 5.18,
+  "gap10": 0.098,
+  "mean": 0.371,
+  "style_guess": "impressionist figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-082",
+  "top": [
+   {
+    "row": 2662,
+    "score": 0.607,
+    "artist": "Jean Paul Lemieux",
+    "title": "Les masques",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_5889.jpg"
+   },
+   {
+    "row": 11100,
+    "score": 0.604,
+    "artist": "Vicente Manansala",
+    "title": "Candle Vendors",
+    "style": "Cubism",
+    "file": "images\\artificio_0_3668.jpg"
+   },
+   {
+    "row": 22387,
+    "score": 0.603,
+    "artist": "Candido Portinari",
+    "title": "Grupo de Meninas Brincando",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_20276.jpg"
+   }
+  ],
+  "z": 3.59,
+  "gap10": 0.023,
+  "mean": 0.364,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-083",
+  "top": [
+   {
+    "row": 22525,
+    "score": 0.67,
+    "artist": "Candido Portinari",
+    "title": "Carnaval",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18526.jpg"
+   },
+   {
+    "row": 3256,
+    "score": 0.652,
+    "artist": "Conrad Marca-Relli",
+    "title": "The Meeting Place",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_5879.jpg"
+   },
+   {
+    "row": 11100,
+    "score": 0.646,
+    "artist": "Vicente Manansala",
+    "title": "Candle Vendors",
+    "style": "Cubism",
+    "file": "images\\artificio_0_3668.jpg"
+   }
+  ],
+  "z": 3.77,
+  "gap10": 0.049,
+  "mean": 0.399,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-084",
+  "top": [
+   {
+    "row": 23094,
+    "score": 0.599,
+    "artist": "Walter Battiss",
+    "title": "A Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_7669.jpg"
+   },
+   {
+    "row": 3427,
+    "score": 0.57,
+    "artist": "David Burliuk",
+    "title": "Japanese Village",
+    "style": "Realism",
+    "file": "images\\artificio_1_10219.jpg"
+   },
+   {
+    "row": 18887,
+    "score": 0.565,
+    "artist": "Constantin Piliuta",
+    "title": "Fishery",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_6038.jpg"
+   }
+  ],
+  "z": 4.55,
+  "gap10": 0.053,
+  "mean": 0.34,
+  "style_guess": "contemporary African landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F2-085",
+  "top": [
+   {
+    "row": 22525,
+    "score": 0.629,
+    "artist": "Candido Portinari",
+    "title": "Carnaval",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18526.jpg"
+   },
+   {
+    "row": 22481,
+    "score": 0.618,
+    "artist": "Candido Portinari",
+    "title": "Coffee Harvest",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_16331.jpg"
+   },
+   {
+    "row": 23094,
+    "score": 0.611,
+    "artist": "Walter Battiss",
+    "title": "A Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_7669.jpg"
+   }
+  ],
+  "z": 4.25,
+  "gap10": 0.044,
+  "mean": 0.369,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-086",
+  "top": [
+   {
+    "row": 141,
+    "score": 0.56,
+    "artist": "Hiroshige",
+    "title": "A snowy gorge",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_0_12988.jpg"
+   },
+   {
+    "row": 904,
+    "score": 0.558,
+    "artist": "Katsushika Hokusai",
+    "title": "Peasants in autumn",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_6824.jpg"
+   },
+   {
+    "row": 17983,
+    "score": 0.556,
+    "artist": "Francesco Guardi",
+    "title": "San Cristoforo, San Michele and Murano, Seen from the Fondamenta Nuove",
+    "style": "Baroque",
+    "file": "images\\artificio_0_10695.jpg"
+   }
+  ],
+  "z": 3.69,
+  "gap10": 0.018,
+  "mean": 0.348,
+  "style_guess": "Southeast Asian decorative landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F2-087",
+  "top": [
+   {
+    "row": 22525,
+    "score": 0.609,
+    "artist": "Candido Portinari",
+    "title": "Carnaval",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18526.jpg"
+   },
+   {
+    "row": 11100,
+    "score": 0.604,
+    "artist": "Vicente Manansala",
+    "title": "Candle Vendors",
+    "style": "Cubism",
+    "file": "images\\artificio_0_3668.jpg"
+   },
+   {
+    "row": 15225,
+    "score": 0.603,
+    "artist": "Maurice Prendergast",
+    "title": "Market Scene",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_2396.jpg"
+   }
+  ],
+  "z": 4.01,
+  "gap10": 0.037,
+  "mean": 0.347,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F2-088",
+  "top": [
+   {
+    "row": 7288,
+    "score": 0.65,
+    "artist": "Marevna (Marie Vorobieff)",
+    "title": "Portrait of Ilya Ehrenburg",
+    "style": "Cubism",
+    "file": "images\\artificio_1_4808.jpg"
+   },
+   {
+    "row": 11328,
+    "score": 0.64,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "The Painter and the Flying Man",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_11627.jpg"
+   },
+   {
+    "row": 929,
+    "score": 0.632,
+    "artist": "Marevna (Marie Vorobieff)",
+    "title": "Portrait of Diego Rivera",
+    "style": "Cubism",
+    "file": "images\\artificio_2_7018.jpg"
+   }
+  ],
+  "z": 4.02,
+  "gap10": 0.055,
+  "mean": 0.346,
+  "style_guess": "realist portrait",
+  "known_artist": "Giorgi Baratashvili"
+ },
+ {
+  "id": "F2-090",
+  "top": [
+   {
+    "row": 4599,
+    "score": 0.751,
+    "artist": "Max Pechstein",
+    "title": "Flusslandschaft",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_11668.jpg"
+   },
+   {
+    "row": 3099,
+    "score": 0.75,
+    "artist": "Lovis Corinth",
+    "title": "Walchensee",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_18710.jpg"
+   },
+   {
+    "row": 16254,
+    "score": 0.739,
+    "artist": "Endre Bartos",
+    "title": "Trees in blue",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_9753.jpg"
+   }
+  ],
+  "z": 4.22,
+  "gap10": 0.045,
+  "mean": 0.413,
+  "style_guess": "expressionist landscape",
+  "known_artist": "Dali Podiashvili"
+ },
+ {
+  "id": "F2-092",
+  "top": [
+   {
+    "row": 12782,
+    "score": 0.732,
+    "artist": "Pyotr Konchalovsky",
+    "title": "Portrait of French pianist Alfred Cortot",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_13634.jpg"
+   },
+   {
+    "row": 7288,
+    "score": 0.66,
+    "artist": "Marevna (Marie Vorobieff)",
+    "title": "Portrait of Ilya Ehrenburg",
+    "style": "Cubism",
+    "file": "images\\artificio_1_4808.jpg"
+   },
+   {
+    "row": 15274,
+    "score": 0.652,
+    "artist": "Constantin Piliuta",
+    "title": "1907",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_0_14628.jpg"
+   }
+  ],
+  "z": 4.71,
+  "gap10": 0.09,
+  "mean": 0.393,
+  "style_guess": "realist portrait",
+  "known_artist": "Giorgi Baratashvili"
+ },
+ {
+  "id": "F2-094",
+  "top": [
+   {
+    "row": 11820,
+    "score": 0.639,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Stained-glass Window",
+    "style": "Fauvism",
+    "file": "images\\artificio_2_12924.jpg"
+   },
+   {
+    "row": 15641,
+    "score": 0.635,
+    "artist": "Natalia Goncharova",
+    "title": "Cockerel",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_23957.jpg"
+   },
+   {
+    "row": 2645,
+    "score": 0.622,
+    "artist": "Rafael Zabaleta",
+    "title": "The Quesada Garden",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_7514.jpg"
+   }
+  ],
+  "z": 3.74,
+  "gap10": 0.03,
+  "mean": 0.371,
+  "style_guess": "mixed-media collage",
+  "known_artist": "Keti Matabeli"
+ },
+ {
+  "id": "F2-096",
+  "top": [
+   {
+    "row": 6351,
+    "score": 0.755,
+    "artist": "Ion Tuculescu",
+    "title": "Charming Sea",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_12540.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.744,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 13353,
+    "score": 0.733,
+    "artist": "Mikhail Vrubel",
+    "title": "Fantastic landscape",
+    "style": "Symbolism",
+    "file": "images\\artificio_3_8199.jpg"
+   }
+  ],
+  "z": 3.85,
+  "gap10": 0.048,
+  "mean": 0.439,
+  "style_guess": "expressive landscape",
+  "known_artist": "Irakli Bugiani"
+ },
+ {
+  "id": "F2-098",
+  "top": [
+   {
+    "row": 8195,
+    "score": 0.734,
+    "artist": "Odilon Redon",
+    "title": "Roger and Angelica",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_11488.jpg"
+   },
+   {
+    "row": 134,
+    "score": 0.721,
+    "artist": "Oskar Kokoschka",
+    "title": "Double Nude: Two Women",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_20381.jpg"
+   },
+   {
+    "row": 8516,
+    "score": 0.719,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   }
+  ],
+  "z": 4.01,
+  "gap10": 0.045,
+  "mean": 0.41,
+  "style_guess": "abstract / surreal",
+  "known_artist": "Nina Kintsurashvili"
+ },
+ {
+  "id": "F3-001",
+  "top": [
+   {
+    "row": 19056,
+    "score": 0.825,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 11932,
+    "score": 0.771,
+    "artist": "Arthur Beecher Carles",
+    "title": "Table with Flowers",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15136.jpg"
+   },
+   {
+    "row": 17605,
+    "score": 0.767,
+    "artist": "Julio Resende",
+    "title": "Untitled",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_13871.jpg"
+   }
+  ],
+  "z": 4.39,
+  "gap10": 0.087,
+  "mean": 0.454,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F3-003",
+  "top": [
+   {
+    "row": 13986,
+    "score": 0.699,
+    "artist": "Nzante Spee",
+    "title": "Music on the Move",
+    "style": "Cubism",
+    "file": "images\\artificio_3_7279.jpg"
+   },
+   {
+    "row": 10846,
+    "score": 0.693,
+    "artist": "Christ",
+    "title": "Saviour's Face",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_192.jpg"
+   },
+   {
+    "row": 20447,
+    "score": 0.686,
+    "artist": "Alexej von Jawlensky",
+    "title": "Astonishment",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_9974.jpg"
+   }
+  ],
+  "z": 3.88,
+  "gap10": 0.041,
+  "mean": 0.38,
+  "style_guess": "naive / folk-inspired",
+  "known_artist": "Anna K.E."
+ },
+ {
+  "id": "F3-005",
+  "top": [
+   {
+    "row": 10846,
+    "score": 0.674,
+    "artist": "Christ",
+    "title": "Saviour's Face",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_192.jpg"
+   },
+   {
+    "row": 16030,
+    "score": 0.657,
+    "artist": "Le Corbusier",
+    "title": "Ubu (Totem)",
+    "style": "Cubism",
+    "file": "images\\artificio_1_13058.jpg"
+   },
+   {
+    "row": 12859,
+    "score": 0.653,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   }
+  ],
+  "z": 3.63,
+  "gap10": 0.038,
+  "mean": 0.376,
+  "style_guess": "naive / geometric figurative",
+  "known_artist": "Anna K.E."
+ },
+ {
+  "id": "F3-007",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.749,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 17605,
+    "score": 0.73,
+    "artist": "Julio Resende",
+    "title": "Untitled",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_13871.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.73,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   }
+  ],
+  "z": 3.85,
+  "gap10": 0.029,
+  "mean": 0.439,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F3-009",
+  "top": [
+   {
+    "row": 12113,
+    "score": 0.76,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Oaş Dance",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_21749.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.758,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   },
+   {
+    "row": 13606,
+    "score": 0.749,
+    "artist": "Ligia Macovei",
+    "title": "Vegetal",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_17667.jpg"
+   }
+  ],
+  "z": 3.97,
+  "gap10": 0.05,
+  "mean": 0.422,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F3-011",
+  "top": [
+   {
+    "row": 8516,
+    "score": 0.78,
+    "artist": "Hans Hofmann",
+    "title": "Landscape",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_22194.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.767,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 8666,
+    "score": 0.763,
+    "artist": "Edvard Weie",
+    "title": "Dante and Vergil in the Underworld",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_13713.jpg"
+   }
+  ],
+  "z": 3.96,
+  "gap10": 0.044,
+  "mean": 0.444,
+  "style_guess": "abstract expressionism",
+  "known_artist": "Ushangi Khumarashvili"
+ },
+ {
+  "id": "F3-013",
+  "top": [
+   {
+    "row": 16777,
+    "score": 0.658,
+    "artist": "Victor Hugo",
+    "title": "Ruined Aqueduct",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_1688.jpg"
+   },
+   {
+    "row": 19056,
+    "score": 0.649,
+    "artist": "Luis Dourdil",
+    "title": "Painting",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_16696.jpg"
+   },
+   {
+    "row": 20078,
+    "score": 0.631,
+    "artist": "Luis Dourdil",
+    "title": "Untitled",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_15157.jpg"
+   }
+  ],
+  "z": 4.15,
+  "gap10": 0.058,
+  "mean": 0.345,
+  "style_guess": "textural abstraction",
+  "known_artist": "Salome Chigilashvili"
+ },
+ {
+  "id": "F3-015",
+  "top": [
+   {
+    "row": 16777,
+    "score": 0.664,
+    "artist": "Victor Hugo",
+    "title": "Ruined Aqueduct",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_1688.jpg"
+   },
+   {
+    "row": 7538,
+    "score": 0.636,
+    "artist": "Salvador Dali",
+    "title": "Beatrice",
+    "style": "Symbolism",
+    "file": "images\\artificio_0_17236.jpg"
+   },
+   {
+    "row": 12974,
+    "score": 0.613,
+    "artist": "John Ruskin",
+    "title": "Study of Foreground Material",
+    "style": "Romanticism",
+    "file": "images\\artificio_0_24337.jpg"
+   }
+  ],
+  "z": 4.61,
+  "gap10": 0.08,
+  "mean": 0.325,
+  "style_guess": "textural abstraction",
+  "known_artist": "Salome Chigilashvili"
+ },
+ {
+  "id": "F3-018",
+  "top": [
+   {
+    "row": 7187,
+    "score": 0.773,
+    "artist": "Pablo Picasso",
+    "title": "Portrait of Sylvette David",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11695.jpg"
+   },
+   {
+    "row": 2933,
+    "score": 0.748,
+    "artist": "Pablo Picasso",
+    "title": "Claude in the arms of his mother",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_6101.jpg"
+   },
+   {
+    "row": 22466,
+    "score": 0.745,
+    "artist": "Roy Lichtenstein",
+    "title": "Woman in a wheelchair",
+    "style": "Cubism",
+    "file": "images\\artificio_2_18152.jpg"
+   }
+  ],
+  "z": 3.81,
+  "gap10": 0.071,
+  "mean": 0.434,
+  "style_guess": "cubist portrait",
+  "known_artist": "Pablo Picasso"
+ },
+ {
+  "id": "F3-019",
+  "top": [
+   {
+    "row": 2933,
+    "score": 0.687,
+    "artist": "Pablo Picasso",
+    "title": "Claude in the arms of his mother",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_6101.jpg"
+   },
+   {
+    "row": 4112,
+    "score": 0.678,
+    "artist": "Pablo Picasso",
+    "title": "The student",
+    "style": "Cubism",
+    "file": "images\\artificio_0_441.jpg"
+   },
+   {
+    "row": 7187,
+    "score": 0.678,
+    "artist": "Pablo Picasso",
+    "title": "Portrait of Sylvette David",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11695.jpg"
+   }
+  ],
+  "z": 3.36,
+  "gap10": 0.028,
+  "mean": 0.41,
+  "style_guess": "late cubist / expressive portrait (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-020",
+  "top": [
+   {
+    "row": 2933,
+    "score": 0.736,
+    "artist": "Pablo Picasso",
+    "title": "Claude in the arms of his mother",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_6101.jpg"
+   },
+   {
+    "row": 22466,
+    "score": 0.733,
+    "artist": "Roy Lichtenstein",
+    "title": "Woman in a wheelchair",
+    "style": "Cubism",
+    "file": "images\\artificio_2_18152.jpg"
+   },
+   {
+    "row": 4112,
+    "score": 0.716,
+    "artist": "Pablo Picasso",
+    "title": "The student",
+    "style": "Cubism",
+    "file": "images\\artificio_0_441.jpg"
+   }
+  ],
+  "z": 3.6,
+  "gap10": 0.058,
+  "mean": 0.428,
+  "style_guess": "late cubist / expressive portrait (guess)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-022",
+  "top": [
+   {
+    "row": 5746,
+    "score": 0.63,
+    "artist": "Ivan Milev",
+    "title": "King Marko",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_17861.jpg"
+   },
+   {
+    "row": 14199,
+    "score": 0.63,
+    "artist": "Salvador Dali",
+    "title": "Le Char d'Or",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_899.jpg"
+   },
+   {
+    "row": 20399,
+    "score": 0.619,
+    "artist": "Kay Nielsen",
+    "title": "The Unicorn (Valiant Little Tailor)",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_16754.jpg"
+   }
+  ],
+  "z": 3.3,
+  "gap10": 0.04,
+  "mean": 0.364,
+  "style_guess": "surrealist",
+  "known_artist": "Salvador Dalí"
+ },
+ {
+  "id": "F3-024",
+  "top": [
+   {
+    "row": 12859,
+    "score": 0.649,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   },
+   {
+    "row": 16814,
+    "score": 0.649,
+    "artist": "Margareta Sterian",
+    "title": "Daughter of the Pharaoh",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_7590.jpg"
+   },
+   {
+    "row": 15641,
+    "score": 0.648,
+    "artist": "Natalia Goncharova",
+    "title": "Cockerel",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_23957.jpg"
+   }
+  ],
+  "z": 3.58,
+  "gap10": 0.033,
+  "mean": 0.385,
+  "style_guess": "modernist religious imagery",
+  "known_artist": "Marc Shagal"
+ },
+ {
+  "id": "F3-025",
+  "top": [
+   {
+    "row": 12859,
+    "score": 0.757,
+    "artist": "Margareta Sterian",
+    "title": "Suite",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_1656.jpg"
+   },
+   {
+    "row": 10649,
+    "score": 0.753,
+    "artist": "Vasile Kazar",
+    "title": "Dialogue with the Chimera",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_3352.jpg"
+   },
+   {
+    "row": 21782,
+    "score": 0.721,
+    "artist": "Vasile Kazar",
+    "title": "Presentation at the Old Court",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_5532.jpg"
+   }
+  ],
+  "z": 3.65,
+  "gap10": 0.06,
+  "mean": 0.431,
+  "style_guess": "modernist religious imagery",
+  "known_artist": "Marc Shagal"
+ },
+ {
+  "id": "F3-027",
+  "top": [
+   {
+    "row": 5746,
+    "score": 0.588,
+    "artist": "Ivan Milev",
+    "title": "King Marko",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_17861.jpg"
+   },
+   {
+    "row": 9316,
+    "score": 0.579,
+    "artist": "Walter Battiss",
+    "title": "Seychelles Curtains",
+    "style": "Pop_Art",
+    "file": "images\\artificio_0_18114.jpg"
+   },
+   {
+    "row": 4961,
+    "score": 0.577,
+    "artist": "Walasse Ting",
+    "title": "Red Horse, Orange Background",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_5661.jpg"
+   }
+  ],
+  "z": 3.6,
+  "gap10": 0.033,
+  "mean": 0.335,
+  "style_guess": "surrealist contemporary",
+  "known_artist": "Tamar Botchorishvili"
+ },
+ {
+  "id": "F3-029",
+  "top": [
+   {
+    "row": 13606,
+    "score": 0.656,
+    "artist": "Ligia Macovei",
+    "title": "Vegetal",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_17667.jpg"
+   },
+   {
+    "row": 9585,
+    "score": 0.653,
+    "artist": "Paul Thek",
+    "title": "Untitled (Blue Zig-Zags)",
+    "style": "Pop_Art",
+    "file": "images\\artificio_1_12503.jpg"
+   },
+   {
+    "row": 21141,
+    "score": 0.648,
+    "artist": "Mikhail Vrubel",
+    "title": "The Vision of the Prophet Ezekiel",
+    "style": "Symbolism",
+    "file": "images\\artificio_0_19948.jpg"
+   }
+  ],
+  "z": 3.59,
+  "gap10": 0.028,
+  "mean": 0.374,
+  "style_guess": "text-based abstraction",
+  "known_artist": "Mamuka Japaridze"
+ },
+ {
+  "id": "F3-031",
+  "top": [
+   {
+    "row": 6398,
+    "score": 0.692,
+    "artist": "Arshile Gorky",
+    "title": "Composition",
+    "style": "Cubism",
+    "file": "images\\artificio_1_15495.jpg"
+   },
+   {
+    "row": 22100,
+    "score": 0.691,
+    "artist": "Walter Battiss",
+    "title": "Yellow Afternoon",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_19417.jpg"
+   },
+   {
+    "row": 19712,
+    "score": 0.684,
+    "artist": "Nzante Spee",
+    "title": "The Man, the Women and the Child",
+    "style": "Cubism",
+    "file": "images\\artificio_2_2804.jpg"
+   }
+  ],
+  "z": 3.67,
+  "gap10": 0.025,
+  "mean": 0.392,
+  "style_guess": "biomorphic abstraction",
+  "known_artist": "Tamo Jugeli"
+ },
+ {
+  "id": "F3-033",
+  "top": [
+   {
+    "row": 8617,
+    "score": 0.672,
+    "artist": "Marjorie Strider",
+    "title": "We Mourn, We Weep, We Love Again",
+    "style": "Pop_Art",
+    "file": "images\\artificio_3_18559.jpg"
+   },
+   {
+    "row": 13606,
+    "score": 0.66,
+    "artist": "Ligia Macovei",
+    "title": "Vegetal",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_17667.jpg"
+   },
+   {
+    "row": 8464,
+    "score": 0.658,
+    "artist": "M.F. Husain",
+    "title": "Untitled (Lovers)",
+    "style": "Cubism",
+    "file": "images\\artificio_2_18695.jpg"
+   }
+  ],
+  "z": 3.49,
+  "gap10": 0.029,
+  "mean": 0.379,
+  "style_guess": "biomorphic abstraction",
+  "known_artist": "Tamo Jugeli"
+ },
+ {
+  "id": "F3-035",
+  "top": [
+   {
+    "row": 17788,
+    "score": 0.685,
+    "artist": "Jean David",
+    "title": "Jacob's Dream",
+    "style": "Cubism",
+    "file": "images\\artificio_1_24197.jpg"
+   },
+   {
+    "row": 8195,
+    "score": 0.68,
+    "artist": "Odilon Redon",
+    "title": "Roger and Angelica",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_11488.jpg"
+   },
+   {
+    "row": 2262,
+    "score": 0.678,
+    "artist": "Le Pho",
+    "title": "Composition",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_7584.jpg"
+   }
+  ],
+  "z": 3.54,
+  "gap10": 0.02,
+  "mean": 0.424,
+  "style_guess": "contemporary figurative / mixed media",
+  "known_artist": "Nika Kutateladze"
+ },
+ {
+  "id": "F3-037",
+  "top": [
+   {
+    "row": 938,
+    "score": 0.728,
+    "artist": "Auguste Rodin",
+    "title": "Minerva",
+    "style": "Impressionism",
+    "file": "images\\artificio_1_7923.jpg"
+   },
+   {
+    "row": 12973,
+    "score": 0.712,
+    "artist": "Louis Schanker",
+    "title": "Abstract with Instruments",
+    "style": "Cubism",
+    "file": "images\\artificio_0_10068.jpg"
+   },
+   {
+    "row": 6000,
+    "score": 0.706,
+    "artist": "Bela Kadar",
+    "title": "Bending Nude from Behind",
+    "style": "Cubism",
+    "file": "images\\artificio_3_8679.jpg"
+   }
+  ],
+  "z": 3.28,
+  "gap10": 0.037,
+  "mean": 0.434,
+  "style_guess": "contemporary surreal drawing",
+  "known_artist": "Maia Naveriani"
+ },
+ {
+  "id": "F3-039",
+  "top": [
+   {
+    "row": 8059,
+    "score": 0.714,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 8783,
+    "score": 0.714,
+    "artist": "Hans Hofmann",
+    "title": "Magenta and Blue",
+    "style": "Cubism",
+    "file": "images\\artificio_0_19479.jpg"
+   },
+   {
+    "row": 9162,
+    "score": 0.711,
+    "artist": "Emilio Grau Sala",
+    "title": "Woman and a Birdcage",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_2312.jpg"
+   }
+  ],
+  "z": 3.56,
+  "gap10": 0.018,
+  "mean": 0.429,
+  "style_guess": "expressive figurative",
+  "known_artist": "Gia Edzgveradze"
+ },
+ {
+  "id": "F3-041",
+  "top": [
+   {
+    "row": 8059,
+    "score": 0.656,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 20658,
+    "score": 0.652,
+    "artist": "Marc Chagall",
+    "title": "Small Drawing Room",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_18390.jpg"
+   },
+   {
+    "row": 14284,
+    "score": 0.649,
+    "artist": "Karl Knaths",
+    "title": "Water Valley",
+    "style": "Cubism",
+    "file": "images\\artificio_0_14609.jpg"
+   }
+  ],
+  "z": 3.8,
+  "gap10": 0.033,
+  "mean": 0.39,
+  "style_guess": "expressive figurative",
+  "known_artist": "Gia Edzgveradze"
+ },
+ {
+  "id": "F3-043",
+  "top": [
+   {
+    "row": 8783,
+    "score": 0.662,
+    "artist": "Hans Hofmann",
+    "title": "Magenta and Blue",
+    "style": "Cubism",
+    "file": "images\\artificio_0_19479.jpg"
+   },
+   {
+    "row": 8059,
+    "score": 0.646,
+    "artist": "Vilhelm Lundstrom",
+    "title": "Composition I",
+    "style": "Cubism",
+    "file": "images\\artificio_2_15158.jpg"
+   },
+   {
+    "row": 10853,
+    "score": 0.64,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Beginning",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_23904.jpg"
+   }
+  ],
+  "z": 3.79,
+  "gap10": 0.033,
+  "mean": 0.377,
+  "style_guess": "expressive figurative",
+  "known_artist": "Gia Edzgveradze"
+ },
+ {
+  "id": "F3-045",
+  "top": [
+   {
+    "row": 12001,
+    "score": 0.674,
+    "artist": "Corneliu Michailescu",
+    "title": "Composition With Romanian Motifs",
+    "style": "Cubism",
+    "file": "images\\artificio_2_14985.jpg"
+   },
+   {
+    "row": 15641,
+    "score": 0.658,
+    "artist": "Natalia Goncharova",
+    "title": "Cockerel",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_23957.jpg"
+   },
+   {
+    "row": 10649,
+    "score": 0.63,
+    "artist": "Vasile Kazar",
+    "title": "Dialogue with the Chimera",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_3352.jpg"
+   }
+  ],
+  "z": 3.97,
+  "gap10": 0.062,
+  "mean": 0.399,
+  "style_guess": "naive / decorative figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F3-046",
+  "top": [
+   {
+    "row": 11816,
+    "score": 0.64,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Pride",
+    "style": "Fauvism",
+    "file": "images\\artificio_2_10165.jpg"
+   },
+   {
+    "row": 5983,
+    "score": 0.618,
+    "artist": "Morris Graves",
+    "title": "Time of Change",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_11108.jpg"
+   },
+   {
+    "row": 14199,
+    "score": 0.61,
+    "artist": "Salvador Dali",
+    "title": "Le Char d'Or",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_899.jpg"
+   }
+  ],
+  "z": 4.31,
+  "gap10": 0.059,
+  "mean": 0.37,
+  "style_guess": "naive / surreal figurative",
+  "known_artist": "Tekla Meladze"
+ },
+ {
+  "id": "F3-048",
+  "top": [
+   {
+    "row": 20128,
+    "score": 0.605,
+    "artist": "Yov Kondzelevych",
+    "title": "Icon of St. John Chrysostom and St. Basil the Great from the village of Horodyshche in Volhynia (late 17th century).",
+    "style": "Baroque",
+    "file": "images\\artificio_1_24207.jpg"
+   },
+   {
+    "row": 5112,
+    "score": 0.602,
+    "artist": "Mikhail Vrubel",
+    "title": "Viking Merchant (Costume design for the opera \"Sadko\")",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_1839.jpg"
+   },
+   {
+    "row": 11165,
+    "score": 0.6,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   }
+  ],
+  "z": 2.89,
+  "gap10": 0.023,
+  "mean": 0.373,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-049",
+  "top": [
+   {
+    "row": 19532,
+    "score": 0.573,
+    "artist": "Aladar Korosfoi-Kriesch",
+    "title": "Eagles above the Hero's Grave",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_24871.jpg"
+   },
+   {
+    "row": 20911,
+    "score": 0.566,
+    "artist": "Paul Klee",
+    "title": "The vase",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_24789.jpg"
+   },
+   {
+    "row": 21418,
+    "score": 0.56,
+    "artist": "Forrest Bess",
+    "title": "Hieroglyphics",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_25062.jpg"
+   }
+  ],
+  "z": 3.22,
+  "gap10": 0.025,
+  "mean": 0.343,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-050",
+  "top": [
+   {
+    "row": 11165,
+    "score": 0.616,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   },
+   {
+    "row": 3630,
+    "score": 0.603,
+    "artist": "Kitagawa Utamaro",
+    "title": "The widow",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_2_14704.jpg"
+   },
+   {
+    "row": 12515,
+    "score": 0.601,
+    "artist": "Sir Lawrence Alma-Tadema",
+    "title": "Joseph, Overseer of Pharaoh`s Graneries",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_5350.jpg"
+   }
+  ],
+  "z": 2.95,
+  "gap10": 0.022,
+  "mean": 0.376,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-051",
+  "top": [
+   {
+    "row": 7522,
+    "score": 0.621,
+    "artist": "Utagawa Kunisada",
+    "title": "Ichikawa Danjuro VII and Bando Mitsugoro III as Soga no Goro and Asaina no Saburo",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_3843.jpg"
+   },
+   {
+    "row": 6572,
+    "score": 0.62,
+    "artist": "Utagawa Kuniyoshi",
+    "title": "Taira Koresshige attacked by a demon",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_21537.jpg"
+   },
+   {
+    "row": 224,
+    "score": 0.616,
+    "artist": "Utagawa Kuniyoshi",
+    "title": "Otsu-e Paintings Coming Alive Triptych",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_6872.jpg"
+   }
+  ],
+  "z": 2.88,
+  "gap10": 0.017,
+  "mean": 0.401,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-052",
+  "top": [
+   {
+    "row": 23107,
+    "score": 0.62,
+    "artist": "Koloman Moser",
+    "title": "Am Steinhof Church, Design for the right side altar Guardian Angel",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_23492.jpg"
+   },
+   {
+    "row": 14743,
+    "score": 0.609,
+    "artist": "Viktor Vasnetsov",
+    "title": "Sketches of ornaments painted Vladimir Cathedral",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_15905.jpg"
+   },
+   {
+    "row": 11146,
+    "score": 0.601,
+    "artist": "Nicholas Roerich",
+    "title": "Christ the saviour. Saint Peter and Saint Paul.",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_17421.jpg"
+   }
+  ],
+  "z": 2.96,
+  "gap10": 0.028,
+  "mean": 0.376,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-053",
+  "top": [
+   {
+    "row": 11165,
+    "score": 0.625,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   },
+   {
+    "row": 15591,
+    "score": 0.625,
+    "artist": "Vsevolod Maksymovych",
+    "title": "Feast",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_2472.jpg"
+   },
+   {
+    "row": 6572,
+    "score": 0.624,
+    "artist": "Utagawa Kuniyoshi",
+    "title": "Taira Koresshige attacked by a demon",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_21537.jpg"
+   }
+  ],
+  "z": 2.93,
+  "gap10": 0.013,
+  "mean": 0.396,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-054",
+  "top": [
+   {
+    "row": 11165,
+    "score": 0.668,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   },
+   {
+    "row": 3630,
+    "score": 0.648,
+    "artist": "Kitagawa Utamaro",
+    "title": "The widow",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_2_14704.jpg"
+   },
+   {
+    "row": 3024,
+    "score": 0.644,
+    "artist": "Kitagawa Utamaro",
+    "title": "Illustration from `The Twelve Hours of the Green Houses', c.1795 (colour woodblock print)",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_2_4199.jpg"
+   }
+  ],
+  "z": 3.05,
+  "gap10": 0.035,
+  "mean": 0.399,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-055",
+  "top": [
+   {
+    "row": 11439,
+    "score": 0.645,
+    "artist": "Konstantin Yuon",
+    "title": "Painting design for the State Circus",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_5012.jpg"
+   },
+   {
+    "row": 4422,
+    "score": 0.62,
+    "artist": "Utagawa Kuniyoshi",
+    "title": "Shoriko kaei shooting a wild goose",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_2_8919.jpg"
+   },
+   {
+    "row": 5969,
+    "score": 0.603,
+    "artist": "The mortally wounded Taira Tomomori with ahuge anchor",
+    "title": "Minori",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_1_22435.jpg"
+   }
+  ],
+  "z": 4.03,
+  "gap10": 0.06,
+  "mean": 0.36,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-056",
+  "top": [
+   {
+    "row": 7263,
+    "score": 0.634,
+    "artist": "John Collier",
+    "title": "Pharaoh's Handmaidens",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_22065.jpg"
+   },
+   {
+    "row": 19345,
+    "score": 0.605,
+    "artist": "Theo van Doesburg",
+    "title": "Krishna playing a flute",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_21855.jpg"
+   },
+   {
+    "row": 15591,
+    "score": 0.605,
+    "artist": "Vsevolod Maksymovych",
+    "title": "Feast",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_2472.jpg"
+   }
+  ],
+  "z": 3.34,
+  "gap10": 0.051,
+  "mean": 0.377,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-057",
+  "top": [
+   {
+    "row": 15591,
+    "score": 0.617,
+    "artist": "Vsevolod Maksymovych",
+    "title": "Feast",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_2472.jpg"
+   },
+   {
+    "row": 7263,
+    "score": 0.603,
+    "artist": "John Collier",
+    "title": "Pharaoh's Handmaidens",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_22065.jpg"
+   },
+   {
+    "row": 20656,
+    "score": 0.602,
+    "artist": "Frantisek Kupka",
+    "title": "The Crowning of Helen",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_23822.jpg"
+   }
+  ],
+  "z": 3.15,
+  "gap10": 0.025,
+  "mean": 0.373,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-058",
+  "top": [
+   {
+    "row": 21633,
+    "score": 0.606,
+    "artist": "Natalia Goncharova",
+    "title": "Liturgy six winged Seraph",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_16844.jpg"
+   },
+   {
+    "row": 3010,
+    "score": 0.605,
+    "artist": "Kitagawa Utamaro",
+    "title": "Oiran Hanaogi",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_1_17466.jpg"
+   },
+   {
+    "row": 4056,
+    "score": 0.599,
+    "artist": "Utagawa Toyokuni II",
+    "title": "A bust portrait of a beauty",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_17701.jpg"
+   }
+  ],
+  "z": 2.88,
+  "gap10": 0.019,
+  "mean": 0.367,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-059",
+  "top": [
+   {
+    "row": 12068,
+    "score": 0.609,
+    "artist": "Wifredo Lam",
+    "title": "The Fiance",
+    "style": "Cubism",
+    "file": "images\\artificio_2_4410.jpg"
+   },
+   {
+    "row": 20656,
+    "score": 0.606,
+    "artist": "Frantisek Kupka",
+    "title": "The Crowning of Helen",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_23822.jpg"
+   },
+   {
+    "row": 13090,
+    "score": 0.605,
+    "artist": "Frantisek Kupka",
+    "title": "Study of chapter",
+    "style": "Symbolism",
+    "file": "images\\artificio_0_9315.jpg"
+   }
+  ],
+  "z": 2.77,
+  "gap10": 0.011,
+  "mean": 0.39,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-060",
+  "top": [
+   {
+    "row": 13340,
+    "score": 0.592,
+    "artist": "Aladar Korosfoi-Kriesch",
+    "title": "Cassandra",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_5745.jpg"
+   },
+   {
+    "row": 11165,
+    "score": 0.592,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   },
+   {
+    "row": 23107,
+    "score": 0.591,
+    "artist": "Koloman Moser",
+    "title": "Am Steinhof Church, Design for the right side altar Guardian Angel",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_23492.jpg"
+   }
+  ],
+  "z": 2.83,
+  "gap10": 0.015,
+  "mean": 0.371,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-061",
+  "top": [
+   {
+    "row": 15551,
+    "score": 0.631,
+    "artist": "Theophile Steinlen",
+    "title": "Tete de Femme",
+    "style": "Realism",
+    "file": "images\\artificio_2_6161.jpg"
+   },
+   {
+    "row": 2134,
+    "score": 0.613,
+    "artist": "Paul Klee",
+    "title": "Possessed girl",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_6582.jpg"
+   },
+   {
+    "row": 23162,
+    "score": 0.613,
+    "artist": "Candido Portinari",
+    "title": "Meu Primeiro Trabalho",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_4795.jpg"
+   }
+  ],
+  "z": 3.24,
+  "gap10": 0.044,
+  "mean": 0.368,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-062",
+  "top": [
+   {
+    "row": 7263,
+    "score": 0.616,
+    "artist": "John Collier",
+    "title": "Pharaoh's Handmaidens",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_22065.jpg"
+   },
+   {
+    "row": 11165,
+    "score": 0.608,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   },
+   {
+    "row": 11019,
+    "score": 0.595,
+    "artist": "Keisai Eisen",
+    "title": "Kiyomizu Komachi",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_18795.jpg"
+   }
+  ],
+  "z": 3.23,
+  "gap10": 0.033,
+  "mean": 0.361,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-063",
+  "top": [
+   {
+    "row": 11165,
+    "score": 0.601,
+    "artist": "Keisai Eisen",
+    "title": "Pipe Smokers",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_3_4763.jpg"
+   },
+   {
+    "row": 3024,
+    "score": 0.597,
+    "artist": "Kitagawa Utamaro",
+    "title": "Illustration from `The Twelve Hours of the Green Houses', c.1795 (colour woodblock print)",
+    "style": "Ukiyo_e",
+    "file": "images\\artificio_2_4199.jpg"
+   },
+   {
+    "row": 7263,
+    "score": 0.592,
+    "artist": "John Collier",
+    "title": "Pharaoh's Handmaidens",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_22065.jpg"
+   }
+  ],
+  "z": 2.97,
+  "gap10": 0.021,
+  "mean": 0.364,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-064",
+  "top": [
+   {
+    "row": 15551,
+    "score": 0.615,
+    "artist": "Theophile Steinlen",
+    "title": "Tete de Femme",
+    "style": "Realism",
+    "file": "images\\artificio_2_6161.jpg"
+   },
+   {
+    "row": 2134,
+    "score": 0.596,
+    "artist": "Paul Klee",
+    "title": "Possessed girl",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_6582.jpg"
+   },
+   {
+    "row": 20479,
+    "score": 0.592,
+    "artist": "David Alfaro Siqueiros",
+    "title": "Portrait of Angelica",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_23525.jpg"
+   }
+  ],
+  "z": 3.13,
+  "gap10": 0.037,
+  "mean": 0.362,
+  "style_guess": "Egyptian-style decorative (souvenir papyrus)",
+  "known_artist": null
+ },
+ {
+  "id": "F3-065",
+  "top": [
+   {
+    "row": 15268,
+    "score": 0.706,
+    "artist": "Hoca Ali Riza",
+    "title": "Kızkulesi (Maiden's Tower)",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_20800.jpg"
+   },
+   {
+    "row": 23680,
+    "score": 0.634,
+    "artist": "Alexey Bogolyubov",
+    "title": "Mosque in Istanbul",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_5448.jpg"
+   },
+   {
+    "row": 15222,
+    "score": 0.623,
+    "artist": "Ivan Aivazovsky",
+    "title": "View of Constantinople by Moonlight",
+    "style": "Romanticism",
+    "file": "images\\artificio_1_20895.jpg"
+   }
+  ],
+  "z": 6.21,
+  "gap10": 0.133,
+  "mean": 0.368,
+  "style_guess": "monochrome impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-066",
+  "top": [
+   {
+    "row": 19700,
+    "score": 0.717,
+    "artist": "Benito Quinquela Martin",
+    "title": "Working at High Pressure",
+    "style": "Impressionism",
+    "file": "images\\artificio_0_2682.jpg"
+   },
+   {
+    "row": 7926,
+    "score": 0.686,
+    "artist": "David Burliuk",
+    "title": "In the harbour",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_21392.jpg"
+   },
+   {
+    "row": 9815,
+    "score": 0.661,
+    "artist": "James Webb",
+    "title": "A Seascape with Yachts at Sunset",
+    "style": "Romanticism",
+    "file": "images\\artificio_1_1098.jpg"
+   }
+  ],
+  "z": 5.43,
+  "gap10": 0.078,
+  "mean": 0.375,
+  "style_guess": "impressionist seascape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-067",
+  "top": [
+   {
+    "row": 15268,
+    "score": 0.642,
+    "artist": "Hoca Ali Riza",
+    "title": "Kızkulesi (Maiden's Tower)",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_20800.jpg"
+   },
+   {
+    "row": 23680,
+    "score": 0.632,
+    "artist": "Alexey Bogolyubov",
+    "title": "Mosque in Istanbul",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_5448.jpg"
+   },
+   {
+    "row": 19885,
+    "score": 0.63,
+    "artist": "Jack Bush",
+    "title": "Ferry at Bigwin Island",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_10709.jpg"
+   }
+  ],
+  "z": 5.19,
+  "gap10": 0.053,
+  "mean": 0.358,
+  "style_guess": "monochrome impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-068",
+  "top": [
+   {
+    "row": 15042,
+    "score": 0.661,
+    "artist": "Maurice Boitel",
+    "title": "La Tour Eiffel et la rue de la manutention",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_725.jpg"
+   },
+   {
+    "row": 15268,
+    "score": 0.647,
+    "artist": "Hoca Ali Riza",
+    "title": "Kızkulesi (Maiden's Tower)",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_20800.jpg"
+   },
+   {
+    "row": 8478,
+    "score": 0.645,
+    "artist": "Oskar Kokoschka",
+    "title": "View of Constantinople",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_22563.jpg"
+   }
+  ],
+  "z": 4.87,
+  "gap10": 0.062,
+  "mean": 0.376,
+  "style_guess": "monochrome impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-069",
+  "top": [
+   {
+    "row": 23680,
+    "score": 0.665,
+    "artist": "Alexey Bogolyubov",
+    "title": "Mosque in Istanbul",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_5448.jpg"
+   },
+   {
+    "row": 15222,
+    "score": 0.653,
+    "artist": "Ivan Aivazovsky",
+    "title": "View of Constantinople by Moonlight",
+    "style": "Romanticism",
+    "file": "images\\artificio_1_20895.jpg"
+   },
+   {
+    "row": 17078,
+    "score": 0.639,
+    "artist": "Iosif Iser",
+    "title": "The Mosque from Turtucaia",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_11539.jpg"
+   }
+  ],
+  "z": 5.2,
+  "gap10": 0.082,
+  "mean": 0.373,
+  "style_guess": "monochrome impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-070",
+  "top": [
+   {
+    "row": 13951,
+    "score": 0.655,
+    "artist": "Yov Kondzelevych",
+    "title": "Saint George",
+    "style": "Baroque",
+    "file": "images\\artificio_2_3817.jpg"
+   },
+   {
+    "row": 21579,
+    "score": 0.631,
+    "artist": "Messenger of Shambhala",
+    "title": "Great rider. Rigden Jyepo",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_19854.jpg"
+   },
+   {
+    "row": 14830,
+    "score": 0.604,
+    "artist": "Andrei Ryabushkin",
+    "title": "Prince Ukhtomsky in the Battle with Tartars at Volga in 1469",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_12381.jpg"
+   }
+  ],
+  "z": 4.31,
+  "gap10": 0.073,
+  "mean": 0.356,
+  "style_guess": "Ethiopian Orthodox icon style",
+  "known_artist": null
+ },
+ {
+  "id": "F3-071",
+  "top": [
+   {
+    "row": 18631,
+    "score": 0.698,
+    "artist": "Yov Kondzelevych",
+    "title": "Icon of the Mother of God from the Bilostok Monastery iconostasis",
+    "style": "Baroque",
+    "file": "images\\artificio_0_19078.jpg"
+   },
+   {
+    "row": 20709,
+    "score": 0.687,
+    "artist": "Mikhail Vrubel",
+    "title": "Virgin and Child",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_19620.jpg"
+   },
+   {
+    "row": 11146,
+    "score": 0.687,
+    "artist": "Nicholas Roerich",
+    "title": "Christ the saviour. Saint Peter and Saint Paul.",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_17421.jpg"
+   }
+  ],
+  "z": 4.27,
+  "gap10": 0.056,
+  "mean": 0.376,
+  "style_guess": "Ethiopian Orthodox icon style",
+  "known_artist": null
+ },
+ {
+  "id": "F3-072",
+  "top": [
+   {
+    "row": 14830,
+    "score": 0.685,
+    "artist": "Andrei Ryabushkin",
+    "title": "Prince Ukhtomsky in the Battle with Tartars at Volga in 1469",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_12381.jpg"
+   },
+   {
+    "row": 13951,
+    "score": 0.68,
+    "artist": "Yov Kondzelevych",
+    "title": "Saint George",
+    "style": "Baroque",
+    "file": "images\\artificio_2_3817.jpg"
+   },
+   {
+    "row": 13936,
+    "score": 0.653,
+    "artist": "Pyotr Konchalovsky",
+    "title": "Bova the prince'. Sketch of a carpet.",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_17157.jpg"
+   }
+  ],
+  "z": 4.17,
+  "gap10": 0.06,
+  "mean": 0.383,
+  "style_guess": "Ethiopian Orthodox icon style",
+  "known_artist": null
+ },
+ {
+  "id": "F3-073",
+  "top": [
+   {
+    "row": 13951,
+    "score": 0.673,
+    "artist": "Yov Kondzelevych",
+    "title": "Saint George",
+    "style": "Baroque",
+    "file": "images\\artificio_2_3817.jpg"
+   },
+   {
+    "row": 14830,
+    "score": 0.645,
+    "artist": "Andrei Ryabushkin",
+    "title": "Prince Ukhtomsky in the Battle with Tartars at Volga in 1469",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_1_12381.jpg"
+   },
+   {
+    "row": 13936,
+    "score": 0.639,
+    "artist": "Pyotr Konchalovsky",
+    "title": "Bova the prince'. Sketch of a carpet.",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_17157.jpg"
+   }
+  ],
+  "z": 4.25,
+  "gap10": 0.069,
+  "mean": 0.357,
+  "style_guess": "Ethiopian Orthodox icon style",
+  "known_artist": null
+ },
+ {
+  "id": "F3-074",
+  "top": [
+   {
+    "row": 11146,
+    "score": 0.684,
+    "artist": "Nicholas Roerich",
+    "title": "Christ the saviour. Saint Peter and Saint Paul.",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_0_17421.jpg"
+   },
+   {
+    "row": 18631,
+    "score": 0.661,
+    "artist": "Yov Kondzelevych",
+    "title": "Icon of the Mother of God from the Bilostok Monastery iconostasis",
+    "style": "Baroque",
+    "file": "images\\artificio_0_19078.jpg"
+   },
+   {
+    "row": 20709,
+    "score": 0.651,
+    "artist": "Mikhail Vrubel",
+    "title": "Virgin and Child",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_19620.jpg"
+   }
+  ],
+  "z": 4.23,
+  "gap10": 0.058,
+  "mean": 0.371,
+  "style_guess": "Ethiopian Orthodox icon style",
+  "known_artist": null
+ },
+ {
+  "id": "F3-075",
+  "top": [
+   {
+    "row": 14634,
+    "score": 0.741,
+    "artist": "Pyotr Konchalovsky",
+    "title": "Roses in a glass",
+    "style": "Realism",
+    "file": "images\\artificio_1_18033.jpg"
+   },
+   {
+    "row": 16396,
+    "score": 0.736,
+    "artist": "Rudolf Schweitzer-Cumpana",
+    "title": "Vase with Roses",
+    "style": "Impressionism",
+    "file": "images\\artificio_2_17157.jpg"
+   },
+   {
+    "row": 21387,
+    "score": 0.732,
+    "artist": "Dumitru Ghiatza",
+    "title": "Roses",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_11634.jpg"
+   }
+  ],
+  "z": 5.34,
+  "gap10": 0.068,
+  "mean": 0.414,
+  "style_guess": "realist floral still life",
+  "known_artist": null
+ },
+ {
+  "id": "F3-076",
+  "top": [
+   {
+    "row": 14713,
+    "score": 0.703,
+    "artist": "Vasily Vereshchagin",
+    "title": "Samarkand",
+    "style": "Realism",
+    "file": "images\\artificio_1_2846.jpg"
+   },
+   {
+    "row": 16652,
+    "score": 0.696,
+    "artist": "Vasily Vereshchagin",
+    "title": "Shir Dor madrasah in Registan Square in Samarkand",
+    "style": "Realism",
+    "file": "images\\artificio_3_1679.jpg"
+   },
+   {
+    "row": 17078,
+    "score": 0.693,
+    "artist": "Iosif Iser",
+    "title": "The Mosque from Turtucaia",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_11539.jpg"
+   }
+  ],
+  "z": 5.19,
+  "gap10": 0.073,
+  "mean": 0.413,
+  "style_guess": "impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-077",
+  "top": [
+   {
+    "row": 15973,
+    "score": 0.668,
+    "artist": "David Burliuk",
+    "title": "Landscape with a house",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_2_23375.jpg"
+   },
+   {
+    "row": 9925,
+    "score": 0.662,
+    "artist": "George Bouzianis",
+    "title": "Trees in the riverside",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_22624.jpg"
+   },
+   {
+    "row": 13099,
+    "score": 0.651,
+    "artist": "Ion Pacea",
+    "title": "Case la mare",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_3_19452.jpg"
+   }
+  ],
+  "z": 3.91,
+  "gap10": 0.038,
+  "mean": 0.38,
+  "style_guess": "expressionist landscape",
+  "known_artist": "Giorgi Mirzashvili"
+ },
+ {
+  "id": "F3-079",
+  "top": [
+   {
+    "row": 14045,
+    "score": 0.705,
+    "artist": "Natalia Goncharova",
+    "title": "Design for final backcloth",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_2_11026.jpg"
+   },
+   {
+    "row": 5651,
+    "score": 0.677,
+    "artist": "Paul Klee",
+    "title": "Rose garden",
+    "style": "Cubism",
+    "file": "images\\artificio_2_19772.jpg"
+   },
+   {
+    "row": 7186,
+    "score": 0.676,
+    "artist": "Jean David",
+    "title": "Jerusalem",
+    "style": "Expressionism",
+    "file": "images\\artificio_3_23451.jpg"
+   }
+  ],
+  "z": 4.25,
+  "gap10": 0.049,
+  "mean": 0.379,
+  "style_guess": "naive cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-080",
+  "top": [
+   {
+    "row": 17078,
+    "score": 0.744,
+    "artist": "Iosif Iser",
+    "title": "The Mosque from Turtucaia",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_11539.jpg"
+   },
+   {
+    "row": 14713,
+    "score": 0.732,
+    "artist": "Vasily Vereshchagin",
+    "title": "Samarkand",
+    "style": "Realism",
+    "file": "images\\artificio_1_2846.jpg"
+   },
+   {
+    "row": 10250,
+    "score": 0.7,
+    "artist": "Nicolae Darascu",
+    "title": "Iași Square (Food Row)",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_0_17452.jpg"
+   }
+  ],
+  "z": 5.71,
+  "gap10": 0.09,
+  "mean": 0.414,
+  "style_guess": "impressionist cityscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-081",
+  "top": [
+   {
+    "row": 21579,
+    "score": 0.577,
+    "artist": "Messenger of Shambhala",
+    "title": "Great rider. Rigden Jyepo",
+    "style": "Symbolism",
+    "file": "images\\artificio_2_19854.jpg"
+   },
+   {
+    "row": 14953,
+    "score": 0.571,
+    "artist": "Edmund Dulac",
+    "title": "The Pearl of the Elephant, from The Kingdom of the Pearl",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_2827.jpg"
+   },
+   {
+    "row": 13936,
+    "score": 0.565,
+    "artist": "Pyotr Konchalovsky",
+    "title": "Bova the prince'. Sketch of a carpet.",
+    "style": "Art_Nouveau",
+    "file": "images\\artificio_3_17157.jpg"
+   }
+  ],
+  "z": 3.54,
+  "gap10": 0.025,
+  "mean": 0.335,
+  "style_guess": "Southeast Asian decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F3-082",
+  "top": [
+   {
+    "row": 9568,
+    "score": 0.614,
+    "artist": "Mikalojus Ciurlionis",
+    "title": "Andante (Sonata of the Pyramids)",
+    "style": "Symbolism",
+    "file": "images\\artificio_1_22014.jpg"
+   },
+   {
+    "row": 11055,
+    "score": 0.59,
+    "artist": "Nicholas Roerich",
+    "title": "Chenrezig",
+    "style": "Symbolism",
+    "file": "images\\artificio_1_7622.jpg"
+   },
+   {
+    "row": 22965,
+    "score": 0.58,
+    "artist": "Mikalojus Ciurlionis",
+    "title": "Scherzo (Sonata of the Pyramids)",
+    "style": "Symbolism",
+    "file": "images\\artificio_0_2721.jpg"
+   }
+  ],
+  "z": 4.75,
+  "gap10": 0.06,
+  "mean": 0.369,
+  "style_guess": "Southeast Asian decorative landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-083",
+  "top": [
+   {
+    "row": 22095,
+    "score": 0.717,
+    "artist": "John Singer Sargent",
+    "title": "Villa Torlonia Fountain",
+    "style": "Impressionism",
+    "file": "images\\artificio_3_475.jpg"
+   },
+   {
+    "row": 20328,
+    "score": 0.713,
+    "artist": "Santiago Rusinol",
+    "title": "Cipreses dorados",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_23852.jpg"
+   },
+   {
+    "row": 23530,
+    "score": 0.695,
+    "artist": "Pierre Bonnard",
+    "title": "The Pony",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_1_12748.jpg"
+   }
+  ],
+  "z": 4.08,
+  "gap10": 0.033,
+  "mean": 0.406,
+  "style_guess": "impressionist landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-084",
+  "top": [
+   {
+    "row": 7622,
+    "score": 0.771,
+    "artist": "Marcel Janco",
+    "title": "Bel a Zurich",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11636.jpg"
+   },
+   {
+    "row": 428,
+    "score": 0.768,
+    "artist": "Charles Lapicque",
+    "title": "Ezechiel mesurant le temple",
+    "style": "Pop_Art",
+    "file": "images\\artificio_2_23892.jpg"
+   },
+   {
+    "row": 10689,
+    "score": 0.767,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "The End",
+    "style": "Fauvism",
+    "file": "images\\artificio_2_4523.jpg"
+   }
+  ],
+  "z": 3.8,
+  "gap10": 0.036,
+  "mean": 0.432,
+  "style_guess": "contemporary African cubist",
+  "known_artist": null
+ },
+ {
+  "id": "F3-085",
+  "top": [
+   {
+    "row": 9717,
+    "score": 0.661,
+    "artist": "Walter Battiss",
+    "title": "The Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_10646.jpg"
+   },
+   {
+    "row": 1734,
+    "score": 0.659,
+    "artist": "Lyonel Feininger",
+    "title": "Landungssteg",
+    "style": "Cubism",
+    "file": "images\\artificio_1_1466.jpg"
+   },
+   {
+    "row": 10689,
+    "score": 0.644,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "The End",
+    "style": "Fauvism",
+    "file": "images\\artificio_2_4523.jpg"
+   }
+  ],
+  "z": 4.2,
+  "gap10": 0.032,
+  "mean": 0.368,
+  "style_guess": "expressive semi-abstract",
+  "known_artist": null
+ },
+ {
+  "id": "F3-086",
+  "top": [
+   {
+    "row": 10853,
+    "score": 0.658,
+    "artist": "George Stefanescu-Ramnic",
+    "title": "Beginning",
+    "style": "Fauvism",
+    "file": "images\\artificio_0_23904.jpg"
+   },
+   {
+    "row": 9162,
+    "score": 0.658,
+    "artist": "Emilio Grau Sala",
+    "title": "Woman and a Birdcage",
+    "style": "Fauvism",
+    "file": "images\\artificio_1_2312.jpg"
+   },
+   {
+    "row": 22100,
+    "score": 0.657,
+    "artist": "Walter Battiss",
+    "title": "Yellow Afternoon",
+    "style": "Expressionism",
+    "file": "images\\artificio_2_19417.jpg"
+   }
+  ],
+  "z": 3.48,
+  "gap10": 0.016,
+  "mean": 0.393,
+  "style_guess": "expressive figurative",
+  "known_artist": null
+ },
+ {
+  "id": "F3-087",
+  "top": [
+   {
+    "row": 9903,
+    "score": 0.653,
+    "artist": "Aldo Mondino",
+    "title": "Knawa Maroc",
+    "style": "Pop_Art",
+    "file": "images\\artificio_0_5878.jpg"
+   },
+   {
+    "row": 9717,
+    "score": 0.641,
+    "artist": "Walter Battiss",
+    "title": "The Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_10646.jpg"
+   },
+   {
+    "row": 645,
+    "score": 0.639,
+    "artist": "Marcel Duchamp",
+    "title": "Portrait (Dulcinea)",
+    "style": "Cubism",
+    "file": "images\\artificio_1_20648.jpg"
+   }
+  ],
+  "z": 4.25,
+  "gap10": 0.045,
+  "mean": 0.371,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ },
+ {
+  "id": "F3-088",
+  "top": [
+   {
+    "row": 1695,
+    "score": 0.648,
+    "artist": "Charles M. Russell",
+    "title": "Sun River War Party",
+    "style": "Romanticism",
+    "file": "images\\artificio_3_1060.jpg"
+   },
+   {
+    "row": 11729,
+    "score": 0.64,
+    "artist": "George Hemming Mason",
+    "title": "Threshing Corn",
+    "style": "Romanticism",
+    "file": "images\\artificio_0_20603.jpg"
+   },
+   {
+    "row": 12895,
+    "score": 0.632,
+    "artist": "Charles M. Russell",
+    "title": "The Truce",
+    "style": "Romanticism",
+    "file": "images\\artificio_2_433.jpg"
+   }
+  ],
+  "z": 4.16,
+  "gap10": 0.037,
+  "mean": 0.402,
+  "style_guess": "contemporary African landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-089",
+  "top": [
+   {
+    "row": 19700,
+    "score": 0.67,
+    "artist": "Benito Quinquela Martin",
+    "title": "Working at High Pressure",
+    "style": "Impressionism",
+    "file": "images\\artificio_0_2682.jpg"
+   },
+   {
+    "row": 6685,
+    "score": 0.658,
+    "artist": "Roger Fry",
+    "title": "Venice",
+    "style": "Post_Impressionism",
+    "file": "images\\artificio_0_16540.jpg"
+   },
+   {
+    "row": 2212,
+    "score": 0.655,
+    "artist": "Ivan Aivazovsky",
+    "title": "Constantinople Sunset",
+    "style": "Romanticism",
+    "file": "images\\artificio_2_6838.jpg"
+   }
+  ],
+  "z": 3.96,
+  "gap10": 0.035,
+  "mean": 0.398,
+  "style_guess": "Southeast Asian decorative landscape",
+  "known_artist": null
+ },
+ {
+  "id": "F3-090",
+  "top": [
+   {
+    "row": 7622,
+    "score": 0.649,
+    "artist": "Marcel Janco",
+    "title": "Bel a Zurich",
+    "style": "Cubism",
+    "file": "images\\artificio_3_11636.jpg"
+   },
+   {
+    "row": 2903,
+    "score": 0.638,
+    "artist": "Paul Guiragossian",
+    "title": "Allégresse",
+    "style": "Expressionism",
+    "file": "images\\artificio_1_6543.jpg"
+   },
+   {
+    "row": 9717,
+    "score": 0.636,
+    "artist": "Walter Battiss",
+    "title": "The Gathering",
+    "style": "Expressionism",
+    "file": "images\\artificio_0_10646.jpg"
+   }
+  ],
+  "z": 3.85,
+  "gap10": 0.033,
+  "mean": 0.396,
+  "style_guess": "contemporary African decorative",
+  "known_artist": null
+ }
+]

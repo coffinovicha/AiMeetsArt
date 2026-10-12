@@ -1,0 +1,468 @@
+{
+ "same_artwork_pairs": [
+  {
+   "pair": [
+    "F1-016",
+    "F1-017"
+   ],
+   "score": 0.953
+  },
+  {
+   "pair": [
+    "F1-040",
+    "F1-046"
+   ],
+   "score": 0.977
+  },
+  {
+   "pair": [
+    "F1-056",
+    "F1-062"
+   ],
+   "score": 0.972
+  }
+ ],
+ "photos_with_known_artist": 82,
+ "artists_with_2plus_works": 17,
+ "photos_whose_artist_has_another_work": 52,
+ "nearest_known_photo_is_same_artist": 34,
+ "chance_rate": 0.051,
+ "same_artist_pairs": {
+  "n": 108,
+  "median": 0.88,
+  "mean": 0.834
+ },
+ "different_artist_pairs": {
+  "n": 3212,
+  "median": 0.599,
+  "mean": 0.603
+ },
+ "top1_within_gallery": {
+  "median": 0.79,
+  "max": 0.962,
+  "share_>=0.85": 0.303
+ },
+ "top1_in_wikiart_db": {
+  "median": 0.6754699349403381,
+  "max": 0.8252115249633789,
+  "share_>=0.85": 0.0
+ },
+ "rows": [
+  {
+   "id": "F1-004",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-015",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.923,
+   "same_artist": true
+  },
+  {
+   "id": "F1-005",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F3-011",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.923,
+   "same_artist": true
+  },
+  {
+   "id": "F1-026",
+   "artist": "Irakli Bugiani",
+   "nearest": "F1-071",
+   "nearest_artist": "Vakho Bugadze",
+   "score": 0.79,
+   "same_artist": false
+  },
+  {
+   "id": "F1-036",
+   "artist": "Tekla Meladze",
+   "nearest": "F3-009",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.731,
+   "same_artist": false
+  },
+  {
+   "id": "F1-038",
+   "artist": "Oleg Timchenko",
+   "nearest": "F1-044",
+   "nearest_artist": "Vazha Bekauri",
+   "score": 0.599,
+   "same_artist": false
+  },
+  {
+   "id": "F1-040",
+   "artist": "Mariam Shengelia",
+   "nearest": "F1-063",
+   "nearest_artist": "Omar Durmishidze",
+   "score": 0.703,
+   "same_artist": false
+  },
+  {
+   "id": "F1-042",
+   "artist": "Oleg Timchenko",
+   "nearest": "F1-044",
+   "nearest_artist": "Vazha Bekauri",
+   "score": 0.707,
+   "same_artist": false
+  },
+  {
+   "id": "F1-046",
+   "artist": "Mariam Shengelia",
+   "nearest": "F1-063",
+   "nearest_artist": "Omar Durmishidze",
+   "score": 0.712,
+   "same_artist": false
+  },
+  {
+   "id": "F1-063",
+   "artist": "Omar Durmishidze",
+   "nearest": "F1-046",
+   "nearest_artist": "Mariam Shengelia",
+   "score": 0.712,
+   "same_artist": false
+  },
+  {
+   "id": "F1-065",
+   "artist": "Keti Matabeli",
+   "nearest": "F2-094",
+   "nearest_artist": "Keti Matabeli",
+   "score": 0.697,
+   "same_artist": true
+  },
+  {
+   "id": "F1-067",
+   "artist": "Omar Durmishidze",
+   "nearest": "F1-034",
+   "nearest_artist": "Gotcha Gaios (Shatirishvili)",
+   "score": 0.671,
+   "same_artist": false
+  },
+  {
+   "id": "F1-071",
+   "artist": "Vakho Bugadze",
+   "nearest": "F1-082",
+   "nearest_artist": "Vakho Bugadze",
+   "score": 0.824,
+   "same_artist": true
+  },
+  {
+   "id": "F1-082",
+   "artist": "Vakho Bugadze",
+   "nearest": "F3-001",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.875,
+   "same_artist": false
+  },
+  {
+   "id": "F1-084",
+   "artist": "Oleg Timchenko",
+   "nearest": "F1-044",
+   "nearest_artist": "Vazha Bekauri",
+   "score": 0.669,
+   "same_artist": false
+  },
+  {
+   "id": "F2-015",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-023",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.929,
+   "same_artist": true
+  },
+  {
+   "id": "F2-017",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-019",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.907,
+   "same_artist": true
+  },
+  {
+   "id": "F2-019",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F3-011",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.944,
+   "same_artist": true
+  },
+  {
+   "id": "F2-021",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-015",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.922,
+   "same_artist": true
+  },
+  {
+   "id": "F2-023",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-015",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.929,
+   "same_artist": true
+  },
+  {
+   "id": "F2-025",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-023",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.91,
+   "same_artist": true
+  },
+  {
+   "id": "F2-027",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-019",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.907,
+   "same_artist": true
+  },
+  {
+   "id": "F2-039",
+   "artist": "Mariam Shengelia",
+   "nearest": "F3-018",
+   "nearest_artist": "Pablo Picasso",
+   "score": 0.634,
+   "same_artist": false
+  },
+  {
+   "id": "F2-043",
+   "artist": "Mamuka Japaridze",
+   "nearest": "F2-045",
+   "nearest_artist": "Mamuka Japaridze",
+   "score": 0.864,
+   "same_artist": true
+  },
+  {
+   "id": "F2-045",
+   "artist": "Mamuka Japaridze",
+   "nearest": "F2-043",
+   "nearest_artist": "Mamuka Japaridze",
+   "score": 0.864,
+   "same_artist": true
+  },
+  {
+   "id": "F2-051",
+   "artist": "Oleg Timchenko",
+   "nearest": "F2-041",
+   "nearest_artist": "Irma Kukhianidze",
+   "score": 0.63,
+   "same_artist": false
+  },
+  {
+   "id": "F2-055",
+   "artist": "Gogi Chagelishvili",
+   "nearest": "F2-057",
+   "nearest_artist": "Gogi Chagelishvili",
+   "score": 0.754,
+   "same_artist": true
+  },
+  {
+   "id": "F2-057",
+   "artist": "Gogi Chagelishvili",
+   "nearest": "F2-055",
+   "nearest_artist": "Gogi Chagelishvili",
+   "score": 0.754,
+   "same_artist": true
+  },
+  {
+   "id": "F2-059",
+   "artist": "Gogi Chagelishvili",
+   "nearest": "F2-033",
+   "nearest_artist": "Lado Gudiashvili (1896-1980)",
+   "score": 0.716,
+   "same_artist": false
+  },
+  {
+   "id": "F2-065",
+   "artist": "Zurab (Piko) Nizharadze",
+   "nearest": "F2-067",
+   "nearest_artist": "Zurab (Piko) Nizharadze",
+   "score": 0.786,
+   "same_artist": true
+  },
+  {
+   "id": "F2-067",
+   "artist": "Zurab (Piko) Nizharadze",
+   "nearest": "F2-069",
+   "nearest_artist": "Zurab (Piko) Nizharadze",
+   "score": 0.822,
+   "same_artist": true
+  },
+  {
+   "id": "F2-069",
+   "artist": "Zurab (Piko) Nizharadze",
+   "nearest": "F2-023",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.822,
+   "same_artist": false
+  },
+  {
+   "id": "F2-088",
+   "artist": "Giorgi Baratashvili",
+   "nearest": "F2-092",
+   "nearest_artist": "Giorgi Baratashvili",
+   "score": 0.729,
+   "same_artist": true
+  },
+  {
+   "id": "F2-092",
+   "artist": "Giorgi Baratashvili",
+   "nearest": "F2-088",
+   "nearest_artist": "Giorgi Baratashvili",
+   "score": 0.729,
+   "same_artist": true
+  },
+  {
+   "id": "F2-094",
+   "artist": "Keti Matabeli",
+   "nearest": "F1-065",
+   "nearest_artist": "Keti Matabeli",
+   "score": 0.697,
+   "same_artist": true
+  },
+  {
+   "id": "F2-096",
+   "artist": "Irakli Bugiani",
+   "nearest": "F2-090",
+   "nearest_artist": "Dali Podiashvili",
+   "score": 0.812,
+   "same_artist": false
+  },
+  {
+   "id": "F3-001",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-015",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.912,
+   "same_artist": true
+  },
+  {
+   "id": "F3-003",
+   "artist": "Anna K.E.",
+   "nearest": "F3-005",
+   "nearest_artist": "Anna K.E.",
+   "score": 0.885,
+   "same_artist": true
+  },
+  {
+   "id": "F3-005",
+   "artist": "Anna K.E.",
+   "nearest": "F3-003",
+   "nearest_artist": "Anna K.E.",
+   "score": 0.885,
+   "same_artist": true
+  },
+  {
+   "id": "F3-007",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F3-011",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.897,
+   "same_artist": true
+  },
+  {
+   "id": "F3-009",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-019",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.934,
+   "same_artist": true
+  },
+  {
+   "id": "F3-011",
+   "artist": "Ushangi Khumarashvili",
+   "nearest": "F2-019",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.944,
+   "same_artist": true
+  },
+  {
+   "id": "F3-013",
+   "artist": "Salome Chigilashvili",
+   "nearest": "F3-015",
+   "nearest_artist": "Salome Chigilashvili",
+   "score": 0.916,
+   "same_artist": true
+  },
+  {
+   "id": "F3-015",
+   "artist": "Salome Chigilashvili",
+   "nearest": "F3-013",
+   "nearest_artist": "Salome Chigilashvili",
+   "score": 0.916,
+   "same_artist": true
+  },
+  {
+   "id": "F3-024",
+   "artist": "Marc Shagal",
+   "nearest": "F3-025",
+   "nearest_artist": "Marc Shagal",
+   "score": 0.791,
+   "same_artist": true
+  },
+  {
+   "id": "F3-025",
+   "artist": "Marc Shagal",
+   "nearest": "F3-024",
+   "nearest_artist": "Marc Shagal",
+   "score": 0.791,
+   "same_artist": true
+  },
+  {
+   "id": "F3-029",
+   "artist": "Mamuka Japaridze",
+   "nearest": "F2-053",
+   "nearest_artist": "Tamuna Chikovani",
+   "score": 0.734,
+   "same_artist": false
+  },
+  {
+   "id": "F3-031",
+   "artist": "Tamo Jugeli",
+   "nearest": "F3-033",
+   "nearest_artist": "Tamo Jugeli",
+   "score": 0.809,
+   "same_artist": true
+  },
+  {
+   "id": "F3-033",
+   "artist": "Tamo Jugeli",
+   "nearest": "F3-009",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.81,
+   "same_artist": false
+  },
+  {
+   "id": "F3-039",
+   "artist": "Gia Edzgveradze",
+   "nearest": "F3-043",
+   "nearest_artist": "Gia Edzgveradze",
+   "score": 0.816,
+   "same_artist": true
+  },
+  {
+   "id": "F3-041",
+   "artist": "Gia Edzgveradze",
+   "nearest": "F3-043",
+   "nearest_artist": "Gia Edzgveradze",
+   "score": 0.781,
+   "same_artist": true
+  },
+  {
+   "id": "F3-043",
+   "artist": "Gia Edzgveradze",
+   "nearest": "F3-039",
+   "nearest_artist": "Gia Edzgveradze",
+   "score": 0.816,
+   "same_artist": true
+  },
+  {
+   "id": "F3-046",
+   "artist": "Tekla Meladze",
+   "nearest": "F3-011",
+   "nearest_artist": "Ushangi Khumarashvili",
+   "score": 0.654,
+   "same_artist": false
+  }
+ ]
+}

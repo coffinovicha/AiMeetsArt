@@ -1,0 +1,10 @@
+F1-024 | real: Wine Country | {'artist_known_grounded': ('c', ['Rolling Hill Vineyard']), 'artist_unknown_grounded': ('c', ['Rolling Hill Vineyard'])}
+F1-036 | real: Gossip Girls | {'artist_known_grounded': ('c', ['Dreamy Family Figures']), 'artist_unknown_grounded': ('c', ['Dreamy Family Figures'])}
+F1-040 | real: Still Life | {'artist_known_grounded': ('c', ['Dark Green Jug']), 'artist_unknown_grounded': ('c', ['Dark Green Jug'])}
+F1-046 | real: Still Life | {'artist_known_grounded': ('c', ["Cloth's Calm Shadow"]), 'artist_unknown_grounded': ('c', ["Cloth's Calm Shadow"])}
+F1-071 | real: Untitled | {'artist_known_grounded': ('c', ['Abstract Band Blues']), 'artist_unknown_grounded': ('c', ['Abstract Band Blues'])}
+F1-084 | real: Untitled | {'artist_known_grounded': ('a', ['Untitled']), 'artist_unknown_grounded': ('c', ['Dining Table With Two Women'])}
+F2-017 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
+F2-019 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
+F2-041 | real: Girl With Dandelions | {'artist_known_grounded': ('c', ['Childhood and innocence']), 'artist_unknown_grounded': ('c', ['Childhood and innocence'])}
+F2-043 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Dreamy Leaves']), 'artist_unknown_grounded': ('b', ['Dreamy Leaves'])}

@@ -1,0 +1,43 @@
+Piet Mondrian | On the Lappenbrink | a: ['Red Roofed Houses Near Woman', 'Woman on Bench Among Houses', 'Red Bricks and Blue Sky'] | c: ['Pastel Town Scene', 'Serene Small-town Life', 'Bench Among Houses']
+Piet Mondrian | Church tower at Domburg | a: ['Sunlit Church', 'Church Tower at Twilight', 'Dusk Over the Church'] | c: ['Towering Red Church', 'Red Brick Church Interior', 'Dusk Church Glow']
+Piet Mondrian | Nature died with Sunflower | a: ['Still Life with Sunflowers', 'Sunflowers in Green Vase', 'Vase Holds Sunflowers'] | c: ['Sunflowers in a Green Vase', 'Sunflowers in Green Vase', 'Still Life of Two Sunflowers']
+Wassily Kandinsky | Grungasse in Murnau | a: ['Village Street Scene', 'Blue Sky Above Village', 'Lively Village Life Scene'] | c: ['Village Street Scene', 'Red Roof House', 'Village Life Theme']
+Wassily Kandinsky | Blue mountain | a: ['Forest Symphony', 'Red Trees Gaze', 'Orange Sky Serenade'] | c: ['Colorful Autumn Forest', 'Vibrant Autumn Landscape', 'Autumn Forest Panorama']
+Wassily Kandinsky | Volga song | a: ['Dark harbor night', 'Nostalgic harbor', 'Harbor melancholy'] | c: ['Dark Harbor Silhouettes', 'Nostalgic Harbor Scene', 'Harbor Shadows']
+Paul Klee | The vase | a: ['Abstract Garden', 'Blue and Orange Garden', 'Garden of Growth'] | c: ['Grey Beige Canvas', 'Red Green Leaf Shapes', "Large Letters '17"]
+Paul Klee | Fish Image | a: ['The blue field', 'Landscape dreams', 'Garden of motion'] | c: ['Dreamy Blue Field With Curves', 'Blue Field of Flight', 'Fish-like White Lines Across Field']
+Paul Klee | Pierrot Lunaire | a: ['Puzzled Face Shape', 'Face in Shadows', 'Mysterious Orange Face'] | c: ['Puzzled Face Shape', 'Face in Shadows', 'Mysterious Orange Face']
+Claude Monet | Woman Sitting under the Willows | a: ['Spring Landscape with Willow', 'Spring Picnic Under Willow', 'Willow Trees and Flowers'] | c: ['Spring Picnic Scene', 'Willows & Grass', 'Dappled Landscape']
+Claude Monet | Portrait of Pere Paul | a: ["Chef's Hat, Quick Strokes", "Quick Strokes, Chef's Hat", "Chefs' Attire, Green Yellow"] | c: ["Chef's Portrait in Green", "Chef's Hat and Apron", "Chef's White Hat"]
+Claude Monet | The Sea, Port in Amsterdam | a: ['Masts and Ships in Serene Harbor View', 'Harbor Masts Under Blue Sky', 'Blue Sky Over Harbor Scene'] | c: ['Serene Harbor Scene', 'Harbor Dusk Reflections', 'Harbor at Evening Glow']
+Henri de Toulouse-Lautrec | At the Opera Ball | a: ['Lively Café Scene', 'Men in Black Hats, Orange Juice', 'Balcony, Three Men'] | c: ['Café Life', 'Three Hats, One Cup', "City's Daydream"]
+Henri de Toulouse-Lautrec | Mademoiselle Marcelle Lender, Standing | a: ['Lively Scene with Woman and Bird', 'Woman in White Dress with Red Flower', 'Woman in White Dress with Flying Hair'] | c: ['Red Flower, Black Bird', 'Woman Holding Small Bird', 'Woman in White Dress']
+Henri de Toulouse-Lautrec | At the Music Hall Loie Fuller | a: ['Orange Robe and Plant', 'Plant Behind Woman', 'Woman in Orange Robe'] | c: ['Robe and Hair, Plant Shape', 'Robe and Hair, Plant Presence', 'Robed Figure, Yellow Ground']
+Pyotr Konchalovsky | Still life with fruits and watermelon | a: ['Still Life with Summer Colors', 'Red Tablecloth and Summer Fruits', 'Red Tablecloth with Summer Fruits'] | c: ['Red Tablecloth with Fruits', 'Colorful Summer Fruits', 'Mangoes & Grapes on Cloth']
+Pyotr Konchalovsky | Essentuki | a: ['Sunny Park Scene', 'Trees and Bench', 'Grass Under Trees'] | c: ['Sunny Bench Scene', 'Park with Blue Sky', 'Trees and Blue Sky']
+Pyotr Konchalovsky | Still Life. Lilacs in a tub. | a: ['Lilacs in Bloom', 'Basket of Lilacs'] | c: ['Pink Lilacs in Basket', 'Lilacs and Greenery', 'Delicate Lilacs on Table']
+Martiros Saryan | Fairy tale | a: ['Blue sky', 'Night figure', 'Green tree'] | c: ['Mysterious Night Scene', 'Night Sky Walk', 'Red Dress in Shadows']
+Martiros Saryan | Date palm | a: ['Tropical village', 'Elephant village', 'Palm tree village'] | c: ['Tropical Village Scene', 'Palm Tree and Figures', 'Vibrant Tropical Village']
+Martiros Saryan | Scene from the Train Window | a: ['Cityscape生机勃勃的红蓝交响曲', '蓝色天空下的绿色树木', '城市的灵魂在蓝天之下'] | c: ['Expressive Cityscape with Figures', 'Loose Watercolor Cityscape', 'Blue Sky Over City Life']
+Gustav Klimt | Portrait of a Girl | a: ['White Bonneted Girl', 'Bonneted Beauty', 'Bonneted Innocence'] | c: ['White Bonnet Girl', 'Bonneted Innocence', 'Bonneted Beauty']
+Gustav Klimt | Portrait of Hermine Gallia | a: ['Lady with Fan and High-Collar Dress', 'High-Collar Lady with Fan', 'Lady in White with Fan and High-Collar'] | c: ["Lady's Portrait", "Lady's Dress", 'Lady with Fan']
+Gustav Klimt | Female organ player | a: ["Piano's Solitude", "Piano's Penitence", 'Solemn Soloist'] | c: ['Devotional Piano Scene', 'Woman in White Before Piano', 'Woman Kneeling Near Piano']
+{
+ "real": {
+  "n": 24,
+  "artist_identified": 12,
+  "chance": 3.0
+ },
+ "a": {
+  "n": 24,
+  "artist_identified": 10,
+  "chance": 3.0
+ },
+ "c": {
+  "n": 24,
+  "artist_identified": 8,
+  "chance": 3.0
+ },
+ "copies": 0
+}
+ALLDONE

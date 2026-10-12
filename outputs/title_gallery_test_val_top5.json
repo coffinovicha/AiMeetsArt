@@ -1,0 +1,2087 @@
+{
+ "rows": [
+  {
+   "id": "F1-024",
+   "artist": "Dea Soselia",
+   "real": "Wine Country",
+   "year": "2023",
+   "artist_known_grounded": {
+    "titles": [
+     "Rolling Hill Vineyard",
+     "Muted Green Hills",
+     "Muted Hilly Background"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Tengiz Mirzashvili (Chubchika)",
+     "title": "Untitled",
+     "score": 0.703582763671875,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Serene Green Hills",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Muted Pastoral Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Calm Hilltop Grove",
+      "not supported by the analysis: grove"
+     ],
+     [
+      "Soft Gradient Hills",
+      "not supported by the analysis: gradient"
+     ],
+     [
+      "Tranquil Vineyard Rows",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Hillside Grove",
+      "not supported by the analysis: serene, grove"
+     ],
+     [
+      "Flat Lighted Hills",
+      "not supported by the analysis: lighted"
+     ],
+     [
+      "Hillside Vineyard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rolling Green Landscape Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Quiet Hillside Grove Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Calm Hilly Vineyard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Green Hills Vineyard",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Flat-Lighted Hilltop Grove Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Muted Brown Hills Vineyard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Greenery-covered Hillside Serenity",
+      "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Tranquil Tree-lined Valley Serenity",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Even-Lit Hilly Orchard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Rolling Hill Vineyard",
+     "Muted Green Hills",
+     "Muted Hilly Background"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Tengiz Mirzashvili (Chubchika)",
+     "title": "Untitled",
+     "score": 0.703582763671875,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Serene Green Hills",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Muted Pastoral Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Calm Hilltop Grove",
+      "not supported by the analysis: grove"
+     ],
+     [
+      "Soft Gradient Hills",
+      "not supported by the analysis: gradient"
+     ],
+     [
+      "Tranquil Vineyard Rows",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Hillside Grove",
+      "not supported by the analysis: serene, grove"
+     ],
+     [
+      "Flat Lighted Hills",
+      "not supported by the analysis: lighted"
+     ],
+     [
+      "Hillside Vineyard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rolling Green Landscape Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Quiet Hillside Grove Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Calm Hilly Vineyard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Green Hills Vineyard",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Flat-Lighted Hilltop Grove Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Muted Brown Hills Vineyard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Greenery-covered Hillside Serenity",
+      "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Tranquil Tree-lined Valley Serenity",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Even-Lit Hilly Orchard Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F1-036",
+   "artist": "Tekla Meladze",
+   "real": "Gossip Girls",
+   "year": "2024",
+   "artist_known_grounded": {
+    "titles": [
+     "Dreamy Family Figures"
+    ],
+    "path": "c",
+    "why": "artist 'Tekla Meladze' has 1 titled works in our gallery and WikiArt (as 'Tekla Meladze'); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.7308244705200195,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "The Dreamers",
+      "not supported by the analysis: dreamers"
+     ],
+     [
+      "The Whispers",
+      "not supported by the analysis: whispers"
+     ],
+     [
+      "The Whirlpools",
+      "uses 'whirlpools', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Echoes",
+      "not supported by the analysis: echoes"
+     ],
+     [
+      "The Shadows",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Mirrors",
+      "not supported by the analysis: mirrors"
+     ],
+     [
+      "The Luminaries",
+      "uses 'luminaries', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Dreamy Family",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Fantasy Friends",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "The Ethereal Duo",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Mystical Bonds",
+      "not supported by the analysis: mystical, bonds"
+     ],
+     [
+      "The Serene Siblings",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "The Surreal Duo",
+      "not supported by the analysis: duo"
+     ],
+     [
+      "The Ethereal Trio",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Dreamy Duos",
+      "not supported by the analysis: duos"
+     ],
+     [
+      "Surreal Friendship Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Green Hair Duo",
+      "not supported by the analysis: duo"
+     ],
+     [
+      "Pale Field of Dreams",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Child Between Friends",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Stylized Green Heads",
+      "not supported by the analysis: heads"
+     ],
+     [
+      "Dreamy Red Cheeks",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Blue Necked Companion",
+      "uses uncertain object 'neck'"
+     ],
+     [
+      "Yellow Necked Buddy",
+      "uses uncertain object 'neck'"
+     ],
+     [
+      "White Shirt Child",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Dreaming Family",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Surreal Friendship",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Ethereal Couple",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dreamy Duo",
+      "not supported by the analysis: duo"
+     ],
+     [
+      "Whimsical Allies",
+      "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Magical Friends",
+      "not supported by the analysis: magical"
+     ],
+     [
+      "Fantastical Partnership",
+      "uses 'fantastical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ethereal Companions",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Enchanted Duo",
+      "not supported by the analysis: enchanted, duo"
+     ],
+     [
+      "Imaginative Allies",
+      "not supported by the analysis: imaginative, allies"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Dreamy Family Figures"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.7308244705200195,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Surreal Friendship Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Green Hair Duo",
+      "not supported by the analysis: duo"
+     ],
+     [
+      "Pale Field of Dreams",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Child Between Friends",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Stylized Green Heads",
+      "not supported by the analysis: heads"
+     ],
+     [
+      "Dreamy Red Cheeks",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Blue Necked Companion",
+      "uses uncertain object 'neck'"
+     ],
+     [
+      "Yellow Necked Buddy",
+      "uses uncertain object 'neck'"
+     ],
+     [
+      "White Shirt Child",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Dreaming Family",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Surreal Friendship",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Ethereal Couple",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dreamy Duo",
+      "not supported by the analysis: duo"
+     ],
+     [
+      "Whimsical Allies",
+      "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Magical Friends",
+      "not supported by the analysis: magical"
+     ],
+     [
+      "Fantastical Partnership",
+      "uses 'fantastical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ethereal Companions",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Enchanted Duo",
+      "not supported by the analysis: enchanted, duo"
+     ],
+     [
+      "Imaginative Allies",
+      "not supported by the analysis: imaginative, allies"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F1-040",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "year": "2022",
+   "artist_known_grounded": {
+    "titles": [
+     "Dark Green Jug",
+     "Three Red Apples",
+     "Jug with Apples",
+     "Bottle Behind Red Apples",
+     "Jug's Calm Still Life"
+    ],
+    "path": "c",
+    "why": "artist 'Mariam Shengelia' has 1 titled works in our gallery and WikiArt (as 'Mariam Shengelia'); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.7028741836547852,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Jug and Apples",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life Harmony",
+      "not supported by the analysis: harmony"
+     ],
+     [
+      "Rustic Still Life",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Green Jug with Fruit",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Beige Cloth Background",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Dark Bottle Behind",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Pale Beige Cloth",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Red Apples Front",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Blue Flower Shoulder",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Tall Dark Bottle",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug & Apples",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rustic Greenery",
+      "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Beige Cloth Embrace",
+      "not supported by the analysis: embrace"
+     ],
+     [
+      "Red Apples Presence",
+      "not supported by the analysis: presence"
+     ],
+     [
+      "Bottle & Curtain Contrast",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Flowerless Garden",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Green Curtain Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Apples & Beige Glow",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Jug & Wall Shadow",
+      "uses uncertain object 'wall'"
+     ],
+     [
+      "Rustic Still Life",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Pale Beige Cloth",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "White Wall",
+      "uses uncertain object 'wall'"
+     ],
+     [
+      "Blue Flower Shoulder",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Still Life Fruit",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Rustic Apples Resting",
+      "not supported by the analysis: resting"
+     ],
+     [
+      "Beige Cloth Beneath Jugs",
+      "not supported by the analysis: beneath"
+     ],
+     [
+      "Green Curtain Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Pale Beige Backdrop",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Dark Green Jug Shines",
+      "not supported by the analysis: shines"
+     ],
+     [
+      "Blue Flower On Shoulder",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Three Red Apples Gather",
+      "not supported by the analysis: gather"
+     ],
+     [
+      "Tall Dark Bottle Lends Height",
+      "not supported by the analysis: lends"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Dark Green Jug",
+     "Three Red Apples",
+     "Jug with Apples",
+     "Bottle Behind Red Apples",
+     "Jug's Calm Still Life"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.7028741836547852,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Rustic Still Life",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Pale Beige Cloth",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "White Wall",
+      "uses uncertain object 'wall'"
+     ],
+     [
+      "Blue Flower Shoulder",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Still Life Fruit",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Rustic Apples Resting",
+      "not supported by the analysis: resting"
+     ],
+     [
+      "Beige Cloth Beneath Jugs",
+      "not supported by the analysis: beneath"
+     ],
+     [
+      "Green Curtain Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Pale Beige Backdrop",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Dark Green Jug Shines",
+      "not supported by the analysis: shines"
+     ],
+     [
+      "Blue Flower On Shoulder",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Three Red Apples Gather",
+      "not supported by the analysis: gather"
+     ],
+     [
+      "Tall Dark Bottle Lends Height",
+      "not supported by the analysis: lends"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F1-046",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "year": "2022",
+   "artist_known_grounded": {
+    "titles": [
+     "Cloth's Calm Shadow"
+    ],
+    "path": "c",
+    "why": "artist 'Mariam Shengelia' has 1 titled works in our gallery and WikiArt (as 'Mariam Shengelia'); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.711773157119751,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Bottle and Jug Still Life",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Apples and Jug Still Life",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Dark Bottle Still Life",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Green Jug Still Life",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Red Apple Still Life",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Pale Cloth Still Life",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Soft Green Field Still Life",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "White Cap Jug Still Life",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Blue Label Jug Still Life",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Mauve Background Still Life",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Bottle Still Life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug and Apples",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green Field",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "White Cap",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Blue Label",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Pale Cloth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dark Bottle",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green Jug",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Red Apples",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Soft Background",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Bottle's Calm Presence",
+      "not supported by the analysis: presence"
+     ],
+     [
+      "Jug's Quiet Companion",
+      "not supported by the analysis: companion"
+     ],
+     [
+      "Apples' Serene Beauty",
+      "not supported by the analysis: serene, beauty"
+     ],
+     [
+      "Cloth's Tranquil Grounding",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Green Field's Peaceful Backdrop",
+      "not supported by the analysis: peaceful"
+     ],
+     [
+      "Dark Bottle's Silent Guard",
+      "not supported by the analysis: guard"
+     ],
+     [
+      "White Cap's Gentle Touch",
+      "not supported by the analysis: gentle, touch"
+     ],
+     [
+      "Blue Label's Soft Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Pale Cloth's Gentle Warmth",
+      "not supported by the analysis: gentle, warmth"
+     ],
+     [
+      "Still Life's Quiet Harmony",
+      "not supported by the analysis: harmony"
+     ],
+     [
+      "Bottle's Quiet Presence",
+      "not supported by the analysis: presence"
+     ],
+     [
+      "Jug's Gentle Shade",
+      "not supported by the analysis: gentle, shade"
+     ],
+     [
+      "Apples in Soft Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Jug's Stable Form",
+      "not supported by the analysis: stable, form"
+     ],
+     [
+      "Bottle's Solid Base",
+      "not supported by the analysis: solid, base"
+     ],
+     [
+      "Apple's Soft Touch",
+      "not supported by the analysis: touch"
+     ],
+     [
+      "Cloth's Serene Covering",
+      "not supported by the analysis: serene, covering"
+     ],
+     [
+      "Jug's Even Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Bottle's Firm Support",
+      "not supported by the analysis: firm, support"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Cloth's Calm Shadow"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.711773157119751,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Bottle's Calm Presence",
+      "not supported by the analysis: presence"
+     ],
+     [
+      "Jug's Quiet Companion",
+      "not supported by the analysis: companion"
+     ],
+     [
+      "Apples' Serene Beauty",
+      "not supported by the analysis: serene, beauty"
+     ],
+     [
+      "Cloth's Tranquil Grounding",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Green Field's Peaceful Backdrop",
+      "not supported by the analysis: peaceful"
+     ],
+     [
+      "Dark Bottle's Silent Guard",
+      "not supported by the analysis: guard"
+     ],
+     [
+      "White Cap's Gentle Touch",
+      "not supported by the analysis: gentle, touch"
+     ],
+     [
+      "Blue Label's Soft Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Pale Cloth's Gentle Warmth",
+      "not supported by the analysis: gentle, warmth"
+     ],
+     [
+      "Still Life's Quiet Harmony",
+      "not supported by the analysis: harmony"
+     ],
+     [
+      "Bottle's Quiet Presence",
+      "not supported by the analysis: presence"
+     ],
+     [
+      "Jug's Gentle Shade",
+      "not supported by the analysis: gentle, shade"
+     ],
+     [
+      "Apples in Soft Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Jug's Stable Form",
+      "not supported by the analysis: stable, form"
+     ],
+     [
+      "Bottle's Solid Base",
+      "not supported by the analysis: solid, base"
+     ],
+     [
+      "Apple's Soft Touch",
+      "not supported by the analysis: touch"
+     ],
+     [
+      "Cloth's Serene Covering",
+      "not supported by the analysis: serene, covering"
+     ],
+     [
+      "Jug's Even Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Bottle's Firm Support",
+      "not supported by the analysis: firm, support"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F1-071",
+   "artist": "Vakho Bugadze",
+   "real": "Untitled",
+   "year": "2024",
+   "artist_known_grounded": {
+    "titles": [
+     "Abstract Band Blues"
+    ],
+    "path": "c",
+    "why": "artist 'Vakho Bugadze' has 1 titled works in our gallery and WikiArt (as 'Vakho Bugadze'); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.8239783644676208,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Untitled",
+      "copies an existing title"
+     ],
+     [
+      "Abstract Bandage",
+      "not supported by the analysis: bandage"
+     ],
+     [
+      "Cool Gradient Blend",
+      "not supported by the analysis: gradient"
+     ],
+     [
+      "Textured Color Study",
+      "uses 'textured', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Smooth Yet Rough",
+      "not supported by the analysis: smooth, yet"
+     ],
+     [
+      "Calm Palette Play",
+      "not supported by the analysis: palette, play"
+     ],
+     [
+      "Even Hue Elegance",
+      "not supported by the analysis: hue, elegance"
+     ],
+     [
+      "Soft Gradient Scheme",
+      "not supported by the analysis: soft, gradient, scheme"
+     ],
+     [
+      "Balanced Color Balance",
+      "not supported by the analysis: balanced, balance"
+     ],
+     [
+      "Even Tone Expression",
+      "not supported by the analysis: tone, expression"
+     ],
+     [
+      "Harmonious Hue Harmony",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Cool Compositional Study",
+      "uses 'compositional', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rough Textured Bands",
+      "uses 'textured', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Muted Color Palette",
+      "not supported by the analysis: muted, palette"
+     ],
+     [
+      "Linear Composition",
+      "not supported by the analysis: linear, composition"
+     ],
+     [
+      "Sedate Design Elements",
+      "uses 'sedate', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Gradient Harmony",
+      "not supported by the analysis: gentle, gradient, harmony"
+     ],
+     [
+      "Subtle Form Transitions",
+      "not supported by the analysis: subtle, transitions"
+     ],
+     [
+      "Elegant Coherence",
+      "uses 'coherence', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Abstract Band Blues"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.82); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.8239783644676208,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Untitled",
+      "copies an existing title"
+     ],
+     [
+      "Abstract Bandage",
+      "not supported by the analysis: bandage"
+     ],
+     [
+      "Cool Gradient Blend",
+      "not supported by the analysis: gradient"
+     ],
+     [
+      "Textured Color Study",
+      "uses 'textured', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Smooth Yet Rough",
+      "not supported by the analysis: smooth, yet"
+     ],
+     [
+      "Calm Palette Play",
+      "not supported by the analysis: palette, play"
+     ],
+     [
+      "Even Hue Elegance",
+      "not supported by the analysis: hue, elegance"
+     ],
+     [
+      "Soft Gradient Scheme",
+      "not supported by the analysis: soft, gradient, scheme"
+     ],
+     [
+      "Balanced Color Balance",
+      "not supported by the analysis: balanced, balance"
+     ],
+     [
+      "Even Tone Expression",
+      "not supported by the analysis: tone, expression"
+     ],
+     [
+      "Harmonious Hue Harmony",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Cool Compositional Study",
+      "uses 'compositional', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rough Textured Bands",
+      "uses 'textured', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Muted Color Palette",
+      "not supported by the analysis: muted, palette"
+     ],
+     [
+      "Linear Composition",
+      "not supported by the analysis: linear, composition"
+     ],
+     [
+      "Sedate Design Elements",
+      "uses 'sedate', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Gradient Harmony",
+      "not supported by the analysis: gentle, gradient, harmony"
+     ],
+     [
+      "Subtle Form Transitions",
+      "not supported by the analysis: subtle, transitions"
+     ],
+     [
+      "Elegant Coherence",
+      "uses 'coherence', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F1-084",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "year": "2024",
+   "artist_known_grounded": {
+    "titles": [
+     "Untitled"
+    ],
+    "path": "a",
+    "why": "artist 'Oleg Timchenko' has 3 titled works in our gallery and WikiArt (as 'Oleg Timchenko')",
+    "match": {
+     "artist": "Vazha Bekauri",
+     "title": "Café",
+     "score": 0.6690441966056824,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Untitled Women Sharing Meal",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled Domestic Harmony",
+      "not supported by the analysis: harmony"
+     ],
+     [
+      "Untitled Red Blue Dressed",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled Evening Dinner",
+      "not supported by the analysis: evening"
+     ],
+     [
+      "Untitled Golden Belts",
+      "uses uncertain object 'belts'"
+     ],
+     [
+      "Untitled Curly Hair",
+      "uses uncertain object 'hair'"
+     ],
+     [
+      "Untitled Grey Room",
+      "template 'Untitled' does not fit this painting"
+     ],
+     [
+      "Untitled Long Platter",
+      "uses uncertain object 'platter'"
+     ],
+     [
+      "Untitled Small Cups",
+      "template 'Untitled' does not fit this painting"
+     ],
+     [
+      "Untitled Pale Background",
+      "template 'Untitled' does not fit this painting"
+     ],
+     [
+      "Untitled Women Sharing Dinner",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled Domestic Moment",
+      "not supported by the analysis: moment"
+     ],
+     [
+      "Untitled Soft Domesticity",
+      "uses 'domesticity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Untitled Serene Eating Scene",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled Evening Meals",
+      "not supported by the analysis: evening"
+     ],
+     [
+      "Untitled Evening Companionship",
+      "uses 'companionship', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Untitled Evening Mealtime",
+      "uses 'mealtime', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Untitled Cozy Dining Hour",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled Quiet Dine Time",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled Dinner Moments",
+      "not supported by the analysis: moments"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Dining Table With Two Women",
+     "Women Sharing Meal",
+     "Woman in Red Dress Dining",
+     "Blue-Dress Woman Eating Meal"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Vazha Bekauri",
+     "title": "Café",
+     "score": 0.6690441966056824,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Domestic Harmony",
+      "not supported by the analysis: harmony"
+     ],
+     [
+      "Gentle Dinner Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Red Dress Dinnermates",
+      "uses 'dinnermates', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Blue Dressed Companions",
+      "not supported by the analysis: companions"
+     ],
+     [
+      "Curly Hair Dinner Party",
+      "uses uncertain object 'hair'"
+     ],
+     [
+      "Gold Belted Guests",
+      "uses uncertain object 'belts'"
+     ],
+     [
+      "Long Platter Feast",
+      "uses uncertain object 'platter'"
+     ],
+     [
+      "Grey Room Setting",
+      "not supported by the analysis: setting"
+     ],
+     [
+      "Even Light Dinner",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Two Ladies Sharing Dinner",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Lady in Blue Dine With Friend",
+      "uses 'dine', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Red-Dressed Lady at Dinner",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Dinner Companion in Red Gown",
+      "not supported by the analysis: companion"
+     ],
+     [
+      "Blue Dress Woman Enjoying Food",
+      "not supported by the analysis: enjoying"
+     ],
+     [
+      "Two Female Guests at Table",
+      "not supported by the analysis: female, guests"
+     ],
+     [
+      "Red Dressed Lady Eating",
+      "not supported by the analysis: lady"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-017",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": null,
+   "artist_known_grounded": {
+    "titles": [
+     "Abstraction",
+     "Abstraction of emotion",
+     "Abstraction of color",
+     "Abstraction of mood",
+     "Abstraction of light"
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9072145819664001,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Abstraction of depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Abstraction of texture",
+      "not supported by the analysis: texture"
+     ],
+     [
+      "Abstraction of tone",
+      "not supported by the analysis: tone"
+     ],
+     [
+      "Abstraction of hue",
+      "not supported by the analysis: hue"
+     ],
+     [
+      "Olive depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Red intensity",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Teal balance",
+      "not supported by the analysis: balance"
+     ],
+     [
+      "Layered hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Warm shades",
+      "not supported by the analysis: shades"
+     ],
+     [
+      "Emotional depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Brown warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Colorful contrast",
+      "not supported by the analysis: contrast"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Abstraction",
+     "Abstraction of emotion",
+     "Abstraction of color",
+     "Abstraction of mood",
+     "Abstraction of light"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.91)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9072145819664001,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Abstraction of depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Abstraction of texture",
+      "not supported by the analysis: texture"
+     ],
+     [
+      "Abstraction of tone",
+      "not supported by the analysis: tone"
+     ],
+     [
+      "Abstraction of hue",
+      "not supported by the analysis: hue"
+     ],
+     [
+      "Olive depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Red intensity",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Teal balance",
+      "not supported by the analysis: balance"
+     ],
+     [
+      "Layered hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Warm shades",
+      "not supported by the analysis: shades"
+     ],
+     [
+      "Emotional depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Brown warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Colorful contrast",
+      "not supported by the analysis: contrast"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-019",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": null,
+   "artist_known_grounded": {
+    "titles": [
+     "Abstraction",
+     "Abstraction of passion",
+     "Abstract energy",
+     "Emotional intensity",
+     "Energetic Energy"
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9440097212791443,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Passionate strokes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bold hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Dynamic strokes",
+      "not supported by the analysis: dynamic"
+     ],
+     [
+      "Intense emotion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Vivid colors",
+      "not supported by the analysis: vivid"
+     ],
+     [
+      "Passionate palette",
+      "not supported by the analysis: palette"
+     ],
+     [
+      "Emotional depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Abstract Embrace",
+      "not supported by the analysis: embrace"
+     ],
+     [
+      "Dynamic Harmony",
+      "not supported by the analysis: dynamic, harmony"
+     ],
+     [
+      "Intense Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Passionate Palette",
+      "not supported by the analysis: palette"
+     ],
+     [
+      "Colorful Passion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bold Emotion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Futuristic Fusion",
+      "not supported by the analysis: futuristic, fusion"
+     ],
+     [
+      "Emotional Expression",
+      "not supported by the analysis: expression"
+     ],
+     [
+      "Passionate Geometry",
+      "not supported by the analysis: geometry"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Abstraction",
+     "Abstraction of passion",
+     "Abstract energy",
+     "Emotional intensity",
+     "Energetic Energy"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.94)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9440097212791443,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Passionate strokes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bold hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Dynamic strokes",
+      "not supported by the analysis: dynamic"
+     ],
+     [
+      "Intense emotion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Vivid colors",
+      "not supported by the analysis: vivid"
+     ],
+     [
+      "Passionate palette",
+      "not supported by the analysis: palette"
+     ],
+     [
+      "Emotional depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Abstract Embrace",
+      "not supported by the analysis: embrace"
+     ],
+     [
+      "Dynamic Harmony",
+      "not supported by the analysis: dynamic, harmony"
+     ],
+     [
+      "Intense Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Passionate Palette",
+      "not supported by the analysis: palette"
+     ],
+     [
+      "Colorful Passion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bold Emotion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Futuristic Fusion",
+      "not supported by the analysis: futuristic, fusion"
+     ],
+     [
+      "Emotional Expression",
+      "not supported by the analysis: expression"
+     ],
+     [
+      "Passionate Geometry",
+      "not supported by the analysis: geometry"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-041",
+   "artist": "Irma Kukhianidze",
+   "real": "Girl With Dandelions",
+   "year": "2018",
+   "artist_known_grounded": {
+    "titles": [
+     "Childhood and innocence"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold; no generated title passed the checks, so the verified theme is used as the title",
+    "match": {
+     "artist": "Gogi Chagelishvili",
+     "title": "The Lady",
+     "score": 0.7254103422164917,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Innocent Dandelion Dreams",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Childhood Whispers",
+      "not supported by the analysis: soft, whispers"
+     ],
+     [
+      "Gentle Garden Gaze",
+      "not supported by the analysis: gaze"
+     ],
+     [
+      "Youthful Delight in Bloom",
+      "not supported by the analysis: delight"
+     ],
+     [
+      "Serene Innocence in Blue",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Dreamy Dandelion Dance",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Youthful Beauty in Bloom",
+      "not supported by the analysis: beauty"
+     ],
+     [
+      "Softly Whimsical Childhood",
+      "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Innocent Garden Gaze",
+      "not supported by the analysis: gaze"
+     ],
+     [
+      "Charming Innocence",
+      "not supported by the analysis: charming"
+     ],
+     [
+      "Soft Childhood Dream",
+      "not supported by the analysis: soft, dream"
+     ],
+     [
+      "Serene Dandelion Days",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mellow Youthful Gaze",
+      "uses 'mellow', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Eternal Nostalgic Moment",
+      "not supported by the analysis: eternal, moment"
+     ],
+     [
+      "Serenity Through Flowers",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Garden Moment",
+      "not supported by the analysis: moment"
+     ],
+     [
+      "Childlike Whimsy Scene",
+      "uses 'childlike', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Pastoral Peace",
+      "not supported by the analysis: pastoral, peace"
+     ],
+     [
+      "Young Dreams of Eternity",
+      "not supported by the analysis: dreams, eternity"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Childhood and innocence"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold; no generated title passed the checks, so the verified theme is used as the title",
+    "match": {
+     "artist": "Gogi Chagelishvili",
+     "title": "The Lady",
+     "score": 0.7254103422164917,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": null
+    },
+    "rejected": [
+     [
+      "Innocent Dandelion Dreams",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Childhood Whispers",
+      "not supported by the analysis: soft, whispers"
+     ],
+     [
+      "Gentle Garden Gaze",
+      "not supported by the analysis: gaze"
+     ],
+     [
+      "Youthful Delight in Bloom",
+      "not supported by the analysis: delight"
+     ],
+     [
+      "Serene Innocence in Blue",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Dreamy Dandelion Dance",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Youthful Beauty in Bloom",
+      "not supported by the analysis: beauty"
+     ],
+     [
+      "Softly Whimsical Childhood",
+      "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Innocent Garden Gaze",
+      "not supported by the analysis: gaze"
+     ],
+     [
+      "Charming Innocence",
+      "not supported by the analysis: charming"
+     ],
+     [
+      "Soft Childhood Dream",
+      "not supported by the analysis: soft, dream"
+     ],
+     [
+      "Serene Dandelion Days",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mellow Youthful Gaze",
+      "uses 'mellow', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Eternal Nostalgic Moment",
+      "not supported by the analysis: eternal, moment"
+     ],
+     [
+      "Serenity Through Flowers",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Garden Moment",
+      "not supported by the analysis: moment"
+     ],
+     [
+      "Childlike Whimsy Scene",
+      "uses 'childlike', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Pastoral Peace",
+      "not supported by the analysis: pastoral, peace"
+     ],
+     [
+      "Young Dreams of Eternity",
+      "not supported by the analysis: dreams, eternity"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F2-043",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "year": "2020",
+   "artist_known_grounded": {
+    "titles": [
+     "Dreamy Leaves"
+    ],
+    "path": "a",
+    "why": "artist 'Mamuka Japaridze' has 2 titled works in our gallery and WikiArt (as 'Mamuka Japaridze')",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Autumn Dream",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Foliage Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Soft Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Autumn Leaves Dreaming",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Swirling Foliage Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Golden Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Dreamy Twilight Scene",
+      "not supported by the analysis: twilight, scene"
+     ],
+     [
+      "Loose Painted Petals",
+      "not supported by the analysis: petals"
+     ],
+     [
+      "Dreamy Green Melody",
+      "not supported by the analysis: melody"
+     ],
+     [
+      "Dreamy Green Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Swirls of Dreamy Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Dreamy Garden Night",
+      "not supported by the analysis: night"
+     ],
+     [
+      "Dreamy Garden Dawn",
+      "not supported by the analysis: dawn"
+     ]
+    ]
+   },
+   "artist_unknown_grounded": {
+    "titles": [
+     "Dreamy Leaves"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Plant and Chairs' by Mamuka Japaridze (our gallery, similarity 0.86)",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "era": {
+     "range": null,
+     "source": null,
+     "examples_period": {
+      "period_year": 0,
+      "window": null,
+      "n_period": null
+     }
+    },
+    "rejected": [
+     [
+      "Autumn Dream",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Foliage Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Soft Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Autumn Leaves Dreaming",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Swirling Foliage Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Golden Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Dreamy Twilight Scene",
+      "not supported by the analysis: twilight, scene"
+     ],
+     [
+      "Loose Painted Petals",
+      "not supported by the analysis: petals"
+     ],
+     [
+      "Dreamy Green Melody",
+      "not supported by the analysis: melody"
+     ],
+     [
+      "Dreamy Green Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Swirls of Dreamy Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Dreamy Garden Night",
+      "not supported by the analysis: night"
+     ],
+     [
+      "Dreamy Garden Dawn",
+      "not supported by the analysis: dawn"
+     ]
+    ]
+   }
+  }
+ ]
+}
