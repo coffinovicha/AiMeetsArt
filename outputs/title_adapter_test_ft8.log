@@ -1,0 +1,132 @@
+W1013 00:09:21.489000 15328 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\modeling_utils.py:5106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<12:48,  1.07it/s]Loading weights:   0%|          | 4/824 [00:01<02:57,  4.62it/s]Loading weights:   2%|▏         | 15/824 [00:01<00:41, 19.52it/s]Loading weights:   2%|▏         | 20/824 [00:01<00:32, 24.59it/s]Loading weights:   3%|▎         | 28/824 [00:01<00:23, 33.96it/s]Loading weights:   5%|▍         | 39/824 [00:01<00:16, 48.05it/s]Loading weights:   6%|▌         | 46/824 [00:01<00:15, 51.68it/s]Loading weights:   6%|▋         | 53/824 [00:01<00:15, 49.28it/s]Loading weights:   8%|▊         | 64/824 [00:01<00:12, 60.56it/s]Loading weights:   9%|▉         | 75/824 [00:02<00:10, 68.39it/s]Loading weights:  10%|█         | 83/824 [00:02<00:10, 70.11it/s]Loading weights:  11%|█         | 91/824 [00:02<00:11, 64.39it/s]Loading weights:  12%|█▏        | 100/824 [00:02<00:10, 66.04it/s]Loading weights:  13%|█▎        | 111/824 [00:02<00:10, 71.01it/s]Loading weights:  14%|█▍        | 119/824 [00:02<00:10, 69.66it/s]Loading weights:  15%|█▌        | 127/824 [00:02<00:11, 62.70it/s]Loading weights:  17%|█▋        | 136/824 [00:03<00:10, 64.80it/s]Loading weights:  18%|█▊        | 147/824 [00:03<00:09, 70.66it/s]Loading weights:  19%|█▉        | 155/824 [00:03<00:09, 68.24it/s]Loading weights:  20%|█▉        | 162/824 [00:03<00:11, 59.23it/s]Loading weights:  21%|██        | 172/824 [00:03<00:10, 65.02it/s]Loading weights:  22%|██▏       | 183/824 [00:03<00:09, 70.25it/s]Loading weights:  23%|██▎       | 191/824 [00:03<00:09, 68.33it/s]Loading weights:  24%|██▍       | 198/824 [00:03<00:10, 60.46it/s]Loading weights:  25%|██▌       | 208/824 [00:04<00:09, 65.62it/s]Loading weights:  27%|██▋       | 219/824 [00:04<00:08, 71.64it/s]Loading weights:  28%|██▊       | 227/824 [00:04<00:08, 69.91it/s]Loading weights:  29%|██▊       | 235/824 [00:04<00:09, 63.17it/s]Loading weights:  30%|██▉       | 244/824 [00:04<00:08, 64.53it/s]Loading weights:  31%|███       | 255/824 [00:04<00:08, 70.25it/s]Loading weights:  32%|███▏      | 263/824 [00:04<00:08, 69.01it/s]Loading weights:  33%|███▎      | 270/824 [00:05<00:09, 60.21it/s]Loading weights:  34%|███▍      | 280/824 [00:05<00:08, 64.42it/s]Loading weights:  35%|███▌      | 291/824 [00:05<00:07, 71.17it/s]Loading weights:  36%|███▋      | 299/824 [00:05<00:07, 69.33it/s]Loading weights:  37%|███▋      | 307/824 [00:05<00:08, 62.65it/s]Loading weights:  38%|███▊      | 316/824 [00:05<00:07, 65.07it/s]Loading weights:  40%|███▉      | 327/824 [00:05<00:07, 70.97it/s]Loading weights:  41%|████      | 335/824 [00:05<00:07, 68.78it/s]Loading weights:  42%|████▏     | 342/824 [00:06<00:08, 59.21it/s]Loading weights:  43%|████▎     | 352/824 [00:06<00:07, 64.10it/s]Loading weights:  44%|████▍     | 363/824 [00:06<00:06, 69.35it/s]Loading weights:  45%|████▌     | 371/824 [00:06<00:06, 67.40it/s]Loading weights:  46%|████▌     | 378/824 [00:06<00:07, 59.26it/s]Loading weights:  47%|████▋     | 388/824 [00:06<00:06, 62.44it/s]Loading weights:  48%|████▊     | 399/824 [00:07<00:06, 62.43it/s]Loading weights:  49%|████▉     | 406/824 [00:07<00:07, 58.18it/s]Loading weights:  50%|█████     | 412/824 [00:07<00:07, 53.05it/s]Loading weights:  51%|█████▏    | 423/824 [00:07<00:06, 58.04it/s]Loading weights:  52%|█████▏    | 429/824 [00:07<00:07, 52.87it/s]Loading weights:  55%|█████▍    | 452/824 [00:07<00:04, 90.09it/s]Loading weights:  57%|█████▋    | 468/824 [00:07<00:03, 106.52it/s]Loading weights:  59%|█████▉    | 488/824 [00:07<00:02, 127.88it/s]Loading weights:  61%|██████▏   | 505/824 [00:08<00:02, 138.85it/s]Loading weights:  64%|██████▎   | 524/824 [00:08<00:02, 149.62it/s]Loading weights:  66%|██████▌   | 540/824 [00:08<00:01, 151.81it/s]Loading weights:  68%|██████▊   | 560/824 [00:08<00:01, 159.93it/s]Loading weights:  70%|███████   | 577/824 [00:08<00:01, 162.48it/s]Loading weights:  72%|███████▏  | 594/824 [00:08<00:01, 160.99it/s]Loading weights:  74%|███████▍  | 611/824 [00:08<00:01, 161.22it/s]Loading weights:  76%|███████▋  | 630/824 [00:08<00:01, 163.01it/s]Loading weights:  79%|███████▊  | 647/824 [00:08<00:01, 163.92it/s]Loading weights:  81%|████████  | 666/824 [00:08<00:00, 166.08it/s]Loading weights:  83%|████████▎ | 683/824 [00:09<00:00, 164.50it/s]Loading weights:  85%|████████▌ | 702/824 [00:09<00:00, 168.64it/s]Loading weights:  87%|████████▋ | 719/824 [00:09<00:00, 167.14it/s]Loading weights:  90%|████████▉ | 738/824 [00:09<00:00, 169.04it/s]Loading weights:  92%|█████████▏| 756/824 [00:09<00:00, 165.74it/s]Loading weights:  94%|█████████▍| 776/824 [00:09<00:00, 171.59it/s]Loading weights:  97%|█████████▋| 796/824 [00:09<00:00, 176.44it/s]Loading weights:  99%|█████████▉| 814/824 [00:09<00:00, 167.02it/s]Loading weights: 100%|██████████| 824/824 [00:10<00:00, 82.35it/s] 
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  17%|█▋        | 34/199 [00:00<00:00, 330.41it/s]Loading weights:  37%|███▋      | 73/199 [00:00<00:00, 358.49it/s]Loading weights:  55%|█████▍    | 109/199 [00:00<00:00, 348.30it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 630.07it/s]
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+gallery_val F1-024 | real: Wine Country | ['Landscape', 'Untitled', 'Agricultural Landscape']
+gallery_val F1-036 | real: Gossip Girls | ['Untitled', 'Self-Portrait', 'Self-Portraits']
+gallery_val F1-040 | real: Still Life | ['Still Life', 'Still Life with Apples', 'Still Life with Bottle and Apples']
+gallery_val F1-046 | real: Still Life | ['Still Life', 'Still Life "Bottle and Apples', 'Still Life with Bottle and Apples']
+gallery_val F1-071 | real: Untitled | ['Abstraction', 'Untitled', 'Untitled (Abstraction)']
+gallery_val F1-084 | real: Untitled | ['Untitled', 'Still Life with Two Women', 'Still Life with Two Ladies']
+gallery_val F2-017 | real: Abstraction | ['Abstraction', 'Still Life "Apples', 'Still Life with Apples']
+gallery_val F2-019 | real: Abstraction | ['Abstraction', 'The Birth of the World', 'Aristocrats']
+gallery_val F2-041 | real: Girl With Dandelions | ['Girl with Dandelions', 'A Girl with Dandelions', 'Girl with dandelions']
+gallery_val F2-043 | real: Plant and Chairs | ['Untitled', 'Bouquet', 'Abstraction']
+gallery_val F2-045 | real: Plant and Chairs | ['Untitled', 'Landscape (from the series "Landscape")', 'Landscape (from the series "Landscapes")']
+gallery_val F2-051 | real: Untitled | ['Self-Portrait', 'Portrait of a Lady', 'Duchess']
+gallery_val F2-059 | real: Rachuli Rhapsody | ['Landscape with Peasants', 'Peasants', 'In the Village']
+gallery_val F2-061 | real: Old and New Tbilisi | ['View of Tbilisi', 'Construction', 'Landscape with Cranes']
+gallery_val F3-024 | real: "Tribe of Judah" & "Tribe of Simeon" (from the series "12 Windows of Jerusalem") | ['Astronomy', 'The Days of the Week', 'Untitled']
+gallery_val F3-041 | real: The Heavy Burden of Waiting for Picnic | ['Green Tables', 'Green Benches', 'Two Benches']
+gallery_val F3-077 | real: White House | ['Untitled', 'Landscape with a House', 'Abandoned House']
+wikiart_held_out 86733 | real: On the Lappenbrink | ['Woman in a Street', 'Woman on a Street', 'Woman in a Village']
+wikiart_held_out 20768 | real: Church tower at Domburg | ['Abandoned Church', 'Abbeville', "Abbaye de l'Annonciade"]
+wikiart_held_out 96105 | real: Nature died with Sunflower | ['Still Life with Sunflowers', 'Still Life with Vase of Sunflowers', 'Still Life with a Vase of Sunflowers']
+wikiart_held_out 14937 | real: Grungasse in Murnau | ['Village Street', 'Houses in the Village', 'Houses in a Village']
+wikiart_held_out 88491 | real: Blue mountain | ['Landscape with Figures', 'Untitled', 'The Blue Mountain']
+wikiart_held_out 49543 | real: Volga song | ['Fishermen', 'Fishing Boats', 'Fishing Village']
+wikiart_held_out 102227 | real: The vase | ['1, 2, 3, 4, 5, 6, 7, 8,', '1, 2, 3, 4, 5, 6, 7', '1, 2, 3, 4, 5, 6, 7, 8']
+wikiart_held_out 69322 | real: Fish Image | ['Untitled', 'Astronauts', 'The Fishermen']
+wikiart_held_out 35466 | real: Pierrot Lunaire | ['Self-Portrait', 'Self-portrait', 'Self-Portrait in the Light of the Moon']
+wikiart_held_out 49977 | real: Woman Sitting under the Willows | ['Spring', 'Woman Seated in a Landscape', 'Landscape in Spring']
+wikiart_held_out 23099 | real: Portrait of Pere Paul | ['The Baker', 'Portrait of a Fisherman', 'Portrait of a Baker']
+wikiart_held_out 9956 | real: The Sea, Port in Amsterdam | ['The Port of Le Havre', 'Harbour', 'Harbour at Le Havre']
+wikiart_held_out 15066 | real: At the Opera Ball | ['At the Moulin de la Galette', 'At the Moulin Rouge', 'The Circus']
+wikiart_held_out 44389 | real: Mademoiselle Marcelle Lender, Standing | ['The Red Rose', 'Woman in a White Blouse', 'The Lady with the Red Ribbon']
+wikiart_held_out 87544 | real: At the Music Hall Loie Fuller | ['Lotus', 'Woman in a Red Dress', 'The Red Lotus']
+wikiart_held_out 83322 | real: Still life with fruits and watermelon | ['Still Life "Fruit', 'Still Life with Fruits', 'Still Life "Fruits']
+wikiart_held_out 62985 | real: Essentuki | ['A Walk in the Park', 'Pavlovsk Park', 'In the Park']
+wikiart_held_out 26293 | real: Still Life. Lilacs in a tub. | ['Lilacs', 'Still Life with Lilacs', 'Still Life "Lilacs']
+wikiart_held_out 62753 | real: Fairy tale | ['Abstraction', 'Landscape', 'Untitled']
+wikiart_held_out 22121 | real: Date palm | ['African Landscape', 'Palm', 'Palm Tree']
+wikiart_held_out 85609 | real: Scene from the Train Window | ['Landscape', 'Abstraction-Landscape', 'Landscape with Clouds']
+wikiart_held_out 27500 | real: Portrait of a Girl | ['Portrait of a Lady', "Portrait of the Artist's Daughter", 'Portrait of a Young Woman']
+wikiart_held_out 65585 | real: Portrait of Hermine Gallia | ['Lady with Fan', 'Portrait of a Lady', 'Woman in a White Dress']
+wikiart_held_out 15044 | real: Female organ player | ['Sleeping Beauty', 'The Music Lesson', 'Sleeping Fairies']
+{
+ "gallery_val": {
+  "n": 17,
+  "wikiart_only|artist_known": {
+   "top5_exact_hits": 5,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.365,
+   "top5_best_similarity_mean": 0.522,
+   "top1_with_unsupported_words": 10
+  },
+  "wikiart_only|artist_unknown": {
+   "top5_exact_hits": 5,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.434,
+   "top5_best_similarity_mean": 0.533,
+   "top1_with_unsupported_words": 10
+  },
+  "wikiart_then_gallery|artist_known": {
+   "top5_exact_hits": 8,
+   "top5_close_hits_sim_0.7": 10,
+   "similarity_to_real_top1": 0.527,
+   "top5_best_similarity_mean": 0.711,
+   "top1_with_unsupported_words": 10
+  },
+  "wikiart_then_gallery|artist_unknown": {
+   "top5_exact_hits": 7,
+   "top5_close_hits_sim_0.7": 8,
+   "similarity_to_real_top1": 0.487,
+   "top5_best_similarity_mean": 0.615,
+   "top1_with_unsupported_words": 12
+  },
+  "baseline_other_painting": 0.391
+ },
+ "wikiart_held_out": {
+  "n": 24,
+  "wikiart_only|artist_known": {
+   "top5_exact_hits": 0,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.348,
+   "top5_best_similarity_mean": 0.467,
+   "top1_with_unsupported_words": 13,
+   "top1_traced_to_artist": 8
+  },
+  "wikiart_only|artist_unknown": {
+   "top5_exact_hits": 1,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.335,
+   "top5_best_similarity_mean": 0.431,
+   "top1_with_unsupported_words": 12,
+   "top1_traced_to_artist": 7
+  },
+  "wikiart_then_gallery|artist_known": {
+   "top5_exact_hits": 0,
+   "top5_close_hits_sim_0.7": 6,
+   "similarity_to_real_top1": 0.299,
+   "top5_best_similarity_mean": 0.486,
+   "top1_with_unsupported_words": 15,
+   "top1_traced_to_artist": 6
+  },
+  "wikiart_then_gallery|artist_unknown": {
+   "top5_exact_hits": 1,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.342,
+   "top5_best_similarity_mean": 0.461,
+   "top1_with_unsupported_words": 16,
+   "top1_traced_to_artist": 6
+  },
+  "grounded_writer": {
+   "top5_exact_hits": 0,
+   "top5_close_hits_sim_0.7": 3,
+   "similarity_to_real_top1": 0.326,
+   "top5_best_similarity_mean": 0.338,
+   "top1_traced_to_artist": 8
+  },
+  "baseline_other_painting": 0.174,
+  "real_titles_traced_to_artist": 12
+ }
+}

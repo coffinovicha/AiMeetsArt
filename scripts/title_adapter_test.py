@@ -8,8 +8,8 @@ from db_index import FULL, load_db
 from titles import STOP, clean_titles, color_name, enc, norm, ungrounded_words
 from vlm_common import ROOT, SIDE, load, load_image, records
 
-ADAPTERS = {"wikiart_only": ROOT / "models" / "qwen_title_test", "wikiart_then_gallery": ROOT / "models" / "qwen_title_test_ft"}
-out = ROOT / "outputs" / "title_adapter_test.json"
+ADAPTERS = {"wikiart_only": ROOT / "models" / "qwen_title_test", "wikiart_then_gallery": ROOT / "models" / os.environ.get("TITLE_FT", "qwen_title_test_ft")}
+out = ROOT / "outputs" / f"title_adapter_test{os.environ.get('TITLE_TAG', '')}.json"
 R = {r["id"]: r for r in records()}
 P = {json.loads(l)["id"]: json.loads(l) for l in (ROOT / "outputs" / "preds_verified2_val.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()}
 pat = json.loads((ROOT / "outputs" / "title_pattern_test_run7.json").read_text(encoding="utf-8"))["rows"]
