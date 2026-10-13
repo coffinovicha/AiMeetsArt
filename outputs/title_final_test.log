@@ -1,0 +1,76 @@
+W1013 16:31:08.247000 8780 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\modeling_utils.py:5106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<09:33,  1.43it/s]Loading weights:   0%|          | 4/824 [00:00<02:18,  5.91it/s]Loading weights:   2%|▏         | 15/824 [00:00<00:33, 24.43it/s]Loading weights:   3%|▎         | 21/824 [00:01<00:25, 31.44it/s]Loading weights:   4%|▎         | 29/824 [00:01<00:20, 38.54it/s]Loading weights:   5%|▍         | 40/824 [00:01<00:14, 53.42it/s]Loading weights:   6%|▌         | 51/824 [00:01<00:11, 65.99it/s]Loading weights:   7%|▋         | 60/824 [00:01<00:10, 70.47it/s]Loading weights:   8%|▊         | 69/824 [00:01<00:11, 67.32it/s]Loading weights:   9%|▉         | 77/824 [00:01<00:11, 64.18it/s]Loading weights:  11%|█         | 88/824 [00:01<00:09, 73.60it/s]Loading weights:  12%|█▏        | 99/824 [00:02<00:08, 80.93it/s]Loading weights:  13%|█▎        | 108/824 [00:02<00:08, 81.79it/s]Loading weights:  14%|█▍        | 117/824 [00:02<00:08, 81.34it/s]Loading weights:  15%|█▌        | 126/824 [00:02<00:09, 76.04it/s]Loading weights:  17%|█▋        | 136/824 [00:02<00:08, 76.49it/s]Loading weights:  18%|█▊        | 147/824 [00:02<00:08, 80.37it/s]Loading weights:  19%|█▉        | 156/824 [00:02<00:08, 77.53it/s]Loading weights:  20%|█▉        | 164/824 [00:02<00:09, 67.14it/s]Loading weights:  21%|██        | 173/824 [00:03<00:09, 65.80it/s]Loading weights:  22%|██▏       | 184/824 [00:03<00:08, 74.95it/s]Loading weights:  24%|██▎       | 195/824 [00:03<00:07, 78.95it/s]Loading weights:  25%|██▍       | 204/824 [00:03<00:07, 77.72it/s]Loading weights:  26%|██▌       | 212/824 [00:03<00:08, 68.51it/s]Loading weights:  27%|██▋       | 220/824 [00:03<00:08, 67.41it/s]Loading weights:  28%|██▊       | 231/824 [00:03<00:08, 73.12it/s]Loading weights:  29%|██▉       | 239/824 [00:03<00:08, 72.62it/s]Loading weights:  30%|██▉       | 247/824 [00:04<00:08, 71.14it/s]Loading weights:  31%|███       | 256/824 [00:04<00:07, 73.24it/s]Loading weights:  32%|███▏      | 267/824 [00:04<00:07, 78.60it/s]Loading weights:  33%|███▎      | 275/824 [00:04<00:07, 73.68it/s]Loading weights:  34%|███▍      | 283/824 [00:04<00:08, 64.41it/s]Loading weights:  35%|███▌      | 292/824 [00:04<00:08, 66.07it/s]Loading weights:  37%|███▋      | 303/824 [00:04<00:06, 75.19it/s]Loading weights:  38%|███▊      | 311/824 [00:04<00:06, 74.06it/s]Loading weights:  39%|███▊      | 319/824 [00:05<00:07, 69.47it/s]Loading weights:  40%|███▉      | 328/824 [00:05<00:07, 67.80it/s]Loading weights:  41%|████      | 339/824 [00:05<00:06, 72.01it/s]Loading weights:  42%|████▏     | 347/824 [00:05<00:06, 68.75it/s]Loading weights:  43%|████▎     | 354/824 [00:05<00:07, 60.37it/s]Loading weights:  44%|████▍     | 364/824 [00:05<00:07, 64.48it/s]Loading weights:  46%|████▌     | 375/824 [00:05<00:06, 70.67it/s]Loading weights:  46%|████▋     | 383/824 [00:06<00:06, 68.03it/s]Loading weights:  47%|████▋     | 390/824 [00:06<00:07, 61.32it/s]Loading weights:  49%|████▊     | 400/824 [00:06<00:06, 66.04it/s]Loading weights:  50%|████▉     | 411/824 [00:06<00:05, 69.49it/s]Loading weights:  51%|█████     | 418/824 [00:06<00:06, 63.19it/s]Loading weights:  52%|█████▏    | 425/824 [00:06<00:07, 51.56it/s]Loading weights:  55%|█████▌    | 454/824 [00:06<00:03, 100.33it/s]Loading weights:  58%|█████▊    | 476/824 [00:07<00:02, 127.66it/s]Loading weights:  60%|██████    | 498/824 [00:07<00:02, 148.19it/s]Loading weights:  63%|██████▎   | 517/824 [00:07<00:01, 158.89it/s]Loading weights:  65%|██████▌   | 536/824 [00:07<00:01, 163.06it/s]Loading weights:  67%|██████▋   | 554/824 [00:07<00:01, 166.89it/s]Loading weights:  69%|██████▉   | 572/824 [00:07<00:01, 157.63it/s]Loading weights:  71%|███████▏  | 589/824 [00:07<00:01, 150.88it/s]Loading weights:  74%|███████▎  | 606/824 [00:07<00:01, 151.35it/s]Loading weights:  75%|███████▌  | 622/824 [00:07<00:01, 144.74it/s]Loading weights:  77%|███████▋  | 638/824 [00:08<00:01, 148.47it/s]Loading weights:  79%|███████▉  | 654/824 [00:08<00:01, 145.46it/s]Loading weights:  81%|████████  | 669/824 [00:08<00:01, 145.29it/s]Loading weights:  83%|████████▎ | 688/824 [00:08<00:00, 156.35it/s]Loading weights:  86%|████████▌ | 706/824 [00:08<00:00, 157.24it/s]Loading weights:  88%|████████▊ | 726/824 [00:08<00:00, 166.59it/s]Loading weights:  90%|█████████ | 744/824 [00:08<00:00, 164.51it/s]Loading weights:  93%|█████████▎| 764/824 [00:08<00:00, 170.22it/s]Loading weights:  95%|█████████▍| 782/824 [00:08<00:00, 172.08it/s]Loading weights:  97%|█████████▋| 800/824 [00:08<00:00, 168.33it/s]Loading weights:  99%|█████████▉| 817/824 [00:09<00:00, 167.76it/s]Loading weights: 100%|██████████| 824/824 [00:09<00:00, 89.24it/s] 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  21%|██        | 42/199 [00:00<00:00, 385.05it/s]Loading weights:  41%|████      | 81/199 [00:00<00:00, 367.18it/s]Loading weights:  59%|█████▉    | 118/199 [00:00<00:00, 364.41it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 613.47it/s]
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+F1-004 | real: Abstraction | {'artist_known': ('a', ['Abstraction — Echoes of Energy', 'Abstract Harmony']), 'artist_unknown': ('b', ['Abstraction — Echoes of Energy', 'Abstract Harmony'])}
+F1-005 | real: Abstraction | {'artist_known': ('a', ['Abstraction — Colorful Variations', 'Vibrant Echoes']), 'artist_unknown': ('b', ['Abstraction — Colorful Variations', 'Vibrant Echoes'])}
+F1-006 | real: - | {'artist_unknown': ('b', ['Abstraction — Layered Drama', 'Harmony of Intensity'])}
+F1-022 | real: - | {'artist_unknown': ('c', ['Ballad of Heels', 'Rhapsody of Feet'])}
+F1-023 | real: - | {'artist_unknown': ('c', ["Bloom's Melody", 'Ballad of Bloom'])}
+F1-028 | real: - | {'artist_unknown': ('c', ['Two Angels with Fruit', 'Angelic Harmony in Red'])}
+F1-030 | real: Untitled | {'artist_known': ('b', ['Abstraction — Rhythm of Energy', 'Harmony of Motion']), 'artist_unknown': ('b', ['Abstraction — Rhythm of Energy', 'Harmony of Motion'])}
+F1-048 | real: Abstraction | {'artist_known': ('b', ['Abstraction — Abstract Rhythm']), 'artist_unknown': ('b', ['Abstraction — Abstract Rhythm'])}
+F1-073 | real: - | {'artist_unknown': ('c', ['A River Scene', 'Street Scene'])}
+F1-079 | real: - | {'artist_unknown': ('b', ['Study in Gold'])}
+F1-080 | real: Untitled | {'artist_known': ('c', ['Sunny Street', 'Melody of the Street']), 'artist_unknown': ('c', ['Sunny Street', 'Melody of the Street'])}
+F1-082 | real: Untitled | {'artist_known': ('a', ['Rhapsody in Grey']), 'artist_unknown': ('b', ['Abstraction — Study in Grey'])}
+F1-086 | real: Dresden | {'artist_known': ('c', ['Majestic Ruins', "Majestic Ruins, Tower's Echo"]), 'artist_unknown': ('c', ['Majestic Ruins', "Majestic Ruins, Tower's Echo"])}
+F2-002 | real: - | {'artist_unknown': ('b', ['Green Rhythm', 'Green Melody'])}
+F2-010 | real: - | {'artist_unknown': ('b', ['Radiant Harmony II', 'Poem of Energy'])}
+F2-011 | real: - | {'artist_unknown': ('c', ['Floral Pattern', 'Rhythm of Green'])}
+F2-076 | real: - | {'artist_unknown': ('c', ['African Women', 'African Figures'])}
+F2-077 | real: - | {'artist_unknown': ('b', ['Dance Harmony', 'Dance Melody'])}
+F2-083 | real: - | {'artist_unknown': ('c', ['Rhythm of Popcorn', 'Popcorn Melody'])}
+F3-009 | real: Abstraction | {'artist_known': ('a', ['Abstraction — Energy Melody', 'Formal Echo']), 'artist_unknown': ('b', ['Abstraction — Energy Melody', 'Formal Echo'])}
+F3-027 | real: Untitled | {'artist_known': ('b', ['Dreamy Harmony', 'Whimsical Violet']), 'artist_unknown': ('b', ['Dreamy Harmony', 'Whimsical Violet'])}
+F3-035 | real: Dinner | {'artist_known': ('c', ['Ballad of the Woods']), 'artist_unknown': ('c', ['Ballad of the Woods'])}
+F3-048 | real: - | {'artist_unknown': ('c', ['Ceremonial Papyrus', 'Ceremonial Melody'])}
+F3-049 | real: - | {'artist_unknown': ('c', ['The Hieroglyphs', 'Egyptian Hieroglyphs'])}
+F3-052 | real: - | {'artist_unknown': ('c', ['Echo of Horus', 'Harmony of Beige and Olive'])}
+F3-061 | real: - | {'artist_unknown': ('b', ['Queen in Beige Background', 'Woman in Profile'])}
+F3-064 | real: - | {'artist_unknown': ('b', ['Portrait of Regal Woman', 'Portrait of a Queen'])}
+F3-071 | real: - | {'artist_unknown': ('b', ['The Virgin Mary with the Christ Child'])}
+F3-081 | real: - | {'artist_unknown': ('c', ['Festive Harmony, Elephants and Auspices', 'Ceremonial Song, Gold Decorations on Central Elephants'])}
+F3-088 | real: - | {'artist_unknown': ('c', ['African Landscape', 'African Scene'])}
+{
+ "artist_known": {
+  "paintings": 10,
+  "paths": {
+   "a": 4,
+   "b": 3,
+   "c": 3
+  },
+  "titles_shown": 28,
+  "titles_with_invented_words": 0,
+  "untitled_or_abstraction_named": 5,
+  "titled": 10,
+  "top5_exact_hits": 4,
+  "top5_close_hits_sim_0.7": 1,
+  "similarity_to_real_top1": 0.408,
+  "baseline_other_painting": 0.391,
+  "first_title_closer_to_own_artist": "7 of 7"
+ },
+ "artist_unknown": {
+  "paintings": 30,
+  "paths": {
+   "a": 0,
+   "b": 15,
+   "c": 15
+  },
+  "titles_shown": 115,
+  "titles_with_invented_words": 0,
+  "untitled_or_abstraction_named": 7,
+  "titled": 10,
+  "top5_exact_hits": 4,
+  "top5_close_hits_sim_0.7": 1,
+  "similarity_to_real_top1": 0.406,
+  "baseline_other_painting": 0.391,
+  "first_title_closer_to_own_artist": "7 of 7"
+ }
+}
+ALLDONE

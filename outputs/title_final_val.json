@@ -1,0 +1,1470 @@
+{
+ "summary": {
+  "artist_known": {
+   "paintings": 17,
+   "paths": {
+    "a": 12,
+    "b": 2,
+    "c": 3
+   },
+   "titles_shown": 56,
+   "titles_with_invented_words": 0,
+   "untitled_or_abstraction_named": 4,
+   "titled": 17,
+   "top5_exact_hits": 4,
+   "top5_close_hits_sim_0.7": 3,
+   "similarity_to_real_top1": 0.348,
+   "baseline_other_painting": 0.391,
+   "first_title_closer_to_own_artist": "14 of 14"
+  },
+  "artist_unknown": {
+   "paintings": 17,
+   "paths": {
+    "a": 0,
+    "b": 12,
+    "c": 5
+   },
+   "titles_shown": 60,
+   "titles_with_invented_words": 0,
+   "untitled_or_abstraction_named": 2,
+   "titled": 17,
+   "top5_exact_hits": 2,
+   "top5_close_hits_sim_0.7": 3,
+   "similarity_to_real_top1": 0.338,
+   "baseline_other_painting": 0.391,
+   "first_title_closer_to_own_artist": "12 of 12"
+  }
+ },
+ "rows": [
+  {
+   "id": "F1-024",
+   "artist": "Dea Soselia",
+   "real": "Wine Country",
+   "year": "2023",
+   "artist_known": {
+    "titles": [
+     "Hillside with Vineyard",
+     "Landscape with Vineyard",
+     "Hills and Vineyard",
+     "Hillside Vineyard",
+     "The Vineyard"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Tengiz Mirzashvili (Chubchika) (our gallery, similarity 0.70); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Tengiz Mirzashvili (Chubchika)",
+     "title": "Untitled",
+     "score": 0.703582763671875,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Hillside with Vineyard": [],
+     "Landscape with Vineyard": [],
+     "Hills and Vineyard": [],
+     "Hillside Vineyard": [],
+     "The Vineyard": []
+    },
+    "n_rejected": 41
+   },
+   "artist_unknown": {
+    "titles": [
+     "Hillside with Vineyard",
+     "Landscape with Vineyard",
+     "Hills and Vineyard",
+     "Hillside Vineyard",
+     "The Vineyard"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Tengiz Mirzashvili (Chubchika) (our gallery, similarity 0.70); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Tengiz Mirzashvili (Chubchika)",
+     "title": "Untitled",
+     "score": 0.703582763671875,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Hillside with Vineyard": [],
+     "Landscape with Vineyard": [],
+     "Hills and Vineyard": [],
+     "Hillside Vineyard": [],
+     "The Vineyard": []
+    },
+    "n_rejected": 41
+   }
+  },
+  {
+   "id": "F1-036",
+   "artist": "Tekla Meladze",
+   "real": "Gossip Girls",
+   "year": "2024",
+   "artist_known": {
+    "titles": [
+     "Surreal Family",
+     "The Surreal Blues",
+     "The Dreamy Blues"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.141,
+     0.122,
+     0.03
+    ],
+    "pattern_rank": [
+     41,
+     165,
+     896
+    ],
+    "path": "a",
+    "why": "artist 'Tekla Meladze' has 1 titled works in our gallery and WikiArt (as 'Tekla Meladze')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.7308244705200195,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Surreal Family": [],
+     "The Surreal Blues": [],
+     "The Dreamy Blues": []
+    },
+    "n_rejected": 25
+   },
+   "artist_unknown": {
+    "titles": [
+     "Study in Grey"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.03
+    ],
+    "pattern_rank": [
+     825
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.73)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.7308244705200195,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Study in Grey": []
+    },
+    "n_rejected": 24
+   }
+  },
+  {
+   "id": "F1-040",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "year": "2022",
+   "artist_known": {
+    "titles": [
+     "Rustic Still Life",
+     "Apple Melody"
+    ],
+    "sources": [
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.007,
+     0.01
+    ],
+    "pattern_rank": [
+     1099,
+     1046
+    ],
+    "path": "a",
+    "why": "artist 'Mariam Shengelia' has 1 titled works in our gallery and WikiArt (as 'Mariam Shengelia')",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.7028741836547852,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Rustic Still Life": [],
+     "Apple Melody": []
+    },
+    "n_rejected": 28
+   },
+   "artist_unknown": {
+    "titles": [
+     "Still Life with Apples",
+     "Still Life in Beige",
+     "Green Still Rhythm"
+    ],
+    "sources": [
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.382,
+     0.28,
+     0.087
+    ],
+    "pattern_rank": [
+     8,
+     4,
+     327
+    ],
+    "path": "b",
+    "why": "most similar image: 'Still Life with Lemon' by Omar Durmishidze (our gallery, similarity 0.70)",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.7028741836547852,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Still Life with Apples": [],
+     "Still Life in Beige": [],
+     "Green Still Rhythm": []
+    },
+    "n_rejected": 27
+   }
+  },
+  {
+   "id": "F1-046",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "year": "2022",
+   "artist_known": {
+    "titles": [
+     "Still Life with Apples and Jug",
+     "Still Life with Apples",
+     "Rhythms of Still Life",
+     "Still Life with Bottle and Apples",
+     "Harmony in Green"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist 'Mariam Shengelia' has 1 titled works in our gallery and WikiArt (as 'Mariam Shengelia'); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.711773157119751,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Still Life with Apples and Jug": [],
+     "Still Life with Apples": [],
+     "Rhythms of Still Life": [],
+     "Still Life with Bottle and Apples": [],
+     "Harmony in Green": []
+    },
+    "n_rejected": 41
+   },
+   "artist_unknown": {
+    "titles": [
+     "Still Life with a Jug",
+     "Still Life with Apples",
+     "Still Life in Green",
+     "Variation of Apples"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.354,
+     0.382,
+     0.385,
+     0.045
+    ],
+    "pattern_rank": [
+     4,
+     8,
+     2,
+     518
+    ],
+    "path": "b",
+    "why": "most similar image: 'Still Life with Lemon' by Omar Durmishidze (our gallery, similarity 0.71)",
+    "match": {
+     "artist": "Omar Durmishidze",
+     "title": "Still Life with Lemon",
+     "score": 0.711773157119751,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Still Life with a Jug": [],
+     "Still Life with Apples": [],
+     "Still Life in Green": [],
+     "Variation of Apples": []
+    },
+    "n_rejected": 25
+   }
+  },
+  {
+   "id": "F1-071",
+   "artist": "Vakho Bugadze",
+   "real": "Untitled",
+   "year": "2024",
+   "artist_known": {
+    "titles": [
+     "Variation in Gray",
+     "Melody in Grey",
+     "Study in Grey",
+     "Dream of Form",
+     "Echo of Form"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.078,
+     0.035,
+     0.024,
+     0.008,
+     0.014
+    ],
+    "pattern_rank": [
+     314,
+     802,
+     893,
+     1091,
+     802
+    ],
+    "path": "a",
+    "why": "artist 'Vakho Bugadze' has 1 titled works in our gallery and WikiArt (as 'Vakho Bugadze')",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.8239783644676208,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Variation in Gray": [],
+     "Melody in Grey": [],
+     "Study in Grey": [],
+     "Dream of Form": [],
+     "Echo of Form": []
+    },
+    "n_rejected": 21
+   },
+   "artist_unknown": {
+    "titles": [
+     "Variation in Gray",
+     "Melody in Grey",
+     "Study in Grey",
+     "Dream of Form",
+     "Echo of Form"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.078,
+     0.035,
+     0.024,
+     0.008,
+     0.014
+    ],
+    "pattern_rank": [
+     314,
+     802,
+     893,
+     1091,
+     802
+    ],
+    "path": "b",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.82)",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.8239783644676208,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Variation in Gray": [],
+     "Melody in Grey": [],
+     "Study in Grey": [],
+     "Dream of Form": [],
+     "Echo of Form": []
+    },
+    "n_rejected": 21
+   }
+  },
+  {
+   "id": "F1-084",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "year": "2024",
+   "artist_known": {
+    "titles": [
+     "Untitled — Memory of Cups"
+    ],
+    "sources": [
+     "habit+writer"
+    ],
+    "prefix": "Untitled",
+    "pattern_margin": [
+     0.003
+    ],
+    "pattern_rank": [
+     1097
+    ],
+    "path": "a",
+    "why": "artist 'Oleg Timchenko' has 3 titled works in our gallery and WikiArt (as 'Oleg Timchenko')",
+    "match": {
+     "artist": "Vazha Bekauri",
+     "title": "Café",
+     "score": 0.6690441966056824,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Untitled — Memory of Cups": []
+    },
+    "n_rejected": 27
+   },
+   "artist_unknown": {
+    "titles": [
+     "Poem of Even Lighting",
+     "Domestic Harmony",
+     "Two Ladies at a Table",
+     "Two Women",
+     "Two Girls at a Table"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Vazha Bekauri",
+     "title": "Café",
+     "score": 0.6690441966056824,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Poem of Even Lighting": [],
+     "Domestic Harmony": [],
+     "Two Ladies at a Table": [],
+     "Two Women": [],
+     "Two Girls at a Table": []
+    },
+    "n_rejected": 20
+   }
+  },
+  {
+   "id": "F2-017",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": null,
+   "artist_known": {
+    "titles": [
+     "Abstraction — Emotional Landscape",
+     "Study in Rhythm",
+     "Variation in Harmony",
+     "Abstract Emotion",
+     "Abstract Painting"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.086,
+     0.021,
+     0.024,
+     0.369,
+     0.112
+    ],
+    "pattern_rank": [
+     484,
+     892,
+     741,
+     1,
+     355
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9072145819664001,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Emotional Landscape": [],
+     "Study in Rhythm": [],
+     "Variation in Harmony": [],
+     "Abstract Emotion": [],
+     "Abstract Painting": []
+    },
+    "n_rejected": 22
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Emotional Landscape",
+     "Study in Rhythm",
+     "Variation in Harmony",
+     "Abstract Emotion",
+     "Abstract Painting"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.086,
+     0.021,
+     0.024,
+     0.369,
+     0.112
+    ],
+    "pattern_rank": [
+     484,
+     892,
+     741,
+     1,
+     355
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.91)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9072145819664001,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Emotional Landscape": [],
+     "Study in Rhythm": [],
+     "Variation in Harmony": [],
+     "Abstract Emotion": [],
+     "Abstract Painting": []
+    },
+    "n_rejected": 22
+   }
+  },
+  {
+   "id": "F2-019",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": null,
+   "artist_known": {
+    "titles": [
+     "Abstraction — Echoes of Energy",
+     "Harmony of Intensity",
+     "Variation of Energy"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.097,
+     0.021,
+     0.084
+    ],
+    "pattern_rank": [
+     163,
+     806,
+     101
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9440097212791443,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Echoes of Energy": [],
+     "Harmony of Intensity": [],
+     "Variation of Energy": []
+    },
+    "n_rejected": 23
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Echoes of Energy",
+     "Harmony of Intensity",
+     "Variation of Energy"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.097,
+     0.021,
+     0.084
+    ],
+    "pattern_rank": [
+     163,
+     806,
+     101
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.94)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9440097212791443,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Echoes of Energy": [],
+     "Harmony of Intensity": [],
+     "Variation of Energy": []
+    },
+    "n_rejected": 23
+   }
+  },
+  {
+   "id": "F2-041",
+   "artist": "Irma Kukhianidze",
+   "real": "Girl With Dandelions",
+   "year": "2018",
+   "artist_known": {
+    "titles": [
+     "Rhapsody in Beige",
+     "The Girl with Dandelions",
+     "Melody of Childhood",
+     "The Innocent Girl",
+     "A Girl with Dandelions"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.222,
+     0.207,
+     0.097,
+     0.126,
+     0.122
+    ],
+    "pattern_rank": [
+     4,
+     98,
+     309,
+     275,
+     298
+    ],
+    "path": "b",
+    "why": "most similar image: 'The Lady' by Gogi Chagelishvili (our gallery, similarity 0.73)",
+    "match": {
+     "artist": "Gogi Chagelishvili",
+     "title": "The Lady",
+     "score": 0.7254103422164917,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Rhapsody in Beige": [],
+     "The Girl with Dandelions": [],
+     "Melody of Childhood": [],
+     "The Innocent Girl": [],
+     "A Girl with Dandelions": []
+    },
+    "n_rejected": 18
+   },
+   "artist_unknown": {
+    "titles": [
+     "Rhapsody in Beige",
+     "The Girl with Dandelions",
+     "Melody of Childhood",
+     "The Innocent Girl",
+     "A Girl with Dandelions"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.222,
+     0.207,
+     0.097,
+     0.126,
+     0.122
+    ],
+    "pattern_rank": [
+     4,
+     98,
+     309,
+     275,
+     298
+    ],
+    "path": "b",
+    "why": "most similar image: 'The Lady' by Gogi Chagelishvili (our gallery, similarity 0.73)",
+    "match": {
+     "artist": "Gogi Chagelishvili",
+     "title": "The Lady",
+     "score": 0.7254103422164917,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Rhapsody in Beige": [],
+     "The Girl with Dandelions": [],
+     "Melody of Childhood": [],
+     "The Innocent Girl": [],
+     "A Girl with Dandelions": []
+    },
+    "n_rejected": 18
+   }
+  },
+  {
+   "id": "F2-043",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "year": "2020",
+   "artist_known": {
+    "titles": [
+     "Dreaming Foliage",
+     "Rhapsody in Green"
+    ],
+    "sources": [
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.023,
+     0.006
+    ],
+    "pattern_rank": [
+     962,
+     1103
+    ],
+    "path": "a",
+    "why": "artist 'Mamuka Japaridze' has 2 titled works in our gallery and WikiArt (as 'Mamuka Japaridze')",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Dreaming Foliage": [],
+     "Rhapsody in Green": []
+    },
+    "n_rejected": 27
+   },
+   "artist_unknown": {
+    "titles": [
+     "Dreaming Foliage",
+     "Rhapsody in Green"
+    ],
+    "sources": [
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.023,
+     0.006
+    ],
+    "pattern_rank": [
+     962,
+     1103
+    ],
+    "path": "b",
+    "why": "most similar image: 'Plant and Chairs' by Mamuka Japaridze (our gallery, similarity 0.86)",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Dreaming Foliage": [],
+     "Rhapsody in Green": []
+    },
+    "n_rejected": 27
+   }
+  },
+  {
+   "id": "F2-045",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "year": "2020",
+   "artist_known": {
+    "titles": [
+     "Landscape"
+    ],
+    "sources": [
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.008
+    ],
+    "pattern_rank": [
+     1091
+    ],
+    "path": "a",
+    "why": "artist 'Mamuka Japaridze' has 2 titled works in our gallery and WikiArt (as 'Mamuka Japaridze')",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Landscape": []
+    },
+    "n_rejected": 28
+   },
+   "artist_unknown": {
+    "titles": [
+     "Landscape"
+    ],
+    "sources": [
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.008
+    ],
+    "pattern_rank": [
+     1091
+    ],
+    "path": "b",
+    "why": "most similar image: 'Plant and Chairs' by Mamuka Japaridze (our gallery, similarity 0.86)",
+    "match": {
+     "artist": "Mamuka Japaridze",
+     "title": "Plant and Chairs",
+     "score": 0.8644831776618958,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Landscape": []
+    },
+    "n_rejected": 28
+   }
+  },
+  {
+   "id": "F2-051",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "year": "2022",
+   "artist_known": {
+    "titles": [
+     "Untitled — Elegant Doll",
+     "Doll's Dream",
+     "Hat and Doll"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": "Untitled",
+    "pattern_margin": [
+     0.026,
+     0.003,
+     0.023
+    ],
+    "pattern_rank": [
+     921,
+     1130,
+     989
+    ],
+    "path": "a",
+    "why": "artist 'Oleg Timchenko' has 3 titled works in our gallery and WikiArt (as 'Oleg Timchenko')",
+    "match": {
+     "artist": "John Everett Millais",
+     "title": "The Minuet",
+     "score": 0.672103226184845,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Untitled — Elegant Doll": [],
+     "Doll's Dream": [],
+     "Hat and Doll": []
+    },
+    "n_rejected": 26
+   },
+   "artist_unknown": {
+    "titles": [
+     "Elegant Doll Melody",
+     "Red Doll's Dream",
+     "Red Dress Rhythm",
+     "Playful Harmony",
+     "Elegant Hat Study"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "John Everett Millais",
+     "title": "The Minuet",
+     "score": 0.672103226184845,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Elegant Doll Melody": [],
+     "Red Doll's Dream": [],
+     "Red Dress Rhythm": [],
+     "Playful Harmony": [],
+     "Elegant Hat Study": []
+    },
+    "n_rejected": 16
+   }
+  },
+  {
+   "id": "F2-059",
+   "artist": "Gogi Chagelishvili",
+   "real": "Rachuli Rhapsody",
+   "year": "2014",
+   "artist_known": {
+    "titles": [
+     "Dreams of Rural Man",
+     "Ballad of Yellow Hut",
+     "Memory of Orange",
+     "Variation of Orange Fruit"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.069,
+     0.063,
+     0.054,
+     0.065
+    ],
+    "pattern_rank": [
+     619,
+     621,
+     612,
+     375
+    ],
+    "path": "a",
+    "why": "artist 'Gogi Chagelishvili' has 2 titled works in our gallery and WikiArt (as 'Gogi Chagelishvili')",
+    "match": {
+     "artist": "Lado Gudiashvili (1896-1980)",
+     "title": "The Legend of the Founding of Tbilisi",
+     "score": 0.7163509726524353,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Dreams of Rural Man": [],
+     "Ballad of Yellow Hut": [],
+     "Memory of Orange": [],
+     "Variation of Orange Fruit": []
+    },
+    "n_rejected": 23
+   },
+   "artist_unknown": {
+    "titles": [
+     "Calm Rural Scene",
+     "Rural Harmony",
+     "Rural Melody",
+     "Calm Study"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'The Legend of the Founding of Tbilisi' by Lado Gudiashvili (1896-1980) (our gallery, similarity 0.72); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Lado Gudiashvili (1896-1980)",
+     "title": "The Legend of the Founding of Tbilisi",
+     "score": 0.7163509726524353,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Calm Rural Scene": [],
+     "Rural Harmony": [],
+     "Rural Melody": [],
+     "Calm Study": []
+    },
+    "n_rejected": 44
+   }
+  },
+  {
+   "id": "F2-061",
+   "artist": "Elene Akhvlediani",
+   "real": "Old and New Tbilisi",
+   "year": null,
+   "artist_known": {
+    "titles": [
+     "City's Green Echoes"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.038
+    ],
+    "pattern_rank": [
+     826
+    ],
+    "path": "b",
+    "why": "most similar image: 'Dresden' by Nika Khabelashvili (our gallery, similarity 0.72)",
+    "match": {
+     "artist": "Nika Khabelashvili",
+     "title": "Dresden",
+     "score": 0.7211615443229675,
+     "source": "our gallery"
+    },
+    "invented": {
+     "City's Green Echoes": []
+    },
+    "n_rejected": 29
+   },
+   "artist_unknown": {
+    "titles": [
+     "City's Green Echoes"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.038
+    ],
+    "pattern_rank": [
+     826
+    ],
+    "path": "b",
+    "why": "most similar image: 'Dresden' by Nika Khabelashvili (our gallery, similarity 0.72)",
+    "match": {
+     "artist": "Nika Khabelashvili",
+     "title": "Dresden",
+     "score": 0.7211615443229675,
+     "source": "our gallery"
+    },
+    "invented": {
+     "City's Green Echoes": []
+    },
+    "n_rejected": 29
+   }
+  },
+  {
+   "id": "F3-024",
+   "artist": "Marc Shagal",
+   "real": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+   "year": "1962",
+   "artist_known": {
+    "titles": [
+     "Birds of Night",
+     "Dreamy Night Sky",
+     "Night Song",
+     "Dreaming Night",
+     "Yellow Sunlight"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.226,
+     0.138,
+     0.218,
+     0.18,
+     0.125
+    ],
+    "pattern_rank": [
+     29,
+     154,
+     12,
+     40,
+     306
+    ],
+    "path": "a",
+    "why": "artist 'Marc Shagal' has 501 titled works in our gallery and WikiArt (as 'Marc Chagall')",
+    "match": {
+     "artist": "Marc Chagall",
+     "title": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+     "score": 0.7907830476760864,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Birds of Night": [],
+     "Dreamy Night Sky": [],
+     "Night Song": [],
+     "Dreaming Night": [],
+     "Yellow Sunlight": []
+    },
+    "n_rejected": 24
+   },
+   "artist_unknown": {
+    "titles": [
+     "Birds of Night",
+     "Dreamy Night Sky",
+     "Night Song",
+     "Dreaming Night",
+     "Yellow Sunlight"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.226,
+     0.138,
+     0.218,
+     0.18,
+     0.125
+    ],
+    "pattern_rank": [
+     29,
+     154,
+     12,
+     40,
+     306
+    ],
+    "path": "b",
+    "why": "most similar image: '\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")' by Marc Chagall (our gallery, similarity 0.79)",
+    "match": {
+     "artist": "Marc Chagall",
+     "title": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+     "score": 0.7907830476760864,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Birds of Night": [],
+     "Dreamy Night Sky": [],
+     "Night Song": [],
+     "Dreaming Night": [],
+     "Yellow Sunlight": []
+    },
+    "n_rejected": 24
+   }
+  },
+  {
+   "id": "F3-041",
+   "artist": "Gia Edzgveradze",
+   "real": "The Heavy Burden of Waiting for Picnic",
+   "year": "2020",
+   "artist_known": {
+    "titles": [
+     "Harmony of Still Life"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.04
+    ],
+    "pattern_rank": [
+     815
+    ],
+    "path": "a",
+    "why": "artist 'Gia Edzgveradze' has 2 titled works in our gallery and WikiArt (as 'Gia Edzgveradze')",
+    "match": {
+     "artist": "Gia Edzgveradze",
+     "title": "Echo is My Song",
+     "score": 0.7808226346969604,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Harmony of Still Life": []
+    },
+    "n_rejected": 27
+   },
+   "artist_unknown": {
+    "titles": [
+     "Harmony of Still Life"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.04
+    ],
+    "pattern_rank": [
+     815
+    ],
+    "path": "b",
+    "why": "most similar image: 'Echo is My Song' by Gia Edzgveradze (our gallery, similarity 0.78)",
+    "match": {
+     "artist": "Gia Edzgveradze",
+     "title": "Echo is My Song",
+     "score": 0.7808226346969604,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Harmony of Still Life": []
+    },
+    "n_rejected": 27
+   }
+  },
+  {
+   "id": "F3-077",
+   "artist": "Giorgi Mirzashvili",
+   "real": "White House",
+   "year": "2021",
+   "artist_known": {
+    "titles": [
+     "Poem of Night",
+     "Nostalgic Night's Echo",
+     "The Yellow House",
+     "Landscape with House",
+     "House with Green Roof"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.73); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.7297447919845581,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Poem of Night": [],
+     "Nostalgic Night's Echo": [],
+     "The Yellow House": [],
+     "Landscape with House": [],
+     "House with Green Roof": []
+    },
+    "n_rejected": 45
+   },
+   "artist_unknown": {
+    "titles": [
+     "Poem of Night",
+     "Nostalgic Night's Echo",
+     "The Yellow House",
+     "Landscape with House",
+     "House with Green Roof"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.73); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.7297447919845581,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Poem of Night": [],
+     "Nostalgic Night's Echo": [],
+     "The Yellow House": [],
+     "Landscape with House": [],
+     "House with Green Roof": []
+    },
+    "n_rejected": 45
+   }
+  }
+ ]
+}

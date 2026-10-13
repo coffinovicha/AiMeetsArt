@@ -1,0 +1,36 @@
+{
+ "artist_known": {
+  "paintings": 10,
+  "paths": {
+   "a": 4,
+   "b": 3,
+   "c": 3
+  },
+  "titles_shown": 28,
+  "titles_with_invented_words": 0,
+  "untitled_or_abstraction_named": 5,
+  "titled": 10,
+  "top5_exact_hits": 4,
+  "top5_close_hits_sim_0.7": 0,
+  "similarity_to_real_top1": 0.405,
+  "baseline_other_painting": 0.391,
+  "first_title_closer_to_own_artist": "7 of 7"
+ },
+ "artist_unknown": {
+  "paintings": 30,
+  "paths": {
+   "a": 0,
+   "b": 15,
+   "c": 15
+  },
+  "titles_shown": 115,
+  "titles_with_invented_words": 0,
+  "untitled_or_abstraction_named": 7,
+  "titled": 10,
+  "top5_exact_hits": 4,
+  "top5_close_hits_sim_0.7": 0,
+  "similarity_to_real_top1": 0.403,
+  "baseline_other_painting": 0.391,
+  "first_title_closer_to_own_artist": "7 of 7"
+ }
+}

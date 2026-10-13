@@ -1,0 +1,1815 @@
+{
+ "summary": {
+  "artist_known": {
+   "paintings": 10,
+   "paths": {
+    "a": 4,
+    "b": 3,
+    "c": 3
+   },
+   "titles_shown": 28,
+   "titles_with_invented_words": 0,
+   "untitled_or_abstraction_named": 5,
+   "titled": 10,
+   "top5_exact_hits": 4,
+   "top5_close_hits_sim_0.7": 0,
+   "similarity_to_real_top1": 0.405,
+   "baseline_other_painting": 0.391,
+   "first_title_closer_to_own_artist": "7 of 7"
+  },
+  "artist_unknown": {
+   "paintings": 30,
+   "paths": {
+    "a": 0,
+    "b": 15,
+    "c": 15
+   },
+   "titles_shown": 115,
+   "titles_with_invented_words": 0,
+   "untitled_or_abstraction_named": 7,
+   "titled": 10,
+   "top5_exact_hits": 4,
+   "top5_close_hits_sim_0.7": 0,
+   "similarity_to_real_top1": 0.403,
+   "baseline_other_painting": 0.391,
+   "first_title_closer_to_own_artist": "7 of 7"
+  }
+ },
+ "rows": [
+  {
+   "id": "F1-004",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": "2017",
+   "artist_known": {
+    "titles": [
+     "Abstraction — Echoes of Energy",
+     "Abstract Harmony"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.097,
+     0.269
+    ],
+    "pattern_rank": [
+     163,
+     15
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9234524965286255,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Echoes of Energy": [],
+     "Abstract Harmony": []
+    },
+    "n_rejected": 25
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Echoes of Energy",
+     "Abstract Harmony"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.097,
+     0.269
+    ],
+    "pattern_rank": [
+     163,
+     15
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.92)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9234524965286255,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Echoes of Energy": [],
+     "Abstract Harmony": []
+    },
+    "n_rejected": 25
+   }
+  },
+  {
+   "id": "F1-005",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": null,
+   "artist_known": {
+    "titles": [
+     "Abstraction — Colorful Variations",
+     "Vibrant Echoes",
+     "Abstract Harmony"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.012,
+     0.032,
+     0.269
+    ],
+    "pattern_rank": [
+     1057,
+     836,
+     15
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9232082366943359,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Colorful Variations": [],
+     "Vibrant Echoes": [],
+     "Abstract Harmony": []
+    },
+    "n_rejected": 24
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Colorful Variations",
+     "Vibrant Echoes",
+     "Abstract Harmony"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.012,
+     0.032,
+     0.269
+    ],
+    "pattern_rank": [
+     1057,
+     836,
+     15
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.92)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9232082366943359,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Colorful Variations": [],
+     "Vibrant Echoes": [],
+     "Abstract Harmony": []
+    },
+    "n_rejected": 24
+   }
+  },
+  {
+   "id": "F1-006",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Layered Drama",
+     "Harmony of Intensity",
+     "Abstract Emotion",
+     "Abstract Painting"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.039,
+     0.021,
+     0.369,
+     0.112
+    ],
+    "pattern_rank": [
+     737,
+     806,
+     1,
+     355
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.94)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9367436170578003,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Layered Drama": [],
+     "Harmony of Intensity": [],
+     "Abstract Emotion": [],
+     "Abstract Painting": []
+    },
+    "n_rejected": 22
+   }
+  },
+  {
+   "id": "F1-022",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Ballad of Heels",
+     "Rhapsody of Feet",
+     "Shoes and Legs",
+     "Lively Legs",
+     "Echoes of Heels"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Maia Naveriani",
+     "title": "Authentic Behavior",
+     "score": 0.6233134865760803,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Ballad of Heels": [],
+     "Rhapsody of Feet": [],
+     "Shoes and Legs": [],
+     "Lively Legs": [],
+     "Echoes of Heels": []
+    },
+    "n_rejected": 19
+   }
+  },
+  {
+   "id": "F1-023",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Bloom's Melody",
+     "Ballad of Bloom",
+     "Red and Black",
+     "Red and White",
+     "Vibrant Rhapsody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.6013267040252686,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Bloom's Melody": [],
+     "Ballad of Bloom": [],
+     "Red and Black": [],
+     "Red and White": [],
+     "Vibrant Rhapsody": []
+    },
+    "n_rejected": 13
+   }
+  },
+  {
+   "id": "F1-028",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Two Angels with Fruit",
+     "Angelic Harmony in Red",
+     "Gentle Apple Angels",
+     "Flattened Apples Angelic Echo",
+     "Two Angels"
+    ],
+    "sources": [
+     "adapter",
+     "writer",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Keti Matabeli",
+     "title": "Follio",
+     "score": 0.6868524551391602,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Two Angels with Fruit": [],
+     "Angelic Harmony in Red": [],
+     "Gentle Apple Angels": [],
+     "Flattened Apples Angelic Echo": [],
+     "Two Angels": []
+    },
+    "n_rejected": 10
+   }
+  },
+  {
+   "id": "F1-030",
+   "artist": "Giorgi Gvenetadze",
+   "real": "Untitled",
+   "year": "2012",
+   "artist_known": {
+    "titles": [
+     "Abstraction — Rhythm of Energy",
+     "Harmony of Motion",
+     "Abstraction-Black and Yellow"
+    ],
+    "sources": [
+     "adapter+writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.073,
+     0.01,
+     0.487
+    ],
+    "pattern_rank": [
+     338,
+     1017,
+     1
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.84)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.8408821821212769,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Rhythm of Energy": [],
+     "Harmony of Motion": [],
+     "Abstraction-Black and Yellow": []
+    },
+    "n_rejected": 25
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Rhythm of Energy",
+     "Harmony of Motion",
+     "Abstraction-Black and Yellow"
+    ],
+    "sources": [
+     "adapter+writer",
+     "writer",
+     "adapter"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.073,
+     0.01,
+     0.487
+    ],
+    "pattern_rank": [
+     338,
+     1017,
+     1
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.84)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.8408821821212769,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Rhythm of Energy": [],
+     "Harmony of Motion": [],
+     "Abstraction-Black and Yellow": []
+    },
+    "n_rejected": 25
+   }
+  },
+  {
+   "id": "F1-048",
+   "artist": "Levan Jokhadze",
+   "real": "Abstraction",
+   "year": "2023",
+   "artist_known": {
+    "titles": [
+     "Abstraction — Rhythm"
+    ],
+    "sources": [
+     "adapter+writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.179
+    ],
+    "pattern_rank": [
+     55
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.77)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.7671545743942261,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Rhythm": []
+    },
+    "n_rejected": 28
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Rhythm"
+    ],
+    "sources": [
+     "adapter+writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.179
+    ],
+    "pattern_rank": [
+     55
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.77)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.7671545743942261,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Rhythm": []
+    },
+    "n_rejected": 28
+   }
+  },
+  {
+   "id": "F1-073",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "A River Scene",
+     "Street Scene",
+     "The River",
+     "Echoes of the City",
+     "Rhythm of the River"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Stefan Dimitrescu",
+     "title": "Houses in Mangalia",
+     "score": 0.691360592842102,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "A River Scene": [],
+     "Street Scene": [],
+     "The River": [],
+     "Echoes of the City": [],
+     "Rhythm of the River": []
+    },
+    "n_rejected": 11
+   }
+  },
+  {
+   "id": "F1-079",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Study in Gold"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.073
+    ],
+    "pattern_rank": [
+     185
+    ],
+    "path": "b",
+    "why": "most similar image: 'Aristocrats' by Levan Chogoshvili (our gallery, similarity 0.77)",
+    "match": {
+     "artist": "Levan Chogoshvili",
+     "title": "Aristocrats",
+     "score": 0.7655009031295776,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Study in Gold": []
+    },
+    "n_rejected": 29
+   }
+  },
+  {
+   "id": "F1-080",
+   "artist": "Grigol Gvania",
+   "real": "Untitled",
+   "year": "2025",
+   "artist_known": {
+    "titles": [
+     "Sunny Street",
+     "Melody of the Street",
+     "Rhythm of the Sea",
+     "Poem of the Sky",
+     "Harmony in Yellow"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Café' by Vazha Bekauri (our gallery, similarity 0.72); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vazha Bekauri",
+     "title": "Café",
+     "score": 0.7226238250732422,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Sunny Street": [],
+     "Melody of the Street": [],
+     "Rhythm of the Sea": [],
+     "Poem of the Sky": [],
+     "Harmony in Yellow": []
+    },
+    "n_rejected": 50
+   },
+   "artist_unknown": {
+    "titles": [
+     "Sunny Street",
+     "Melody of the Street",
+     "Rhythm of the Sea",
+     "Poem of the Sky",
+     "Harmony in Yellow"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Café' by Vazha Bekauri (our gallery, similarity 0.72); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vazha Bekauri",
+     "title": "Café",
+     "score": 0.7226238250732422,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Sunny Street": [],
+     "Melody of the Street": [],
+     "Rhythm of the Sea": [],
+     "Poem of the Sky": [],
+     "Harmony in Yellow": []
+    },
+    "n_rejected": 50
+   }
+  },
+  {
+   "id": "F1-082",
+   "artist": "Vakho Bugadze",
+   "real": "Untitled",
+   "year": "2025",
+   "artist_known": {
+    "titles": [
+     "Rhapsody in Grey"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.044
+    ],
+    "pattern_rank": [
+     760
+    ],
+    "path": "a",
+    "why": "artist 'Vakho Bugadze' has 1 titled works in our gallery and WikiArt (as 'Vakho Bugadze')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.8751665353775024,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Rhapsody in Grey": []
+    },
+    "n_rejected": 29
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Study in Grey"
+    ],
+    "sources": [
+     "habit+writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.03
+    ],
+    "pattern_rank": [
+     825
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.88)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.8751665353775024,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Study in Grey": []
+    },
+    "n_rejected": 28
+   }
+  },
+  {
+   "id": "F1-086",
+   "artist": "Nika Khabelashvili",
+   "real": "Dresden",
+   "year": "2022",
+   "artist_known": {
+    "titles": [
+     "Majestic Ruins",
+     "Majestic Ruins, Tower's Echo",
+     "Echoes of Ancient, Architect's Rhapsody",
+     "Fortress",
+     "Ballad Ruins"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.74); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.7420145273208618,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Majestic Ruins": [],
+     "Majestic Ruins, Tower's Echo": [],
+     "Echoes of Ancient, Architect's Rhapsody": [],
+     "Fortress": [],
+     "Ballad Ruins": []
+    },
+    "n_rejected": 53
+   },
+   "artist_unknown": {
+    "titles": [
+     "Majestic Ruins",
+     "Majestic Ruins, Tower's Echo",
+     "Echoes of Ancient, Architect's Rhapsody",
+     "Fortress",
+     "Ballad Ruins"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.74); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Vakho Bugadze",
+     "title": "Untitled",
+     "score": 0.7420145273208618,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Majestic Ruins": [],
+     "Majestic Ruins, Tower's Echo": [],
+     "Echoes of Ancient, Architect's Rhapsody": [],
+     "Fortress": [],
+     "Ballad Ruins": []
+    },
+    "n_rejected": 53
+   }
+  },
+  {
+   "id": "F2-002",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Green Rhythm",
+     "Green Melody",
+     "Red Rhapsody",
+     "Orange Harmony",
+     "Orange Echo"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.051,
+     0.03,
+     0.058,
+     0.024,
+     0.017
+    ],
+    "pattern_rank": [
+     725,
+     906,
+     630,
+     966,
+     1021
+    ],
+    "path": "b",
+    "why": "most similar image: 'unknown title' by Seraphine Louis (WikiArt, similarity 0.72)",
+    "match": {
+     "artist": "Seraphine Louis",
+     "title": "unknown title",
+     "score": 0.7181949615478516,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Green Rhythm": [],
+     "Green Melody": [],
+     "Red Rhapsody": [],
+     "Orange Harmony": [],
+     "Orange Echo": []
+    },
+    "n_rejected": 23
+   }
+  },
+  {
+   "id": "F2-010",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Radiant Harmony II",
+     "Poem of Energy",
+     "Abstraction in Green and Red",
+     "Abstraction with Red and Green Lines",
+     "Radiant Melody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.231,
+     0.194,
+     0.171,
+     0.143,
+     0.145
+    ],
+    "pattern_rank": [
+     5,
+     12,
+     74,
+     95,
+     56
+    ],
+    "path": "b",
+    "why": "most similar image: 'Blue Tree III' by Romul Nutiu (WikiArt, similarity 0.71)",
+    "match": {
+     "artist": "Romul Nutiu",
+     "title": "Blue Tree III",
+     "score": 0.7085717916488647,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Radiant Harmony II": [],
+     "Poem of Energy": [],
+     "Abstraction in Green and Red": [],
+     "Abstraction with Red and Green Lines": [],
+     "Radiant Melody": []
+    },
+    "n_rejected": 15
+   }
+  },
+  {
+   "id": "F2-011",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Floral Pattern",
+     "Rhythm of Green",
+     "Harmony in Blue",
+     "Study in Blues",
+     "Study in Olive"
+    ],
+    "sources": [
+     "adapter",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Richard Pousette-Dart",
+     "title": "Presence Amaranth Garden",
+     "score": 0.6729540228843689,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Floral Pattern": [],
+     "Rhythm of Green": [],
+     "Harmony in Blue": [],
+     "Study in Blues": [],
+     "Study in Olive": []
+    },
+    "n_rejected": 14
+   }
+  },
+  {
+   "id": "F2-076",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "African Women",
+     "African Figures",
+     "Kenyan Women",
+     "Poem of Dark Faces",
+     "Rhythm of Red Robes"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Pablo Picasso",
+     "title": "Woman In a Fish Hat",
+     "score": 0.6450890898704529,
+     "source": "our gallery"
+    },
+    "invented": {
+     "African Women": [],
+     "African Figures": [],
+     "Kenyan Women": [],
+     "Poem of Dark Faces": [],
+     "Rhythm of Red Robes": []
+    },
+    "n_rejected": 17
+   }
+  },
+  {
+   "id": "F2-077",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Dance Harmony",
+     "Dance Melody",
+     "Rhythm Dance",
+     "Dance Study"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.098,
+     0.013,
+     0.017,
+     0.043
+    ],
+    "pattern_rank": [
+     176,
+     1004,
+     1021,
+     649
+    ],
+    "path": "b",
+    "why": "most similar image: 'Musicians' by Zurab (Piko) Nizharadze (our gallery, similarity 0.75)",
+    "match": {
+     "artist": "Zurab (Piko) Nizharadze",
+     "title": "Musicians",
+     "score": 0.7519478797912598,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Dance Harmony": [],
+     "Dance Melody": [],
+     "Rhythm Dance": [],
+     "Dance Study": []
+    },
+    "n_rejected": 18
+   }
+  },
+  {
+   "id": "F2-083",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Rhythm of Popcorn",
+     "Popcorn Melody",
+     "Baskets of Playful Beige",
+     "Seated Figures",
+     "Seated Figures with Hats"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "adapter"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Vicente Manansala",
+     "title": "Market Vendors",
+     "score": 0.6845017671585083,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Rhythm of Popcorn": [],
+     "Popcorn Melody": [],
+     "Baskets of Playful Beige": [],
+     "Seated Figures": [],
+     "Seated Figures with Hats": []
+    },
+    "n_rejected": 21
+   }
+  },
+  {
+   "id": "F3-009",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "year": null,
+   "artist_known": {
+    "titles": [
+     "Abstraction — Energy Melody",
+     "Formal Echo"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.024,
+     0.055
+    ],
+    "pattern_rank": [
+     848,
+     447
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9342783689498901,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Energy Melody": [],
+     "Formal Echo": []
+    },
+    "n_rejected": 21
+   },
+   "artist_unknown": {
+    "titles": [
+     "Abstraction — Energy Melody",
+     "Formal Echo"
+    ],
+    "sources": [
+     "habit+writer",
+     "writer"
+    ],
+    "prefix": "Abstraction",
+    "pattern_margin": [
+     0.024,
+     0.055
+    ],
+    "pattern_rank": [
+     848,
+     447
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.93)",
+    "match": {
+     "artist": "Ushangi Khumarashvili",
+     "title": "Abstraction",
+     "score": 0.9342783689498901,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Abstraction — Energy Melody": [],
+     "Formal Echo": []
+    },
+    "n_rejected": 21
+   }
+  },
+  {
+   "id": "F3-027",
+   "artist": "Tamar Botchorishvili",
+   "real": "Untitled",
+   "year": "2022",
+   "artist_known": {
+    "titles": [
+     "Dreamy Harmony",
+     "Whimsical Violet",
+     "Green Melody",
+     "Black Echo",
+     "Long Rhapsody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.16,
+     0.126,
+     0.118,
+     0.094,
+     0.091
+    ],
+    "pattern_rank": [
+     52,
+     221,
+     219,
+     283,
+     175
+    ],
+    "path": "b",
+    "why": "most similar image: 'Blue Unicorn' by Salvador Dali (our gallery, similarity 0.74)",
+    "match": {
+     "artist": "Salvador Dali",
+     "title": "Blue Unicorn",
+     "score": 0.7396575212478638,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Dreamy Harmony": [],
+     "Whimsical Violet": [],
+     "Green Melody": [],
+     "Black Echo": [],
+     "Long Rhapsody": []
+    },
+    "n_rejected": 23
+   },
+   "artist_unknown": {
+    "titles": [
+     "Dreamy Harmony",
+     "Whimsical Violet",
+     "Green Melody",
+     "Black Echo",
+     "Long Rhapsody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.16,
+     0.126,
+     0.118,
+     0.094,
+     0.091
+    ],
+    "pattern_rank": [
+     52,
+     221,
+     219,
+     283,
+     175
+    ],
+    "path": "b",
+    "why": "most similar image: 'Blue Unicorn' by Salvador Dali (our gallery, similarity 0.74)",
+    "match": {
+     "artist": "Salvador Dali",
+     "title": "Blue Unicorn",
+     "score": 0.7396575212478638,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Dreamy Harmony": [],
+     "Whimsical Violet": [],
+     "Green Melody": [],
+     "Black Echo": [],
+     "Long Rhapsody": []
+    },
+    "n_rejected": 23
+   }
+  },
+  {
+   "id": "F3-035",
+   "artist": "Nika Kutateladze",
+   "real": "Dinner",
+   "year": "2021",
+   "artist_known": {
+    "titles": [
+     "Ballad of the Woods"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null
+    ],
+    "pattern_rank": [
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Topography (According to Cosmas)' by Nina Kintsurashvili (our gallery, similarity 0.76); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Nina Kintsurashvili",
+     "title": "Topography (According to Cosmas)",
+     "score": 0.7641212940216064,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Ballad of the Woods": []
+    },
+    "n_rejected": 58
+   },
+   "artist_unknown": {
+    "titles": [
+     "Ballad of the Woods"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null
+    ],
+    "pattern_rank": [
+     null
+    ],
+    "path": "c",
+    "why": "most similar image: 'Topography (According to Cosmas)' by Nina Kintsurashvili (our gallery, similarity 0.76); no candidate passed the pattern checks, fell back to path c",
+    "match": {
+     "artist": "Nina Kintsurashvili",
+     "title": "Topography (According to Cosmas)",
+     "score": 0.7641212940216064,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Ballad of the Woods": []
+    },
+    "n_rejected": 58
+   }
+  },
+  {
+   "id": "F3-048",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Ceremonial Papyrus",
+     "Ceremonial Melody",
+     "Goddess's Poem",
+     "Hieroglyphs",
+     "Deity's Song"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Pablo Picasso",
+     "title": "Woman In a Fish Hat",
+     "score": 0.6793426871299744,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Ceremonial Papyrus": [],
+     "Ceremonial Melody": [],
+     "Goddess's Poem": [],
+     "Hieroglyphs": [],
+     "Deity's Song": []
+    },
+    "n_rejected": 23
+   }
+  },
+  {
+   "id": "F3-049",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "The Hieroglyphs",
+     "Egyptian Hieroglyphs",
+     "Memory of Symbols"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Isidore Isou",
+     "title": "Chronographismes",
+     "score": 0.6660306453704834,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "The Hieroglyphs": [],
+     "Egyptian Hieroglyphs": [],
+     "Memory of Symbols": []
+    },
+    "n_rejected": 16
+   }
+  },
+  {
+   "id": "F3-052",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Echo of Horus",
+     "Harmony of Beige and Olive",
+     "Memory of Gold and Red",
+     "Rhythm of Gold and Red",
+     "Echoes of Beige and Black"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Pablo Picasso",
+     "title": "Woman In a Fish Hat",
+     "score": 0.6509722471237183,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Echo of Horus": [],
+     "Harmony of Beige and Olive": [],
+     "Memory of Gold and Red": [],
+     "Rhythm of Gold and Red": [],
+     "Echoes of Beige and Black": []
+    },
+    "n_rejected": 18
+   }
+  },
+  {
+   "id": "F3-061",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Queen in Beige Background",
+     "Woman in Profile",
+     "Queen in Beige Dress",
+     "Queen in Black Hat",
+     "Queen in Red Dress"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.222,
+     0.312,
+     0.21,
+     0.241,
+     0.206
+    ],
+    "pattern_rank": [
+     8,
+     10,
+     25,
+     6,
+     38
+    ],
+    "path": "b",
+    "why": "most similar image: 'Woman In a Fish Hat' by Pablo Picasso (our gallery, similarity 0.74)",
+    "match": {
+     "artist": "Pablo Picasso",
+     "title": "Woman In a Fish Hat",
+     "score": 0.7436224818229675,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Queen in Beige Background": [],
+     "Woman in Profile": [],
+     "Queen in Beige Dress": [],
+     "Queen in Black Hat": [],
+     "Queen in Red Dress": []
+    },
+    "n_rejected": 16
+   }
+  },
+  {
+   "id": "F3-064",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Portrait of Regal Woman",
+     "Portrait of a Queen",
+     "Queen in Red Crown",
+     "Queen in Black",
+     "Queen in Grey"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     0.279,
+     0.217,
+     0.197,
+     0.2,
+     0.175
+    ],
+    "pattern_rank": [
+     48,
+     83,
+     38,
+     24,
+     49
+    ],
+    "path": "b",
+    "why": "most similar image: 'Woman In a Fish Hat' by Pablo Picasso (our gallery, similarity 0.74)",
+    "match": {
+     "artist": "Pablo Picasso",
+     "title": "Woman In a Fish Hat",
+     "score": 0.7359519600868225,
+     "source": "our gallery"
+    },
+    "invented": {
+     "Portrait of Regal Woman": [],
+     "Portrait of a Queen": [],
+     "Queen in Red Crown": [],
+     "Queen in Black": [],
+     "Queen in Grey": []
+    },
+    "n_rejected": 18
+   }
+  },
+  {
+   "id": "F3-071",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "The Virgin Mary with the Christ Child"
+    ],
+    "sources": [
+     "fallback"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null
+    ],
+    "pattern_rank": [
+     null
+    ],
+    "path": "b",
+    "why": "most similar image: 'Follio' by Keti Matabeli (our gallery, similarity 0.74); no generated title passed the checks, so the verified theme is used as the title",
+    "match": {
+     "artist": "Keti Matabeli",
+     "title": "Follio",
+     "score": 0.744178056716919,
+     "source": "our gallery"
+    },
+    "invented": {
+     "The Virgin Mary with the Christ Child": []
+    },
+    "n_rejected": 30
+   }
+  },
+  {
+   "id": "F3-081",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "Festive Harmony, Elephants and Auspices",
+     "Ceremonial Song, Gold Decorations on Central Elephants",
+     "Festive Rhapsody",
+     "Ceremonial Echo",
+     "Radiant Study"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Hildegard of Bingen",
+     "title": "Vision of the angelic hierarchy",
+     "score": 0.6620150804519653,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "Festive Harmony, Elephants and Auspices": [],
+     "Ceremonial Song, Gold Decorations on Central Elephants": [],
+     "Festive Rhapsody": [],
+     "Ceremonial Echo": [],
+     "Radiant Study": []
+    },
+    "n_rejected": 25
+   }
+  },
+  {
+   "id": "F3-088",
+   "artist": null,
+   "real": null,
+   "year": null,
+   "artist_unknown": {
+    "titles": [
+     "African Landscape",
+     "African Scene",
+     "Pastoral Harmony",
+     "Savannah Song"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "prefix": null,
+    "pattern_margin": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "pattern_rank": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "match": {
+     "artist": "Jules Perahim",
+     "title": "unknown title",
+     "score": 0.6618485450744629,
+     "source": "WikiArt"
+    },
+    "invented": {
+     "African Landscape": [],
+     "African Scene": [],
+     "Pastoral Harmony": [],
+     "Savannah Song": []
+    },
+    "n_rejected": 20
+   }
+  }
+ ]
+}

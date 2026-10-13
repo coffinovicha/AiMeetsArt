@@ -1,0 +1,98 @@
+W1013 15:46:50.045000 8788 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\modeling_utils.py:5106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<09:48,  1.40it/s]Loading weights:   0%|          | 3/824 [00:00<03:30,  3.90it/s]Loading weights:   1%|          | 9/824 [00:01<01:00, 13.46it/s]Loading weights:   2%|▏         | 17/824 [00:01<00:32, 24.53it/s]Loading weights:   3%|▎         | 28/824 [00:01<00:19, 40.62it/s]Loading weights:   5%|▍         | 39/824 [00:01<00:14, 54.85it/s]Loading weights:   6%|▌         | 47/824 [00:01<00:12, 59.87it/s]Loading weights:   7%|▋         | 55/824 [00:01<00:12, 60.14it/s]Loading weights:   8%|▊         | 64/824 [00:01<00:11, 65.73it/s]Loading weights:   9%|▉         | 75/824 [00:01<00:09, 75.28it/s]Loading weights:  10%|█         | 84/824 [00:01<00:09, 76.64it/s]Loading weights:  11%|█▏        | 93/824 [00:02<00:10, 70.45it/s]Loading weights:  12%|█▏        | 101/824 [00:02<00:12, 58.67it/s]Loading weights:  14%|█▎        | 112/824 [00:02<00:10, 66.98it/s]Loading weights:  15%|█▍        | 123/824 [00:02<00:09, 72.30it/s]Loading weights:  16%|█▌        | 131/824 [00:02<00:09, 70.32it/s]Loading weights:  17%|█▋        | 139/824 [00:02<00:10, 66.96it/s]Loading weights:  18%|█▊        | 148/824 [00:02<00:09, 69.82it/s]Loading weights:  19%|█▉        | 159/824 [00:03<00:08, 75.38it/s]Loading weights:  20%|██        | 167/824 [00:03<00:09, 71.37it/s]Loading weights:  21%|██        | 175/824 [00:03<00:09, 66.77it/s]Loading weights:  22%|██▏       | 184/824 [00:03<00:09, 68.75it/s]Loading weights:  24%|██▎       | 195/824 [00:03<00:08, 74.22it/s]Loading weights:  25%|██▍       | 203/824 [00:03<00:08, 72.24it/s]Loading weights:  26%|██▌       | 211/824 [00:03<00:09, 66.25it/s]Loading weights:  27%|██▋       | 220/824 [00:03<00:08, 68.37it/s]Loading weights:  28%|██▊       | 231/824 [00:04<00:07, 74.19it/s]Loading weights:  29%|██▉       | 239/824 [00:04<00:08, 72.13it/s]Loading weights:  30%|██▉       | 247/824 [00:04<00:08, 66.95it/s]Loading weights:  31%|███       | 256/824 [00:04<00:08, 68.38it/s]Loading weights:  32%|███▏      | 267/824 [00:04<00:07, 74.48it/s]Loading weights:  33%|███▎      | 275/824 [00:04<00:07, 72.93it/s]Loading weights:  34%|███▍      | 283/824 [00:04<00:08, 67.01it/s]Loading weights:  35%|███▌      | 292/824 [00:04<00:07, 69.14it/s]Loading weights:  37%|███▋      | 303/824 [00:05<00:06, 75.16it/s]Loading weights:  38%|███▊      | 311/824 [00:05<00:07, 72.60it/s]Loading weights:  39%|███▊      | 319/824 [00:05<00:07, 66.46it/s]Loading weights:  40%|███▉      | 328/824 [00:05<00:07, 68.97it/s]Loading weights:  41%|████      | 339/824 [00:05<00:06, 75.02it/s]Loading weights:  42%|████▏     | 347/824 [00:05<00:06, 73.69it/s]Loading weights:  43%|████▎     | 355/824 [00:05<00:06, 67.50it/s]Loading weights:  44%|████▍     | 364/824 [00:05<00:06, 69.26it/s]Loading weights:  46%|████▌     | 375/824 [00:06<00:06, 72.95it/s]Loading weights:  46%|████▋     | 383/824 [00:06<00:06, 67.14it/s]Loading weights:  47%|████▋     | 390/824 [00:06<00:07, 57.15it/s]Loading weights:  49%|████▊     | 400/824 [00:06<00:07, 60.22it/s]Loading weights:  50%|████▉     | 411/824 [00:06<00:06, 65.37it/s]Loading weights:  51%|█████     | 418/824 [00:06<00:06, 62.13it/s]Loading weights:  52%|█████▏    | 425/824 [00:07<00:07, 53.46it/s]Loading weights:  55%|█████▍    | 450/824 [00:07<00:04, 93.17it/s]Loading weights:  57%|█████▋    | 468/824 [00:07<00:03, 111.47it/s]Loading weights:  59%|█████▉    | 486/824 [00:07<00:02, 128.24it/s]Loading weights:  61%|██████    | 504/824 [00:07<00:02, 139.23it/s]Loading weights:  64%|██████▍   | 526/824 [00:07<00:01, 157.24it/s]Loading weights:  67%|██████▋   | 548/824 [00:07<00:01, 170.31it/s]Loading weights:  69%|██████▉   | 570/824 [00:07<00:01, 180.43it/s]Loading weights:  71%|███████▏  | 589/824 [00:07<00:01, 181.66it/s]Loading weights:  74%|███████▍  | 610/824 [00:08<00:01, 185.77it/s]Loading weights:  77%|███████▋  | 632/824 [00:08<00:01, 190.10it/s]Loading weights:  79%|███████▉  | 654/824 [00:08<00:00, 193.40it/s]Loading weights:  82%|████████▏ | 676/824 [00:08<00:00, 199.31it/s]Loading weights:  85%|████████▍ | 697/824 [00:08<00:00, 190.90it/s]Loading weights:  87%|████████▋ | 718/824 [00:08<00:00, 190.75it/s]Loading weights:  90%|████████▉ | 738/824 [00:08<00:00, 190.99it/s]Loading weights:  92%|█████████▏| 758/824 [00:08<00:00, 188.37it/s]Loading weights:  94%|█████████▍| 777/824 [00:08<00:00, 182.34it/s]Loading weights:  97%|█████████▋| 796/824 [00:09<00:00, 176.64it/s]Loading weights:  99%|█████████▉| 814/824 [00:09<00:00, 162.71it/s]Loading weights: 100%|██████████| 824/824 [00:09<00:00, 88.74it/s] 
+Loading weights:   0%|          | 0/418 [00:00<?, ?it/s]Loading weights:   4%|▍         | 18/418 [00:00<00:03, 122.97it/s]Loading weights:  28%|██▊       | 119/418 [00:00<00:00, 561.04it/s]Loading weights:  51%|█████     | 213/418 [00:00<00:00, 667.15it/s]Loading weights:  68%|██████▊   | 285/418 [00:00<00:00, 542.74it/s]Loading weights:  83%|████████▎ | 345/418 [00:00<00:00, 506.54it/s]Loading weights:  95%|█████████▌| 399/418 [00:00<00:00, 473.87it/s]Loading weights: 100%|██████████| 418/418 [00:00<00:00, 493.66it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  20%|██        | 40/199 [00:00<00:00, 360.67it/s]Loading weights:  43%|████▎     | 85/199 [00:00<00:00, 392.87it/s]Loading weights:  63%|██████▎   | 125/199 [00:00<00:00, 352.40it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 563.36it/s]
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-004 43.4s agree 0.952 min 0.94 unclear False {} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-005 47.0s agree 0.878 min 0.859 unclear False {} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-006 45.7s agree 0.888 min 0.845 unclear False {} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-022 51.6s agree 0.723 min 0.664 unclear False {'confirmed': 4, 'unconfirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-023 39.4s agree 0.853 min 0.812 unclear False {'unconfirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-028 47.8s agree 0.83 min 0.775 unclear False {'confirmed': 4} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-030 42.0s agree 0.856 min 0.789 unclear False {} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-048 46.6s agree 0.856 min 0.825 unclear False {'unconfirmed': 1, 'confirmed': 3} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-073 46.2s agree 0.817 min 0.81 unclear False {'confirmed': 5, 'unconfirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-079 40.5s agree 0.762 min 0.728 unclear False {'confirmed': 2, 'unconfirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-080 47.0s agree 0.807 min 0.782 unclear False {'confirmed': 4, 'unconfirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-082 45.7s agree 0.586 min 0.471 unclear True {'unconfirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F1-086 46.6s agree 0.818 min 0.754 unclear False {'confirmed': 4} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F2-002 38.7s agree 0.892 min 0.871 unclear False {'confirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F2-010 41.0s agree 0.728 min 0.62 unclear False {} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F2-011 40.6s agree 0.919 min 0.901 unclear False {'unconfirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F2-076 49.6s agree 0.818 min 0.782 unclear False {'confirmed': 3, 'unconfirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F2-077 48.6s agree 0.789 min 0.711 unclear False {'confirmed': 2, 'unconfirmed': 4} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F2-083 48.7s agree 0.783 min 0.709 unclear False {'confirmed': 3} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-009 43.5s agree 0.887 min 0.832 unclear False {} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-027 51.9s agree 0.668 min 0.562 unclear False {'unconfirmed': 4, 'confirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-035 52.0s agree 0.647 min 0.547 unclear True {'confirmed': 4, 'unconfirmed': 3} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-048 55.5s agree 0.811 min 0.78 unclear False {'confirmed': 3, 'unconfirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-049 53.1s agree 0.803 min 0.749 unclear False {'confirmed': 1} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-052 48.3s agree 0.841 min 0.808 unclear False {'unconfirmed': 4} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-061 44.5s agree 0.75 min 0.651 unclear False {'confirmed': 4} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-064 48.5s agree 0.827 min 0.777 unclear False {'confirmed': 3, 'unconfirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-071 48.9s agree 0.769 min 0.682 unclear False {'confirmed': 4, 'unconfirmed': 2} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-081 56.0s agree 0.871 min 0.829 unclear False {'confirmed': 3, 'unconfirmed': 3} dropped 0
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+F3-088 48.9s agree 0.794 min 0.711 unclear False {'confirmed': 5} dropped 0
+peak GB 3.68
+ALLDONE

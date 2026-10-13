@@ -341,9 +341,18 @@ def polish(model, proc, ranked, rejected, ctx, name_bare=False):
     root = "abstract" if "abstraction" in out[0]["title"].lower() else "untitled"
     named = [r for r in named if root not in r["title"].lower()] + [r for r in named if root in r["title"].lower()]
     word = "Untitled" if "untitled" in out[0]["title"].lower() else "Abstraction"
-    first = dict(named[0], title=f"{word} — {named[0]['title']}", prefix=word, name=named[0]["title"],
+    name = bare_name(named[0]["title"], root)
+    if not name:
+        return [out[0]] + named[1:]
+    first = dict(named[0], title=f"{word} — {name}", prefix=word, name=name,
                  source=f"{out[0].get('source', 'habit')}+{named[0].get('source', 'writer')}")
     return [first] + named[1:]
+
+
+def bare_name(t, root):
+    name = re.sub(rf"\b{root}\w*\b[\s,.:-]*", "", t, flags=re.I).strip(" ,.:-")
+    name = re.sub(r"(\s+(of|in|and|the|a|an|with|on|at|to|for|by|from))+$", "", name, flags=re.I).strip(" ,.:-")
+    return name[:1].upper() + name[1:] if re.search(r"[A-Za-z]", name) else ""
 
 
 def meaning_text(pred):
@@ -414,6 +423,8 @@ def check(t, ctx):
         return "copies an existing title"
     if re.search(r"\b(1[5-9]|20)\d\d\b", t):
         return "contains a date"
+    if re.search(r"[^\x00-ɏ‐-‟]", t) or not re.search(r"[A-Za-z]", t):
+        return "not written in English"
     if re.search(r"[<>\[\]{}]|^\d|\(\d+\)", t):
         return "contains list numbering or placeholders"
     if ctx.get("artist") and any(p.lower() in t.lower() for p in ctx["artist"].split() if len(p) > 3):

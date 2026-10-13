@@ -119,7 +119,7 @@ footer { display: none !important; }
 .hang svg rect.doubt { stroke: var(--doubt); stroke-dasharray: 6 5; }
 .pin { position: absolute; transform: translate(-30%, -30%); width: 22px; height: 22px; border-radius: 50%; background: var(--brass); color: #1a1408;
   font: 600 11px/22px var(--f-mono); text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,0.5); cursor: default; }
-.pin.doubt { background: var(--doubt); }
+.pin.doubt { background: rgba(19, 27, 36, 0.85); color: var(--doubt); box-shadow: inset 0 0 0 2px var(--doubt), 0 1px 4px rgba(0,0,0,0.5); }
 .hang .caption { justify-self: stretch; font: 500 11px var(--f-mono); color: var(--wall-muted); letter-spacing: 0.04em; line-height: 1.4; }
 
 .label-card { background: var(--paper); color: var(--ink); padding: 34px 34px 28px; display: grid; gap: 18px; align-content: start; min-width: 0; }
@@ -162,7 +162,7 @@ footer { display: none !important; }
 .obj { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 0 10px; align-items: center; padding: 7px 8px; border-radius: 2px; cursor: default; }
 .obj:hover { background: rgba(196, 154, 92, 0.1); }
 .obj .n { width: 22px; height: 22px; border-radius: 50%; background: var(--brass); color: #1a1408; font: 600 11px/22px var(--f-mono); text-align: center; }
-.obj .n.doubt { background: var(--doubt); }
+.obj .n.doubt { background: transparent; color: var(--doubt); box-shadow: inset 0 0 0 2px var(--doubt); }
 .obj .n.none { background: transparent; border: 1px solid var(--wall-line); color: var(--wall-muted); line-height: 20px; }
 .obj .nm { font-size: 15px; }
 .obj .st2 { grid-column: 2; font: 500 11px var(--f-mono); color: var(--wall-muted); }
