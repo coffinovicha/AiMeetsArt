@@ -146,7 +146,7 @@ class VerifiedAnalyzer:
                     status = "removed"
                 else:
                     status = "unconfirmed"
-                report.append({"object": o, "support": sup, "detector": d["score"], "status": status})
+                report.append({"object": o, "support": sup, "detector": d["score"], "box": d.get("box"), "status": status})
         out = render(P, report, lowest)
         P["description"], P["explanation"] = out["description"], out["explanation"]
         P["objects"] = [r["object"] for r in report if r["status"] != "removed"]

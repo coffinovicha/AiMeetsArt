@@ -44,10 +44,31 @@ class Verifier:
         s = torch.sigmoid(out.logits[0].float()).max(0).values.cpu().numpy()
         return {p: float(v) for p, v in zip(phrases, s)}
 
+    @torch.no_grad()
+    def detect(self, im, phrases, template=None):
+        if not phrases:
+            return {}
+        t = TEMPLATES[template or self.template]
+        inp = self.proc(text=[[t.format(p) for p in phrases]], images=im, return_tensors="pt").to("cuda")
+        inp["pixel_values"] = inp["pixel_values"].half()
+        out = self.model(**inp)
+        s = torch.sigmoid(out.logits[0].float())
+        best = s.argmax(0)
+        B = out.pred_boxes[0].float()
+        W, H = im.size
+        S = max(W, H)
+        res = {}
+        for k, p in enumerate(phrases):
+            cx, cy, w, h = B[best[k]].tolist()
+            box = [max(0.0, (cx - w / 2) * S / W), max(0.0, (cy - h / 2) * S / H), min(1.0, (cx + w / 2) * S / W), min(1.0, (cy + h / 2) * S / H)]
+            res[p] = (float(s[best[k], k]), [round(x, 4) for x in box])
+        return res
+
     def check(self, im, objects):
         objs = [o for o in objects or [] if isinstance(o, str)]
-        sc = self.scores(im, [o for o in objs if checkable(o)])
-        return {o: {"score": sc.get(o), "kept": (o not in sc) or sc[o] >= self.threshold} for o in objs}
+        det = self.detect(im, [o for o in objs if checkable(o)])
+        return {o: {"score": det[o][0] if o in det else None, "box": det[o][1] if o in det else None,
+                    "kept": (o not in det) or det[o][0] >= self.threshold} for o in objs}
 
 
 def auc(pos, neg):

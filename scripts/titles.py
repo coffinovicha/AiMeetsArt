@@ -276,10 +276,74 @@ ARTISTIC = ("Title it the way painters title their own work: short (1-5 words), 
             "naming at most one subject and never listing objects. Forms painters use: a mood word and the subject (like 'Quiet Harbor'), "
             "the subject in a light or color (like 'Harbor in Grey'), 'Song of the' and the subject, a frame word and a color (like 'Study in Blue'), "
             "or a single mood word. Frame words you may use: Study, Variation, "
-            "Rhythm, Harmony, Song, Melody, Rhapsody, Ballad, Poem, Echo, Memory, Dream, Reverie. "
+            "Rhythm, Harmony, Song, Melody, Rhapsody, Ballad, Poem, Echo, Memory, Dream, Reverie; use them in at most three titles, "
+            "each frame word at most once, and every title must read as a finished phrase. "
             "Every other word must come from the analysis. Do not add actions, events, places, seasons, people or objects that are not in it.")
 FRAMES = {"study", "variation", "variations", "rhythm", "rhythms", "harmony", "song", "melody", "rhapsody",
           "ballad", "poem", "echo", "echoes", "memory", "memories", "dream", "dreams", "reverie", "improvisation", "motif"}
+FLU_END = -2.82
+FLU_MEAN = -7.28
+BARE = {"untitled", "abstraction"}
+DIVERSE_SIM = 0.9
+MAX_FRAMED = 2
+
+
+def is_bare(t):
+    return re.sub(r"\(.*?\)|[^a-z ]", "", t.lower()).strip() in BARE
+
+
+@torch.no_grad()
+def fluency(model, proc, titles):
+    tok = proc.tokenizer
+    pre = 'The painting is titled "'
+    n0 = len(tok(pre, add_special_tokens=False).input_ids)
+    ctx = model.disable_adapter() if hasattr(model, "disable_adapter") else torch.no_grad()
+    out = []
+    with ctx:
+        for t in titles:
+            ids = tok(pre + t + '"', add_special_tokens=False, return_tensors="pt").input_ids.to(model.device)
+            lp = torch.log_softmax(model(input_ids=ids).logits[0, :-1].float(), -1)
+            tl = lp[torch.arange(ids.shape[1] - 1), ids[0, 1:]][n0 - 1:]
+            out.append((float(tl.mean()), float(tl[-1])))
+    return out
+
+
+def polish(model, proc, ranked, rejected, ctx, name_bare=False):
+    keep = []
+    for r, (m, e) in zip(ranked, fluency(model, proc, [r["title"] for r in ranked])):
+        r["fluency"], r["fluency_end"] = round(m, 2), round(e, 2)
+        if norm(r["title"]) in ctx.get("habitual", {}) or (e >= FLU_END and m >= FLU_MEAN):
+            keep.append(r)
+        else:
+            r["rejected"] = "reads unfinished or ungrammatical as a title"
+            rejected.append(r)
+    if not keep:
+        return keep
+    V = enc([r["title"] for r in keep])
+    out, used_frames, kept_vecs, framed, spare = [], set(), [], 0, []
+    for r, v in zip(keep, V):
+        fr = {w.lower() for w in re.findall(r"[A-Za-z]+", r["title"])} & FRAMES
+        if fr & used_frames or any(float(v @ u) >= DIVERSE_SIM for u in kept_vecs):
+            continue
+        if fr and framed >= MAX_FRAMED:
+            spare.append(r)
+            continue
+        used_frames |= fr
+        framed += bool(fr)
+        kept_vecs.append(v)
+        out.append(r)
+    out += spare
+    if not name_bare:
+        return out
+    named = [r for r in out if not is_bare(r["title"])]
+    if not is_bare(out[0]["title"]) or not named:
+        return named or out[:1]
+    root = "abstract" if "abstraction" in out[0]["title"].lower() else "untitled"
+    named = [r for r in named if root not in r["title"].lower()] + [r for r in named if root in r["title"].lower()]
+    word = "Untitled" if "untitled" in out[0]["title"].lower() else "Abstraction"
+    first = dict(named[0], title=f"{word} — {named[0]['title']}", prefix=word, name=named[0]["title"],
+                 source=f"{out[0].get('source', 'habit')}+{named[0].get('source', 'writer')}")
+    return [first] + named[1:]
 
 
 def meaning_text(pred):
@@ -350,7 +414,7 @@ def check(t, ctx):
         return "copies an existing title"
     if re.search(r"\b(1[5-9]|20)\d\d\b", t):
         return "contains a date"
-    if re.search(r"[<>\[\]{}]|^\d", t):
+    if re.search(r"[<>\[\]{}]|^\d|\(\d+\)", t):
         return "contains list numbering or placeholders"
     if ctx.get("artist") and any(p.lower() in t.lower() for p in ctx["artist"].split() if len(p) > 3):
         return "names the artist"
@@ -368,7 +432,9 @@ def check(t, ctx):
             return f"uses '{w}', which is neither in the analysis nor a common word (a name or place?)"
     tp = template_of(t, ctx.get("templates", []))
     if ctx.get("grounded"):
-        tpl_words = {w for x in ctx.get("templates", []) for w in x["low"].split()} | {"untitled", "abstraction"}
+        tpl_words = {w for x in ctx.get("templates", []) for w in x["low"].split()} | {"untitled"}
+        if ev & {"abstract", "abstraction", "nonrepresentational", "nonfigurative"}:
+            tpl_words |= {"abstraction", "abstract"}
         if {"still", "life"} <= ev:
             tpl_words |= {"still", "life"}
         if ev & (PERSON_GENERIC - STOP - {"seated", "standing", "sitting"} | {"portrait", "face", "figure", "person"}):
@@ -450,7 +516,7 @@ def rank(cands, ctx):
         if ctx.get("artistic"):
             tw = {x.lower() for x in re.findall(r"[A-Za-z]+", r["title"])}
             r["literal_penalty"] = (0.06 * max(0, n_obj - 1) if not tp else 0.0) + 0.05 * max(0, len(r["title"].split()) - 5)
-            r["art_bonus"] = 0.04 * bool(tw & ctx.get("meaning_words", set())) + 0.03 * bool(tw & FRAMES)
+            r["art_bonus"] = 0.04 * bool(tw & ctx.get("meaning_words", set()))
     key = (lambda r: r["fit"] + 2 * r.get("pattern_margin", 0) + r.get("template_bonus", 0) + r.get("habit_bonus", 0)
            - r.get("literal_penalty", 0) + r.get("art_bonus", 0))
     ranked, seen = [], set()
@@ -540,6 +606,7 @@ def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclud
         for r in ranked:
             r["source"] = "adapter" if r["title"] in added2 else "writer"
         path, why = "c", why + "; no candidate passed the pattern checks, fell back to path c"
+    ranked = polish(model, proc, ranked, rejected, ctx, name_bare=artistic)
     if not ranked:
         theme = str(pred.get("theme") or "").strip()
         ranked = [{"title": theme[:1].upper() + theme[1:] if theme else "Untitled", "fit": 0.0, "fallback": True}]

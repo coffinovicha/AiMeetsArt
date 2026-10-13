@@ -52,7 +52,8 @@ def load_db():
 @lru_cache(maxsize=1)
 def clip_model():
     import open_clip
-    m, _, prep = open_clip.create_model_and_transforms(CLIP_NAME, pretrained=CLIP_PRE, device="cuda", precision="fp16")
+    dev = os.environ.get("CLIP_DEVICE", "cuda")
+    m, _, prep = open_clip.create_model_and_transforms(CLIP_NAME, pretrained=CLIP_PRE, device=dev, precision="fp16" if dev == "cuda" else "fp32")
     m.eval()
     return m, prep
 
@@ -60,7 +61,8 @@ def clip_model():
 @torch.no_grad()
 def embed(images):
     m, prep = clip_model()
-    x = torch.stack([prep(im.convert("RGB")) for im in images]).cuda().half()
+    p = m.visual.conv1.weight
+    x = torch.stack([prep(im.convert("RGB")) for im in images]).to(p.device, p.dtype)
     v = m.encode_image(x).float()
     return (v / v.norm(dim=-1, keepdim=True)).cpu().numpy()
 
