@@ -1,0 +1,47 @@
+W1013 11:15:22.421000 25512 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\modeling_utils.py:5106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<09:05,  1.51it/s]Loading weights:   0%|          | 3/824 [00:00<02:51,  4.78it/s]Loading weights:   1%|          | 9/824 [00:00<00:51, 15.78it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:29, 27.54it/s]Loading weights:   3%|▎         | 27/824 [00:01<00:17, 45.12it/s]Loading weights:   4%|▍         | 34/824 [00:01<00:15, 49.91it/s]Loading weights:   5%|▍         | 41/824 [00:01<00:15, 48.95it/s]Loading weights:   6%|▋         | 52/824 [00:01<00:12, 61.13it/s]Loading weights:   8%|▊         | 63/824 [00:01<00:10, 70.82it/s]Loading weights:   9%|▊         | 71/824 [00:01<00:10, 69.81it/s]Loading weights:  10%|▉         | 79/824 [00:01<00:11, 66.15it/s]Loading weights:  11%|█         | 88/824 [00:01<00:10, 69.66it/s]Loading weights:  12%|█▏        | 99/824 [00:02<00:09, 76.28it/s]Loading weights:  13%|█▎        | 107/824 [00:02<00:09, 72.83it/s]Loading weights:  14%|█▍        | 115/824 [00:02<00:10, 67.93it/s]Loading weights:  15%|█▌        | 124/824 [00:02<00:09, 71.73it/s]Loading weights:  16%|█▋        | 135/824 [00:02<00:08, 79.67it/s]Loading weights:  17%|█▋        | 144/824 [00:02<00:08, 80.67it/s]Loading weights:  19%|█▊        | 153/824 [00:02<00:08, 74.97it/s]Loading weights:  20%|█▉        | 161/824 [00:02<00:09, 67.35it/s]Loading weights:  21%|██        | 172/824 [00:03<00:08, 76.65it/s]Loading weights:  22%|██▏       | 183/824 [00:03<00:07, 82.27it/s]Loading weights:  23%|██▎       | 192/824 [00:03<00:07, 82.54it/s]Loading weights:  24%|██▍       | 201/824 [00:03<00:08, 73.55it/s]Loading weights:  25%|██▌       | 209/824 [00:03<00:09, 63.69it/s]Loading weights:  27%|██▋       | 220/824 [00:03<00:08, 69.28it/s]Loading weights:  28%|██▊       | 231/824 [00:03<00:08, 74.10it/s]Loading weights:  29%|██▉       | 239/824 [00:04<00:08, 70.34it/s]Loading weights:  30%|██▉       | 247/824 [00:04<00:09, 63.46it/s]Loading weights:  31%|███       | 256/824 [00:04<00:08, 65.64it/s]Loading weights:  32%|███▏      | 267/824 [00:04<00:07, 70.21it/s]Loading weights:  33%|███▎      | 275/824 [00:04<00:07, 68.79it/s]Loading weights:  34%|███▍      | 282/824 [00:04<00:09, 60.02it/s]Loading weights:  35%|███▌      | 292/824 [00:04<00:08, 65.27it/s]Loading weights:  37%|███▋      | 303/824 [00:04<00:07, 71.43it/s]Loading weights:  38%|███▊      | 311/824 [00:05<00:07, 69.07it/s]Loading weights:  39%|███▊      | 318/824 [00:05<00:08, 60.94it/s]Loading weights:  40%|███▉      | 328/824 [00:05<00:07, 66.21it/s]Loading weights:  41%|████      | 339/824 [00:05<00:06, 71.51it/s]Loading weights:  42%|████▏     | 347/824 [00:05<00:06, 69.19it/s]Loading weights:  43%|████▎     | 354/824 [00:05<00:07, 61.76it/s]Loading weights:  44%|████▍     | 364/824 [00:05<00:06, 66.02it/s]Loading weights:  46%|████▌     | 375/824 [00:06<00:06, 70.73it/s]Loading weights:  46%|████▋     | 383/824 [00:06<00:06, 68.79it/s]Loading weights:  47%|████▋     | 390/824 [00:06<00:07, 59.60it/s]Loading weights:  49%|████▊     | 400/824 [00:06<00:06, 60.89it/s]Loading weights:  50%|████▉     | 411/824 [00:06<00:06, 62.39it/s]Loading weights:  51%|█████     | 418/824 [00:06<00:07, 57.71it/s]Loading weights:  51%|█████▏    | 424/824 [00:06<00:07, 52.68it/s]Loading weights:  53%|█████▎    | 436/824 [00:07<00:05, 67.24it/s]Loading weights:  55%|█████▌    | 454/824 [00:07<00:04, 92.24it/s]Loading weights:  58%|█████▊    | 474/824 [00:07<00:03, 113.55it/s]Loading weights:  59%|█████▉    | 490/824 [00:07<00:02, 124.39it/s]Loading weights:  62%|██████▏   | 510/824 [00:07<00:02, 141.25it/s]Loading weights:  64%|██████▍   | 526/824 [00:07<00:02, 145.94it/s]Loading weights:  66%|██████▋   | 546/824 [00:07<00:01, 157.34it/s]Loading weights:  68%|██████▊   | 563/824 [00:07<00:01, 160.25it/s]Loading weights:  71%|███████   | 582/824 [00:07<00:01, 163.85it/s]Loading weights:  73%|███████▎  | 600/824 [00:08<00:01, 163.22it/s]Loading weights:  75%|███████▌  | 620/824 [00:08<00:01, 168.73it/s]Loading weights:  77%|███████▋  | 637/824 [00:08<00:01, 168.82it/s]Loading weights:  80%|███████▉  | 656/824 [00:08<00:00, 171.51it/s]Loading weights:  82%|████████▏ | 674/824 [00:08<00:00, 173.77it/s]Loading weights:  84%|████████▍ | 692/824 [00:08<00:00, 171.79it/s]Loading weights:  86%|████████▌ | 710/824 [00:08<00:00, 173.98it/s]Loading weights:  88%|████████▊ | 728/824 [00:08<00:00, 172.62it/s]Loading weights:  91%|█████████ | 748/824 [00:08<00:00, 178.61it/s]Loading weights:  93%|█████████▎| 766/824 [00:08<00:00, 171.40it/s]Loading weights:  95%|█████████▌| 786/824 [00:09<00:00, 175.78it/s]Loading weights:  98%|█████████▊| 804/824 [00:09<00:00, 169.23it/s]Loading weights: 100%|█████████▉| 821/824 [00:09<00:00, 145.16it/s]Loading weights: 100%|██████████| 824/824 [00:09<00:00, 87.62it/s] 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  23%|██▎       | 46/199 [00:00<00:00, 452.64it/s]Loading weights:  50%|████▉     | 99/199 [00:00<00:00, 497.71it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 661.89it/s]
+F1-024 | real: Wine Country | {'artist_known_grounded': ('c', ['Rolling Hill Vineyard']), 'artist_unknown_grounded': ('c', ['Rolling Hill Vineyard'])}
+F1-036 | real: Gossip Girls | {'artist_known_grounded': ('c', ['Dreamy Family Figures']), 'artist_unknown_grounded': ('c', ['Dreamy Family Figures'])}
+F1-040 | real: Still Life | {'artist_known_grounded': ('c', ['Dark Green Jug']), 'artist_unknown_grounded': ('b', ['Still Life With Bottle'])}
+F1-046 | real: Still Life | {'artist_known_grounded': ('c', ['Still life of fruit and a jug']), 'artist_unknown_grounded': ('b', ['Apples & Jug Still Life'])}
+F1-071 | real: Untitled | {'artist_known_grounded': ('c', ['Abstract Band Blues']), 'artist_unknown_grounded': ('c', ['Abstract Band Blues'])}
+F1-084 | real: Untitled | {'artist_known_grounded': ('a', ['Untitled']), 'artist_unknown_grounded': ('c', ['Dining Table With Two Women'])}
+F2-017 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
+F2-019 | real: Abstraction | {'artist_known_grounded': ('a', ['Abstraction']), 'artist_unknown_grounded': ('b', ['Abstraction'])}
+F2-041 | real: Girl With Dandelions | {'artist_known_grounded': ('b', ['The Girl']), 'artist_unknown_grounded': ('b', ['The Girl'])}
+F2-043 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Dreamy Leaves']), 'artist_unknown_grounded': ('b', ['Dreamy Leaves'])}
+F2-045 | real: Plant and Chairs | {'artist_known_grounded': ('a', ['Thick, Layered Greens']), 'artist_unknown_grounded': ('b', ['Thick, Layered Greens'])}
+F2-051 | real: Untitled | {'artist_known_grounded': ('a', ['Untitled']), 'artist_unknown_grounded': ('c', ['Playful Fashion Doll'])}
+F2-059 | real: Rachuli Rhapsody | {'artist_known_grounded': ('a', ['The Thatched Hut']), 'artist_unknown_grounded': ('c', ['White Cow'])}
+F2-061 | real: Old and New Tbilisi | {'artist_known_grounded': ('c', ['Grey Skyscrapers and Mountains']), 'artist_unknown_grounded': ('c', ['Grey Skyscrapers and Mountains'])}
+F3-024 | real: "Tribe of Judah" & "Tribe of Simeon" (from the series "12 Windows of Jerusalem") | {'artist_known_grounded': ('a', ['Birds in the Dream Sky']), 'artist_unknown_grounded': ('b', ['Birds in the Dream Sky'])}
+F3-041 | real: The Heavy Burden of Waiting for Picnic | {'artist_known_grounded': ('c', ['Thick Green Tables']), 'artist_unknown_grounded': ('c', ['Thick Green Tables'])}
+F3-077 | real: White House | {'artist_known_grounded': ('b', ['Untitled House']), 'artist_unknown_grounded': ('b', ['Untitled House'])}
+{
+ "artist_known_grounded": {
+  "similarity_to_real_top1": 0.46,
+  "top5_exact_hits": 4,
+  "top5_close_hits_sim_0.7": 4,
+  "top5_best_similarity_mean": 0.483,
+  "paths": {
+   "a": 8,
+   "b": 2,
+   "c": 7
+  }
+ },
+ "artist_unknown_grounded": {
+  "similarity_to_real_top1": 0.39,
+  "top5_exact_hits": 2,
+  "top5_close_hits_sim_0.7": 2,
+  "top5_best_similarity_mean": 0.405,
+  "paths": {
+   "a": 0,
+   "b": 9,
+   "c": 8
+  }
+ },
+ "baseline_other_painting": 0.391
+}

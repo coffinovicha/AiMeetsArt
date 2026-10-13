@@ -271,7 +271,7 @@ def prompt_pattern(artist, examples, stats, analysis, templates=(), meaning=None
 
 EVOKE = ("Name exactly one confirmed object as the subject and add a mood or quality taken from the theme, mood or lighting. "
          "Do not add actions, events, places, seasons or ideas that are not in the analysis.")
-GROUND_SIM = 0.6
+GROUND_SIM = 0.7
 
 
 def meaning_text(pred):
@@ -289,6 +289,9 @@ def ungrounded_words(title, evidence, allowed=()):
     out = []
     for w in re.findall(r"[a-z]+", title.lower()):
         if w in STOP or w in evidence or head(w) in evidence or w in allowed or len(w) <= 2:
+            continue
+        if any(len(a) >= 4 and (a.startswith(w[:max(4, min(len(w), 5))]) or w.startswith(a[:max(4, min(len(a), 5))])) and abs(len(a) - len(w)) <= 3
+               for a in ev):
             continue
         if E is not None and float((E @ _word_vec(w)).max()) >= GROUND_SIM:
             continue
@@ -431,7 +434,7 @@ def rank(cands, ctx):
 
 
 def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclude_rows=(), exclude_ids=(), top=3, force=None,
-                  year=None, use_era=True, evocative=True):
+                  year=None, use_era=True, evocative=True, extra=None, writer=True):
     era, era_source = era_range(year, pred.get("era_guess")) if use_era else (None, None)
     hits = search_all(qvec, exclude_rows, exclude_ids, era=era)
     top1 = hits[0] if hits else None
@@ -489,15 +492,22 @@ def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclud
         stats = None
         ctx.update(words=(1, 7), allowed_caps=allowed)
         prompt = prompt_free(analysis, meaning)
-    cands, raw = write(model, proc, prompt, sample=evocative)
-    cands = list(dict.fromkeys(ctx.get("habitual_forms", []) + cands))
+    cands, raw = write(model, proc, prompt, sample=evocative) if writer else ([], "")
+    added = extra(known) if extra else []
+    cands = list(dict.fromkeys(ctx.get("habitual_forms", []) + added + cands))
     ranked, rejected = rank(cands, ctx)
+    for r in ranked:
+        r["source"] = "habit" if r["title"] in ctx.get("habitual_forms", []) else "adapter" if r["title"] in added else "writer"
     if not ranked and path in ("a", "b"):
-        cands2, raw = write(model, proc, prompt_free(analysis, meaning), sample=evocative)
+        added2 = extra(None) if extra else []
+        cands2, raw = write(model, proc, prompt_free(analysis, meaning), sample=evocative) if writer else ([], "")
+        cands2 = list(dict.fromkeys(added2 + cands2))
         ranked, rej2 = rank(cands2, {"analysis": analysis, "doubtful": doubtful, "words": (1, 7), "allowed_caps": allowed,
                                      "evidence_words": evidence, "meaning": meaning, "objects_all": [o["object"] for o in objects],
                                      "grounded": evocative, "ground_words": ground, "confirmed": confirmed})
         rejected += rej2
+        for r in ranked:
+            r["source"] = "adapter" if r["title"] in added2 else "writer"
         path, why = "c", why + "; no candidate passed the pattern checks, fell back to path c"
     if not ranked:
         theme = str(pred.get("theme") or "").strip()

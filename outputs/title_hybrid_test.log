@@ -1,0 +1,152 @@
+W1013 10:20:16.672000 24188 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\modeling_utils.py:5106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:01<15:37,  1.14s/it]Loading weights:   0%|          | 3/824 [00:01<05:11,  2.63it/s]Loading weights:   1%|          | 5/824 [00:01<03:00,  4.53it/s]Loading weights:   2%|▏         | 16/824 [00:01<00:42, 18.85it/s]Loading weights:   3%|▎         | 27/824 [00:01<00:24, 32.14it/s]Loading weights:   4%|▍         | 33/824 [00:01<00:22, 35.87it/s]Loading weights:   5%|▍         | 40/824 [00:02<00:19, 40.55it/s]Loading weights:   6%|▌         | 47/824 [00:02<00:16, 45.88it/s]Loading weights:   6%|▋         | 53/824 [00:02<00:17, 44.02it/s]Loading weights:   8%|▊         | 64/824 [00:02<00:13, 56.73it/s]Loading weights:   9%|▉         | 75/824 [00:02<00:11, 66.15it/s]Loading weights:  10%|█         | 83/824 [00:02<00:12, 60.75it/s]Loading weights:  11%|█         | 90/824 [00:02<00:12, 56.82it/s]Loading weights:  12%|█▏        | 100/824 [00:02<00:11, 61.94it/s]Loading weights:  13%|█▎        | 111/824 [00:03<00:10, 68.10it/s]Loading weights:  14%|█▍        | 119/824 [00:03<00:11, 60.42it/s]Loading weights:  15%|█▌        | 126/824 [00:03<00:12, 54.22it/s]Loading weights:  16%|█▋        | 135/824 [00:03<00:11, 60.04it/s]Loading weights:  17%|█▋        | 142/824 [00:03<00:13, 50.29it/s]Loading weights:  18%|█▊        | 148/824 [00:03<00:14, 45.48it/s]Loading weights:  19%|█▉        | 159/824 [00:04<00:12, 53.98it/s]Loading weights:  20%|██        | 165/824 [00:04<00:13, 48.02it/s]Loading weights:  21%|██        | 172/824 [00:04<00:12, 50.42it/s]Loading weights:  22%|██▏       | 178/824 [00:04<00:12, 52.54it/s]Loading weights:  22%|██▏       | 184/824 [00:04<00:12, 50.39it/s]Loading weights:  23%|██▎       | 190/824 [00:04<00:12, 51.52it/s]Loading weights:  24%|██▍       | 196/824 [00:04<00:12, 50.09it/s]Loading weights:  25%|██▌       | 207/824 [00:04<00:10, 58.70it/s]Loading weights:  26%|██▌       | 213/824 [00:05<00:13, 43.93it/s]Loading weights:  27%|██▋       | 220/824 [00:05<00:12, 46.63it/s]Loading weights:  28%|██▊       | 231/824 [00:05<00:10, 55.01it/s]Loading weights:  29%|██▉       | 237/824 [00:05<00:12, 45.30it/s]Loading weights:  30%|██▉       | 244/824 [00:05<00:11, 48.41it/s]Loading weights:  30%|███       | 250/824 [00:05<00:11, 49.72it/s]Loading weights:  31%|███       | 256/824 [00:06<00:12, 44.63it/s]Loading weights:  32%|███▏      | 261/824 [00:06<00:13, 42.69it/s]Loading weights:  33%|███▎      | 268/824 [00:06<00:13, 40.53it/s]Loading weights:  33%|███▎      | 273/824 [00:06<00:13, 39.68it/s]Loading weights:  34%|███▍      | 280/824 [00:06<00:13, 38.98it/s]Loading weights:  34%|███▍      | 284/824 [00:06<00:13, 39.10it/s]Loading weights:  35%|███▌      | 291/824 [00:06<00:12, 43.59it/s]Loading weights:  36%|███▌      | 296/824 [00:07<00:14, 36.35it/s]Loading weights:  37%|███▋      | 303/824 [00:07<00:12, 40.95it/s]Loading weights:  37%|███▋      | 308/824 [00:07<00:13, 37.02it/s]Loading weights:  38%|███▊      | 315/824 [00:07<00:11, 42.49it/s]Loading weights:  39%|███▉      | 320/824 [00:07<00:14, 35.56it/s]Loading weights:  40%|███▉      | 327/824 [00:07<00:12, 40.41it/s]Loading weights:  40%|████      | 332/824 [00:08<00:14, 34.40it/s]Loading weights:  41%|████▏     | 340/824 [00:08<00:13, 35.97it/s]Loading weights:  42%|████▏     | 344/824 [00:08<00:13, 36.44it/s]Loading weights:  43%|████▎     | 351/824 [00:08<00:11, 41.74it/s]Loading weights:  43%|████▎     | 356/824 [00:08<00:13, 35.03it/s]Loading weights:  44%|████▍     | 363/824 [00:08<00:11, 40.45it/s]Loading weights:  45%|████▍     | 368/824 [00:09<00:12, 36.35it/s]Loading weights:  46%|████▌     | 375/824 [00:09<00:11, 40.69it/s]Loading weights:  46%|████▌     | 380/824 [00:09<00:12, 34.38it/s]Loading weights:  47%|████▋     | 387/824 [00:09<00:11, 38.73it/s]Loading weights:  48%|████▊     | 392/824 [00:09<00:12, 35.75it/s]Loading weights:  48%|████▊     | 399/824 [00:09<00:10, 40.41it/s]Loading weights:  49%|████▉     | 404/824 [00:10<00:12, 34.20it/s]Loading weights:  50%|█████     | 412/824 [00:10<00:11, 35.97it/s]Loading weights:  51%|█████     | 417/824 [00:10<00:11, 36.60it/s]Loading weights:  51%|█████▏    | 423/824 [00:10<00:09, 40.81it/s]Loading weights:  52%|█████▏    | 428/824 [00:10<00:11, 34.46it/s]Loading weights:  54%|█████▍    | 448/824 [00:10<00:05, 67.76it/s]Loading weights:  56%|█████▋    | 464/824 [00:10<00:04, 87.59it/s]Loading weights:  58%|█████▊    | 480/824 [00:11<00:03, 102.15it/s]Loading weights:  61%|██████    | 500/824 [00:11<00:02, 121.92it/s]Loading weights:  63%|██████▎   | 516/824 [00:11<00:02, 130.05it/s]Loading weights:  65%|██████▌   | 536/824 [00:11<00:02, 143.98it/s]Loading weights:  67%|██████▋   | 552/824 [00:11<00:01, 147.85it/s]Loading weights:  69%|██████▉   | 572/824 [00:11<00:01, 158.52it/s]Loading weights:  71%|███████▏  | 589/824 [00:11<00:01, 158.48it/s]Loading weights:  74%|███████▍  | 608/824 [00:11<00:01, 162.63it/s]Loading weights:  76%|███████▌  | 625/824 [00:11<00:01, 163.86it/s]Loading weights:  78%|███████▊  | 644/824 [00:11<00:01, 166.37it/s]Loading weights:  80%|████████  | 661/824 [00:12<00:00, 166.45it/s]Loading weights:  83%|████████▎ | 680/824 [00:12<00:00, 168.67it/s]Loading weights:  85%|████████▍ | 697/824 [00:12<00:00, 167.73it/s]Loading weights:  87%|████████▋ | 714/824 [00:12<00:00, 163.06it/s]Loading weights:  89%|████████▊ | 731/824 [00:12<00:00, 158.32it/s]Loading weights:  91%|█████████ | 747/824 [00:12<00:00, 157.95it/s]Loading weights:  93%|█████████▎| 763/824 [00:12<00:00, 155.56it/s]Loading weights:  95%|█████████▍| 779/824 [00:12<00:00, 149.39it/s]Loading weights:  97%|█████████▋| 798/824 [00:12<00:00, 152.77it/s]Loading weights:  99%|█████████▉| 814/824 [00:13<00:00, 146.19it/s]Loading weights: 100%|██████████| 824/824 [00:13<00:00, 61.90it/s] 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  17%|█▋        | 34/199 [00:00<00:00, 331.58it/s]Loading weights:  44%|████▎     | 87/199 [00:00<00:00, 446.72it/s]Loading weights:  66%|██████▋   | 132/199 [00:00<00:00, 406.15it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 607.17it/s]
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+C:\Users\nikac\AppData\Roaming\Python\Python314\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+gallery_val F1-024 | real: Wine Country | {'adapter_checked|artist_known': (['Hills and Vineyards', 'Hilly Landscape'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Hills and Vineyards', 'Hilly Landscape'], ['adapter', 'adapter']), 'adapter_checked|artist_unknown': (['Hills and Vineyards', 'Hilly Landscape'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Hills and Vineyards', 'Hilly Landscape'], ['adapter', 'adapter'])}
+gallery_val F1-036 | real: Gossip Girls | {'adapter_checked|artist_known': (['Family or friendship'], ['fallback']), 'hybrid|artist_known': (['Dreamy Family Figures'], ['writer']), 'adapter_checked|artist_unknown': (['Family or friendship'], ['fallback']), 'hybrid|artist_unknown': (['Dreamy Family Figures'], ['writer'])}
+gallery_val F1-040 | real: Still Life | {'adapter_checked|artist_known': (['Still Life with Apples and Bottles', 'Still Life with Apples and a Bottle'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Still Life with Apples and Bottles', 'Still Life with Apples and a Bottle'], ['adapter', 'adapter']), 'adapter_checked|artist_unknown': (['Still Life with Apples', 'Still life with apples'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Still Life With Bottle', 'Still Life With Red Apples'], ['writer', 'writer'])}
+gallery_val F1-046 | real: Still Life | {'adapter_checked|artist_known': (['Still Life with Apples and Jug', 'Still Life with Jug and Apples'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Still Life with Apples and Jug', 'Still Life with Jug and Apples'], ['adapter', 'adapter']), 'adapter_checked|artist_unknown': (['Still Life with Apples', 'Still Life with a Jug'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Still Life with Apples', 'Still Life with a Jug'], ['adapter', 'adapter'])}
+gallery_val F1-071 | real: Untitled | {'adapter_checked|artist_known': (['Abstraction', 'Abstraction.'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Abstraction', 'Abstraction.'], ['adapter', 'adapter']), 'adapter_checked|artist_unknown': (['Abstraction', 'Abstraction.'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Abstraction', 'Abstraction.'], ['adapter', 'adapter'])}
+gallery_val F1-084 | real: Untitled | {'adapter_checked|artist_known': (['Untitled'], ['habit']), 'hybrid|artist_known': (['Untitled'], ['habit']), 'adapter_checked|artist_unknown': (['Two Ladies at a Table', 'Two Women at the Table'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Dining Table With Two Women', 'Women Sharing Meal'], ['writer', 'writer'])}
+gallery_val F2-017 | real: Abstraction | {'adapter_checked|artist_known': (['Abstraction', 'Abstraction.'], ['habit', 'adapter']), 'hybrid|artist_known': (['Abstraction', 'Abstraction.'], ['habit', 'adapter']), 'adapter_checked|artist_unknown': (['Abstraction', 'Abstraction.'], ['habit', 'adapter']), 'hybrid|artist_unknown': (['Abstraction', 'Abstraction.'], ['habit', 'adapter'])}
+gallery_val F2-019 | real: Abstraction | {'adapter_checked|artist_known': (['Abstraction', 'Abstraction.'], ['habit', 'adapter']), 'hybrid|artist_known': (['Abstraction', 'Abstraction.'], ['habit', 'adapter']), 'adapter_checked|artist_unknown': (['Abstraction', 'Abstraction.'], ['habit', 'adapter']), 'hybrid|artist_unknown': (['Abstraction', 'Abstraction.'], ['habit', 'adapter'])}
+gallery_val F2-041 | real: Girl With Dandelions | {'adapter_checked|artist_known': (['Girl with Dandelions', 'Girl with dandelions'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Girl with Dandelions', 'Girl with dandelions'], ['adapter', 'adapter']), 'adapter_checked|artist_unknown': (['Girl with Dandelions', 'Girl with dandelions'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Girl with Dandelions', 'Girl with dandelions'], ['adapter', 'adapter'])}
+gallery_val F2-043 | real: Plant and Chairs | {'adapter_checked|artist_known': (['Autumn foliage'], ['fallback']), 'hybrid|artist_known': (['Dreamy Leaves'], ['writer']), 'adapter_checked|artist_unknown': (['Autumn foliage'], ['fallback']), 'hybrid|artist_unknown': (['Dreamy Leaves'], ['writer'])}
+gallery_val F2-045 | real: Plant and Chairs | {'adapter_checked|artist_known': (['Landscape', 'Blue and Green'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Textured Forests', 'Landscape'], ['writer', 'adapter']), 'adapter_checked|artist_unknown': (['Landscape', 'Blue and Green'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Textured Forests', 'Landscape'], ['writer', 'adapter'])}
+gallery_val F2-051 | real: Untitled | {'adapter_checked|artist_known': (['Untitled'], ['habit']), 'hybrid|artist_known': (['Untitled', 'Doll in Brown'], ['habit', 'writer']), 'adapter_checked|artist_unknown': (['Doll and fashion'], ['fallback']), 'hybrid|artist_unknown': (['Playful Fashion Doll', 'Doll In Gold Trim Dress'], ['writer', 'writer'])}
+gallery_val F2-059 | real: Rachuli Rhapsody | {'adapter_checked|artist_known': (['Rural life'], ['fallback']), 'hybrid|artist_known': (['The Thatched Hut', 'The Hut'], ['writer', 'writer']), 'adapter_checked|artist_unknown': (['Rural life'], ['fallback']), 'hybrid|artist_unknown': (['Man of the Countryside', 'White Cow'], ['writer', 'writer'])}
+gallery_val F2-061 | real: Old and New Tbilisi | {'adapter_checked|artist_known': (['City and nature'], ['fallback']), 'hybrid|artist_known': (['Grey Skyscrapers and Mountains'], ['writer']), 'adapter_checked|artist_unknown': (['City and nature'], ['fallback']), 'hybrid|artist_unknown': (['Grey Skyscrapers and Mountains'], ['writer'])}
+gallery_val F3-024 | real: "Tribe of Judah" & "Tribe of Simeon" (from the series "12 Windows of Jerusalem") | {'adapter_checked|artist_known': (['The Sun and the Moon'], ['adapter']), 'hybrid|artist_known': (['Birds in the Dream Sky', 'Dreamy Crescent Moon'], ['writer', 'writer']), 'adapter_checked|artist_unknown': (['The Sun and the Moon'], ['adapter']), 'hybrid|artist_unknown': (['Birds in the Dream Sky', 'Dreamy Crescent Moon'], ['writer', 'writer'])}
+gallery_val F3-041 | real: The Heavy Burden of Waiting for Picnic | {'adapter_checked|artist_known': (['Green Tables', 'The Green Tables'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Green Tables', 'The Green Tables'], ['adapter', 'adapter']), 'adapter_checked|artist_unknown': (['Green Tables', 'The Green Tables'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Green Tables', 'The Green Tables'], ['adapter', 'adapter'])}
+gallery_val F3-077 | real: White House | {'adapter_checked|artist_known': (['Landscape with White House', 'Landscape with House'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Untitled House', 'Untitled Trees'], ['writer', 'writer']), 'adapter_checked|artist_unknown': (['Landscape with White House', 'Landscape with House'], ['adapter', 'adapter']), 'hybrid|artist_unknown': (['Untitled House', 'Untitled Trees'], ['writer', 'writer'])}
+wikiart_held_out 86733 | real: On the Lappenbrink | {'adapter_checked|artist_known': (['Woman in the Village', 'Woman in a Village'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Woman in the Village', 'Narrow street with red brick houses'], ['adapter', 'writer'])}
+wikiart_held_out 20768 | real: Church tower at Domburg | {'adapter_checked|artist_known': (['Red Church', 'The Red Church'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Church Composition with Blue and Green Field', 'Blue and Green Field Surrounding Church'], ['writer', 'writer'])}
+wikiart_held_out 96105 | real: Nature died with Sunflower | {'adapter_checked|artist_known': (['Still Life with a Vase of Sunflowers', 'Still Life with Sunflowers'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Still Life with a Vase of Sunflowers', 'Still Life with Sunflowers'], ['adapter', 'adapter'])}
+wikiart_held_out 14937 | real: Grungasse in Murnau | {'adapter_checked|artist_known': (['Houses in the Village', 'Houses in a Village'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Houses in the Village', 'Houses in a Village'], ['adapter', 'adapter'])}
+wikiart_held_out 88491 | real: Blue mountain | {'adapter_checked|artist_known': (['Landscape with Figures', 'Landscape with figures'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Vibrant Forest Path', 'Purple and Red Trees'], ['writer', 'writer'])}
+wikiart_held_out 49543 | real: Volga song | {'adapter_checked|artist_known': (['Boats in Harbour', 'Boats'], ['adapter', 'adapter']), 'hybrid|artist_known': (['City shadows', 'Boats in darkness'], ['writer', 'writer'])}
+wikiart_held_out 102227 | real: The vase | {'adapter_checked|artist_known': (['Numbers and growth'], ['fallback']), 'hybrid|artist_known': (['Red and Green Shapes', 'Red and Green Leaf Shapes'], ['writer', 'writer'])}
+wikiart_held_out 69322 | real: Fish Image | {'adapter_checked|artist_known': (['Flight, movement'], ['fallback']), 'hybrid|artist_known': (['Long Lines in a Field of Light', 'Red Dots Among White Lines'], ['writer', 'writer'])}
+wikiart_held_out 35466 | real: Pierrot Lunaire | {'adapter_checked|artist_known': (['Face in darkness'], ['fallback']), 'hybrid|artist_known': (['The Face in Darkness', 'Mysterious Face in Red'], ['writer', 'writer'])}
+wikiart_held_out 49977 | real: Woman Sitting under the Willows | {'adapter_checked|artist_known': (['Woman in a Garden', 'Woman Seated in a Landscape'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Willow Trees and Flowers', 'Yellow Flowers and Grass'], ['writer', 'writer'])}
+wikiart_held_out 23099 | real: Portrait of Pere Paul | {'adapter_checked|artist_known': (['Portrait of a chef'], ['fallback']), 'hybrid|artist_known': (["Chef's White Hat", "Chef's Hat"], ['writer', 'writer'])}
+wikiart_held_out 9956 | real: The Sea, Port in Amsterdam | {'adapter_checked|artist_known': (['Ships in the Harbor', 'Sailing Ships'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Harbor at Dusk, Masts and Figures', 'Ships in the Harbor'], ['writer', 'adapter'])}
+wikiart_held_out 15066 | real: At the Opera Ball | {'adapter_checked|artist_known': (['Cafés and café society'], ['fallback']), 'hybrid|artist_known': (['Lively Café Scene, City Street', 'Lively Café Scene with Men'], ['writer', 'writer'])}
+wikiart_held_out 44389 | real: Mademoiselle Marcelle Lender, Standing | {'adapter_checked|artist_known': (['Woman in a White Dress', 'Woman in a Red Dress'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Woman in White Dress and Red Flower', 'Woman With Red Flower And Bird'], ['writer', 'writer'])}
+wikiart_held_out 87544 | real: At the Music Hall Loie Fuller | {'adapter_checked|artist_known': (['Woman with Orange Hair'], ['adapter']), 'hybrid|artist_known': (['Orange Robe Lady', 'Lady in Flowing Robe'], ['writer', 'writer'])}
+wikiart_held_out 83322 | real: Still life with fruits and watermelon | {'adapter_checked|artist_known': (['Still Life with Fruits', 'Still life with fruits'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Still Life. Bright Fruits.', 'Still Life with Fruits'], ['writer', 'adapter'])}
+wikiart_held_out 62985 | real: Essentuki | {'adapter_checked|artist_known': (['Landscape with trees'], ['adapter']), 'hybrid|artist_known': (['Landscape with trees', 'Path. Spring.'], ['adapter', 'writer'])}
+wikiart_held_out 26293 | real: Still Life. Lilacs in a tub. | {'adapter_checked|artist_known': (['Still Life with Lilacs', 'Still life with lilacs'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Still Life. Lilacs on a table.', 'Still Life with Lilacs'], ['writer', 'adapter'])}
+wikiart_held_out 62753 | real: Fairy tale | {'adapter_checked|artist_known': (['Landscape with Figures'], ['adapter']), 'hybrid|artist_known': (['Dreamy night sky', 'Green tree glow'], ['writer', 'writer'])}
+wikiart_held_out 22121 | real: Date palm | {'adapter_checked|artist_known': (['Palm Trees', 'The Palm Tree'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Palm tree illustration', 'Palm Trees'], ['writer', 'adapter'])}
+wikiart_held_out 85609 | real: Scene from the Train Window | {'adapter_checked|artist_known': (['City life'], ['fallback']), 'hybrid|artist_known': (['Building, vibrant.', 'Tree, lively.'], ['writer', 'writer'])}
+wikiart_held_out 27500 | real: Portrait of a Girl | {'adapter_checked|artist_known': (['Portrait of a Young Woman', 'Portrait of a Girl'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Portrait of a Young Woman', 'Portrait of a Girl'], ['adapter', 'adapter'])}
+wikiart_held_out 65585 | real: Portrait of Hermine Gallia | {'adapter_checked|artist_known': (['Portrait of a Lady', 'Portrait of a Lady in White'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Portrait of a Lady', 'Portrait of a Lady in White'], ['adapter', 'adapter'])}
+wikiart_held_out 15044 | real: Female organ player | {'adapter_checked|artist_known': (['Woman at a Piano', 'Woman at the Piano'], ['adapter', 'adapter']), 'hybrid|artist_known': (['Portrait of a woman kneeling before a piano', 'Portrait of a woman kneeling with a piano.'], ['writer', 'writer'])}
+{
+ "gallery_val": {
+  "adapter_checked|artist_known": {
+   "top5_exact_hits": 5,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.534,
+   "top1_source": {
+    "adapter": 9,
+    "writer": 0,
+    "habit": 4,
+    "fallback": 4
+   },
+   "paths": {
+    "a": 6,
+    "b": 1,
+    "c": 10
+   }
+  },
+  "hybrid|artist_known": {
+   "top5_exact_hits": 5,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.526,
+   "top1_source": {
+    "adapter": 6,
+    "writer": 7,
+    "habit": 4,
+    "fallback": 0
+   },
+   "paths": {
+    "a": 9,
+    "b": 2,
+    "c": 6
+   }
+  },
+  "adapter_checked|artist_unknown": {
+   "top5_exact_hits": 3,
+   "top5_close_hits_sim_0.7": 3,
+   "similarity_to_real_top1": 0.441,
+   "top1_source": {
+    "adapter": 10,
+    "writer": 0,
+    "habit": 2,
+    "fallback": 5
+   },
+   "paths": {
+    "a": 0,
+    "b": 7,
+    "c": 10
+   }
+  },
+  "hybrid|artist_unknown": {
+   "top5_exact_hits": 3,
+   "top5_close_hits_sim_0.7": 3,
+   "similarity_to_real_top1": 0.439,
+   "top1_source": {
+    "adapter": 5,
+    "writer": 10,
+    "habit": 2,
+    "fallback": 0
+   },
+   "paths": {
+    "a": 0,
+    "b": 10,
+    "c": 7
+   }
+  }
+ },
+ "wikiart_held_out": {
+  "adapter_checked|artist_known": {
+   "top5_exact_hits": 1,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.355,
+   "top1_source": {
+    "adapter": 18,
+    "writer": 0,
+    "habit": 0,
+    "fallback": 6
+   },
+   "paths": {
+    "a": 18,
+    "b": 0,
+    "c": 6
+   }
+  },
+  "hybrid|artist_known": {
+   "top5_exact_hits": 1,
+   "top5_close_hits_sim_0.7": 5,
+   "similarity_to_real_top1": 0.339,
+   "top1_source": {
+    "adapter": 6,
+    "writer": 18,
+    "habit": 0,
+    "fallback": 0
+   },
+   "paths": {
+    "a": 23,
+    "b": 0,
+    "c": 1
+   }
+  }
+ }
+}

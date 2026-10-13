@@ -1,0 +1,74 @@
+{
+ "gallery_val|artist_known|raw_adapter": {
+  "titles": 85,
+  "with_invented_words": 30,
+  "top1_invented": 4,
+  "paintings": 17
+ },
+ "gallery_val|artist_known|adapter_checked": {
+  "titles": 46,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 17
+ },
+ "gallery_val|artist_known|hybrid": {
+  "titles": 60,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 17
+ },
+ "gallery_val|artist_known|writer_only": {
+  "titles": 46,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 17
+ },
+ "gallery_val|artist_unknown|raw_adapter": {
+  "titles": 85,
+  "with_invented_words": 36,
+  "top1_invented": 2,
+  "paintings": 17
+ },
+ "gallery_val|artist_unknown|adapter_checked": {
+  "titles": 42,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 17
+ },
+ "gallery_val|artist_unknown|hybrid": {
+  "titles": 65,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 17
+ },
+ "gallery_val|artist_unknown|writer_only": {
+  "titles": 54,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 17
+ },
+ "wikiart_held_out|artist_known|raw_adapter": {
+  "titles": 120,
+  "with_invented_words": 49,
+  "top1_invented": 11,
+  "paintings": 24
+ },
+ "wikiart_held_out|artist_known|adapter_checked": {
+  "titles": 66,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 24
+ },
+ "wikiart_held_out|artist_known|hybrid": {
+  "titles": 108,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 24
+ },
+ "wikiart_held_out|artist_known|writer_only": {
+  "titles": 65,
+  "with_invented_words": 0,
+  "top1_invented": 0,
+  "paintings": 24
+ }
+}

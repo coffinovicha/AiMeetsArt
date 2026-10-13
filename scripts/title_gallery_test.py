@@ -6,7 +6,8 @@ from vlm_common import ROOT, load, records
 DUP = {"F1-016": "F1-017", "F1-017": "F1-016", "F1-040": "F1-046", "F1-046": "F1-040", "F1-056": "F1-062", "F1-062": "F1-056"}
 SETUPS = {"artist_known_grounded": dict(artist=True, year=False, use_era=False, evocative=True),
           "artist_unknown_grounded": dict(artist=False, year=False, use_era=False, evocative=True)}
-out = ROOT / "outputs" / "title_gallery_test_val_top5_b070.json"
+import os
+out = ROOT / "outputs" / f"title_gallery_test_val_top5_b070{os.environ.get('TAG', '')}.json"
 R = {r["id"]: r for r in records()}
 P = {json.loads(l)["id"]: json.loads(l) for l in (ROOT / "outputs" / "preds_verified2_val.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()}
 ids = (ROOT / "outputs" / "gallery_vith_ids.txt").read_text(encoding="utf-8").split()
