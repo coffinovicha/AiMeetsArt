@@ -1,0 +1,7940 @@
+{
+ "summary": {
+  "gallery_val": {
+   "hybrid_artistic|artist_known": {
+    "top5_exact_hits": 5,
+    "top5_close_hits_sim_0.7": 5,
+    "similarity_to_real_top1": 0.476,
+    "top1_source": {
+     "adapter": 4,
+     "writer": 9,
+     "habit": 4,
+     "fallback": 0
+    },
+    "paths": {
+     "a": 11,
+     "b": 1,
+     "c": 5
+    }
+   },
+   "hybrid_artistic|artist_unknown": {
+    "top5_exact_hits": 3,
+    "top5_close_hits_sim_0.7": 3,
+    "similarity_to_real_top1": 0.395,
+    "top1_source": {
+     "adapter": 5,
+     "writer": 10,
+     "habit": 2,
+     "fallback": 0
+    },
+    "paths": {
+     "a": 0,
+     "b": 10,
+     "c": 7
+    }
+   }
+  },
+  "wikiart_held_out": {
+   "hybrid_artistic|artist_known": {
+    "top5_exact_hits": 1,
+    "top5_close_hits_sim_0.7": 4,
+    "similarity_to_real_top1": 0.342,
+    "top1_source": {
+     "adapter": 8,
+     "writer": 16,
+     "habit": 0,
+     "fallback": 0
+    },
+    "paths": {
+     "a": 24,
+     "b": 0,
+     "c": 0
+    }
+   }
+  }
+ },
+ "rows": [
+  {
+   "set": "gallery_val",
+   "id": "F1-024",
+   "artist": "Dea Soselia",
+   "real": "Wine Country",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Landscape with Vineyard",
+     "Hills and Vineyards",
+     "Hilly Landscape",
+     "Vineyard",
+     "Landscape with Trees"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Tengiz Mirzashvili (Chubchika) (our gallery, similarity 0.70); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Vineyard",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Agricultural Landscape",
+      "not supported by the analysis: agricultural"
+     ],
+     [
+      "Agricultural landscape",
+      "not supported by the analysis: agricultural"
+     ],
+     [
+      "Untitled",
+      "copies an existing title"
+     ],
+     [
+      "Hills",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Landscape with hills",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Agricultural Land",
+      "not supported by the analysis: agricultural, land"
+     ],
+     [
+      "Landscape with Trees",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Landscape with trees",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impression of Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythm of Tranquility",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melody of Muted Greens",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Fragmented Pastoral",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of Green Hills",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Ballad of Rolling Hills",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Vineyard Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Harmony of Hilltops",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Rolling Hills",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Calm Vineyard",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Hilltop Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Serene Garden",
+      "not supported by the analysis: serene, garden"
+     ],
+     [
+      "Muted Pastoral",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impressionistic Hills",
+      "uses 'impressionistic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Softened Study",
+      "not supported by the analysis: softened"
+     ],
+     [
+      "Rhythmic Greenery",
+      "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Harmony",
+      "not supported by the analysis: echoing"
+     ],
+     [
+      "Dreamy Vineyard",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Vineyards",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Wheat Fields",
+      "not supported by the analysis: wheat, fields"
+     ],
+     [
+      "Landscape with Cows",
+      "not supported by the analysis: cows"
+     ],
+     [
+      "Landscape with Vineyards",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Impressionist Vineyard",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Study of Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melodic Landscape",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Fragmented Horizon",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of Tranquility",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ballade of the Hills",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic Valley",
+      "not supported by the analysis: poetic, valley"
+     ],
+     [
+      "Reverie of Greenery",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Harmony's Haze",
+      "not supported by the analysis: haze"
+     ],
+     [
+      "Melodic Mire",
+      "uses 'mire', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythmic Relief",
+      "not supported by the analysis: rhythmic, relief"
+     ],
+     [
+      "Impressionist Incline",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serenity's Silence",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic Perspective",
+      "not supported by the analysis: poetic, perspective"
+     ],
+     [
+      "Vineyard Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Echoing Elegance",
+      "not supported by the analysis: echoing, elegance"
+     ],
+     [
+      "Rhythmic Romance",
+      "not supported by the analysis: rhythmic, romance"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Landscape with Vineyard",
+     "Hills and Vineyards",
+     "Hilly Landscape",
+     "Vineyard",
+     "Landscape with Trees"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Tengiz Mirzashvili (Chubchika) (our gallery, similarity 0.70); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Vineyard",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Agricultural Landscape",
+      "not supported by the analysis: agricultural"
+     ],
+     [
+      "Agricultural landscape",
+      "not supported by the analysis: agricultural"
+     ],
+     [
+      "Untitled",
+      "copies an existing title"
+     ],
+     [
+      "Hills",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Landscape with hills",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Agricultural Land",
+      "not supported by the analysis: agricultural, land"
+     ],
+     [
+      "Landscape with Trees",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Landscape with trees",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impression of Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythm of Tranquility",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melody of Muted Greens",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Fragmented Pastoral",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of Green Hills",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Ballad of Rolling Hills",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Vineyard Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Harmony of Hilltops",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Rolling Hills",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Calm Vineyard",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Hilltop Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Serene Garden",
+      "not supported by the analysis: serene, garden"
+     ],
+     [
+      "Muted Pastoral",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impressionistic Hills",
+      "uses 'impressionistic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Softened Study",
+      "not supported by the analysis: softened"
+     ],
+     [
+      "Rhythmic Greenery",
+      "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Harmony",
+      "not supported by the analysis: echoing"
+     ],
+     [
+      "Dreamy Vineyard",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Vineyards",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Wheat Fields",
+      "not supported by the analysis: wheat, fields"
+     ],
+     [
+      "Landscape with Cows",
+      "not supported by the analysis: cows"
+     ],
+     [
+      "Landscape with Vineyards",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Impressionist Vineyard",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Study of Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melodic Landscape",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Fragmented Horizon",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of Tranquility",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ballade of the Hills",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic Valley",
+      "not supported by the analysis: poetic, valley"
+     ],
+     [
+      "Reverie of Greenery",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Harmony's Haze",
+      "not supported by the analysis: haze"
+     ],
+     [
+      "Melodic Mire",
+      "uses 'mire', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythmic Relief",
+      "not supported by the analysis: rhythmic, relief"
+     ],
+     [
+      "Impressionist Incline",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serenity's Silence",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic Perspective",
+      "not supported by the analysis: poetic, perspective"
+     ],
+     [
+      "Vineyard Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Echoing Elegance",
+      "not supported by the analysis: echoing, elegance"
+     ],
+     [
+      "Rhythmic Romance",
+      "not supported by the analysis: rhythmic, romance"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Tengiz Mirzashvili (Chubchika)": [
+     "Landscape",
+     "Vineyard",
+     "Agricultural Landscape",
+     "Agricultural landscape",
+     "Untitled",
+     "Hills",
+     "Landscape with hills",
+     "Agricultural Land",
+     "Landscape with Trees",
+     "Landscape with trees"
+    ],
+    "None": [
+     "Landscape",
+     "Vineyard",
+     "Landscape with Vineyard",
+     "Vineyards",
+     "Landscape with Trees",
+     "Hills and Vineyards",
+     "Hilly Landscape",
+     "Wheat Fields",
+     "Landscape with Cows",
+     "Landscape with Vineyards"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-036",
+   "artist": "Tekla Meladze",
+   "real": "Gossip Girls",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Dreamy Friends"
+    ],
+    "sources": [
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Tekla Meladze' has 1 titled works in our gallery and WikiArt (as 'Tekla Meladze')",
+    "rejected": [
+     [
+      "Untitled",
+      "length 1 outside 2-4 words"
+     ],
+     [
+      "Self-Portrait",
+      "length 1 outside 2-4 words"
+     ],
+     [
+      "Abstraction",
+      "length 1 outside 2-4 words"
+     ],
+     [
+      "Double Self-Portrait",
+      "not supported by the analysis: double, self"
+     ],
+     [
+      "Self-portrait",
+      "length 1 outside 2-4 words"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Self-Portraits",
+      "length 1 outside 2-4 words"
+     ],
+     [
+      "Self-Portrait with Children",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-Portrait with Friends",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-Portrait with Daughter",
+      "not supported by the analysis: self, daughter"
+     ],
+     [
+      "Dreams of the Eccentrics",
+      "not supported by the analysis: eccentrics"
+     ],
+     [
+      "Eccentric Harmony in Grey",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "The Eccentrics' Melody",
+      "not supported by the analysis: eccentrics"
+     ],
+     [
+      "Eccentric Study in Pale Green",
+      "length 5 outside 2-4 words"
+     ],
+     [
+      "Eccentric Rhythm in Blue",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "Eccentric Melody in Yellow",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "Eccentric Echoes in Grey",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "Eccentric Melody in White",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "Eccentric Harmony in Green",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "Eccentric Melody in Red",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "The Eccentric Family",
+      "not supported by the analysis: eccentric"
+     ],
+     [
+      "Soulful Harmony",
+      "uses 'soulful', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ethereal Friendship",
+      "uses 'ethereal', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Harmony",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Dreamy Companions",
+      "not supported by the analysis: companions"
+     ],
+     [
+      "Fantasy Family",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Whispering Sisters",
+      "not supported by the analysis: whispering, sisters"
+     ],
+     [
+      "Soulful Bonds",
+      "uses 'soulful', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mystic Friends",
+      "not supported by the analysis: mystic"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Surreal Harmony",
+     "Study in Grey"
+    ],
+    "sources": [
+     "writer",
+     "writer"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.73)",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Self-Portrait",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Abstraction",
+      "template 'Abstraction' does not fit this painting"
+     ],
+     [
+      "Self-portrait",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-Portrait with a Friend",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Self-portrait with a friend",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Self-Portrait with a Child",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Self-Portrait with Friends",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-Portrait with Children",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Dreams of Family",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Imagination",
+      "not supported by the analysis: fragmented, imagination"
+     ],
+     [
+      "Rhythms of Friendship",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impressionist Melody",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ballad of Youth",
+      "not supported by the analysis: youth"
+     ],
+     [
+      "Echoes of Childhood",
+      "not supported by the analysis: childhood"
+     ],
+     [
+      "Poetic Reverie",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melodic Harmony",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Dreaming Family",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamy Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Melody of Friendship",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Echoes of Youth",
+      "not supported by the analysis: youth"
+     ],
+     [
+      "Imagination in Green",
+      "not supported by the analysis: imagination"
+     ],
+     [
+      "Rhapsody of Childhood",
+      "not supported by the analysis: childhood"
+     ],
+     [
+      "Reflections of Unity",
+      "not supported by the analysis: reflections, unity"
+     ],
+     [
+      "Fragmented Dream",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Abstract Harmony",
+      "not supported by the analysis: abstract"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Tekla Meladze": [
+     "Untitled",
+     "Self-Portrait",
+     "Abstraction",
+     "Double Self-Portrait",
+     "Self-portrait",
+     "unknown title",
+     "Self-Portraits",
+     "Self-Portrait with Children",
+     "Self-Portrait with Friends",
+     "Self-Portrait with Daughter"
+    ],
+    "Ushangi Khumarashvili": [
+     "Untitled",
+     "Self-Portrait",
+     "Abstraction",
+     "Self-portrait",
+     "Self-Portrait with a Friend",
+     "Self-portrait with a friend",
+     "Self-Portrait with a Child",
+     "unknown title",
+     "Self-Portrait with Friends",
+     "Self-Portrait with Children"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-040",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Jug in Impression",
+     "Still Life Harmony"
+    ],
+    "sources": [
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Mariam Shengelia' has 1 titled works in our gallery and WikiArt (as 'Mariam Shengelia')",
+    "rejected": [
+     [
+      "Still Life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life with Apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Still Life with Bottle and Apples",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still Life with Apples and Bottle",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still life with apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Still Life with Apples and a Bottle",
+      "length 7 outside 1-3 words"
+     ],
+     [
+      "Still life with bottle and apples",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still Life with a Bottle and Apples",
+      "length 7 outside 1-3 words"
+     ],
+     [
+      "Still life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life with Apples and Vase",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Jug in Beige",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Apples in Rhythm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bottle in Green",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Curtain in Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Flower in Study",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Wall in Echo",
+      "uses uncertain object 'wall'"
+     ],
+     [
+      "Apples in Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bottle in Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug & Apples, Beige Study",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Still Life, Rhythm in Beige",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Green Jug, Red Apples Melody",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Jug & Bottle, Harmony in Dark",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Beige Cloth, Rhapsody in Fruit",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Jug & Apples, Meditation in Light",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Jug & Bottle, Song of Rhythm",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Jug & Apples, Echo in Beige",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Beige Cloth, Melody in Fruit",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Jug & Bottle, Dream in Harmony",
+      "length 6 outside 1-3 words"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Still Life with Apples",
+     "Still life with apples",
+     "Still Life Poem",
+     "Jug & Apples, Beige Study",
+     "Dark Bottle Study"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Still Life with Lemon' by Omar Durmishidze (our gallery, similarity 0.70)",
+    "rejected": [
+     [
+      "Still Life",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Still Life with Bottle and Apples",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with a Bottle and Apples",
+      "length 7 outside 3-5 words"
+     ],
+     [
+      "Still Life with Apples and Bottle",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with Bottle, Jug and Apples",
+      "length 7 outside 3-5 words"
+     ],
+     [
+      "Still Life with Apples and a Bottle",
+      "length 7 outside 3-5 words"
+     ],
+     [
+      "Still life with bottle and apples",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with Apples and Bottles",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Rustic Jug",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Apples in Beige",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green Curtain Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Flowerless Still Life",
+      "uses uncertain object 'flower'"
+     ],
+     [
+      "Jug in Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Red Apples Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Curtain Echo",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Bottle Rhapsody",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Fruit Study, Rhythm in Beige",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green Jug, Red Apples Impression",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug & Bottle, Harmony in Dark",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Beige Curtains, Green Curtain Song",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Apples & Jug, Pale Beige Melody",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Rhythm of Beige, Apple Fragment",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug & Bottle, Study in White",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Beige Cloth, Green Jug Impression",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Apples & Bottle, Rhapsody in Grey",
+      "length 6 outside 3-5 words"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Mariam Shengelia": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Apples and Bottle",
+     "Still life with apples",
+     "Still Life with Apples and a Bottle",
+     "Still life with bottle and apples",
+     "Still Life with a Bottle and Apples",
+     "Still life",
+     "Still Life with Apples and Vase"
+    ],
+    "Omar Durmishidze": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with a Bottle and Apples",
+     "Still Life with Apples and Bottle",
+     "Still Life with Bottle, Jug and Apples",
+     "Still Life with Apples and a Bottle",
+     "Still life with bottle and apples",
+     "Still life with apples",
+     "Still Life with Apples and Bottles"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-046",
+   "artist": "Mariam Shengelia",
+   "real": "Still Life",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Still Life with Apples and Jug",
+     "Still Life with Jug and Apples",
+     "Bottle's Impression",
+     "Still Life's Poem",
+     "Still Life with Apples"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "artist 'Mariam Shengelia' has 1 titled works in our gallery and WikiArt (as 'Mariam Shengelia'); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Still Life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life with Apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Still Life with Bottle and Apples",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still Life with Vase and Apples",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still Life with Jug and Apples",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still Life with a Jug and Apples",
+      "length 7 outside 1-3 words"
+     ],
+     [
+      "Still life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life with Apples and Jug",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Still Life with a Bottle and Apples",
+      "length 7 outside 1-3 words"
+     ],
+     [
+      "Still Life with Apples and Bottle",
+      "length 6 outside 1-3 words"
+     ],
+     [
+      "Bottle in Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug in Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Apples in Echo",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Cloth in Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life in Impression",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Green Jug in Rhythm",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Red Apples in Poem",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Dark Bottle in Melancholy",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Pale Cloth in Reverie",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Soft Green in Ballad",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Bottle's Quiet Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug's Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Apples' Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Cloth's Embrace",
+      "not supported by the analysis: embrace"
+     ],
+     [
+      "Still Life's Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Bottle's Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Jug's Emotion",
+      "not supported by the analysis: emotion"
+     ],
+     [
+      "Apples' Echo",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Cloth's Reflection",
+      "not supported by the analysis: reflection"
+     ],
+     [
+      "Still Life's Dream",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life with Vase and Apples",
+      "not supported by the analysis: vase"
+     ],
+     [
+      "Still Life with Pitcher and Apples",
+      "not supported by the analysis: pitcher"
+     ],
+     [
+      "Still Life with Vase, Bottle and Apples",
+      "not supported by the analysis: vase"
+     ],
+     [
+      "<Subject>, <Frame>",
+      "not supported by the analysis: subject, frame"
+     ],
+     [
+      "Jug's Variance",
+      "not supported by the analysis: variance"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Still Life with a Jug",
+     "Still Life with Apples",
+     "Still Life in Dream",
+     "Apples in Echo",
+     "Bottle's Quiet Study"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Still Life with Lemon' by Omar Durmishidze (our gallery, similarity 0.71)",
+    "rejected": [
+     [
+      "Still Life",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Still Life with Bottle and Apples",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with Jug and Apples",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with Vase and Apples",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with a Jug and Apples",
+      "length 7 outside 3-5 words"
+     ],
+     [
+      "Still Life with a Bottle and Apples",
+      "length 7 outside 3-5 words"
+     ],
+     [
+      "Still Life with Apples and Jug",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Still Life with Apples and Bottle",
+      "length 6 outside 3-5 words"
+     ],
+     [
+      "Bottle in Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug in Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Cloth in Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Green in Impression",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Red in Rhythm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dark in Fragment",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Soft in Reverie",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mauve in Poem",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Jug's Harmony",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Apples' Melody",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Cloth's Embrace",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Blue's Echoes",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Red's Rhapsody",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Dark's Impression",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Light's Meditation",
+      "length 2 outside 3-5 words"
+     ],
+     [
+      "Bottle's Dream",
+      "length 2 outside 3-5 words"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Mariam Shengelia": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Vase and Apples",
+     "Still Life with Jug and Apples",
+     "Still Life with a Jug and Apples",
+     "Still life",
+     "Still Life with Apples and Jug",
+     "Still Life with a Bottle and Apples",
+     "Still Life with Apples and Bottle"
+    ],
+    "None": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Vase and Apples",
+     "Still Life with Jug and Apples",
+     "Still Life with Bottle, Jug and Apples",
+     "Still Life with Pitcher and Apples",
+     "Still Life with Vase, Bottle and Apples",
+     "Still Life with Apples and Jug",
+     "Still Life with Bottle and Jug"
+    ],
+    "Omar Durmishidze": [
+     "Still Life",
+     "Still Life with Apples",
+     "Still Life with Bottle and Apples",
+     "Still Life with Jug and Apples",
+     "Still Life with Vase and Apples",
+     "Still Life with a Jug and Apples",
+     "Still Life with a Bottle and Apples",
+     "Still Life with Apples and Jug",
+     "Still Life with a Jug",
+     "Still Life with Apples and Bottle"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-071",
+   "artist": "Vakho Bugadze",
+   "real": "Untitled",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Poem of Form",
+     "Abstraction",
+     "Abstraction.",
+     "Dream of Form",
+     "Abstraction (Study)"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Vakho Bugadze' has 1 titled works in our gallery and WikiArt (as 'Vakho Bugadze')",
+    "rejected": [
+     [
+      "Untitled",
+      "copies an existing title"
+     ],
+     [
+      "Abstraction-Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Abstraction. Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Abstraction. Landscape.",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Abstraction-Reflection",
+      "not supported by the analysis: reflection"
+     ],
+     [
+      "Abstraction. Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Abstraction. City.",
+      "not supported by the analysis: city"
+     ],
+     [
+      "Study in Rhythm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Melodic Impression",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Echoes of Form",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythmic Melody",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Formal Melancholy",
+      "not supported by the analysis: melancholy"
+     ],
+     [
+      "Colorful Reverie",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Rhapsody",
+      "not supported by the analysis: gentle"
+     ],
+     [
+      "Soothing Melody",
+      "not supported by the analysis: soothing"
+     ],
+     [
+      "Impression in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Melody of Color",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Hue",
+      "not supported by the analysis: hue"
+     ],
+     [
+      "Ballad of Form",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Memory of Hue",
+      "not supported by the analysis: hue"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Poem of Form",
+     "Abstraction",
+     "Abstraction.",
+     "Dream of Form",
+     "Abstraction (Study)"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.82)",
+    "rejected": [
+     [
+      "Untitled",
+      "copies an existing title"
+     ],
+     [
+      "Abstraction-Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Abstraction. Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Abstraction. Landscape.",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Abstraction-Reflection",
+      "not supported by the analysis: reflection"
+     ],
+     [
+      "Abstraction. Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Abstraction. City.",
+      "not supported by the analysis: city"
+     ],
+     [
+      "Study in Rhythm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Melodic Impression",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Echoes of Form",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythmic Melody",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Formal Melancholy",
+      "not supported by the analysis: melancholy"
+     ],
+     [
+      "Colorful Reverie",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Rhapsody",
+      "not supported by the analysis: gentle"
+     ],
+     [
+      "Soothing Melody",
+      "not supported by the analysis: soothing"
+     ],
+     [
+      "Impression in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Melody of Color",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Hue",
+      "not supported by the analysis: hue"
+     ],
+     [
+      "Ballad of Form",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Memory of Hue",
+      "not supported by the analysis: hue"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Vakho Bugadze": [
+     "Abstraction",
+     "Untitled",
+     "Abstraction.",
+     "Abstraction (Study)",
+     "Abstraction-Reflections",
+     "Abstraction. Landscape",
+     "Abstraction. Landscape.",
+     "Abstraction-Reflection",
+     "Abstraction. Reflections",
+     "Abstraction. City."
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F1-084",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Untitled",
+     "Study in Grey"
+    ],
+    "sources": [
+     "habit",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Oleg Timchenko' has 3 titled works in our gallery and WikiArt (as 'Oleg Timchenko')",
+    "rejected": [
+     [
+      "Still Life with Two Women",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Two Women at the Table",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Two Women at a Table",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Two Girls at the Table",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Two Girls at a Table",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Two Women",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Still Life with Women",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Still Life with Two Figures",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Still Life with Two Ladies",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Gentle Domesticity",
+      "uses 'domesticity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Two Women Share",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dresses in Light Blue",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Gold Belts and Hair",
+      "uses uncertain object 'belts'"
+     ],
+     [
+      "Plates of Food",
+      "not supported by the analysis: plates, food"
+     ],
+     [
+      "Flats and Evenness",
+      "uses 'evenness', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Fragmented Harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Impressionist Mood",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythmic Melody",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Study in Rhythm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impression of Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragment of Romance",
+      "not supported by the analysis: romance"
+     ],
+     [
+      "Melody of Conversation",
+      "not supported by the analysis: conversation"
+     ],
+     [
+      "Echoes of Evening",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Dusk",
+      "not supported by the analysis: dusk"
+     ],
+     [
+      "Ballade of Serenity",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Memory of Twilight",
+      "not supported by the analysis: twilight"
+     ],
+     [
+      "Reflections of Night",
+      "not supported by the analysis: reflections, night"
+     ],
+     [
+      "Elegance of Twilight",
+      "not supported by the analysis: elegance, twilight"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Rhythms of Domestic Harmony",
+     "Gentle Domestic Harmony",
+     "Two Ladies at a Table",
+     "Two Women at the Table",
+     "Two Women at a Table"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "rejected": [
+     [
+      "Two Women at a Card Table",
+      "not supported by the analysis: card"
+     ],
+     [
+      "Two Ladies at a Card Table",
+      "not supported by the analysis: card"
+     ],
+     [
+      "Two Women Playing Cards",
+      "not supported by the analysis: playing, cards"
+     ],
+     [
+      "The Game of Chess",
+      "not supported by the analysis: game, chess"
+     ],
+     [
+      "The Card Players",
+      "not supported by the analysis: card, players"
+     ],
+     [
+      "Two women playing cards",
+      "not supported by the analysis: playing, cards"
+     ],
+     [
+      "Two Ladies",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Red Blue Duet",
+      "not supported by the analysis: duet"
+     ],
+     [
+      "Dressy Duet",
+      "uses 'dressy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Blonde Bunch",
+      "not supported by the analysis: bunch"
+     ],
+     [
+      "Grey Room Columns",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Impression of Duet",
+      "not supported by the analysis: duet"
+     ],
+     [
+      "Fragmented Harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Rhythmic Duet",
+      "not supported by the analysis: rhythmic, duet"
+     ],
+     [
+      "Echoing Duet",
+      "not supported by the analysis: echoing, duet"
+     ],
+     [
+      "Memory of Duet",
+      "not supported by the analysis: duet"
+     ],
+     [
+      "Dreamy Duet",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Reverie of Duet",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mood of Dinner, Gentle Rhapsody",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "Dream of Delicate Domesticity",
+      "uses 'domesticity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echo of Dinner's Calmness",
+      "uses 'calmness', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ballade of Women Sharing Meals",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Fragmented Melodies of Diners' Solitude",
+      "not supported by the analysis: fragmented, melodies, diners, solitude"
+     ],
+     [
+      "Imaginary Songs of Dinner's Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic Study of Dinner's Solitude",
+      "not supported by the analysis: poetic, solitude"
+     ],
+     [
+      "Reverie of Dinner's Gentle Rapture",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Oleg Timchenko": [
+     "Untitled",
+     "Still Life with Two Women",
+     "Two Women at the Table",
+     "Two Women at a Table",
+     "Two Girls at the Table",
+     "Two Girls at a Table",
+     "Two Women",
+     "Still Life with Women",
+     "Still Life with Two Figures",
+     "Still Life with Two Ladies"
+    ],
+    "None": [
+     "Two Women at a Table",
+     "Two Women at the Table",
+     "Two Ladies at a Table",
+     "Two Women at a Card Table",
+     "Two Ladies at a Card Table",
+     "Two Women Playing Cards",
+     "The Game of Chess",
+     "The Card Players",
+     "Two women playing cards",
+     "Two Ladies"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-017",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Abstraction.",
+     "Abstraction (1)",
+     "Abstraction (Red)",
+     "Abstraction-Still Life"
+    ],
+    "sources": [
+     "habit",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "rejected": [
+     [
+      "Still Life with Apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled",
+      "'Untitled' is not this artist's habit"
+     ],
+     [
+      "Abstraktsi",
+      "uses 'abstraktsi', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Still life with apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Emotion in Pink",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythm of Warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Melody",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of Passion",
+      "not supported by the analysis: passion"
+     ],
+     [
+      "Ballade of Colors",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Impression of Depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Melodic Harmony",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Dreams of Warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impression in hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Melody of colors",
+      "not supported by the analysis: colors"
+     ],
+     [
+      "Fragmented harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of longing",
+      "not supported by the analysis: longing"
+     ],
+     [
+      "Ballad of tones",
+      "not supported by the analysis: tones"
+     ],
+     [
+      "Poem of textures",
+      "not supported by the analysis: textures"
+     ],
+     [
+      "Reverie of shades",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Abstraction",
+     "Abstraction.",
+     "Abstraction (1)",
+     "Abstraction (Red)",
+     "Abstraction-Still Life"
+    ],
+    "sources": [
+     "habit",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.91)",
+    "rejected": [
+     [
+      "Still Life with Apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Untitled",
+      "'Untitled' is not this artist's habit"
+     ],
+     [
+      "Abstraktsi",
+      "uses 'abstraktsi', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Still life with apples",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Emotion in Pink",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythm of Warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Melody",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of Passion",
+      "not supported by the analysis: passion"
+     ],
+     [
+      "Ballade of Colors",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Impression of Depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Melodic Harmony",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Dreams of Warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in warmth",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impression in hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Melody of colors",
+      "not supported by the analysis: colors"
+     ],
+     [
+      "Fragmented harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Echoes of longing",
+      "not supported by the analysis: longing"
+     ],
+     [
+      "Ballad of tones",
+      "not supported by the analysis: tones"
+     ],
+     [
+      "Poem of textures",
+      "not supported by the analysis: textures"
+     ],
+     [
+      "Reverie of shades",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Ushangi Khumarashvili": [
+     "Abstraction",
+     "Still Life with Apples",
+     "Untitled",
+     "Abstraktsi",
+     "Abstraction (Red)",
+     "Abstraction-Still Life",
+     "Abstraction.",
+     "unknown title",
+     "Abstraction (1)",
+     "Still life with apples"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-019",
+   "artist": "Ushangi Khumarashvili",
+   "real": "Abstraction",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Abstraction",
+     "Abstraction.",
+     "Abstraction (1)",
+     "Energetic Emotion",
+     "Emotional Study"
+    ],
+    "sources": [
+     "habit",
+     "adapter",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Ushangi Khumarashvili' has 12 titled works in our gallery and WikiArt (as 'Ushangi Khumarashvili')",
+    "rejected": [
+     [
+      "Untitled",
+      "'Untitled' is not this artist's habit"
+     ],
+     [
+      "Abstraktsi",
+      "uses 'abstraktsi', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Abstraktsiia",
+      "uses 'abstraktsiia', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Abstraction-Composition",
+      "not supported by the analysis: composition"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Abstraktsia",
+      "uses 'abstraktsia', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Surrealism",
+      "uses 'surrealism', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Passionate Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythmic Intensity",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Impressionistic Passion",
+      "uses 'impressionistic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Fragmented Emotion",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Melodic Fury",
+      "not supported by the analysis: melodic, fury"
+     ],
+     [
+      "Balladic Harmony",
+      "uses 'balladic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoes of Passion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Reverie of Energetic Emotion",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Energetic Red",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Passionate Blue",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bold Yellow",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impressionistic Harmony",
+      "uses 'impressionistic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythmic Passion",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Fragile Ochre",
+      "not supported by the analysis: fragile"
+     ],
+     [
+      "Harmonious Emotion",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Passionate Rhapsody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Colorful Melody",
+      "not supported by the analysis: colorful"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Abstraction",
+     "Abstraction.",
+     "Abstraction (1)",
+     "Energetic Emotion",
+     "Emotional Study"
+    ],
+    "sources": [
+     "habit",
+     "adapter",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Abstraction' by Ushangi Khumarashvili (our gallery, similarity 0.94)",
+    "rejected": [
+     [
+      "Untitled",
+      "'Untitled' is not this artist's habit"
+     ],
+     [
+      "Abstraktsi",
+      "uses 'abstraktsi', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Abstraktsiia",
+      "uses 'abstraktsiia', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Abstraction-Composition",
+      "not supported by the analysis: composition"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Abstraktsia",
+      "uses 'abstraktsia', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Surrealism",
+      "uses 'surrealism', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Passionate Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythmic Intensity",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Impressionistic Passion",
+      "uses 'impressionistic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Fragmented Emotion",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Melodic Fury",
+      "not supported by the analysis: melodic, fury"
+     ],
+     [
+      "Balladic Harmony",
+      "uses 'balladic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoes of Passion",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Reverie of Energetic Emotion",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Energetic Red",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Passionate Blue",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bold Yellow",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impressionistic Harmony",
+      "uses 'impressionistic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rhythmic Passion",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Fragile Ochre",
+      "not supported by the analysis: fragile"
+     ],
+     [
+      "Harmonious Emotion",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Passionate Rhapsody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Colorful Melody",
+      "not supported by the analysis: colorful"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Ushangi Khumarashvili": [
+     "Abstraction",
+     "Untitled",
+     "Abstraktsi",
+     "Abstraktsiia",
+     "Abstraction-Composition",
+     "unknown title",
+     "Abstraction.",
+     "Abstraktsia",
+     "Surrealism",
+     "Abstraction (1)"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-041",
+   "artist": "Irma Kukhianidze",
+   "real": "Girl With Dandelions",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Gentle Melody",
+     "Girl in Harmony",
+     "Echoes of Childhood",
+     "Girl with Dandelions",
+     "Girl with dandelions"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "adapter"
+    ],
+    "path": "b",
+    "why": "most similar image: 'The Lady' by Gogi Chagelishvili (our gallery, similarity 0.73)",
+    "rejected": [
+     [
+      "Woman with Dandelions",
+      "not supported by the analysis: woman"
+     ],
+     [
+      "Dandelions",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "Girl with Dandelion",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dandelion",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "Girl with Daisies",
+      "not supported by the analysis: daisies"
+     ],
+     [
+      "Dandelion Dreaming",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Rhythm",
+      "not supported by the analysis: soft"
+     ],
+     [
+      "Study of Youth",
+      "not supported by the analysis: youth"
+     ],
+     [
+      "Fragments of Innocence",
+      "not supported by the analysis: fragments"
+     ],
+     [
+      "Rhapsody of Youth",
+      "not supported by the analysis: youth"
+     ],
+     [
+      "Dreamy Reverie",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "柔和的童年梦",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "蓝衣女孩与白花",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "初见微笑时光",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "梦幻童趣印象",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "午夜花朵梦境",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "纯真之歌",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "蓝色少女回忆",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "小花大世界",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "温柔午后嬉戏",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "宁静时刻回味",
+      "length 1 outside 2-5 words"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Gentle Melody",
+     "Girl in Harmony",
+     "Echoes of Childhood",
+     "Girl with Dandelions",
+     "Girl with dandelions"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "adapter"
+    ],
+    "path": "b",
+    "why": "most similar image: 'The Lady' by Gogi Chagelishvili (our gallery, similarity 0.73)",
+    "rejected": [
+     [
+      "Woman with Dandelions",
+      "not supported by the analysis: woman"
+     ],
+     [
+      "Dandelions",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "Girl with Dandelion",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dandelion",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "Girl with Daisies",
+      "not supported by the analysis: daisies"
+     ],
+     [
+      "Dandelion Dreaming",
+      "uses 'dandelion', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Rhythm",
+      "not supported by the analysis: soft"
+     ],
+     [
+      "Study of Youth",
+      "not supported by the analysis: youth"
+     ],
+     [
+      "Fragments of Innocence",
+      "not supported by the analysis: fragments"
+     ],
+     [
+      "Rhapsody of Youth",
+      "not supported by the analysis: youth"
+     ],
+     [
+      "Dreamy Reverie",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "柔和的童年梦",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "蓝衣女孩与白花",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "初见微笑时光",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "梦幻童趣印象",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "午夜花朵梦境",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "纯真之歌",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "蓝色少女回忆",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "小花大世界",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "温柔午后嬉戏",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "宁静时刻回味",
+      "length 1 outside 2-5 words"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Gogi Chagelishvili": [
+     "Girl with Dandelions",
+     "Girl with dandelions",
+     "Woman with Dandelions",
+     "A Girl with Dandelions",
+     "Young Girl with Dandelions",
+     "Girl With Dandelions",
+     "Dandelions",
+     "Girl with Dandelion",
+     "Dandelion",
+     "Girl with Daisies"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-043",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Dreamy Foliage Study",
+     "Study of Dreamy Foliage",
+     "Dreaming Foliage",
+     "Study in Green"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Mamuka Japaridze' has 2 titled works in our gallery and WikiArt (as 'Mamuka Japaridze')",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Bouquet of Flowers",
+      "not supported by the analysis: bouquet, flowers"
+     ],
+     [
+      "Flowers on a Blue Background",
+      "length 5 outside 1-4 words"
+     ],
+     [
+      "Flowers on a blue background",
+      "length 5 outside 1-4 words"
+     ],
+     [
+      "Bouquet",
+      "not supported by the analysis: bouquet"
+     ],
+     [
+      "Bouquet (detail)",
+      "not supported by the analysis: bouquet, detail"
+     ],
+     [
+      "Abstraction (Blue)",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Bouquet of White Flowers",
+      "not supported by the analysis: bouquet, flowers"
+     ],
+     [
+      "Bouquet of flowers",
+      "not supported by the analysis: bouquet, flowers"
+     ],
+     [
+      "Autumn Melody in Blue",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythmic Leaves Impression",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Harmonious Green Study",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Dreamy Variations",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Echoes of Autumn Melodies",
+      "not supported by the analysis: melodies"
+     ],
+     [
+      "Ballad of Foliage Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Dreamy Leaves",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Memory of Autumn Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Autumn's Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Rhapsody in Blue",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamy Embrace",
+      "not supported by the analysis: embrace"
+     ],
+     [
+      "Leafy Melody",
+      "uses 'leafy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Harvest",
+      "not supported by the analysis: harvest"
+     ],
+     [
+      "Rhythms of Nature",
+      "not supported by the analysis: nature"
+     ],
+     [
+      "Harmony in Gold",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamer's Garden",
+      "not supported by the analysis: garden"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Dreamy Foliage Study",
+     "Study of Dreamy Foliage",
+     "Dreaming Foliage",
+     "Study in Green"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Plant and Chairs' by Mamuka Japaridze (our gallery, similarity 0.86)",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Bouquet of Flowers",
+      "not supported by the analysis: bouquet, flowers"
+     ],
+     [
+      "Flowers on a Blue Background",
+      "length 5 outside 1-4 words"
+     ],
+     [
+      "Flowers on a blue background",
+      "length 5 outside 1-4 words"
+     ],
+     [
+      "Bouquet",
+      "not supported by the analysis: bouquet"
+     ],
+     [
+      "Bouquet (detail)",
+      "not supported by the analysis: bouquet, detail"
+     ],
+     [
+      "Abstraction (Blue)",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Bouquet of White Flowers",
+      "not supported by the analysis: bouquet, flowers"
+     ],
+     [
+      "Bouquet of flowers",
+      "not supported by the analysis: bouquet, flowers"
+     ],
+     [
+      "Autumn Melody in Blue",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhythmic Leaves Impression",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Harmonious Green Study",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Dreamy Variations",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Echoes of Autumn Melodies",
+      "not supported by the analysis: melodies"
+     ],
+     [
+      "Ballad of Foliage Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Rhapsody of Dreamy Leaves",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Memory of Autumn Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Autumn's Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Rhapsody in Blue",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamy Embrace",
+      "not supported by the analysis: embrace"
+     ],
+     [
+      "Leafy Melody",
+      "uses 'leafy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Harvest",
+      "not supported by the analysis: harvest"
+     ],
+     [
+      "Rhythms of Nature",
+      "not supported by the analysis: nature"
+     ],
+     [
+      "Harmony in Gold",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamer's Garden",
+      "not supported by the analysis: garden"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Mamuka Japaridze": [
+     "Untitled",
+     "Abstraction",
+     "Bouquet of Flowers",
+     "Flowers on a Blue Background",
+     "Flowers on a blue background",
+     "Bouquet",
+     "Bouquet (detail)",
+     "Abstraction (Blue)",
+     "Bouquet of White Flowers",
+     "Bouquet of flowers"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-045",
+   "artist": "Mamuka Japaridze",
+   "real": "Plant and Chairs",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Landscape",
+     "Blue and Green"
+    ],
+    "sources": [
+     "adapter",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Mamuka Japaridze' has 2 titled works in our gallery and WikiArt (as 'Mamuka Japaridze')",
+    "rejected": [
+     [
+      "Untitled",
+      "'Untitled' is not this artist's habit"
+     ],
+     [
+      "Abstraction",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Abstract Composition",
+      "not supported by the analysis: abstract, composition"
+     ],
+     [
+      "Aboriginal Landscape",
+      "not supported by the analysis: aboriginal"
+     ],
+     [
+      "Abstraction I",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Abstract Painting",
+      "not supported by the analysis: abstract"
+     ],
+     [
+      "Abstract Landscape",
+      "not supported by the analysis: abstract"
+     ],
+     [
+      "Mystery in Grey",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Echoes of Autumn",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Rhythms of Mystery",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Plant in Beige",
+      "not supported by the analysis: plant"
+     ],
+     [
+      "Chairs in Shadow",
+      "not supported by the analysis: chairs, shadow"
+     ],
+     [
+      "Rolux of Foliage",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Study of Density",
+      "not supported by the analysis: density"
+     ],
+     [
+      "Impression of Depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Melody of Mysteriousness",
+      "uses 'mysteriousness', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Study in mystery, dense leaves.",
+      "length 5 outside 1-4 words"
+     ],
+     [
+      "Rhapsody of autumn shades.",
+      "not supported by the analysis: shades"
+     ],
+     [
+      "Melody of muted greens.",
+      "not supported by the analysis: muted"
+     ],
+     [
+      "Impressionist dreams, leaves.",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic fragment, foliage.",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Breath of memory, plants.",
+      "not supported by the analysis: breath, plants"
+     ],
+     [
+      "Echoes in twilight hues.",
+      "not supported by the analysis: twilight, hues"
+     ],
+     [
+      "Reverie of earthy tones.",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Song of silent shadows.",
+      "not supported by the analysis: silent, shadows"
+     ],
+     [
+      "Harmony in subdued shades.",
+      "not supported by the analysis: subdued, shades"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Landscape",
+     "Blue and Green"
+    ],
+    "sources": [
+     "adapter",
+     "adapter"
+    ],
+    "path": "b",
+    "why": "most similar image: 'Plant and Chairs' by Mamuka Japaridze (our gallery, similarity 0.86)",
+    "rejected": [
+     [
+      "Untitled",
+      "'Untitled' is not this artist's habit"
+     ],
+     [
+      "Abstraction",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "unknown title",
+      "not supported by the analysis: unknown, title"
+     ],
+     [
+      "Abstract Composition",
+      "not supported by the analysis: abstract, composition"
+     ],
+     [
+      "Aboriginal Landscape",
+      "not supported by the analysis: aboriginal"
+     ],
+     [
+      "Abstraction I",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Abstract Painting",
+      "not supported by the analysis: abstract"
+     ],
+     [
+      "Abstract Landscape",
+      "not supported by the analysis: abstract"
+     ],
+     [
+      "Mystery in Grey",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Echoes of Autumn",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Harmony",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Rhythms of Mystery",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Plant in Beige",
+      "not supported by the analysis: plant"
+     ],
+     [
+      "Chairs in Shadow",
+      "not supported by the analysis: chairs, shadow"
+     ],
+     [
+      "Rolux of Foliage",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Study of Density",
+      "not supported by the analysis: density"
+     ],
+     [
+      "Impression of Depth",
+      "not supported by the analysis: depth"
+     ],
+     [
+      "Melody of Mysteriousness",
+      "uses 'mysteriousness', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Study in mystery, dense leaves.",
+      "length 5 outside 1-4 words"
+     ],
+     [
+      "Rhapsody of autumn shades.",
+      "not supported by the analysis: shades"
+     ],
+     [
+      "Melody of muted greens.",
+      "not supported by the analysis: muted"
+     ],
+     [
+      "Impressionist dreams, leaves.",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Poetic fragment, foliage.",
+      "uses uncertain object 'foliage'"
+     ],
+     [
+      "Breath of memory, plants.",
+      "not supported by the analysis: breath, plants"
+     ],
+     [
+      "Echoes in twilight hues.",
+      "not supported by the analysis: twilight, hues"
+     ],
+     [
+      "Reverie of earthy tones.",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Song of silent shadows.",
+      "not supported by the analysis: silent, shadows"
+     ],
+     [
+      "Harmony in subdued shades.",
+      "not supported by the analysis: subdued, shades"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Mamuka Japaridze": [
+     "Untitled",
+     "Abstraction",
+     "unknown title",
+     "Blue and Green",
+     "Abstract Composition",
+     "Landscape",
+     "Aboriginal Landscape",
+     "Abstraction I",
+     "Abstract Painting",
+     "Abstract Landscape"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-051",
+   "artist": "Oleg Timchenko",
+   "real": "Untitled",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Untitled",
+     "Doll's Poem",
+     "Doll's Dream",
+     "Doll's Rhythm",
+     "Playful Impression"
+    ],
+    "sources": [
+     "habit",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Oleg Timchenko' has 3 titled works in our gallery and WikiArt (as 'Oleg Timchenko')",
+    "rejected": [
+     [
+      "Portrait of a Lady",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Portrait of a lady",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Self-Portrait",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Girl in a Red Dress",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Duchess",
+      "not supported by the analysis: duchess"
+     ],
+     [
+      "Girl in a red dress",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Red Dress",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Red Dress",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Portrait of a Woman",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Doll in Red",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Hat Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Elegant Melody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Doll's Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Doll's Echo",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Doll's Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Red Hat Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Playful Rhythm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Harmonious Echo",
+      "uses 'harmonious', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Doll Study",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fashion Rhapsody",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Girl's Impression",
+      "not supported by the analysis: girl"
+     ],
+     [
+      "Sweet Reverie",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Ballade of Dolls",
+      "uses 'ballade', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Playful Dresser",
+     "Elegant Doll's Song",
+     "Doll's Dream Melody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "c",
+    "why": "artist unknown or without titles, and no image above the similarity threshold",
+    "rejected": [
+     [
+      "Portrait of a Lady",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Duchess",
+      "not supported by the analysis: duchess"
+     ],
+     [
+      "Portrait of a lady",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Lady in Red",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Portrait of a Lady in Red",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "The Red Dress",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Portrait of a Young Lady",
+      "not supported by the analysis: young, lady"
+     ],
+     [
+      "Portrait of a Young Woman",
+      "not supported by the analysis: young, woman"
+     ],
+     [
+      "Portrait of a Woman",
+      "not supported by the analysis: woman"
+     ],
+     [
+      "Portrait of a lady in red",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Red Gown Echo",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Mirthful Hat Study",
+      "uses 'mirthful', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Feminine Harmony Rhythm",
+      "not supported by the analysis: feminine"
+     ],
+     [
+      "Elegant Melodic Frame",
+      "not supported by the analysis: melodic, frame"
+     ],
+     [
+      "Wistful Rhapsody Gown",
+      "uses uncertain object 'gown'"
+     ],
+     [
+      "Lavish Poetic Hat",
+      "not supported by the analysis: lavish, poetic"
+     ],
+     [
+      "Elegant Melodic Echo",
+      "not supported by the analysis: melodic"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Oleg Timchenko": [
+     "Portrait of a Lady",
+     "Portrait of a lady",
+     "Self-Portrait",
+     "Girl in a Red Dress",
+     "Duchess",
+     "Untitled",
+     "Girl in a red dress",
+     "Red Dress",
+     "The Red Dress",
+     "Portrait of a Woman"
+    ],
+    "None": [
+     "Portrait of a Lady",
+     "Duchess",
+     "Portrait of a lady",
+     "Lady in Red",
+     "Portrait of a Lady in Red",
+     "The Red Dress",
+     "Portrait of a Young Lady",
+     "Portrait of a Young Woman",
+     "Portrait of a Woman",
+     "Portrait of a lady in red"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-059",
+   "artist": "Gogi Chagelishvili",
+   "real": "Rachuli Rhapsody",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Ballad of the Thatched Hut",
+     "Memory of Orange Fruit",
+     "Woman in Red",
+     "Echo of Dreams"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Gogi Chagelishvili' has 2 titled works in our gallery and WikiArt (as 'Gogi Chagelishvili')",
+    "rejected": [
+     [
+      "Village Scene",
+      "not supported by the analysis: village"
+     ],
+     [
+      "Landscape with Peasants",
+      "not supported by the analysis: landscape, peasants"
+     ],
+     [
+      "In the Village",
+      "not supported by the analysis: village"
+     ],
+     [
+      "Peasants",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "Landscape with Cows",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Peasant Family",
+      "not supported by the analysis: peasant, family"
+     ],
+     [
+      "Village",
+      "length 1 outside 2-5 words"
+     ],
+     [
+      "Landscape with Figures",
+      "not supported by the analysis: landscape, figures"
+     ],
+     [
+      "Landscape with Children",
+      "not supported by the analysis: landscape, children"
+     ],
+     [
+      "Children in the Village",
+      "not supported by the analysis: children, village"
+     ],
+     [
+      "Rural Harmony",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in Grey",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Impression of Rustic Life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Fragmented Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melody of Country Living",
+      "not supported by the analysis: country, living"
+     ],
+     [
+      "Echoes of Rural Calm",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreams of Rural Solitude",
+      "not supported by the analysis: solitude"
+     ],
+     [
+      "Variation on Rustic Beauty",
+      "not supported by the analysis: beauty"
+     ],
+     [
+      "Man in Yellow",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Tree in Orange",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Cow under Grey",
+      "not supported by the analysis: under"
+     ],
+     [
+      "Hut in Olive",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Stick in Shadow",
+      "uses uncertain object 'stick'"
+     ],
+     [
+      "Basket in Glove",
+      "uses uncertain object 'basket'"
+     ],
+     [
+      "Study of Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Calm Rural Scene",
+     "<Calm Rural Scene>",
+     "Rural Impression",
+     "Rural Harmony",
+     "Rural Poem"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "c",
+    "why": "most similar image: 'The Legend of the Founding of Tbilisi' by Lado Gudiashvili (1896-1980) (our gallery, similarity 0.72); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Landscape with Peasants",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Village Scene",
+      "length 2 outside 7-9 words"
+     ],
+     [
+      "In the Village",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Landscape with Cows",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Peasants",
+      "length 1 outside 7-9 words"
+     ],
+     [
+      "Landscape with Figures",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Peasant Family",
+      "length 2 outside 7-9 words"
+     ],
+     [
+      "Landscape with Children",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Landscape with figures",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Landscape with Peasant Family",
+      "length 4 outside 7-9 words"
+     ],
+     [
+      "Rural Harmony",
+      "length 2 outside 7-9 words"
+     ],
+     [
+      "Calm Country Life",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Simple Rural Scene",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Fence and Hut",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Yellow Jacket Man",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Red Headscarf Woman",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "White Cow Rests",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Tree with Fruit",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Man in Yellow",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Woman Holding Basket",
+      "uses uncertain object 'basket'"
+     ],
+     [
+      "The Rustic Serenity",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Quiet Huts",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Farmhouse Peace",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Pastoral Stillness",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Country Calm",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Barnyard Harmony",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Village Quietude",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Farmland Tranquility",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Rural Harmony",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "The Pastoral Harmony",
+      "length 3 outside 7-9 words"
+     ],
+     [
+      "Village Scene",
+      "not supported by the analysis: village"
+     ],
+     [
+      "Landscape with Cows",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Landscape with Peasants",
+      "not supported by the analysis: landscape, peasants"
+     ],
+     [
+      "Peasant Family",
+      "not supported by the analysis: peasant, family"
+     ],
+     [
+      "Landscape with Peasant Family",
+      "not supported by the analysis: landscape, peasant, family"
+     ],
+     [
+      "Landscape with Figures",
+      "not supported by the analysis: landscape, figures"
+     ],
+     [
+      "In the Village",
+      "not supported by the analysis: village"
+     ],
+     [
+      "Peasants",
+      "not supported by the analysis: peasants"
+     ],
+     [
+      "Landscape with Children",
+      "not supported by the analysis: landscape, children"
+     ],
+     [
+      "Peasant Scene",
+      "not supported by the analysis: peasant"
+     ],
+     [
+      "Even Light Rhapsody",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Simple Rural Melody",
+      "not supported by the analysis: simple"
+     ],
+     [
+      "<Hut's Serenity>",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "<Tree’s Melodic Grove>",
+      "not supported by the analysis: melodic, grove"
+     ],
+     [
+      "<Man’s Solitude>}",
+      "not supported by the analysis: solitude"
+     ],
+     [
+      "<Echoing Huts>}",
+      "not supported by the analysis: echoing"
+     ],
+     [
+      "<Red Headscarf’s Song>}",
+      "looks like it names people or places"
+     ],
+     [
+      "<Whispering Pastures>}",
+      "not supported by the analysis: whispering, pastures"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Gogi Chagelishvili": [
+     "Village Scene",
+     "Landscape with Peasants",
+     "In the Village",
+     "Peasants",
+     "Landscape with Cows",
+     "Peasant Family",
+     "Village",
+     "Landscape with Figures",
+     "Landscape with Children",
+     "Children in the Village"
+    ],
+    "Lado Gudiashvili (1896-1980)": [
+     "Landscape with Peasants",
+     "Village Scene",
+     "In the Village",
+     "Landscape with Cows",
+     "Peasants",
+     "Landscape with Figures",
+     "Peasant Family",
+     "Landscape with Children",
+     "Landscape with figures",
+     "Landscape with Peasant Family"
+    ],
+    "None": [
+     "Village Scene",
+     "Landscape with Cows",
+     "Landscape with Peasants",
+     "Peasant Family",
+     "Landscape with Peasant Family",
+     "Landscape with Figures",
+     "In the Village",
+     "Peasants",
+     "Landscape with Children",
+     "Peasant Scene"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F2-061",
+   "artist": "Elene Akhvlediani",
+   "real": "Old and New Tbilisi",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Nostalgic Cityscape",
+     "The City",
+     "Red House Balcony",
+     "City",
+     "Grey Building Crane"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Dresden' by Nika Khabelashvili (our gallery, similarity 0.72); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "View of Tbilisi",
+      "not supported by the analysis: view, tbilisi"
+     ],
+     [
+      "Landscape with cranes",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "View of the city",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "View of the City",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with construction",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Construction Site",
+      "not supported by the analysis: site"
+     ],
+     [
+      "Landscape with the city",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Construction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Construction in the city",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with a Factory",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Busy City in Blue",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Nostalgic Skyline",
+      "not supported by the analysis: skyline"
+     ],
+     [
+      "Red House in Contrast",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Tall Buildings in Harmony",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Green Hills in Contrast",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Grey Skies in Contrast",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Cranes in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Mountains in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Clouds in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Scaffolding in Contrast",
+      "uses uncertain object 'scaffolding'"
+     ],
+     [
+      "Busy City, Blue Sky",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Nostalgic Panorama",
+      "not supported by the analysis: panorama"
+     ],
+     [
+      "Quiet Hillside, Busy Town",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Green Hills, Busy Town",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Red House, Grey Skies",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Towering Cranes, Green Hills",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Cloudy Day, Busy Town",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Tall Buildings, Green Hills",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Red Balcony, Busy Town",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Cranes Over Mountains, Red House",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Construction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Construction Site",
+      "not supported by the analysis: site"
+     ],
+     [
+      "Industrial Landscape",
+      "not supported by the analysis: industrial, landscape"
+     ],
+     [
+      "View of Vancouver",
+      "not supported by the analysis: view, vancouver"
+     ],
+     [
+      "Harbour View",
+      "not supported by the analysis: harbour, view"
+     ],
+     [
+      "City and River",
+      "not supported by the analysis: river"
+     ],
+     [
+      "City View",
+      "not supported by the analysis: view"
+     ],
+     [
+      "Blue Clouds Hover",
+      "uses 'hover', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Tall Hills Behind",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Sloped Skyline",
+      "uses 'sloped', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoes of Yesterday",
+      "not supported by the analysis: yesterday"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Nostalgic Cityscape",
+     "The City",
+     "Red House Balcony",
+     "City",
+     "Grey Building Crane"
+    ],
+    "sources": [
+     "writer",
+     "adapter",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Dresden' by Nika Khabelashvili (our gallery, similarity 0.72); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "View of Tbilisi",
+      "not supported by the analysis: view, tbilisi"
+     ],
+     [
+      "Landscape with cranes",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "View of the city",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "View of the City",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with construction",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Construction Site",
+      "not supported by the analysis: site"
+     ],
+     [
+      "Landscape with the city",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Construction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Construction in the city",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with a Factory",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Busy City in Blue",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Nostalgic Skyline",
+      "not supported by the analysis: skyline"
+     ],
+     [
+      "Red House in Contrast",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Tall Buildings in Harmony",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Green Hills in Contrast",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Grey Skies in Contrast",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Cranes in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Mountains in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Clouds in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Scaffolding in Contrast",
+      "uses uncertain object 'scaffolding'"
+     ],
+     [
+      "Busy City, Blue Sky",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Nostalgic Panorama",
+      "not supported by the analysis: panorama"
+     ],
+     [
+      "Quiet Hillside, Busy Town",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Green Hills, Busy Town",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Red House, Grey Skies",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Towering Cranes, Green Hills",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Cloudy Day, Busy Town",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Tall Buildings, Green Hills",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Red Balcony, Busy Town",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Cranes Over Mountains, Red House",
+      "length 5 outside 1-3 words"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Construction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Construction Site",
+      "not supported by the analysis: site"
+     ],
+     [
+      "Industrial Landscape",
+      "not supported by the analysis: industrial, landscape"
+     ],
+     [
+      "View of Vancouver",
+      "not supported by the analysis: view, vancouver"
+     ],
+     [
+      "Harbour View",
+      "not supported by the analysis: harbour, view"
+     ],
+     [
+      "City and River",
+      "not supported by the analysis: river"
+     ],
+     [
+      "City View",
+      "not supported by the analysis: view"
+     ],
+     [
+      "Blue Clouds Hover",
+      "uses 'hover', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Tall Hills Behind",
+      "uses uncertain object 'hills'"
+     ],
+     [
+      "Sloped Skyline",
+      "uses 'sloped', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoes of Yesterday",
+      "not supported by the analysis: yesterday"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Nika Khabelashvili": [
+     "View of Tbilisi",
+     "Landscape with cranes",
+     "View of the city",
+     "View of the City",
+     "Landscape with construction",
+     "Construction Site",
+     "Landscape with the city",
+     "Construction",
+     "Construction in the city",
+     "Landscape with a Factory"
+    ],
+    "None": [
+     "Untitled",
+     "The City",
+     "Construction",
+     "Construction Site",
+     "Industrial Landscape",
+     "View of Vancouver",
+     "Harbour View",
+     "City and River",
+     "City View",
+     "City"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F3-024",
+   "artist": "Marc Shagal",
+   "real": "\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Birds of Night",
+     "Dreamy Night Sky",
+     "Dreaming Night Sky",
+     "Yellow Sun Dream",
+     "Crescent Moon Melody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Marc Shagal' has 501 titled works in our gallery and WikiArt (as 'Marc Chagall')",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Twelve Signs of the Zodiac",
+      "not supported by the analysis: twelve, signs, zodiac"
+     ],
+     [
+      "Illustration for the Book of Genesis",
+      "not supported by the analysis: illustration, book, genesis"
+     ],
+     [
+      "The Book of the Days of Creation",
+      "not supported by the analysis: book, days, creation"
+     ],
+     [
+      "The Twelve Signs of the zodiac",
+      "not supported by the analysis: twelve, signs, zodiac"
+     ],
+     [
+      "Illustration to the Book of Genesis",
+      "not supported by the analysis: illustration, book, genesis"
+     ],
+     [
+      "The Four Seasons",
+      "not supported by the analysis: four, seasons"
+     ],
+     [
+      "The Book of the Days",
+      "not supported by the analysis: book, days"
+     ],
+     [
+      "Illustration to the Book of Job",
+      "not supported by the analysis: illustration, book, job"
+     ],
+     [
+      "The Book of Genesis",
+      "not supported by the analysis: book, genesis"
+     ],
+     [
+      "Moonlit Whimsy",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Sunlit Fantasy",
+      "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Whispering Stars",
+      "not supported by the analysis: whispering"
+     ],
+     [
+      "Crescent Moon Serenade",
+      "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Purple Planet Echo",
+      "uses uncertain object 'planet'"
+     ],
+     [
+      "Blue Bird Night Symphony",
+      "not supported by the analysis: symphony"
+     ],
+     [
+      "Serene Night Birds",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Crescent Moon Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Starry Night Study",
+      "uses 'starry', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Crescent Moon Variance",
+      "not supported by the analysis: variance"
+     ],
+     [
+      "Serene Night Study",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Moonlit Birds Echo",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Night Harmony",
+      "not supported by the analysis: serene"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Birds of Night",
+     "Dreamy Night Sky",
+     "Dreaming Night Sky",
+     "Yellow Sun Dream",
+     "Crescent Moon Melody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "b",
+    "why": "most similar image: '\"Tribe of Judah\" & \"Tribe of Simeon\" (from the series \"12 Windows of Jerusalem\")' by Marc Chagall (our gallery, similarity 0.79)",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Twelve Signs of the Zodiac",
+      "not supported by the analysis: twelve, signs, zodiac"
+     ],
+     [
+      "Illustration for the Book of Genesis",
+      "not supported by the analysis: illustration, book, genesis"
+     ],
+     [
+      "The Book of the Days of Creation",
+      "not supported by the analysis: book, days, creation"
+     ],
+     [
+      "The Twelve Signs of the zodiac",
+      "not supported by the analysis: twelve, signs, zodiac"
+     ],
+     [
+      "Illustration to the Book of Genesis",
+      "not supported by the analysis: illustration, book, genesis"
+     ],
+     [
+      "The Four Seasons",
+      "not supported by the analysis: four, seasons"
+     ],
+     [
+      "The Book of the Days",
+      "not supported by the analysis: book, days"
+     ],
+     [
+      "Illustration to the Book of Job",
+      "not supported by the analysis: illustration, book, job"
+     ],
+     [
+      "The Book of Genesis",
+      "not supported by the analysis: book, genesis"
+     ],
+     [
+      "Moonlit Whimsy",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Sunlit Fantasy",
+      "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Whispering Stars",
+      "not supported by the analysis: whispering"
+     ],
+     [
+      "Crescent Moon Serenade",
+      "uses 'serenade', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Purple Planet Echo",
+      "uses uncertain object 'planet'"
+     ],
+     [
+      "Blue Bird Night Symphony",
+      "not supported by the analysis: symphony"
+     ],
+     [
+      "Serene Night Birds",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Crescent Moon Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Starry Night Study",
+      "uses 'starry', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Crescent Moon Variance",
+      "not supported by the analysis: variance"
+     ],
+     [
+      "Serene Night Study",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Moonlit Birds Echo",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Night Harmony",
+      "not supported by the analysis: serene"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Marc Chagall": [
+     "Untitled",
+     "The Twelve Signs of the Zodiac",
+     "Illustration for the Book of Genesis",
+     "The Book of the Days of Creation",
+     "The Twelve Signs of the zodiac",
+     "Illustration to the Book of Genesis",
+     "The Four Seasons",
+     "The Book of the Days",
+     "Illustration to the Book of Job",
+     "The Book of Genesis"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F3-041",
+   "artist": "Gia Edzgveradze",
+   "real": "The Heavy Burden of Waiting for Picnic",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "<Harmony>, <Still Life>",
+     "Poem of Green",
+     "Green Tables",
+     "Memory in Green",
+     "The Green Tables"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "artist 'Gia Edzgveradze' has 2 titled works in our gallery and WikiArt (as 'Gia Edzgveradze'); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Abstraction",
+      "length 1 outside 4-8 words"
+     ],
+     [
+      "Green Tables",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Untitled",
+      "length 1 outside 4-8 words"
+     ],
+     [
+      "Green Chairs",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Two Green Chairs",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Green tables",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Two Chairs",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Two Tables",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "The Green Chairs",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Two Green Tables",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Echo in Harmony",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Study in Teal",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Impression in Brightness",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Fragmented Melody",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Rhythm of Light",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Memory in Green",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Ballad of Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Echo of Serenity",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Variation in Yellow",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Dream of Still Life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in Harmony",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Impression in Yellow",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Echoes of Serenity",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Fragment in Olive",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Memory of Brightness",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Rhapsody of Stillness",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Melody in Teal",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Ballade of Light",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Echo of Calm",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Song of Green",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Green Benches",
+      "not supported by the analysis: benches"
+     ],
+     [
+      "Green Chairs",
+      "not supported by the analysis: chairs"
+     ],
+     [
+      "Two Green Chairs",
+      "not supported by the analysis: chairs"
+     ],
+     [
+      "The Green Chairs",
+      "not supported by the analysis: chairs"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "<Teal, Yellow>,",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "<Dream>, <Reverie>.",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Harmony in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Impressionist Rhythm",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melodic Still Life",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Dreamy Study",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echo of Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Rhapsody of Colors",
+      "not supported by the analysis: colors"
+     ],
+     [
+      "Fragmented Reflections",
+      "not supported by the analysis: fragmented, reflections"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "<Harmony>, <Still Life>",
+     "Poem of Green",
+     "Green Tables",
+     "Memory in Green",
+     "The Green Tables"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Echo is My Song' by Gia Edzgveradze (our gallery, similarity 0.78); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Abstraction",
+      "length 1 outside 4-8 words"
+     ],
+     [
+      "Green Tables",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Untitled",
+      "length 1 outside 4-8 words"
+     ],
+     [
+      "Green Chairs",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Two Green Chairs",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Green tables",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Two Chairs",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Two Tables",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "The Green Chairs",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Two Green Tables",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Echo in Harmony",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Study in Teal",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Impression in Brightness",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Fragmented Melody",
+      "length 2 outside 4-8 words"
+     ],
+     [
+      "Rhythm of Light",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Memory in Green",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Ballad of Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Echo of Serenity",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Variation in Yellow",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Dream of Still Life",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Study in Harmony",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Impression in Yellow",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Echoes of Serenity",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Fragment in Olive",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Memory of Brightness",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Rhapsody of Stillness",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Melody in Teal",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Ballade of Light",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Echo of Calm",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Song of Green",
+      "length 3 outside 4-8 words"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Green Benches",
+      "not supported by the analysis: benches"
+     ],
+     [
+      "Green Chairs",
+      "not supported by the analysis: chairs"
+     ],
+     [
+      "Two Green Chairs",
+      "not supported by the analysis: chairs"
+     ],
+     [
+      "The Green Chairs",
+      "not supported by the analysis: chairs"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "<Teal, Yellow>,",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "<Dream>, <Reverie>.",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Harmony in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Impressionist Rhythm",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melodic Still Life",
+      "not supported by the analysis: melodic"
+     ],
+     [
+      "Dreamy Study",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echo of Windows",
+      "uses uncertain object 'window'"
+     ],
+     [
+      "Rhapsody of Colors",
+      "not supported by the analysis: colors"
+     ],
+     [
+      "Fragmented Reflections",
+      "not supported by the analysis: fragmented, reflections"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Gia Edzgveradze": [
+     "Abstraction",
+     "Green Tables",
+     "Untitled",
+     "Green Chairs",
+     "Two Green Chairs",
+     "Green tables",
+     "Two Chairs",
+     "Two Tables",
+     "The Green Chairs",
+     "Two Green Tables"
+    ],
+    "None": [
+     "Untitled",
+     "Green Tables",
+     "Green Benches",
+     "Green Chairs",
+     "Two Green Chairs",
+     "The Green Chairs",
+     "The Green Tables",
+     "Two Green Tables",
+     "Two Tables",
+     "Abstraction"
+    ]
+   }
+  },
+  {
+   "set": "gallery_val",
+   "id": "F3-077",
+   "artist": "Giorgi Mirzashvili",
+   "real": "White House",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Landscape with White House",
+     "The House",
+     "Landscape with House",
+     "Landscape with house",
+     "Landscape with a House"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.73); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Abandoned House",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Landscape with a House",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with a house",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Houses",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Abandoned house",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "White House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "The White House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Quiet Night House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamy Home",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Shadows",
+      "not supported by the analysis: echoing, shadows"
+     ],
+     [
+      "Serene Solitude",
+      "not supported by the analysis: serene, solitude"
+     ],
+     [
+      "Silent Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Twilight Haven",
+      "not supported by the analysis: twilight, haven"
+     ],
+     [
+      "Moonlit Retreat",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Silent Sanctuary",
+      "not supported by the analysis: sanctuary"
+     ],
+     [
+      "Evening Solitude",
+      "not supported by the analysis: solitude"
+     ],
+     [
+      "Night's Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Dreamy Evening Home",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Moonlit Serenity",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Evening Echoes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Silent Twilight Scene",
+      "not supported by the analysis: twilight, scene"
+     ],
+     [
+      "Quiet Night Sky",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "Dreaming House",
+      "not supported by the analysis: dreaming"
+     ],
+     [
+      "Moonlit Homelike",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Silent Night Sky",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "Moonlit Solitude",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abandoned House",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "Quiet Night's Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Moonlit Serenity",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Silent Shadows",
+      "not supported by the analysis: shadows"
+     ],
+     [
+      "Twilight's Solitude",
+      "not supported by the analysis: twilight, solitude"
+     ],
+     [
+      "Dreamy Evening",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Moonlit Serenade",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night's Whispering",
+      "not supported by the analysis: whispering"
+     ],
+     [
+      "Moonlit Solitude",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "House under Night's Whisper",
+      "not supported by the analysis: under, whisper"
+     ],
+     [
+      "Silent Solitude",
+      "not supported by the analysis: solitude"
+     ],
+     [
+      "Nostalgic Nook",
+      "uses 'nook', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dreamy Dusk Home",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Eternity",
+      "not supported by the analysis: echoing, eternity"
+     ],
+     [
+      "Fragmented Fantasy",
+      "not supported by the analysis: fragmented, fantasy"
+     ],
+     [
+      "Reflections in Midnight Light",
+      "not supported by the analysis: reflections, midnight"
+     ],
+     [
+      "Melodic Muted Mainscape",
+      "uses 'mainscape', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Memory's Silent Mansion",
+      "not supported by the analysis: mansion"
+     ]
+    ]
+   },
+   "hybrid_artistic|artist_unknown": {
+    "titles": [
+     "Landscape with White House",
+     "The House",
+     "Landscape with House",
+     "Landscape with house",
+     "Landscape with a House"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "c",
+    "why": "most similar image: 'Untitled' by Vakho Bugadze (our gallery, similarity 0.73); no candidate passed the pattern checks, fell back to path c",
+    "rejected": [
+     [
+      "Abandoned House",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Landscape with a House",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with a house",
+      "length 4 outside 1-3 words"
+     ],
+     [
+      "Landscape with House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Houses",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Abandoned house",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "White House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "The White House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Quiet Night House",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Dreamy Home",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Shadows",
+      "not supported by the analysis: echoing, shadows"
+     ],
+     [
+      "Serene Solitude",
+      "not supported by the analysis: serene, solitude"
+     ],
+     [
+      "Silent Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Twilight Haven",
+      "not supported by the analysis: twilight, haven"
+     ],
+     [
+      "Moonlit Retreat",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Silent Sanctuary",
+      "not supported by the analysis: sanctuary"
+     ],
+     [
+      "Evening Solitude",
+      "not supported by the analysis: solitude"
+     ],
+     [
+      "Night's Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Dreamy Evening Home",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Moonlit Serenity",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Evening Echoes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Silent Twilight Scene",
+      "not supported by the analysis: twilight, scene"
+     ],
+     [
+      "Quiet Night Sky",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "Dreaming House",
+      "not supported by the analysis: dreaming"
+     ],
+     [
+      "Moonlit Homelike",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Silent Night Sky",
+      "uses uncertain object 'sky'"
+     ],
+     [
+      "Moonlit Solitude",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abandoned House",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "Quiet Night's Reflections",
+      "not supported by the analysis: reflections"
+     ],
+     [
+      "Moonlit Serenity",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Silent Shadows",
+      "not supported by the analysis: shadows"
+     ],
+     [
+      "Twilight's Solitude",
+      "not supported by the analysis: twilight, solitude"
+     ],
+     [
+      "Dreamy Evening",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Moonlit Serenade",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Night's Whispering",
+      "not supported by the analysis: whispering"
+     ],
+     [
+      "Moonlit Solitude",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "House under Night's Whisper",
+      "not supported by the analysis: under, whisper"
+     ],
+     [
+      "Silent Solitude",
+      "not supported by the analysis: solitude"
+     ],
+     [
+      "Nostalgic Nook",
+      "uses 'nook', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dreamy Dusk Home",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Eternity",
+      "not supported by the analysis: echoing, eternity"
+     ],
+     [
+      "Fragmented Fantasy",
+      "not supported by the analysis: fragmented, fantasy"
+     ],
+     [
+      "Reflections in Midnight Light",
+      "not supported by the analysis: reflections, midnight"
+     ],
+     [
+      "Melodic Muted Mainscape",
+      "uses 'mainscape', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Memory's Silent Mansion",
+      "not supported by the analysis: mansion"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Vakho Bugadze": [
+     "Abandoned House",
+     "Untitled",
+     "Landscape with a House",
+     "Landscape with a house",
+     "Landscape with House",
+     "Houses",
+     "House",
+     "Abandoned house",
+     "White House",
+     "The White House"
+    ],
+    "None": [
+     "Untitled",
+     "Abandoned House",
+     "Landscape with a House",
+     "Landscape with House",
+     "White House",
+     "The House",
+     "Landscape with White House",
+     "House",
+     "Landscape with a house",
+     "Landscape with house"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 86733,
+   "artist": "Piet Mondrian",
+   "real": "On the Lappenbrink",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Echo of blue skies",
+     "Rhythm of red brick",
+     "Memory of calm streets",
+     "Impression of a bench",
+     "Woman in the Village"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Piet Mondrian' has 93 titled works in our gallery and WikiArt (as 'Piet Mondrian')",
+    "rejected": [
+     [
+      "Old Woman in a Street",
+      "not supported by the analysis: old"
+     ],
+     [
+      "Old Woman in the Street",
+      "not supported by the analysis: old"
+     ],
+     [
+      "Old Woman in a Village",
+      "not supported by the analysis: old"
+     ],
+     [
+      "Study in muted blues",
+      "not supported by the analysis: muted"
+     ],
+     [
+      "Harmonic pastel study",
+      "not supported by the analysis: harmonic"
+     ],
+     [
+      "Melodic daydreaming",
+      "uses 'daydreaming', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Memory lane melody",
+      "not supported by the analysis: lane"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Piet Mondrian": [
+     "Woman in a Street",
+     "Woman in a Village",
+     "Woman on a Street",
+     "Woman in the Street",
+     "Old Woman in a Street",
+     "Woman on the Street",
+     "Old Woman in the Street",
+     "Old Woman in a Village",
+     "Woman in Street",
+     "Woman in the Village"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 20768,
+   "artist": "Piet Mondrian",
+   "real": "Church tower at Domburg",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Green Harmony",
+     "Dusk Melody",
+     "Red Church",
+     "Tower in Harmony",
+     "Sunset Melody"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Piet Mondrian' has 93 titled works in our gallery and WikiArt (as 'Piet Mondrian')",
+    "rejected": [
+     [
+      "Abandoned Church",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "Abbeville",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "Abbeville Church",
+      "uses 'abbeville', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Abbaye",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "The Church",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Church with Blue Sky",
+      "not supported by the analysis: sky"
+     ],
+     [
+      "Abandoned church",
+      "not supported by the analysis: abandoned"
+     ],
+     [
+      "Abey",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "Church in Blue Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Red Mill Study",
+      "not supported by the analysis: mill"
+     ],
+     [
+      "Church in Backlight",
+      "uses 'backlight', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Blue Composition",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Mill in Twilight",
+      "not supported by the analysis: mill, twilight"
+     ],
+     [
+      "Chapel in Blue Glow",
+      "not supported by the analysis: chapel"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Piet Mondrian": [
+     "Abandoned Church",
+     "The Red Church",
+     "Abbeville",
+     "Abbeville Church",
+     "Abbaye",
+     "The Church",
+     "Church with Blue Sky",
+     "Red Church",
+     "Abandoned church",
+     "Abey"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 96105,
+   "artist": "Piet Mondrian",
+   "real": "Nature died with Sunflower",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Still Life with Sunflowers",
+     "Still life with sunflowers",
+     "Still Life With Sunflowers",
+     "Flowers in Harmony",
+     "Still Life with Vase of Sunflowers"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Piet Mondrian' has 93 titled works in our gallery and WikiArt (as 'Piet Mondrian')",
+    "rejected": [
+     [
+      "Still Life with Sunflower",
+      "uses 'sunflower', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Sunflowers",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "Composition with Green",
+      "template 'Composition with' does not fit this painting"
+     ],
+     [
+      "Composition with Yellow",
+      "template 'Composition with' does not fit this painting"
+     ],
+     [
+      "Composition with Red",
+      "template 'Composition with' does not fit this painting"
+     ],
+     [
+      "Composition - Still life of flowers",
+      "template 'Composition' does not fit this painting"
+     ],
+     [
+      "Harmony - Flowers in sunlight",
+      "not supported by the analysis: sunlight"
+     ],
+     [
+      "Variance - Green vase, blue bird",
+      "not supported by the analysis: variance"
+     ],
+     [
+      "Composition - Green still life",
+      "template 'Composition' does not fit this painting"
+     ],
+     [
+      "Composition with flowers",
+      "template 'Composition with' does not fit this painting"
+     ],
+     [
+      "In impressionist style",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Piet Mondrian": [
+     "Still Life with Sunflowers",
+     "Still Life with Vase of Sunflowers",
+     "Still Life with a Vase of Sunflowers",
+     "Still life with sunflowers",
+     "Vase with Sunflowers",
+     "Vase of Sunflowers",
+     "Still Life with Sunflower",
+     "Still Life With Sunflowers",
+     "Sunflowers in a Vase",
+     "Sunflowers"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 14937,
+   "artist": "Wassily Kandinsky",
+   "real": "Grungasse in Murnau",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Houses in the Village",
+     "The Village",
+     "Village",
+     "Village Street",
+     "Houses in a Village"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Wassily Kandinsky' has 214 titled works in our gallery and WikiArt (as 'Wassily Kandinsky')",
+    "rejected": [
+     [
+      "Houses in the Garden",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Houses in the Sun",
+      "not supported by the analysis: sun"
+     ],
+     [
+      "Houses in a Garden",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Landscape with Houses",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Village Life in Bright Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Woman Walking Through Warm Colors",
+      "not supported by the analysis: through, colors"
+     ],
+     [
+      "Village Street Scene in Vibrant Tone",
+      "not supported by the analysis: scene, vibrant, tone"
+     ],
+     [
+      "Red Roof Over Green Pathway",
+      "not supported by the analysis: over"
+     ],
+     [
+      "Woman in Red Dress Among Houses",
+      "not supported by the analysis: among"
+     ],
+     [
+      "Blue Sky Above Village Street",
+      "not supported by the analysis: sky, above"
+     ],
+     [
+      "Green Trees Surrounding Woman Walks",
+      "not supported by the analysis: trees, surrounding"
+     ],
+     [
+      "White Gate on Right Side of Path",
+      "length 7 outside 1-6 words"
+     ],
+     [
+      "Village Study in Warm Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Dog Runs Toward Her",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Houses in Vibrant Colors",
+      "not supported by the analysis: vibrant, colors"
+     ],
+     [
+      "Street Scene with Gate",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Red Roof Overhouses",
+      "uses 'overhouses', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Pathway Through Village",
+      "not supported by the analysis: through"
+     ],
+     [
+      "Doorway to Small Street",
+      "not supported by the analysis: small"
+     ],
+     [
+      "Ochre House Front",
+      "not supported by the analysis: front"
+     ],
+     [
+      "Green House Walls",
+      "not supported by the analysis: walls"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Wassily Kandinsky": [
+     "Village Street",
+     "Houses in the Village",
+     "Houses in the Garden",
+     "Houses in a Village",
+     "Houses",
+     "Houses in the Sun",
+     "Houses in a Garden",
+     "The Village",
+     "Landscape with Houses",
+     "Village"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 88491,
+   "artist": "Wassily Kandinsky",
+   "real": "Blue mountain",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Vibrant Forest Melody",
+     "Colorful Forest Echo",
+     "Autumn Harmony",
+     "Bright Autumn Rhapsody",
+     "Rhythm of Colors"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Wassily Kandinsky' has 214 titled works in our gallery and WikiArt (as 'Wassily Kandinsky')",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Blue Mountain",
+      "not supported by the analysis: mountain"
+     ],
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Landscape with People",
+      "not supported by the analysis: people"
+     ],
+     [
+      "Landscape with Mountains",
+      "not supported by the analysis: mountains"
+     ],
+     [
+      "Landscape with Women",
+      "not supported by the analysis: women"
+     ],
+     [
+      "Mountain Landscape",
+      "not supported by the analysis: mountain"
+     ],
+     [
+      "Autumn Symphony",
+      "not supported by the analysis: symphony"
+     ],
+     [
+      "Warm Autumn Dance",
+      "not supported by the analysis: dance"
+     ],
+     [
+      "Dreamy Pathway",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoing Orange Sky",
+      "not supported by the analysis: echoing"
+     ],
+     [
+      "Small Trees Whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Melodic Twilight",
+      "not supported by the analysis: melodic, twilight"
+     ],
+     [
+      "Impressionist Nightfall",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Wassily Kandinsky": [
+     "Landscape with Figures",
+     "Untitled",
+     "Abstraction",
+     "The Blue Mountain",
+     "Landscape with figures",
+     "Landscape",
+     "Landscape with People",
+     "Landscape with Mountains",
+     "Landscape with Women",
+     "Mountain Landscape"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 49543,
+   "artist": "Wassily Kandinsky",
+   "real": "Volga song",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Harbor Skyline Rhapsody",
+     "Dark Harbor Study",
+     "Dark harbor dreams",
+     "City Silhouette Study",
+     "Harbor Boats Echo"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Wassily Kandinsky' has 214 titled works in our gallery and WikiArt (as 'Wassily Kandinsky')",
+    "rejected": [
+     [
+      "Fishing Boats",
+      "not supported by the analysis: fishing"
+     ],
+     [
+      "Fishing Village",
+      "not supported by the analysis: fishing, village"
+     ],
+     [
+      "Fishermen",
+      "not supported by the analysis: fishermen"
+     ],
+     [
+      "Fishing boats",
+      "not supported by the analysis: fishing"
+     ],
+     [
+      "Fishing Harbour",
+      "not supported by the analysis: fishing"
+     ],
+     [
+      "The Harbour",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Fishing Boat",
+      "not supported by the analysis: fishing"
+     ],
+     [
+      "Fishermen in Harbour",
+      "not supported by the analysis: fishermen"
+     ],
+     [
+      "Harbor Quayside Melody",
+      "uses 'quayside', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Rower's Song of the Night",
+      "not supported by the analysis: night"
+     ],
+     [
+      "Nostalgic Harbor Composition",
+      "not supported by the analysis: composition"
+     ],
+     [
+      "Harbor Lights Poem",
+      "not supported by the analysis: lights"
+     ],
+     [
+      "Boatmen's melody",
+      "uses 'boatmen', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Harbor shadows",
+      "not supported by the analysis: shadows"
+     ],
+     [
+      "City’s whisper",
+      "not supported by the analysis: whisper"
+     ],
+     [
+      "Starry harbor",
+      "uses 'starry', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mystic port",
+      "not supported by the analysis: mystic, port"
+     ],
+     [
+      "Nightly voyage",
+      "not supported by the analysis: nightly, voyage"
+     ],
+     [
+      "Harborsong",
+      "uses 'harborsong', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Wassily Kandinsky": [
+     "Fishing Boats",
+     "Fishing Village",
+     "Fishermen",
+     "Fishing boats",
+     "Fishing Harbour",
+     "Boats",
+     "The Harbour",
+     "Fishing Boat",
+     "Fishermen in Harbour",
+     "Boats in Harbour"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 102227,
+   "artist": "Paul Klee",
+   "real": "The vase",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Playful Numbers Impression",
+     "Grey Beige Fragment",
+     "Blue and Orange Melody",
+     "Abstract Growth Study",
+     "Red Dot Echo"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Paul Klee' has 199 titled works in our gallery and WikiArt (as 'Paul Klee')",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Four Seasons (Autumn)",
+      "not supported by the analysis: four, seasons, autumn"
+     ],
+     [
+      "The Four Seasons (Spring)",
+      "not supported by the analysis: four, seasons, spring"
+     ],
+     [
+      "The Number 7",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Number Seven",
+      "not supported by the analysis: seven"
+     ],
+     [
+      "The Four Seasons: Winter",
+      "not supported by the analysis: four, seasons, winter"
+     ],
+     [
+      "The Four Seasons: Spring",
+      "not supported by the analysis: four, seasons, spring"
+     ],
+     [
+      "The Number 17",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Four Elements",
+      "not supported by the analysis: four, elements"
+     ],
+     [
+      "Garden of Numbers",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Geometric Shapes Rhythm",
+      "not supported by the analysis: geometric"
+     ],
+     [
+      "Numbered Playfulness Melody",
+      "uses 'playfulness', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Paul Klee": [
+     "Untitled",
+     "Abstraction",
+     "The Four Seasons (Autumn)",
+     "The Four Seasons (Spring)",
+     "The Number 7",
+     "The Number Seven",
+     "The Four Seasons: Winter",
+     "The Four Seasons: Spring",
+     "The Number 17",
+     "The Four Elements"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 69322,
+   "artist": "Paul Klee",
+   "real": "Fish Image",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Rhythm of Light",
+     "Echoes of Flight",
+     "Flight in Blue",
+     "Dreams of Movement",
+     "Dream of Birds"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Paul Klee' has 199 titled works in our gallery and WikiArt (as 'Paul Klee')",
+    "rejected": [
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Untitled (Blue)",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Abstraction in Blue",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Flowers and Fish",
+      "not supported by the analysis: flowers"
+     ],
+     [
+      "Flying Fish",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Blue Fish",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Fishermen",
+      "not supported by the analysis: fishermen"
+     ],
+     [
+      "Abstraction in blue",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Flowers and Birds",
+      "not supported by the analysis: flowers"
+     ],
+     [
+      "Whimsical Birds in Blue",
+      "uses 'whimsical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Floating Lines in Harmony",
+      "not supported by the analysis: floating"
+     ],
+     [
+      "Red Dots in Dreamland",
+      "uses 'dreamland', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Garden of Flight",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Fantasy of Motion",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Rhythms of Dreamflight",
+      "uses 'dreamflight', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melodies of Movement",
+      "not supported by the analysis: melodies"
+     ],
+     [
+      "Serenity of Red",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "White Dance in Green",
+      "not supported by the analysis: dance"
+     ],
+     [
+      "Sunlit Dreamer",
+      "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echo of Freedom",
+      "not supported by the analysis: freedom"
+     ],
+     [
+      "Echoes of Flies",
+      "not supported by the analysis: flies"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Paul Klee": [
+     "Untitled",
+     "Untitled (Blue)",
+     "Abstraction",
+     "Abstraction in Blue",
+     "Flowers and Fish",
+     "Flying Fish",
+     "The Blue Fish",
+     "The Fishermen",
+     "Abstraction in blue",
+     "Flowers and Birds"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 35466,
+   "artist": "Paul Klee",
+   "real": "Pierrot Lunaire",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Mystery in darkness",
+     "Poem of the face",
+     "Melody of mystery",
+     "Ballad of the gaze",
+     "Study of the eye"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Paul Klee' has 199 titled works in our gallery and WikiArt (as 'Paul Klee')",
+    "rejected": [
+     [
+      "Self-Portrait",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-portrait",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-Portrait in the Light of the Moon",
+      "not supported by the analysis: self, light, moon"
+     ],
+     [
+      "Self-portrait in the Light of the Moon",
+      "not supported by the analysis: self, light, moon"
+     ],
+     [
+      "Self-Portrait in the Light of the Sun",
+      "not supported by the analysis: self, light, sun"
+     ],
+     [
+      "Self-Portrait in the Moonlight",
+      "not supported by the analysis: self, moonlight"
+     ],
+     [
+      "Self-Portrait with Mask",
+      "not supported by the analysis: self, mask"
+     ],
+     [
+      "Self-Portrait in the Light of a Candle",
+      "not supported by the analysis: self, light, candle"
+     ],
+     [
+      "Self-portrait in the light of the moon",
+      "not supported by the analysis: self, light, moon"
+     ],
+     [
+      "Self-Portrait in Profile",
+      "not supported by the analysis: self, profile"
+     ],
+     [
+      "Face in warm hues",
+      "not supported by the analysis: hues"
+     ],
+     [
+      "Echo of the mask",
+      "not supported by the analysis: mask"
+     ],
+     [
+      "Fragmented dreams",
+      "not supported by the analysis: fragmented"
+     ],
+     [
+      "Rhythm of the soul",
+      "not supported by the analysis: soul"
+     ],
+     [
+      "Impression of the mind",
+      "not supported by the analysis: mind"
+     ],
+     [
+      "Mystery in shadowy hues,",
+      "not supported by the analysis: shadowy, hues"
+     ],
+     [
+      "Face in muted tones,",
+      "not supported by the analysis: muted, tones"
+     ],
+     [
+      "Yellow mask in shadow,",
+      "not supported by the analysis: mask, shadow"
+     ],
+     [
+      "An enigmatic visage,",
+      "uses 'enigmatic', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Darkness cloaked in hues,",
+      "uses 'cloaked', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Masked visage in twilight,",
+      "uses 'visage', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "In shadowy shades,",
+      "not supported by the analysis: shadowy, shades"
+     ],
+     [
+      "A haunting visage,",
+      "uses 'visage', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Puzzled figure in shadow,",
+      "not supported by the analysis: figure, shadow"
+     ],
+     [
+      "Study of a visage.",
+      "uses 'visage', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Paul Klee": [
+     "Self-Portrait",
+     "Self-portrait",
+     "Self-Portrait in the Light of the Moon",
+     "Self-portrait in the Light of the Moon",
+     "Self-Portrait in the Light of the Sun",
+     "Self-Portrait in the Moonlight",
+     "Self-Portrait with Mask",
+     "Self-Portrait in the Light of a Candle",
+     "Self-portrait in the light of the moon",
+     "Self-Portrait in Profile"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 49977,
+   "artist": "Claude Monet",
+   "real": "Woman Sitting under the Willows",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Spring Picnic in Soft Golden Light",
+     "Soft Golden Light and Willows",
+     "Yellow Flowers and Red Dress",
+     "The Picnic",
+     "Spring Song, Woman in Red Dress"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Claude Monet' has 497 titled works in our gallery and WikiArt (as 'Claude Monet')",
+    "rejected": [
+     [
+      "Woman Seated in a Garden",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Spring",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "Woman Seated in an Orchard",
+      "not supported by the analysis: orchard"
+     ],
+     [
+      "Woman Reading in a Garden",
+      "not supported by the analysis: reading, garden"
+     ],
+     [
+      "Woman Seated in a Park",
+      "not supported by the analysis: park"
+     ],
+     [
+      "Woman Seated in a Meadow",
+      "not supported by the analysis: meadow"
+     ],
+     [
+      "Woman Reading in a Park",
+      "not supported by the analysis: reading, park"
+     ],
+     [
+      "Woman in a Garden",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Willow Trees in Serene Golden Glow",
+      "not supported by the analysis: serene, glow"
+     ],
+     [
+      "Picnic Under Willow Trees",
+      "not supported by the analysis: under"
+     ],
+     [
+      "Golden Glow Over Willows",
+      "not supported by the analysis: glow, over"
+     ],
+     [
+      "Spring Picnic Scene",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Willow Breeze, Yellow Flowers",
+      "not supported by the analysis: breeze"
+     ],
+     [
+      "Serene Picnic, Golden Sky",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Lush Meadow, Willows, Dappled Light",
+      "not supported by the analysis: lush, meadow"
+     ],
+     [
+      "Serenity, Soft Golden Glow",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Peaceful Gathering, Spring Picnic",
+      "not supported by the analysis: gathering"
+     ],
+     [
+      "Delightful Moment, Sunlit Picnic",
+      "uses 'sunlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Scene, Pastoral Setting",
+      "not supported by the analysis: serene, scene, pastoral, setting"
+     ],
+     [
+      "Spring Bliss, Dappled Grass",
+      "not supported by the analysis: bliss"
+     ],
+     [
+      "Tranquil Afternoon, Gold-Lit Landscape",
+      "uses 'tranquil', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Claude Monet": [
+     "Woman Seated in a Garden",
+     "Spring",
+     "Woman Seated in a Landscape",
+     "Woman Seated in an Orchard",
+     "Woman Reading in a Garden",
+     "Woman Seated in a Park",
+     "Woman Seated in a Meadow",
+     "The Picnic",
+     "Woman Reading in a Park",
+     "Woman in a Garden"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 23099,
+   "artist": "Claude Monet",
+   "real": "Portrait of Pere Paul",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "9. Chef's Quick Strokes in Pale Green",
+     "5. Chef's Quick Strokes"
+    ],
+    "sources": [
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Claude Monet' has 497 titled works in our gallery and WikiArt (as 'Claude Monet')",
+    "rejected": [
+     [
+      "The Baker",
+      "not supported by the analysis: baker"
+     ],
+     [
+      "Self-Portrait as a Baker",
+      "not supported by the analysis: self, baker"
+     ],
+     [
+      "Portrait of a Baker",
+      "not supported by the analysis: baker"
+     ],
+     [
+      "Portrait of a Fisherman",
+      "not supported by the analysis: fisherman"
+     ],
+     [
+      "Self-Portrait",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "Head of a Fisherman",
+      "not supported by the analysis: fisherman"
+     ],
+     [
+      "Portrait of a Cook",
+      "not supported by the analysis: cook"
+     ],
+     [
+      "Self-Portrait as a Chef",
+      "not supported by the analysis: self"
+     ],
+     [
+      "Self-Portrait as a Cook",
+      "not supported by the analysis: self, cook"
+     ],
+     [
+      "Self Portrait as a Baker",
+      "not supported by the analysis: self, baker"
+     ],
+     [
+      "1. Chef in Green",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "2. Chef's Hat in Yellow",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "3. Chef's Apron in White",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "4. Chef's Necktie in Black",
+      "uses 'necktie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "6. Chef's Lively Face",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "7. Chef's Cheerful Mood",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "8. Chef's Flat Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "10. Chef's Lively Face in Quick Strokes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Chef in Green, Yellow, White",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Bearded Chef's Hat, Apron, Necktie",
+      "uses 'necktie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Chef with Quick, Loose Strokes",
+      "does not follow the artist's pattern"
+     ],
+     [
+      "Cook's Hat, Apron, Noodle",
+      "uses 'noodle', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bearded Chef's Cap, Cheeky Smile",
+      "uses 'cheeky', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Chefs' Outfit, Nonsensical Expression",
+      "uses 'nonsensical', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Chef's Wear, Vivid Green Hue",
+      "not supported by the analysis: wear, vivid, hue"
+     ],
+     [
+      "Chefs' Attire, Vivid White Accent",
+      "not supported by the analysis: attire, vivid, accent"
+     ],
+     [
+      "Bearded Chef, Dappled Light",
+      "uses 'dappled', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Chef's Attire, Quick, Loose Brushstrokes",
+      "uses 'brushstrokes', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Claude Monet": [
+     "The Baker",
+     "Self-Portrait as a Baker",
+     "Portrait of a Baker",
+     "Portrait of a Fisherman",
+     "Self-Portrait",
+     "Head of a Fisherman",
+     "Portrait of a Cook",
+     "Self-Portrait as a Chef",
+     "Self-Portrait as a Cook",
+     "Self Portrait as a Baker"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 9956,
+   "artist": "Claude Monet",
+   "real": "The Sea, Port in Amsterdam",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Ships in the Harbor",
+     "Harbor Glow, Soft Light",
+     "Sailing Ships"
+    ],
+    "sources": [
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Claude Monet' has 497 titled works in our gallery and WikiArt (as 'Claude Monet')",
+    "rejected": [
+     [
+      "The Port of Le Havre",
+      "not supported by the analysis: port, havre"
+     ],
+     [
+      "Harbour at Le Havre",
+      "not supported by the analysis: havre"
+     ],
+     [
+      "Harbour Scene",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Harbour",
+      "length 1 outside 2-9 words"
+     ],
+     [
+      "Fishing Boats in the Harbor",
+      "not supported by the analysis: fishing"
+     ],
+     [
+      "Fishing Boats in the Harbour",
+      "not supported by the analysis: fishing"
+     ],
+     [
+      "Fishing Boats Leaving the Harbor",
+      "not supported by the analysis: fishing, leaving"
+     ],
+     [
+      "Le Havre",
+      "not supported by the analysis: havre"
+     ],
+     [
+      "Harbour Twilight, Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Masts in Moonlit Water",
+      "uses 'moonlit', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Dock Scene",
+      "not supported by the analysis: serene, dock"
+     ],
+     [
+      "Harbor Lights, Evening Mood",
+      "not supported by the analysis: evening, mood"
+     ],
+     [
+      "Dockside Shadows, Dusk",
+      "uses 'dockside', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Calm Harbor View, Sky",
+      "not supported by the analysis: view"
+     ],
+     [
+      "Harbor Glow, Dim Light",
+      "not supported by the analysis: dim"
+     ],
+     [
+      "Serene Water Reflections",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Harbor Blues, Pastel Tone",
+      "uses 'pastel', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Claude Monet": [
+     "The Port of Le Havre",
+     "Harbour at Le Havre",
+     "Harbour Scene",
+     "Harbour",
+     "Fishing Boats in the Harbor",
+     "Ships in the Harbor",
+     "Fishing Boats in the Harbour",
+     "Fishing Boats Leaving the Harbor",
+     "Le Havre",
+     "Sailing Ships"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 15066,
+   "artist": "Henri de Toulouse-Lautrec",
+   "real": "At the Opera Ball",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Women of Brightness",
+     "City Street Scene in Red",
+     "Woman in Yellow in Rhythm",
+     "Men in Black Hats in Harmony",
+     "Hats & Glasses"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Henri de Toulouse-Lautrec' has 368 titled works in our gallery and WikiArt (as 'Henri de Toulouse-Lautrec')",
+    "rejected": [
+     [
+      "At the Moulin de la Galette",
+      "copies an existing title"
+     ],
+     [
+      "At the Moulin Rouge",
+      "uses 'moulin', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "The Circus",
+      "not supported by the analysis: circus"
+     ],
+     [
+      "At the Moulin de la Gaufrette",
+      "uses 'moulin', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "At the Moulin-Rouge",
+      "uses 'moulin', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "At the Circus",
+      "not supported by the analysis: circus"
+     ],
+     [
+      "At the Casino",
+      "not supported by the analysis: casino"
+     ],
+     [
+      "At the Moulin De La Galette",
+      "copies an existing title"
+     ],
+     [
+      "At the Moulin De la Galette",
+      "copies an existing title"
+     ],
+     [
+      "At the Moulin de la Vierge",
+      "uses 'moulin', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Balcony Study in Bright Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Yellow Dress in Cheerful Mood",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "Orange Juice Glasses in Mood",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "City Street Background in Tone",
+      "not supported by the analysis: tone"
+     ],
+     [
+      "Three Men in Black in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Woman Next to Them in Mood",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "Balcony Blues",
+      "not supported by the analysis: blues"
+     ],
+     [
+      "City Cheers",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Drinkers of Orange",
+      "uses 'drinkers', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Yellow Dress in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Man of Red Bricks",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Stands Behind",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Night Sky Above",
+      "not supported by the analysis: night, sky, above"
+     ],
+     [
+      "Daytime City",
+      "not supported by the analysis: daytime"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Henri de Toulouse-Lautrec": [
+     "At the Moulin de la Galette",
+     "At the Moulin Rouge",
+     "The Circus",
+     "At the Moulin de la Gaufrette",
+     "At the Moulin-Rouge",
+     "At the Circus",
+     "At the Casino",
+     "At the Moulin De La Galette",
+     "At the Moulin De la Galette",
+     "At the Moulin de la Vierge"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 44389,
+   "artist": "Henri de Toulouse-Lautrec",
+   "real": "Mademoiselle Marcelle Lender, Standing",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Lively Lady",
+     "White Dress Impression",
+     "Woman in a White Dress",
+     "Woman in white dress",
+     "Woman in a Red Dress"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "adapter",
+     "writer",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Henri de Toulouse-Lautrec' has 368 titled works in our gallery and WikiArt (as 'Henri de Toulouse-Lautrec')",
+    "rejected": [
+     [
+      "The Red Rose",
+      "not supported by the analysis: rose"
+     ],
+     [
+      "Woman with a Red Ribbon",
+      "not supported by the analysis: ribbon"
+     ],
+     [
+      "Woman in a White Blouse",
+      "not supported by the analysis: blouse"
+     ],
+     [
+      "Woman with a Fan",
+      "not supported by the analysis: fan"
+     ],
+     [
+      "Woman with a Red Rose",
+      "not supported by the analysis: rose"
+     ],
+     [
+      "Woman with Red Ribbon",
+      "not supported by the analysis: ribbon"
+     ],
+     [
+      "Flower Dance",
+      "not supported by the analysis: dance"
+     ],
+     [
+      "Birdsong in Grey",
+      "uses 'birdsong', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Lady in Flight",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Dress in Red",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Woman dancing, white dress",
+      "not supported by the analysis: dancing"
+     ],
+     [
+      "Girl in white, flying hair",
+      "not supported by the analysis: girl"
+     ],
+     [
+      "Young woman in white",
+      "not supported by the analysis: young"
+     ],
+     [
+      "Bird in woman's hand",
+      "not supported by the analysis: hand"
+     ],
+     [
+      "Girl with flower and bird",
+      "not supported by the analysis: girl"
+     ],
+     [
+      "Lady in white dress",
+      "names no confirmed object (loses the subject)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Henri de Toulouse-Lautrec": [
+     "The Red Rose",
+     "Woman with a Red Ribbon",
+     "Woman in a White Blouse",
+     "Woman with a Fan",
+     "Woman with a Red Flower",
+     "Woman in a White Dress",
+     "Woman in a Red Dress",
+     "Woman with a Red Rose",
+     "The Red Flower",
+     "Woman with Red Ribbon"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 87544,
+   "artist": "Henri de Toulouse-Lautrec",
+   "real": "At the Music Hall Loie Fuller",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Lady in Orange Robe",
+     "Elegant Lady in Yellow Ground",
+     "Orange Robe in Harmony",
+     "Flowing Orange Robe",
+     "Woman with Orange Hair"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Henri de Toulouse-Lautrec' has 368 titled works in our gallery and WikiArt (as 'Henri de Toulouse-Lautrec')",
+    "rejected": [
+     [
+      "Woman in a Red Dress",
+      "not supported by the analysis: dress"
+     ],
+     [
+      "Self-Portrait",
+      "length 1 outside 2-10 words"
+     ],
+     [
+      "Woman in a Yellow Dress",
+      "not supported by the analysis: dress"
+     ],
+     [
+      "The Red Dress",
+      "not supported by the analysis: dress"
+     ],
+     [
+      "Lotus",
+      "length 1 outside 2-10 words"
+     ],
+     [
+      "The Red Flower",
+      "not supported by the analysis: flower"
+     ],
+     [
+      "Woman with a Fan",
+      "not supported by the analysis: fan"
+     ],
+     [
+      "The Red Lotus",
+      "not supported by the analysis: lotus"
+     ],
+     [
+      "Still Life with Orange",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Plant Shadow in Blue and Green",
+      "not supported by the analysis: shadow"
+     ],
+     [
+      "Lady in Plant Shadow",
+      "not supported by the analysis: shadow"
+     ],
+     [
+      "Blue and Green Plant Shadow",
+      "not supported by the analysis: shadow"
+     ],
+     [
+      "Rhythmic Harmony",
+      "not supported by the analysis: rhythmic"
+     ],
+     [
+      "Evocative Melody",
+      "uses 'evocative', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Dreamy Reflections",
+      "uses 'dreamy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Reverie of Light",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Study in Contrast",
+      "not supported by the analysis: contrast"
+     ],
+     [
+      "Impressionist Serenity",
+      "uses 'impressionist', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Echoes of Nature",
+      "not supported by the analysis: nature"
+     ],
+     [
+      "Portrait of Tranquility",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Henri de Toulouse-Lautrec": [
+     "Woman in a Red Dress",
+     "Self-Portrait",
+     "Woman in a Yellow Dress",
+     "Woman with Orange Hair",
+     "The Red Dress",
+     "Lotus",
+     "The Red Flower",
+     "Woman with a Fan",
+     "The Red Lotus",
+     "Still Life with Orange"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 83322,
+   "artist": "Pyotr Konchalovsky",
+   "real": "Still life with fruits and watermelon",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Still Life with Fruits",
+     "Still life with fruits",
+     "Still Life with Fruit",
+     "Still life with fruit",
+     "Summer Melody"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "adapter",
+     "adapter",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Pyotr Konchalovsky' has 498 titled works in our gallery and WikiArt (as 'Pyotr Konchalovsky')",
+    "rejected": [
+     [
+      "Still Life with Watermelon",
+      "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Still Life with Melons",
+      "uses 'melons', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Fruit",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Still life with watermelon",
+      "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Still life with melons",
+      "uses 'melons', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Fruit on the table",
+      "not supported by the analysis: table"
+     ],
+     [
+      "Mango Melancholy",
+      "not supported by the analysis: melancholy"
+     ],
+     [
+      "Grape Symphony",
+      "not supported by the analysis: symphony"
+     ],
+     [
+      "Watermelon Waltz",
+      "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Napkin Nostalgia",
+      "not supported by the analysis: nostalgia"
+     ],
+     [
+      "Tablecloth Tension",
+      "not supported by the analysis: tension"
+     ],
+     [
+      "Mango Mirage",
+      "not supported by the analysis: mirage"
+     ],
+     [
+      "Grape Glimmer",
+      "uses 'glimmer', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melon Meditation",
+      "uses 'melon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Napkin Narrative",
+      "not supported by the analysis: narrative"
+     ],
+     [
+      "Summer melons, rhapsody",
+      "uses 'melons', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Mangoes, melody",
+      "uses 'mangoes', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Grape tranquility, study",
+      "uses 'tranquility', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Watermelon serenade, harmony",
+      "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melon minuet, reflection",
+      "uses 'melon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Watermelon waltz, fragment",
+      "uses 'watermelon', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Melon poem, rhythm",
+      "uses 'melon', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Pyotr Konchalovsky": [
+     "Still Life with Fruits",
+     "Still Life with Watermelon",
+     "Still Life with Melons",
+     "Still life with fruits",
+     "Still Life with Fruit",
+     "Fruit",
+     "Still life with fruit",
+     "Still life with watermelon",
+     "Still life with melons",
+     "Fruit on the table"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 62985,
+   "artist": "Pyotr Konchalovsky",
+   "real": "Essentuki",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Autumn in the Park",
+     "The Park",
+     "Spring Park",
+     "Landscape with trees",
+     "In the Park"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter",
+     "adapter"
+    ],
+    "path": "a",
+    "why": "artist 'Pyotr Konchalovsky' has 498 titled works in our gallery and WikiArt (as 'Pyotr Konchalovsky')",
+    "rejected": [
+     [
+      "Pavlovsk Park",
+      "uses 'pavlovsk', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "A Walk in the Park",
+      "not supported by the analysis: walk"
+     ],
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Pavlovsk park",
+      "uses 'pavlovsk', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Pathway in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Clouds Over Greenery",
+      "uses 'greenery', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bright Daydream",
+      "uses 'daydream', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Serene Scene",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Sunny Walkway",
+      "not supported by the analysis: walkway"
+     ],
+     [
+      "Cloudy Sky",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Serenity in Bloom",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bench under shade",
+      "not supported by the analysis: shade"
+     ],
+     [
+      "Trees in breeze",
+      "not supported by the analysis: breeze"
+     ],
+     [
+      "Sky above land",
+      "not supported by the analysis: above, land"
+     ],
+     [
+      "Clouds over land",
+      "not supported by the analysis: over, land"
+     ],
+     [
+      "Trees in rapture",
+      "uses 'rapture', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Spring whisper",
+      "not supported by the analysis: whisper"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Pyotr Konchalovsky": [
+     "Pavlovsk Park",
+     "A Walk in the Park",
+     "Landscape",
+     "In the Park",
+     "Pavlovsk park",
+     "In the park",
+     "Autumn in the Park",
+     "Landscape with trees",
+     "The Park",
+     "Park"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 26293,
+   "artist": "Pyotr Konchalovsky",
+   "real": "Still Life. Lilacs in a tub.",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Still Life with Lilacs",
+     "Still life with lilacs",
+     "Lilacs in Harmony",
+     "Lilacs",
+     "Lilacs in Poem"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Pyotr Konchalovsky' has 498 titled works in our gallery and WikiArt (as 'Pyotr Konchalovsky')",
+    "rejected": [
+     [
+      "Still life with lilac",
+      "copies an existing title"
+     ],
+     [
+      "Still Life with Lilac",
+      "copies an existing title"
+     ],
+     [
+      "Bouquet of lilacs",
+      "not supported by the analysis: bouquet"
+     ],
+     [
+      "Lilac",
+      "uses 'lilac', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Vase with lilacs",
+      "not supported by the analysis: vase"
+     ],
+     [
+      "Bouquet of Lilacs",
+      "not supported by the analysis: bouquet"
+     ],
+     [
+      "Vase with Lilacs",
+      "not supported by the analysis: vase"
+     ],
+     [
+      "Lilacs in Bloom",
+      "not supported by the analysis: bloom"
+     ],
+     [
+      "Bouquet in Brown",
+      "not supported by the analysis: bouquet"
+     ],
+     [
+      "Ivy of Lilacs",
+      "not supported by the analysis: ivy"
+     ],
+     [
+      "Buds in Bloom",
+      "not supported by the analysis: bloom"
+     ],
+     [
+      "Pink Lilacs in Shadow",
+      "not supported by the analysis: shadow"
+     ],
+     [
+      "Lilacs in Romance",
+      "not supported by the analysis: romance"
+     ],
+     [
+      "Bloomed in Shade",
+      "uses 'bloomed', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bouquet in Darkness",
+      "not supported by the analysis: bouquet"
+     ],
+     [
+      "Fragrance in Bloom",
+      "not supported by the analysis: fragrance, bloom"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Pyotr Konchalovsky": [
+     "Lilacs",
+     "Still Life with Lilacs",
+     "Still life with lilacs",
+     "Still life with lilac",
+     "Still Life with Lilac",
+     "Bouquet of lilacs",
+     "Lilac",
+     "Vase with lilacs",
+     "Bouquet of Lilacs",
+     "Vase with Lilacs"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 62753,
+   "artist": "Martiros Saryan",
+   "real": "Fairy tale",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Rhythms of night",
+     "Glowing night",
+     "Echoes of dreams",
+     "Mysterious walk",
+     "Harmony of darkness"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Martiros Saryan' has 496 titled works in our gallery and WikiArt (as 'Martiros Saryan')",
+    "rejected": [
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Landscape",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Landscape with Fire and Moon",
+      "not supported by the analysis: fire, moon"
+     ],
+     [
+      "Landscape with Fire",
+      "not supported by the analysis: fire"
+     ],
+     [
+      "Landscape with the Moon",
+      "not supported by the analysis: moon"
+     ],
+     [
+      "Landscape with Fishermen",
+      "not supported by the analysis: fishermen"
+     ],
+     [
+      "Landscape with Moon and Fire",
+      "not supported by the analysis: moon, fire"
+     ],
+     [
+      "Abstraction-Composition",
+      "not supported by the analysis: composition"
+     ],
+     [
+      "Red dress in moonlight",
+      "not supported by the analysis: moonlight"
+     ],
+     [
+      "Dreamy journey",
+      "not supported by the analysis: journey"
+     ],
+     [
+      "Flower of mystery",
+      "not supported by the analysis: flower"
+     ],
+     [
+      "Armenian night",
+      "not supported by the analysis: armenian"
+     ],
+     [
+      "Gloomy Night Walk",
+      "uses 'gloomy', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Red Dress in Twilight",
+      "not supported by the analysis: twilight"
+     ],
+     [
+      "Dreamy Figure under Moon",
+      "not supported by the analysis: under, moon"
+     ],
+     [
+      "Forests of Imagination",
+      "not supported by the analysis: forests, imagination"
+     ],
+     [
+      "Silhouettes in Dream Light",
+      "not supported by the analysis: silhouettes"
+     ],
+     [
+      "Echoes of Fantasy",
+      "not supported by the analysis: fantasy"
+     ],
+     [
+      "Night Sky’s Reflection",
+      "not supported by the analysis: reflection"
+     ],
+     [
+      "Mystery of Shadows",
+      "not supported by the analysis: shadows"
+     ],
+     [
+      "Soul of Nightmares",
+      "not supported by the analysis: soul, nightmares"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Martiros Saryan": [
+     "Abstraction",
+     "Landscape",
+     "Untitled",
+     "Landscape with Figures",
+     "Landscape with Fire and Moon",
+     "Landscape with Fire",
+     "Landscape with the Moon",
+     "Landscape with Fishermen",
+     "Landscape with Moon and Fire",
+     "Abstraction-Composition"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 22121,
+   "artist": "Martiros Saryan",
+   "real": "Date palm",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Cheerful Village",
+     "Village Impression",
+     "Lively Portrait",
+     "Tropical Melody",
+     "Tropical Study"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Martiros Saryan' has 498 titled works in our gallery and WikiArt (as 'Martiros Saryan')",
+    "rejected": [
+     [
+      "Palm",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "African Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "The Palm",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Landscape with Palm",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Colorful Rhythm",
+      "not supported by the analysis: colorful"
+     ],
+     [
+      "Sunny Rhapsody",
+      "not supported by the analysis: sunny"
+     ],
+     [
+      "Fluffy Fantasy",
+      "not supported by the analysis: fluffy, fantasy"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Martiros Saryan": [
+     "Palm Tree",
+     "The Palm Tree",
+     "Palm",
+     "The Tree of Life",
+     "African Landscape",
+     "Untitled",
+     "Palm Trees",
+     "The Palm",
+     "Landscape with Palm",
+     "Tree of Life"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 85609,
+   "artist": "Martiros Saryan",
+   "real": "Scene from the Train Window",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Lively Cityscape",
+     "City Life Portrait",
+     "City Life",
+     "Red Building",
+     "Green Tree Impression"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Martiros Saryan' has 497 titled works in our gallery and WikiArt (as 'Martiros Saryan')",
+    "rejected": [
+     [
+      "Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Landscape with Clouds",
+      "not supported by the analysis: landscape, clouds"
+     ],
+     [
+      "Abstraction",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Untitled (Landscape)",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Abstraction-Landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Abstraction-landscape",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Landscape (Study)",
+      "not supported by the analysis: landscape"
+     ],
+     [
+      "Untitled",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Aboriginal Landscape",
+      "not supported by the analysis: aboriginal, landscape"
+     ],
+     [
+      "Landscape with clouds",
+      "not supported by the analysis: landscape, clouds"
+     ],
+     [
+      "Flat Light Study",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Even Tone Impression",
+      "not supported by the analysis: tone"
+     ],
+     [
+      "Lively Scene Rhapsody",
+      "not supported by the analysis: scene"
+     ],
+     [
+      "Blue Sky",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Figures in Light",
+      "not supported by the analysis: light"
+     ],
+     [
+      "Vivid Colors",
+      "not supported by the analysis: vivid, colors"
+     ],
+     [
+      "Warm Mood",
+      "not supported by the analysis: mood"
+     ],
+     [
+      "Lively Scene",
+      "not supported by the analysis: scene"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Martiros Saryan": [
+     "Landscape",
+     "Landscape with Clouds",
+     "Abstraction",
+     "Untitled (Landscape)",
+     "Abstraction-Landscape",
+     "Abstraction-landscape",
+     "Landscape (Study)",
+     "Untitled",
+     "Aboriginal Landscape",
+     "Landscape with clouds"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 27500,
+   "artist": "Gustav Klimt",
+   "real": "Portrait of a Girl",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Portrait of a Girl",
+     "Portrait of a Young Girl",
+     "Childhood Innocence in Yellow",
+     "Portrait of a Girl in White",
+     "Nostalgic Innocence"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "adapter",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Gustav Klimt' has 159 titled works in our gallery and WikiArt (as 'Gustav Klimt')",
+    "rejected": [
+     [
+      "Portrait of a Lady",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Portrait of a Young Woman",
+      "not supported by the analysis: woman"
+     ],
+     [
+      "Portrait of the Artist's Daughter",
+      "not supported by the analysis: artist, daughter"
+     ],
+     [
+      "Portrait of a Young Lady",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Portrait of a Woman",
+      "copies an existing title"
+     ],
+     [
+      "Portrait of a Lady in White",
+      "not supported by the analysis: lady"
+     ],
+     [
+      "Portrait of a Woman in White",
+      "not supported by the analysis: woman"
+     ],
+     [
+      "Gentle Bonneted Girl",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Soft Bonneted Serenity",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bonneted Beauty in Warm Glow",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Gentle Bonneted Innocence",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Yellow Bonneted Serenity",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bonneted Serenity in Warm Light",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bonneted Serenity in Yellow",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bonneted Serenity in Soft Glow",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bonneted Serenity in Yellow Light",
+      "uses 'bonneted', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Childhood Serenity",
+      "uses 'serenity', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Bonnet Bonanza",
+      "uses 'bonanza', which is neither in the analysis nor a common word (a name or place?)"
+     ],
+     [
+      "Charm of Child Bonnet",
+      "not supported by the analysis: charm, child"
+     ],
+     [
+      "Garden Bonnet Harmony",
+      "not supported by the analysis: garden"
+     ],
+     [
+      "Fragile Bonnet Fragrance",
+      "not supported by the analysis: fragile, fragrance"
+     ],
+     [
+      "Lace Bonnet Lullaby",
+      "not supported by the analysis: lullaby"
+     ],
+     [
+      "Daydream Bonnet Delight",
+      "uses 'daydream', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Gustav Klimt": [
+     "Portrait of a Lady",
+     "Portrait of a Young Woman",
+     "Portrait of a Young Girl",
+     "Portrait of the Artist's Daughter",
+     "Portrait of a Young Lady",
+     "Portrait of a Woman",
+     "Portrait of a Girl",
+     "Portrait of a Lady in White",
+     "Portrait of a Woman in White",
+     "Portrait of a Girl in White"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 65585,
+   "artist": "Gustav Klimt",
+   "real": "Portrait of Hermine Gallia",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Portrait of a Lady",
+     "Portrait of a Lady in White",
+     "Lady in White, Impression",
+     "Lady in White, Fragment",
+     "Elegant Lady in White"
+    ],
+    "sources": [
+     "adapter",
+     "adapter",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Gustav Klimt' has 159 titled works in our gallery and WikiArt (as 'Gustav Klimt')",
+    "rejected": [
+     [
+      "Lady with Fan",
+      "copies an existing title"
+     ],
+     [
+      "Lady with fan",
+      "copies an existing title"
+     ],
+     [
+      "Portrait of the Artist's Wife",
+      "not supported by the analysis: artist, wife"
+     ],
+     [
+      "Lady in White, Reverie",
+      "uses 'reverie', which is neither in the analysis nor a common word (a name or place?)"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Gustav Klimt": [
+     "Portrait of a Lady",
+     "Lady with Fan",
+     "Woman in a White Dress",
+     "Woman in White",
+     "Woman with a Fan",
+     "Lady with fan",
+     "Portrait of the Artist's Wife",
+     "Portrait of a Lady in White",
+     "Lady with a Fan",
+     "Woman with Fan"
+    ]
+   }
+  },
+  {
+   "set": "wikiart_held_out",
+   "id": 15044,
+   "artist": "Gustav Klimt",
+   "real": "Female organ player",
+   "hybrid_artistic|artist_known": {
+    "titles": [
+     "Devotion in Piano Light",
+     "White Dress in Light",
+     "Devotion in Piano Harmony",
+     "Piano Melody",
+     "Devotion in Piano Rhythm"
+    ],
+    "sources": [
+     "writer",
+     "writer",
+     "writer",
+     "writer",
+     "writer"
+    ],
+    "path": "a",
+    "why": "artist 'Gustav Klimt' has 159 titled works in our gallery and WikiArt (as 'Gustav Klimt')",
+    "rejected": [
+     [
+      "Sleeping Beauty",
+      "not supported by the analysis: sleeping, beauty"
+     ],
+     [
+      "The Music Lesson",
+      "not supported by the analysis: lesson"
+     ],
+     [
+      "Sleeping Muse",
+      "not supported by the analysis: sleeping, muse"
+     ],
+     [
+      "The Lovers",
+      "not supported by the analysis: lovers"
+     ],
+     [
+      "The Musician",
+      "names no confirmed object (loses the subject)"
+     ],
+     [
+      "Piano Melody in Warm Glow",
+      "not supported by the analysis: glow"
+     ],
+     [
+      "Devoted Heart in Soft Light",
+      "not supported by the analysis: heart"
+     ],
+     [
+      "Piano Study in Warm Tone",
+      "not supported by the analysis: tone"
+     ],
+     [
+      "Devoted Heart in Piano Light",
+      "not supported by the analysis: heart"
+     ],
+     [
+      "Piano Meditation",
+      "not supported by the analysis: meditation"
+     ],
+     [
+      "Serene Devotion",
+      "not supported by the analysis: serene"
+     ],
+     [
+      "Shadow of Devotion",
+      "not supported by the analysis: shadow"
+     ],
+     [
+      "Harmonic Harmony",
+      "not supported by the analysis: harmonic"
+     ],
+     [
+      "Meditation Melody",
+      "not supported by the analysis: meditation"
+     ]
+    ]
+   },
+   "adapter_candidates": {
+    "Gustav Klimt": [
+     "Sleeping Beauty",
+     "Woman at the Piano",
+     "The Music Lesson",
+     "Sleeping Muse",
+     "Woman at a Window",
+     "The Lovers",
+     "The Dream",
+     "Woman at the piano",
+     "The Musician",
+     "Woman at a Piano"
+    ]
+   }
+  }
+ ]
+}

@@ -252,7 +252,7 @@ def analysis_text(pred, confirmed, doubtful, palette):
     return "\n".join(lines)
 
 
-def prompt_pattern(artist, examples, stats, analysis, templates=(), meaning=None):
+def prompt_pattern(artist, examples, stats, analysis, templates=(), meaning=None, artistic=False):
     tpl = ""
     if templates:
         tpl = ("\nTitle templates this artist uses: " + "; ".join(f"'{tp['prefix']} ...' ({round(100 * tp['share'])}% of titles)" for tp in templates) +
@@ -261,7 +261,7 @@ def prompt_pattern(artist, examples, stats, analysis, templates=(), meaning=None
     return (f"You write artwork titles. Below are real titles by {artist}, taken from the works that look most like a new painting, "
             f"and a summary of how this artist titles works.\nTitles:\n" + "\n".join(f"- {t}" for t in examples) +
             f"\nPattern: {describe_pattern(stats)}.{tpl}\n\nNew painting, verified analysis:\n{analysis}\n"
-            + (f"What the new painting means:\n{meaning}\n{EVOKE} Keep the artist's pattern when it applies.\n" if meaning else "") + "\n"
+            + (f"What the new painting means:\n{meaning}\n{ARTISTIC if artistic else EVOKE} Keep the artist's pattern when it applies.\n" if meaning else "") + "\n"
             f"Write {N_CAND} different titles {artist} could plausibly give the new painting. Follow the pattern: the same length, "
             "wording, language and numbering habits, and reuse the artist's typical openings and phrases (see frequent first words) "
             "whenever they fit. Base the content only on the description, theme, confirmed objects and colors. "
@@ -272,6 +272,14 @@ def prompt_pattern(artist, examples, stats, analysis, templates=(), meaning=None
 EVOKE = ("Name exactly one confirmed object as the subject and add a mood or quality taken from the theme, mood or lighting. "
          "Do not add actions, events, places, seasons or ideas that are not in the analysis.")
 GROUND_SIM = 0.7
+ARTISTIC = ("Title it the way painters title their own work: short (1-5 words), evocative, built from the mood, light and theme, "
+            "naming at most one subject and never listing objects. Forms painters use: a mood word and the subject (like 'Quiet Harbor'), "
+            "the subject in a light or color (like 'Harbor in Grey'), 'Song of the' and the subject, a frame word and a color (like 'Study in Blue'), "
+            "or a single mood word. Frame words you may use: Study, Variation, "
+            "Rhythm, Harmony, Song, Melody, Rhapsody, Ballad, Poem, Echo, Memory, Dream, Reverie. "
+            "Every other word must come from the analysis. Do not add actions, events, places, seasons, people or objects that are not in it.")
+FRAMES = {"study", "variation", "variations", "rhythm", "rhythms", "harmony", "song", "melody", "rhapsody",
+          "ballad", "poem", "echo", "echoes", "memory", "memories", "dream", "dreams", "reverie", "improvisation", "motif"}
 
 
 def meaning_text(pred):
@@ -299,10 +307,10 @@ def ungrounded_words(title, evidence, allowed=()):
     return out
 
 
-def prompt_free(analysis, meaning=None):
+def prompt_free(analysis, meaning=None, artistic=False):
     if meaning:
-        return (f"Write {N_CAND} different short titles (2-6 words) a gallery could give this painting.\n"
-                f"What the painting means:\n{meaning}\n\nWhat is verified in the painting:\n{analysis}\n\n{EVOKE} "
+        return (f"Write {N_CAND} different short titles ({'1-5' if artistic else '2-6'} words) a gallery could give this painting.\n"
+                f"What the painting means:\n{meaning}\n\nWhat is verified in the painting:\n{analysis}\n\n{ARTISTIC if artistic else EVOKE} "
                 "Do not invent people, places, names, dates or objects that are not in the analysis. "
                 "One title per line, no numbering, no quotation marks.")
     return (f"Write {N_CAND} different short titles (2-6 words) a gallery could give this painting, based only on this verified "
@@ -326,9 +334,9 @@ def write(model, proc, prompt, sample=False):
     raw = "\n".join(raws)
     out = []
     for line in raw.splitlines():
-        t = re.sub(r"^\s*(\d+[.)]|[-*•])\s*", "", line).strip().strip('"“”\'').strip()
-        t = re.sub(r"[*_#`]+", "", t).strip()
-        if t and len(t) < 90:
+        t = re.sub(r"[*_#`]+", "", line).strip()
+        t = re.sub(r"^\s*(\d+[.)]|[-•])\s*", "", t).strip().strip('"“”\'').strip()
+        if t and len(t) < 90 and not re.search(r"[<>\[\]{}]", t):
             out.append(t)
     return list(dict.fromkeys(out)), raw
 
@@ -342,6 +350,8 @@ def check(t, ctx):
         return "copies an existing title"
     if re.search(r"\b(1[5-9]|20)\d\d\b", t):
         return "contains a date"
+    if re.search(r"[<>\[\]{}]|^\d", t):
+        return "contains list numbering or placeholders"
     if ctx.get("artist") and any(p.lower() in t.lower() for p in ctx["artist"].split() if len(p) > 3):
         return "names the artist"
     for o in ctx.get("doubtful", []):
@@ -358,11 +368,19 @@ def check(t, ctx):
             return f"uses '{w}', which is neither in the analysis nor a common word (a name or place?)"
     tp = template_of(t, ctx.get("templates", []))
     if ctx.get("grounded"):
-        tpl_words = {w for x in ctx.get("templates", []) for w in x["low"].split()} | {"untitled", "abstraction", "still", "life", "portrait"}
+        tpl_words = {w for x in ctx.get("templates", []) for w in x["low"].split()} | {"untitled", "abstraction"}
+        if {"still", "life"} <= ev:
+            tpl_words |= {"still", "life"}
+        if ev & (PERSON_GENERIC - STOP - {"seated", "standing", "sitting"} | {"portrait", "face", "figure", "person"}):
+            tpl_words |= {"portrait"}
+        if ctx.get("artistic"):
+            tpl_words |= FRAMES
         un = ungrounded_words(t, ctx.get("ground_words", set()), tpl_words)
         if un:
             return f"not supported by the analysis: {', '.join(un)}"
-        if ctx.get("confirmed") and not tp and not any(mentions(t, o) for o in ctx["confirmed"]):
+        tw = {w.lower() for w in re.findall(r"[A-Za-z]+", t)}
+        evokes = ctx.get("artistic") and bool(tw & (ctx.get("meaning_words", set()) | FRAMES))
+        if ctx.get("confirmed") and not tp and not evokes and not any(mentions(t, o) for o in ctx["confirmed"]):
             return "names no confirmed object (loses the subject)"
     if tp:
         key = [w for w in tp["low"].split() if w.isalpha() and w not in STOP]
@@ -401,7 +419,8 @@ def rank(cands, ctx):
     V = enc(cands)
     fit = V @ enc([ctx["analysis"]])[0]
     if ctx.get("meaning"):
-        fit = 0.5 * fit + 0.5 * (V @ enc([ctx["meaning"]])[0])
+        w = 0.7 if ctx.get("artistic") else 0.5
+        fit = (1 - w) * fit + w * (V @ enc([ctx["meaning"]])[0])
     own = None
     if ctx.get("artist_titles"):
         own = enc(ctx["artist_titles"]).mean(0)
@@ -428,13 +447,22 @@ def rank(cands, ctx):
         n_obj = sum(1 for o in ctx.get("objects_all", []) if __import__("verified").mentions(r["title"], o))
         r["objects_named"] = n_obj
         r["literal_penalty"] = 0.03 * max(0, n_obj - 1) if (ctx.get("meaning") and not tp) else 0.0
+        if ctx.get("artistic"):
+            tw = {x.lower() for x in re.findall(r"[A-Za-z]+", r["title"])}
+            r["literal_penalty"] = (0.06 * max(0, n_obj - 1) if not tp else 0.0) + 0.05 * max(0, len(r["title"].split()) - 5)
+            r["art_bonus"] = 0.04 * bool(tw & ctx.get("meaning_words", set())) + 0.03 * bool(tw & FRAMES)
     key = (lambda r: r["fit"] + 2 * r.get("pattern_margin", 0) + r.get("template_bonus", 0) + r.get("habit_bonus", 0)
-           - r.get("literal_penalty", 0))
-    return sorted(ok, key=key, reverse=True), [r for r in out if r["rejected"]]
+           - r.get("literal_penalty", 0) + r.get("art_bonus", 0))
+    ranked, seen = [], set()
+    for r in sorted(ok, key=key, reverse=True):
+        if norm(r["title"]) not in seen:
+            seen.add(norm(r["title"]))
+            ranked.append(r)
+    return ranked, [r for r in out if r["rejected"]]
 
 
 def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclude_rows=(), exclude_ids=(), top=3, force=None,
-                  year=None, use_era=True, evocative=True, extra=None, writer=True):
+                  year=None, use_era=True, evocative=True, extra=None, writer=True, artistic=False):
     era, era_source = era_range(year, pred.get("era_guess")) if use_era else (None, None)
     hits = search_all(qvec, exclude_rows, exclude_ids, era=era)
     top1 = hits[0] if hits else None
@@ -471,7 +499,9 @@ def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclud
               for w in re.findall(r"[A-Za-z]+", str(pred.get(f) or ""))}
     ground |= {w.lower() for o in confirmed for w in re.findall(r"[A-Za-z]+", o)}
     ground |= {w for c in (palette or [])[:6] for w in color_name(c["hex"]).split()}
-    ctx.update(meaning=meaning, objects_all=[o["object"] for o in objects], grounded=evocative, ground_words=ground, confirmed=confirmed)
+    ctx.update(meaning=meaning, objects_all=[o["object"] for o in objects], grounded=evocative, ground_words=ground, confirmed=confirmed,
+               artistic=artistic, meaning_words={w.lower() for f in ("theme", "mood", "lighting") for w in re.findall(r"[A-Za-z]+", str(pred.get(f) or ""))
+                                                 if w.lower() not in STOP and len(w) > 2})
     if path in ("a", "b"):
         stats = pattern_stats(all_titles)
         templates = extract_templates(all_titles)
@@ -487,11 +517,11 @@ def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclud
         ctx.update(forbid_copy={x for x, c in uses.items() if c == 1}, words=(max(1, stats["words_p10"]), stats["words_p90"] + 2),
                    untitled_share=stats["untitled"], artist_titles=all_titles, templates=templates,
                    allowed_caps=allowed | {w.lower() for t in all_titles for w in t.split()})
-        prompt = prompt_pattern(known, examples, stats, analysis, templates, meaning)
+        prompt = prompt_pattern(known, examples, stats, analysis, templates, meaning, artistic)
     else:
         stats = None
         ctx.update(words=(1, 7), allowed_caps=allowed)
-        prompt = prompt_free(analysis, meaning)
+        prompt = prompt_free(analysis, meaning, artistic)
     cands, raw = write(model, proc, prompt, sample=evocative) if writer else ([], "")
     added = extra(known) if extra else []
     cands = list(dict.fromkeys(ctx.get("habitual_forms", []) + added + cands))
@@ -500,11 +530,12 @@ def title_cascade(model, proc, qvec, pred, objects, palette, artist=None, exclud
         r["source"] = "habit" if r["title"] in ctx.get("habitual_forms", []) else "adapter" if r["title"] in added else "writer"
     if not ranked and path in ("a", "b"):
         added2 = extra(None) if extra else []
-        cands2, raw = write(model, proc, prompt_free(analysis, meaning), sample=evocative) if writer else ([], "")
+        cands2, raw = write(model, proc, prompt_free(analysis, meaning, artistic), sample=evocative) if writer else ([], "")
         cands2 = list(dict.fromkeys(added2 + cands2))
         ranked, rej2 = rank(cands2, {"analysis": analysis, "doubtful": doubtful, "words": (1, 7), "allowed_caps": allowed,
                                      "evidence_words": evidence, "meaning": meaning, "objects_all": [o["object"] for o in objects],
-                                     "grounded": evocative, "ground_words": ground, "confirmed": confirmed})
+                                     "grounded": evocative, "ground_words": ground, "confirmed": confirmed, "artistic": artistic,
+                                     "meaning_words": ctx["meaning_words"]})
         rejected += rej2
         for r in ranked:
             r["source"] = "adapter" if r["title"] in added2 else "writer"

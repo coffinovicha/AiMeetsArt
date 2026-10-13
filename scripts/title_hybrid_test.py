@@ -9,6 +9,8 @@ from vlm_common import ROOT, SIDE, load, load_image, records
 
 DUP = {"F1-016": "F1-017", "F1-017": "F1-016", "F1-040": "F1-046", "F1-046": "F1-040", "F1-056": "F1-062", "F1-062": "F1-056"}
 SETUPS = {"adapter_checked": dict(writer=False), "hybrid": dict(writer=True)}
+if os.environ.get("ARTISTIC") == "1":
+    SETUPS = {"hybrid_artistic": dict(writer=True, artistic=True)}
 out = ROOT / "outputs" / f"title_hybrid_test{os.environ.get('TAG', '')}.json"
 R = {r["id"]: r for r in records()}
 P = {json.loads(l)["id"]: json.loads(l) for l in (ROOT / "outputs" / "preds_verified2_val.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()}
@@ -76,7 +78,7 @@ for it in items:
         for name, s in SETUPS.items():
             res = title_cascade(model, proc, it["q"], it["pred"], it["objects"], it["palette"],
                                 artist=it["artist"] if mode == "artist_known" else None, exclude_rows=it["excl_rows"],
-                                exclude_ids=it["excl_ids"], use_era=False, evocative=True, top=5, extra=extra, writer=s["writer"])
+                                exclude_ids=it["excl_ids"], use_era=False, evocative=True, top=5, extra=extra, writer=s["writer"], artistic=s.get("artistic", False))
             row[f"{name}|{mode}"] = {"titles": [t["title"] for t in res["titles"]], "sources": [t.get("source", "fallback") for t in res["titles"]],
                                      "path": res["path"], "why": res["why"], "rejected": [(x["title"], x["rejected"]) for x in res["rejected"]]}
     row["adapter_candidates"] = {str(k): v for k, v in cache.items()}
