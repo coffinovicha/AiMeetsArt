@@ -9,7 +9,7 @@ from vlm_common import PROMPT, SIDE, load, parse
 
 UNCLEAR = 0.55
 MATCH = 0.7
-CONTEXT = re.compile(r"\b(typical of|common in|popular in|often|were (?:used|popular|made|common)|"
+CONTEXT = re.compile(r"\b(typical of|common in|popular in|often|(?:were|was) (?:once |often |usually |traditionally |commonly )?(?:used|popular|made|common|worn|given)|"
                      r"\d+(?:st|nd|rd|th) centur|centuries|tradition|cultures?|known as|symbol of|symboli[sz]es|"
                      r"Byzantine|Renaissance|Baroque|Gothic|Ottoman|Egyptian|African|Asian|Jewish|Christian|Orthodox)\b", re.I)
 

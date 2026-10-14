@@ -6,3 +6,13 @@ __pycache__/
 artificio_data/images_256/
 artificio_data/full/*.npy
 artificio_data/full/title_images/
+outputs/app_examples/*.pkl
+!outputs/app_examples/F3-073.pkl
+!outputs/app_examples/F2-086.pkl
+!outputs/app_examples/F1-028.pkl
+!outputs/app_examples/F3-064.pkl
+!outputs/app_examples/F2-041.pkl
+!outputs/app_examples/F2-050.pkl
+demo/promo_source/promo.html
+demo/promo_source/frames/
+demo/promo_source/edge_render/

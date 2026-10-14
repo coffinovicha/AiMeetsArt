@@ -1,0 +1,4 @@
+W1014 11:50:33.897000 16556 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+ready
+* Running on local URL:  http://127.0.0.1:7861
+* To create a public link, set `share=True` in `launch()`.

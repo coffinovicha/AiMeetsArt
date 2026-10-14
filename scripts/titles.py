@@ -272,6 +272,7 @@ def prompt_pattern(artist, examples, stats, analysis, templates=(), meaning=None
 EVOKE = ("Name exactly one confirmed object as the subject and add a mood or quality taken from the theme, mood or lighting. "
          "Do not add actions, events, places, seasons or ideas that are not in the analysis.")
 GROUND_SIM = 0.7
+SHORT_OK = {"it", "is", "be", "up", "my", "we", "so", "us", "me", "he", "go", "do", "or", "as", "if", "its", "ii", "iii"}
 ARTISTIC = ("Title it the way painters title their own work: short (1-5 words), evocative, built from the mood, light and theme, "
             "naming at most one subject and never listing objects. Forms painters use: a mood word and the subject (like 'Quiet Harbor'), "
             "the subject in a light or color (like 'Harbor in Grey'), 'Song of the' and the subject, a frame word and a color (like 'Study in Blue'), "
@@ -369,7 +370,7 @@ def ungrounded_words(title, evidence, allowed=()):
     E = np.array([_word_vec(w) for w in ev]) if ev else None
     out = []
     for w in re.findall(r"[a-z]+", title.lower()):
-        if w in STOP or w in evidence or head(w) in evidence or w in allowed or len(w) <= 2:
+        if w in STOP or w in evidence or head(w) in evidence or w in allowed or (len(w) <= 2 and w in SHORT_OK) or len(w) == 1:
             continue
         if any(len(a) >= 4 and (a.startswith(w[:max(4, min(len(w), 5))]) or w.startswith(a[:max(4, min(len(a), 5))])) and abs(len(a) - len(w)) <= 3
                for a in ev):

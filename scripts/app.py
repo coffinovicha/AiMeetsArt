@@ -1,13 +1,17 @@
 import os
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
-import base64, html, io, queue, re, threading, time
+import base64, hashlib, html, io, json, pickle, queue, re, threading, time
 import gradio as gr
 from autocrop import open_photo
 from interpret import Interpreter
+from verified import CONTEXT, sentences
+from verify_objects import head
 from titles import B_THRESHOLD, DUP_THRESHOLD
 from vlm_common import ROOT, records
 
 N_WORKS = "103,332"
+FEAT = ROOT / "outputs" / "app_examples"
+CACHE = {}
 STAGES = [("reading", "Reading the painting", "finds the painted surface, reads it three times and checks every object"),
           ("searching", "Searching the collections", f"compares it with {N_WORKS} works from WikiArt and our gallery"),
           ("titling", "Writing the title", "drafts titles, removes anything the analysis does not support, picks the best")]
@@ -99,6 +103,16 @@ footer { display: none !important; }
 .empty h2 { font: italic 400 26px/1.2 var(--f-display); color: var(--wall-text); margin: 0; }
 
 .stages { display: grid; gap: 14px; width: min(520px, 100%); }
+.stage-split { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 44px; align-items: center; width: min(880px, 100%); }
+.scan { position: relative; line-height: 0; overflow: hidden; justify-self: center; box-shadow: 0 2px 0 rgba(0,0,0,0.35), 0 22px 40px rgba(0,0,0,0.5); }
+.scan img { display: block; max-width: 100%; max-height: 380px; filter: saturate(0.8) brightness(0.9); }
+.scan::after { content: ""; position: absolute; left: 0; right: 0; top: -30%; height: 30%;
+  background: linear-gradient(180deg, transparent, rgba(232, 200, 140, 0.38), transparent); animation: sweep 2.6s ease-in-out infinite; }
+@keyframes sweep { from { top: -30%; } to { top: 100%; } }
+@property --secs { syntax: "<integer>"; inherits: false; initial-value: 0; }
+.ticker { animation: secs 900s steps(900, end) forwards; counter-reset: s var(--secs); }
+.ticker::after { content: counter(s) " s"; }
+@keyframes secs { to { --secs: 900; } }
 .stages .clock { font: 500 12px var(--f-mono); color: var(--wall-muted); letter-spacing: 0.06em; text-transform: uppercase; }
 .st { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; align-items: start; opacity: 0.45; }
 .st .dot { width: 14px; height: 14px; margin-top: 4px; border-radius: 50%; border: 2px solid var(--wall-muted); }
@@ -108,6 +122,29 @@ footer { display: none !important; }
 .st span { font-size: 13px; color: var(--wall-muted); }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(196, 154, 92, 0.55); } 100% { box-shadow: 0 0 0 12px rgba(196, 154, 92, 0); } }
 @media (prefers-reduced-motion: reduce) { .st.now .dot { animation: none; background: var(--brass); } }
+.entry .exhibit { animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.entry .label-card > * { animation: fadeup 0.6s ease both; animation-delay: 0.35s; }
+.entry .label-card > h2 { animation-delay: 0.5s; }
+.entry .label-card > .by, .entry .label-card > .lbl-text { animation-delay: 0.7s; }
+.entry .label-card > .facts, .entry .label-card > .alts, .entry .label-card > .match-note { animation-delay: 0.9s; }
+.entry .pin { animation: pop 0.45s cubic-bezier(0.3, 1.6, 0.5, 1) both; animation-delay: calc(0.9s + var(--i) * 0.12s); }
+.entry .strip div { transform-origin: left center; animation: grow 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both; animation-delay: calc(0.6s + var(--i) * 0.08s); }
+.entry .panel { animation: fadeup 0.6s ease both; animation-delay: 0.5s; }
+.entry .panel:nth-child(2), .entry .panel:nth-child(3) { animation-delay: 0.7s; }
+.entry .panel:nth-child(4), .entry .panel:nth-child(5) { animation-delay: 0.85s; }
+.entry .panel:nth-child(6) { animation-delay: 1s; }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes fadeup { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes pop { from { opacity: 0; transform: translate(-50%, -50%) scale(0.2); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .entry *, .scan::after, .ticker { animation: none !important; } }
+.prepared { font: 500 11px var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--wall-muted); border: 1px solid var(--wall-line); border-radius: 2px; padding: 3px 8px; justify-self: start; }
+#featured { background: transparent !important; border: 0 !important; padding: 0 !important; }
+#featured .grid-wrap, #featured .grid-container { background: transparent !important; overflow: visible !important; max-height: none !important; height: auto !important; }
+#featured .icon-button, #featured .icon-button-wrapper { display: none !important; }
+#featured button.thumbnail-item { border: 1px solid var(--wall-line) !important; border-radius: 2px !important; background: var(--wall-deep) !important; }
+#featured button.thumbnail-item:hover { border-color: var(--brass) !important; }
+#featured .caption-label { font: 500 11px var(--f-body) !important; color: var(--wall-text) !important; background: rgba(13, 19, 26, 0.82) !important; }
 
 .exhibit { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 0; border: 1px solid var(--wall-line); border-radius: 3px; overflow: hidden; }
 .hang { position: relative; padding: 48px 36px 22px; display: grid; gap: 18px; justify-items: center; align-content: center;
@@ -117,7 +154,7 @@ footer { display: none !important; }
 .hang svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 .hang svg rect { fill: rgba(196, 154, 92, 0.08); stroke: var(--brass); stroke-width: 2.2; vector-effect: non-scaling-stroke; opacity: 0; transition: opacity 0.15s ease; }
 .hang svg rect.doubt { stroke: var(--doubt); stroke-dasharray: 6 5; }
-.pin { position: absolute; transform: translate(-30%, -30%); width: 22px; height: 22px; border-radius: 50%; background: var(--brass); color: #1a1408;
+.pin { position: absolute; transform: translate(-50%, -50%); width: 22px; height: 22px; border-radius: 50%; background: var(--brass); color: #1a1408;
   font: 600 11px/22px var(--f-mono); text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,0.5); cursor: default; }
 .pin.doubt { background: rgba(19, 27, 36, 0.85); color: var(--doubt); box-shadow: inset 0 0 0 2px var(--doubt), 0 1px 4px rgba(0,0,0,0.5); }
 .hang .caption { justify-self: stretch; font: 500 11px var(--f-mono); color: var(--wall-muted); letter-spacing: 0.04em; line-height: 1.4; }
@@ -155,6 +192,19 @@ footer { display: none !important; }
 
 .note { font-size: 16px; line-height: 1.65; color: var(--wall-text); max-width: 72ch; margin: 0; }
 .note + .note { margin-top: 10px; }
+.u { position: relative; cursor: help; text-decoration: underline dotted 1px; text-underline-offset: 4px; }
+.u.doubt { color: var(--doubt); text-decoration-color: rgba(224, 179, 90, 0.6); }
+.u.gone { color: #e98a7c; text-decoration-color: rgba(233, 138, 124, 0.6); }
+.u.ctx { color: #9fbbd6; text-decoration-color: rgba(159, 187, 214, 0.5); }
+.u.ctx .u { text-decoration: none; }
+.u::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); z-index: 20; width: max-content; max-width: 300px;
+  padding: 7px 10px; border-radius: 3px; background: #0d1319; border: 1px solid var(--wall-line); color: var(--wall-text);
+  font: 500 12px/1.45 var(--f-body); white-space: normal; text-decoration: none; box-shadow: 0 8px 22px rgba(0,0,0,0.45);
+  opacity: 0; transform: translateY(4px); pointer-events: none; transition: opacity 0.15s ease, transform 0.15s ease; }
+.u:hover::after, .u:focus-visible::after { opacity: 1; transform: none; }
+.u.ctx .u::after { display: none; }
+.u:focus-visible { outline: 1px solid var(--brass); outline-offset: 2px; }
+.unclear { font: 500 11px var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--doubt); margin: 0 0 10px; }
 .flag { font: 500 10px var(--f-mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--doubt); border: 1px solid rgba(224, 179, 90, 0.5); border-radius: 2px; padding: 0 4px; white-space: nowrap; }
 .flag.ctx { color: var(--wall-muted); border-color: var(--wall-line); }
 
@@ -278,12 +328,16 @@ def empty():
 <div>Upload a photo of a painting on the left. A phone photo with some wall around it works; the frame and wall are cropped away. If you know the artist, add the name and the title will follow their naming habits.</div></div></div>"""
 
 
-def stage_html(now, secs):
+def stage_html(now, secs, thumb=""):
     order = [s[0] for s in STAGES]
     k = order.index(now) if now in order else 0
     rows = "".join(f'<div class="st {"done" if i < k else "now" if i == k else ""}"><div class="dot"></div><div><b>{E(n)}</b><span>{E(d)}</span></div></div>'
                    for i, (_, n, d) in enumerate(STAGES))
-    return f'<div class="stage-wall"><div class="stages"><div class="clock">Working · {int(secs)} s · usually about two minutes</div>{rows}</div></div>'
+    clock = f'<div class="clock">Working · <span class="ticker" style="animation-delay:-{int(secs)}s"></span> · usually under two minutes</div>'
+    stages = f'<div class="stages">{clock}{rows}</div>'
+    if thumb:
+        stages = f'<div class="stage-split"><div class="scan"><img src="{thumb}" alt="The photo being read"></div>{stages}</div>'
+    return f'<div class="stage-wall">{stages}</div>'
 
 
 def img_b64(im, side=1100):
@@ -294,13 +348,48 @@ def img_b64(im, side=1100):
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
-def marked(text):
-    t = E(text or "")
-    t = t.replace("[Subject unclear: the three readings of this photo disagree.]", '<span class="flag">subject unclear: three readings disagree</span>')
-    t = t.replace("[likely not present]", '<span class="flag">likely not present</span>')
-    t = t.replace("[unconfirmed]", '<span class="flag">unconfirmed</span>')
-    t = t.replace("[context, not verified from the image]", '<span class="flag ctx">context, not from the image</span>')
-    return t
+TIPS = {"unconfirmed": "Unconfirmed: the object check could not confirm this in the image",
+        "removed": "Likely not present: the object check could not find this in the image",
+        "ctx": "Context: background knowledge, not something seen in the image"}
+
+
+def find_span(s, obj):
+    m = re.search(rf"\b{re.escape(obj)}\b", s, re.I)
+    if not m:
+        h = head(obj)
+        for w in re.finditer(r"[A-Za-z]+(?:-[A-Za-z]+)*", s):
+            x = w.group(0).lower()
+            if head(x) == h or (len(h) >= 4 and x.startswith(h)):
+                m = w
+                break
+    if not m:
+        return None
+    e = m.end()
+    tail = re.match(r"(?:-[A-Za-z]+)+", s[e:])
+    return m.start(), e + (tail.end() if tail else 0)
+
+
+def annotate(text, objects, field):
+    flagged = [(o["object"], o["status"]) for o in objects if o["status"] in ("unconfirmed", "removed")]
+    out = []
+    for sen in sentences(text):
+        spans = []
+        for obj, st in flagged:
+            sp = find_span(sen, obj)
+            if sp and not any(a < sp[1] and sp[0] < b for a, b, _ in spans):
+                spans.append((sp[0], sp[1], st))
+        spans.sort()
+        h, k = [], 0
+        for a, b, st in spans:
+            h.append(E(sen[k:a]))
+            h.append(f'<span class="u {"gone" if st == "removed" else "doubt"}" tabindex="0" data-tip="{E(TIPS[st])}">{E(sen[a:b])}</span>')
+            k = b
+        h.append(E(sen[k:]))
+        body = "".join(h)
+        if field == "explanation" and CONTEXT.search(sen):
+            body = f'<span class="u ctx" tabindex="0" data-tip="{E(TIPS["ctx"])}">{body}</span>'
+        out.append(body)
+    return " ".join(out)
 
 
 def guess(v):
@@ -322,11 +411,11 @@ def source_chip(src):
     return f'<span class="chip">{E(" + ".join(parts))}</span>' if parts else ""
 
 
-def render(out, artist):
+def render(out, artist, prepared=False):
     a, tc = out["analysis"], out["title"]
     pred = a["pred"]
     objs = [o for o in a["objects"] if o["status"] != "removed"]
-    pins, rects, items, n = [], [], [], 0
+    pins, rects, items, n, placed = [], [], [], 0, []
     for o in objs:
         doubt = o["status"] != "confirmed"
         if o.get("box"):
@@ -334,7 +423,13 @@ def render(out, artist):
             x0, y0, x1, y1 = o["box"]
             cls = "doubt" if doubt else ""
             rects.append(f'<rect id="r{n}" class="{cls}" x="{x0 * 1000:.0f}" y="{y0 * 1000:.0f}" width="{(x1 - x0) * 1000:.0f}" height="{(y1 - y0) * 1000:.0f}"/>')
-            pins.append(f'<div class="pin {cls}" id="p{n}" title="{E(o["object"])}" style="left:{x0 * 100:.1f}%;top:{y0 * 100:.1f}%">{n}</div>')
+            px, py_ = (x0 + x1) / 2, (y0 + y1) / 2
+            for _ in range(12):
+                if all(abs(px - qx) > 0.06 or abs(py_ - qy) > 0.06 for qx, qy in placed):
+                    break
+                py_ = py_ + 0.07 if py_ < 0.85 else py_ - 0.07
+            placed.append((px, py_))
+            pins.append(f'<div class="pin {cls}" id="p{n}" title="{E(o["object"])}" style="left:{px * 100:.1f}%;top:{py_ * 100:.1f}%;--i:{n}">{n}</div>')
             num = f'<span class="n {cls}">{n}</span>'
             hover_css = f".entry:has(#o{n}:hover) #r{n}, .entry:has(#p{n}:hover) #r{n} {{ opacity: 1; }}"
         else:
@@ -356,7 +451,7 @@ def render(out, artist):
     facts = "".join(f"<dt>{lab}</dt><dd>{guess(pred.get(k))}</dd>" for k, lab in FIELDS[2:5])
 
     pal = a["palette"]
-    strip = "".join(f'<div style="flex:{float(c["pct"]):.1f};background:{c["hex"]}" title="{c["hex"]} {float(c["pct"]):.1f}%"></div>' for c in pal)
+    strip = "".join(f'<div style="flex:{float(c["pct"]):.1f};background:{c["hex"]};--i:{k}" title="{c["hex"]} {float(c["pct"]):.1f}%"></div>' for k, c in enumerate(pal))
     chips = "".join(f'<div class="sw"><i style="background:{c["hex"]}"></i>{c["hex"].upper()} · {float(c["pct"]):.1f}%<span>{E(paint_name(c["hex"]))}</span></div>' for c in pal)
 
     grid = "".join(f"<dt>{lab}</dt><dd>{guess(pred.get(k))}</dd>" for k, lab in FIELDS[:2] + FIELDS[5:])
@@ -370,6 +465,7 @@ def render(out, artist):
                  f'<div class="scale"><span class="tick" style="left:{B_THRESHOLD * 100:.0f}%">path b from {B_THRESHOLD:.2f}</span>'
                  f'<span class="tick" style="left:96%">same work {DUP_THRESHOLD:.2f}</span></div></div>')
     n_rej = len(tc.get("rejected", []))
+    unclear = '<p class="unclear">Subject unclear · the three readings of this photo disagree</p>' if a.get("subject_unclear") else ""
     why = E(plain_why(tc, artist))
     return f"""<style>{hover}</style>
 <div class="entry"><div class="exhibit">
@@ -388,11 +484,11 @@ def render(out, artist):
 </div>
 <div class="sheet">
   <div class="panel"><h3>Palette <small>six dominant colors, share of the painted surface</small></h3><div class="strip">{strip}</div><div class="chips">{chips}</div></div>
-  <div class="panel twothirds"><h3>What is in the painting <small>verified description</small></h3><p class="note">{marked(a.get('description_marked'))}</p></div>
+  <div class="panel twothirds"><h3>What is in the painting <small>hover coloured words for notes</small></h3>{unclear}<p class="note">{annotate(pred.get('description'), a['objects'], 'description')}</p></div>
   <div class="panel third"><h3>Objects <small>{sum(1 for o in objs if o['status'] == 'confirmed')} confirmed</small></h3><ul class="objs">{obj_list}</ul></div>
-  <div class="panel twothirds"><h3>For visitors <small>plain-language explanation</small></h3><p class="note">{marked(a.get('explanation_marked'))}</p></div>
+  <div class="panel twothirds"><h3>For visitors <small>hover coloured text for notes</small></h3><p class="note">{annotate(pred.get('explanation'), a['objects'], 'explanation')}</p></div>
   <div class="panel third"><h3>Catalogue data</h3><dl class="data">{grid}</dl></div>
-  <div class="panel"><h3>How the title was found <small>{n_rej} drafts removed by the checks · {out['seconds']:.0f} s</small></h3>
+  <div class="panel"><h3>How the title was found <small>{n_rej} drafts removed · {('prepared example, computed in ' if prepared else '')}{out['seconds']:.0f} s</small></h3>
     <div class="route">{steps}</div><p class="why">{why}</p>{meter}</div>
 </div></div>"""
 
@@ -401,7 +497,19 @@ def run(path, artist):
     if not path:
         yield empty()
         return
+    artist = (artist or "").strip()
+    key = (hashlib.sha1(open(path, "rb").read()).hexdigest(), artist)
+    if key in CACHE:
+        yield render(CACHE[key], artist, prepared=True)
+        return
+    if IT is None:
+        yield ('<div class="stage-wall"><div class="empty"><h2>Models are not loaded</h2><div>This copy runs in prepared-examples mode. '
+               'Open a featured painting, or start the app without APP_CACHE_ONLY to read new photos.</div></div></div>')
+        return
     photo = open_photo(path)
+    small = photo.copy()
+    small.thumbnail((520, 520))
+    thumb = img_b64(small, 520)
     q, box = queue.Queue(), {}
 
     def work():
@@ -414,16 +522,13 @@ def run(path, artist):
     th = threading.Thread(target=work, daemon=True)
     th.start()
     now, t0 = "reading", time.time()
-    yield stage_html(now, 0)
+    yield stage_html(now, 0, thumb)
     while True:
-        try:
-            s = q.get(timeout=1.0)
-            if s is None:
-                break
-            now = s
-        except queue.Empty:
-            pass
-        yield stage_html(now, time.time() - t0)
+        s = q.get()
+        if s is None:
+            break
+        now = s
+        yield stage_html(now, time.time() - t0, thumb)
     th.join()
     if "err" in box:
         yield f'<div class="err"><b>Something went wrong.</b> {E(box["err"])}</div>'
@@ -432,13 +537,20 @@ def run(path, artist):
     if out.get("error"):
         yield f'<div class="err"><b>{E(out["error"])}</b> Try a sharper photo where the painting fills most of the frame.</div>'
         return
-    yield render(out, (artist or "").strip())
+    yield render(out, artist)
 
 
-def examples():
-    R = {r["id"]: r for r in records()}
-    ids = ["F1-053", "F1-015", "F1-054", "F2-086"]
-    return [[str(ROOT / R[i]["file"])] for i in ids if i in R]
+def featured():
+    f = FEAT / "featured.json"
+    items = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
+    out = []
+    for it in items:
+        pk = FEAT / f"{it['id']}.pkl"
+        if pk.exists():
+            d = pickle.load(open(pk, "rb"))
+            CACHE[(d["sha1"], d.get("artist", ""))] = d
+            out.append((d["file"], it["caption"]))
+    return out
 
 
 def build():
@@ -449,16 +561,26 @@ def build():
                 photo = gr.Image(type="filepath", label="Photo of a painting", sources=["upload", "clipboard"], height=340, elem_id="photo")
                 artist = gr.Textbox(label="Artist, if known", placeholder="e.g. Wassily Kandinsky", elem_id="artist")
                 go = gr.Button("Interpret", variant="primary", elem_id="go")
-                gr.HTML('<div class="label-note">Or try one of the gallery photos</div>', apply_default_css=False, padding=False, container=False)
-                gr.Examples(examples(), inputs=[photo], label="", elem_id="examples")
+                feats = featured()
+                gr.HTML('<div class="label-note">Or open a featured painting</div>', apply_default_css=False, padding=False, container=False)
+                gallery = gr.Gallery(value=feats, columns=3, height="auto", allow_preview=False, show_label=False, object_fit="cover",
+                                     interactive=False, elem_id="featured")
             with gr.Column(scale=9, min_width=320):
                 result = gr.HTML(empty(), elem_id="result", apply_default_css=False, padding=False, container=False)
         go.click(run, inputs=[photo, artist], outputs=result)
+
+        def pick(evt: gr.SelectData):
+            v = evt.value
+            img = v.get("image") if isinstance(v, dict) else None
+            return (img.get("path") if isinstance(img, dict) and img.get("path") else feats[evt.index][0]), ""
+
+        gallery.select(pick, outputs=[photo, artist]).then(run, inputs=[photo, artist], outputs=result)
     return demo
 
 
 if __name__ == "__main__":
-    print("loading models...", flush=True)
-    IT = Interpreter()
+    if os.environ.get("APP_CACHE_ONLY") != "1":
+        print("loading models...", flush=True)
+        IT = Interpreter()
     print("ready", flush=True)
     build().queue(default_concurrency_limit=1).launch(css=CSS, head=HEAD, theme=gr.themes.Base(), server_port=int(os.environ.get("PORT", "7860")))

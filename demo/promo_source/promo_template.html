@@ -1,0 +1,287 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root { --wall:#1b2531; --deep:#131b24; --line:#2c3a4a; --text:#dfe6ec; --muted:#8fa1b3; --paper:#f7f8f5; --ink:#161a1d; --inkm:#5b6268;
+  --brass:#c49a5c; --brass2:#e0bf86; --doubt:#e0b35a; --red:#e07062; --ok:#7cc49a;
+  --fd:"Fraunces", Georgia, serif; --fb:"Instrument Sans", "Segoe UI", sans-serif; --fm:"JetBrains Mono", Consolas, monospace; }
+* { box-sizing:border-box; margin:0; padding:0; }
+html, body { width:1920px; height:1080px; overflow:hidden; background:#0b1016; }
+#stage { position:relative; width:1920px; height:1080px; overflow:hidden; background:var(--wall); font-family:var(--fb); color:var(--text); }
+.abs { position:absolute; }
+#spot { inset:0; background: radial-gradient(ellipse 900px 640px at 520px 330px, rgba(255,232,196,0.16), transparent 70%); }
+#vign { inset:0; background: radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(5,8,12,0.55)); pointer-events:none; }
+#grain { inset:0; opacity:0.05; background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.5) 0 1px, transparent 1px 3px); }
+#s1 { left:0; right:0; top:0; bottom:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; }
+#s1 .l { font: italic 400 112px/1.04 var(--fd); letter-spacing:-0.02em; color:var(--text); }
+#s1 .l b { font-weight:500; color:var(--brass2); }
+#s1 .k { font: 500 18px var(--fm); letter-spacing:0.32em; text-transform:uppercase; color:var(--muted); margin-top:34px; }
+.frame { box-shadow: 0 3px 0 rgba(0,0,0,0.35), 0 40px 80px rgba(0,0,0,0.55); }
+#raw, #paint { left:260px; top:72px; height:800px; }
+#raw img, #paint img { display:block; height:100%; }
+#raw svg, #paint svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
+#paint .pin { position:absolute; width:34px; height:34px; margin:-17px 0 0 -17px; border-radius:50%; background:var(--brass); color:#1a1408;
+  font: 600 16px/34px var(--fm); text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.55); }
+#paint .pin.doubt { background:rgba(19,27,36,0.88); color:var(--doubt); box-shadow: inset 0 0 0 3px var(--doubt), 0 2px 8px rgba(0,0,0,0.55); }
+#objs { left:1060px; top:200px; width:700px; display:grid; gap:14px; }
+.orow { display:grid; grid-template-columns:44px 1fr; gap:0 18px; align-items:center; }
+.orow .n { width:38px; height:38px; border-radius:50%; background:var(--brass); color:#1a1408; font:600 17px/38px var(--fm); text-align:center; }
+.orow .n.doubt { background:transparent; color:var(--doubt); box-shadow: inset 0 0 0 3px var(--doubt); }
+.orow .nm { font: 500 38px/1.1 var(--fd); color:var(--text); }
+.orow .st { grid-column:2; font: 500 16px var(--fm); letter-spacing:0.04em; color:var(--muted); }
+.orow .st b { font-weight:500; color:var(--ok); } .orow .st b.d { color:var(--doubt); }
+#pal { left:1060px; top:230px; width:720px; }
+#pal .strip { display:flex; gap:4px; height:150px; }
+#pal .strip div { height:100%; transform-origin:left center; border-radius:2px; }
+#pal .chips { display:grid; grid-template-columns:repeat(2, 1fr); gap:24px 30px; margin-top:38px; }
+#pal .chip { display:grid; grid-template-columns:30px 1fr; gap:4px 14px; align-items:center; }
+#pal .chip i { width:30px; height:30px; border-radius:2px; grid-row: span 2; }
+#pal .chip b { font: 500 20px var(--fm); color:var(--text); }
+#pal .chip span { font: 400 16px var(--fb); color:var(--muted); }
+#card { left:1050px; top:90px; width:740px; background:var(--paper); color:var(--ink); padding:52px 56px 50px; border-radius:2px; box-shadow:0 30px 70px rgba(0,0,0,0.45); }
+#card .kick { font: 500 15px var(--fm); letter-spacing:0.14em; text-transform:uppercase; color:var(--inkm); }
+#card h2 { font: italic 400 84px/1.02 var(--fd); letter-spacing:-0.015em; margin:22px 0 6px; min-height:88px; color:var(--ink); }
+#card h2 .ph { display:inline-block; width:360px; height:20px; margin-top:44px; border-radius:10px; background:linear-gradient(90deg,#e6e8e3,#f1f2ee,#e6e8e3); }
+#card .by { font: 400 17px var(--fb); color:var(--inkm); min-height:24px; }
+#card .by i { font: 500 13px var(--fm); font-style:normal; letter-spacing:0.08em; text-transform:uppercase; background:#e9ece6; padding:3px 7px; border-radius:2px; }
+#card p { font: 400 25px/1.55 var(--fb); color:#2b3136; margin-top:22px; min-height:200px; }
+#card dl { display:grid; grid-template-columns:max-content 1fr; gap:10px 22px; margin-top:22px; padding-top:22px; border-top:1px solid #dfe2dc; }
+#card dt { font: 500 15px/1.9 var(--fm); letter-spacing:0.08em; text-transform:uppercase; color:var(--inkm); }
+#card dd { font: 400 21px/1.45 var(--fb); }
+#card .g { font: 500 12px var(--fm); letter-spacing:0.06em; text-transform:uppercase; color:var(--inkm); border:1px solid #dfe2dc; padding:1px 6px; border-radius:2px; margin-left:8px; vertical-align:3px; }
+#dots { left:0; top:0; }
+#search { left:150px; top:250px; width:820px; }
+#search .big { font: 500 150px/1 var(--fd); letter-spacing:-0.02em; color:var(--text); font-variant-numeric: tabular-nums; }
+#search .sub { font: 500 20px var(--fm); letter-spacing:0.2em; text-transform:uppercase; color:var(--muted); margin-top:14px; }
+#search .match { margin-top:70px; font: 400 26px/1.45 var(--fb); color:var(--text); }
+#search .match i { font-family:var(--fd); font-size:34px; }
+#search .bar { position:relative; height:12px; border-radius:6px; margin-top:26px; background:linear-gradient(90deg,#26313d 0 70%, #3a3222 70% 99%, #4a3a20 99%); }
+#search .fill { position:absolute; left:0; top:0; bottom:0; border-radius:6px; background:linear-gradient(90deg, rgba(196,154,92,0.25), var(--brass)); }
+#search .tick { position:absolute; top:24px; transform:translateX(-50%); font:500 16px var(--fm); color:var(--muted); white-space:nowrap; }
+#search .tick::before { content:""; position:absolute; left:50%; top:-30px; width:2px; height:22px; background:var(--muted); }
+#search .verdict { margin-top:66px; font: italic 400 30px/1.4 var(--fd); color:var(--brass2); }
+#drafts { left:150px; top:190px; width:830px; display:grid; gap:20px; }
+.dr { position:relative; display:flex; align-items:baseline; gap:20px; flex-wrap:wrap; }
+.dr .t { position:relative; font: italic 400 46px/1.15 var(--fd); color:var(--text); }
+.dr .t::after { content:""; position:absolute; left:-4px; top:54%; height:3px; width:var(--strike, 0%); background:var(--red); }
+.dr .why { font: 500 17px var(--fm); color:var(--red); letter-spacing:0.03em; border:1px solid rgba(224,112,98,0.5); padding:3px 9px; border-radius:2px; }
+#dhead { left:150px; top:120px; font: 500 18px var(--fm); letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); }
+#mont { inset:0; }
+#mont .m { position:absolute; inset:0; }
+#mont .pic { position:absolute; }
+#mont .pic img { width:100%; height:100%; display:block; }
+#mont .lab { position:absolute; left:1080px; top:330px; width:680px; background:var(--paper); color:var(--ink); padding:42px 48px; border-radius:2px; box-shadow:0 30px 70px rgba(0,0,0,0.45); }
+#mont .lab .kick { font: 500 14px var(--fm); letter-spacing:0.14em; text-transform:uppercase; color:var(--inkm); }
+#mont .lab h3 { font: italic 400 62px/1.05 var(--fd); margin-top:16px; letter-spacing:-0.01em; }
+#mont .lab h3 .pre { display:block; font: 500 18px var(--fm); font-style:normal; letter-spacing:0.14em; text-transform:uppercase; color:#9a7339; margin-bottom:10px; }
+#mont .lab .st { font: 400 19px var(--fb); color:var(--inkm); margin-top:16px; }
+#proof { inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:70px; }
+#proof .head { font: italic 400 60px/1.1 var(--fd); color:var(--text); text-align:center; }
+#proof .row { display:grid; grid-template-columns:repeat(3, 440px); gap:60px; }
+#proof .c { border-top:2px solid var(--brass); padding-top:26px; }
+#proof .v { font: 500 96px/1 var(--fd); color:var(--text); font-variant-numeric: tabular-nums; letter-spacing:-0.02em; }
+#proof .v small { font-size:40px; color:var(--muted); }
+#proof .d { font: 400 23px/1.45 var(--fb); color:var(--muted); margin-top:18px; }
+#end { inset:0; }
+#endshot { position:absolute; left:50%; top:330px; width:1240px; margin-left:-620px; border-radius:10px; overflow:hidden; box-shadow:0 50px 120px rgba(0,0,0,0.6); border:1px solid var(--line); }
+#endshot .bar { height:34px; background:#0f151c; display:flex; align-items:center; gap:8px; padding:0 14px; }
+#endshot .bar i { width:11px; height:11px; border-radius:50%; background:#2c3a4a; }
+#endshot .bar span { margin-left:16px; font: 500 13px var(--fm); color:var(--muted); }
+#endshot .view { height:700px; overflow:hidden; background:var(--wall); }
+#endshot .view img { width:100%; display:block; }
+#endtitle { position:absolute; left:0; right:0; top:96px; text-align:center; }
+#endtitle .w { font: 400 96px/1 var(--fd); letter-spacing:-0.02em; color:var(--text); }
+#endtitle .w em { font-style:italic; color:var(--brass2); }
+#endtitle .tag { margin-top:22px; font: 500 22px var(--fm); letter-spacing:0.3em; text-transform:uppercase; color:var(--muted); }
+#cap { left:150px; bottom:58px; }
+#cap .k { font: 500 17px var(--fm); letter-spacing:0.24em; text-transform:uppercase; color:var(--brass); }
+#cap .c { font: 400 40px/1.25 var(--fd); color:var(--text); margin-top:12px; max-width:1500px; }
+#capR { right:130px; bottom:64px; text-align:right; font: 500 15px var(--fm); letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); }
+</style></head>
+<body><div id="stage">
+  <div id="spot" class="abs"></div>
+  <canvas id="dots" class="abs" width="1920" height="1080"></canvas>
+  <div id="s1" class="abs"><div class="l" id="l1">Every painting</div><div class="l" id="l2">has <b>more to say.</b></div><div class="k" id="l3">The Artwork Interpreter</div></div>
+  <div id="raw" class="abs frame"><img src="raw.jpg"><svg id="rawsvg" viewBox="0 0 1000 1000" preserveAspectRatio="none"></svg></div>
+  <div id="paint" class="abs frame"><img src="painting.jpg"><svg id="psvg" viewBox="0 0 1000 1000" preserveAspectRatio="none"></svg></div>
+  <div id="objs" class="abs"></div>
+  <div id="pal" class="abs"><div class="strip" id="strip"></div><div class="chips" id="chips"></div></div>
+  <div id="card" class="abs"><div class="kick">Artist not given · title path c</div><h2 id="ctitle"><span class="ph"></span></h2><div class="by" id="cby"></div><p id="ctext"></p><dl id="cfacts"></dl></div>
+  <div id="search" class="abs"><div class="big" id="count">0</div><div class="sub">artworks compared · WikiArt and our gallery</div>
+    <div class="match" id="match"></div><div class="bar" id="bar"><div class="fill" id="fill"></div><span class="tick" style="left:70%">borrow a style from 0.70</span></div>
+    <div class="verdict" id="verdict">Not close enough to borrow an artist's habits, so the title comes from the painting itself.</div></div>
+  <div id="dhead" class="abs">Drafts the checks threw out</div>
+  <div id="drafts" class="abs"></div>
+  <div id="mont" class="abs"></div>
+  <div id="proof" class="abs"><div class="head">Tested on 30 paintings it had never seen.</div><div class="row">
+    <div class="c"><div class="v" id="pv1">0<small> / 143</small></div><div class="d">titles with a word that is not in the painting</div></div>
+    <div class="c"><div class="v" id="pv2">0.69</div><div class="d">meaning match with expert-written descriptions, against 0.62 for the base model</div></div>
+    <div class="c"><div class="v" id="pv3">18<small> / 30</small></div><div class="d">descriptions closest to their own painting, against 12 for the base model</div></div></div></div>
+  <div id="end" class="abs"><div id="endtitle"><div class="w">The Artwork <em>Interpreter</em></div><div class="tag">Collect · Label · Train · Interpret</div></div>
+    <div id="endshot"><div class="bar"><i></i><i></i><i></i><span>127.0.0.1:7860 · The Artwork Interpreter</span></div><div class="view"><img src="app_shot.png"></div></div></div>
+  <div id="cap" class="abs"><div class="k" id="capk"></div><div class="c" id="capc"></div></div>
+  <div id="capR" class="abs">AI Meets Arts · Qwen2.5-VL · OWLv2 · CLIP</div>
+  <div id="vign" class="abs"></div>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = id => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const io = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const eo = x => 1 - Math.pow(1 - x, 3);
+const pr = (t, a, b) => clamp((t - a) / (b - a));
+const inout = (t, a, b, c, d) => Math.min(eo(pr(t, a, b)), 1 - io(pr(t, c, d)));
+const esc = s => String(s).replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+const PH = 800, PW = Math.round(PH * D.painting.w / D.painting.h), RW = Math.round(PH * D.raw.w / D.raw.h);
+$("paint").style.width = PW + "px"; $("raw").style.width = RW + "px";
+
+const objs = D.objects.map((o, i) => ({ ...o, n: i + 1 }));
+const placed = [];
+for (const o of objs) {
+  let [x0, y0, x1, y1] = o.box, px = (x0 + x1) / 2, py = (y0 + y1) / 2;
+  for (let k = 0; k < 12 && placed.some(q => Math.abs(q[0] - px) < 0.06 && Math.abs(q[1] - py) < 0.06); k++) py = py < 0.85 ? py + 0.07 : py - 0.07;
+  placed.push([px, py]); o.px = px; o.py = py;
+}
+$("psvg").innerHTML = objs.map(o => `<rect id="bx${o.n}" x="${o.box[0] * 1000}" y="${o.box[1] * 1000}" width="${(o.box[2] - o.box[0]) * 1000}" height="${(o.box[3] - o.box[1]) * 1000}" fill="rgba(196,154,92,0.10)" stroke="${o.status === "confirmed" ? "#e0bf86" : "#e0b35a"}" stroke-width="3" vector-effect="non-scaling-stroke" ${o.status === "confirmed" ? "" : 'stroke-dasharray="10 8"'} opacity="0"/>`).join("");
+$("paint").insertAdjacentHTML("beforeend", objs.map(o => `<div class="pin ${o.status === "confirmed" ? "" : "doubt"}" id="pin${o.n}" style="left:${o.px * 100}%;top:${o.py * 100}%">${o.n}</div>`).join(""));
+$("objs").innerHTML = objs.map(o => `<div class="orow" id="or${o.n}"><span class="n ${o.status === "confirmed" ? "" : "doubt"}">${o.n}</span><span class="nm">${esc(o.name)}</span><span class="st">${o.status === "confirmed" ? "<b>confirmed</b>" : '<b class="d">unconfirmed</b>'} · detector ${o.det.toFixed(2)}</span></div>`).join("");
+const c = D.raw.crop;
+$("rawsvg").innerHTML = `<defs><mask id="mk"><rect x="0" y="0" width="1000" height="1000" fill="white"/><rect x="${c[0] * 1000}" y="${c[1] * 1000}" width="${(c[2] - c[0]) * 1000}" height="${(c[3] - c[1]) * 1000}" fill="black"/></mask></defs>
+  <rect id="dim" x="0" y="0" width="1000" height="1000" fill="rgba(8,12,16,0.75)" mask="url(#mk)" opacity="0"/>
+  <rect id="cropr" fill="none" stroke="#e0bf86" stroke-width="4" vector-effect="non-scaling-stroke"/>`;
+$("strip").innerHTML = D.palette.map((p, i) => `<div id="sw${i}" style="flex:${p.pct};background:${p.hex}"></div>`).join("");
+$("chips").innerHTML = D.palette.map((p, i) => `<div class="chip" id="ch${i}"><i style="background:${p.hex}"></i><b>${p.hex} · ${p.pct.toFixed(1)}%</b><span>${esc(p.name)}</span></div>`).join("");
+$("cfacts").innerHTML = D.facts.map(f => `<dt>${f[0]}</dt><dd>${esc(f[1])}${f[2] ? '<span class="g">guess</span>' : ""}</dd>`).join("");
+$("drafts").innerHTML = D.drafts.map((d, i) => `<div class="dr" id="dr${i}"><span class="t" id="dt${i}">${esc(d.t)}</span><span class="why" id="dw${i}">${esc(d.why)}</span></div>`).join("");
+$("match").innerHTML = `Closest work: <i>${esc(D.match.title)}</i><br>${esc(D.match.artist)} · ${esc(D.match.source)} · similarity <b>${D.match.score.toFixed(2)}</b>`;
+$("mont").innerHTML = D.montage.map((m, i) => {
+  let h = 800, w = Math.round(800 * m.w / m.h);
+  if (w > 780) { w = 780; h = Math.round(780 * m.h / m.w); }
+  const parts = m.title.split(" — ");
+  const h3 = parts.length > 1 ? `<span class="pre">${esc(parts[0])} —</span>${esc(parts[1])}` : esc(m.title);
+  return `<div class="m" id="m${i}"><div class="pic frame" style="width:${w}px;height:${h}px;left:${Math.round(600 - w / 2)}px;top:${Math.round(472 - h / 2)}px"><img src="${m.img}"></div>
+    <div class="lab"><div class="kick">Artist not given · title path ${m.path}</div><h3>${h3}</h3><div class="st">${esc(m.style)}</div></div></div>`;
+}).join("");
+
+const rnd = (() => { let s = 7; return () => (s = (s * 16807) % 2147483647) / 2147483647; })();
+const DOTS = Array.from({ length: 2600 }, () => ({ x: rnd() * 1920, y: rnd() * 1080, r: 0.6 + rnd() * 1.8, v: 0.3 + rnd(), ph: rnd() * 6.28 }));
+const ctx = $("dots").getContext("2d");
+
+const CAPS = [[4.6, 10.0, "01 · Photograph", "Snap any painting, frame and wall included."],
+  [10.0, 18.6, "02 · Read", "It reads what is there, and checks every object twice."],
+  [18.6, 24.2, "03 · Palette", "It mixes the palette: six colours, measured from the paint."],
+  [24.2, 31.6, "04 · Explain", "It writes the wall label in plain words. Guesses are marked."],
+  [31.6, 38.6, "05 · Search", "It compares the painting with 103,332 artworks."],
+  [38.6, 47.6, "06 · Name", "It never puts a word in a title that it cannot see."],
+  [47.6, 54.6, "", "Every painting gets its own label."]];
+
+function op(id, v) { $(id).style.opacity = v.toFixed(3); $(id).style.visibility = v <= 0.001 ? "hidden" : "visible"; }
+
+function render(t) {
+  op("spot", 0.35 + 0.65 * eo(pr(t, 0.2, 2.5)));
+  op("s1", inout(t, 0.3, 1.0, 3.8, 4.5));
+  op("l1", eo(pr(t, 0.6, 1.6))); $("l1").style.transform = `translateY(${(1 - eo(pr(t, 0.6, 1.6))) * 24}px)`;
+  op("l2", eo(pr(t, 1.5, 2.5))); $("l2").style.transform = `translateY(${(1 - eo(pr(t, 1.5, 2.5))) * 24}px)`;
+  op("l3", eo(pr(t, 2.4, 3.2)));
+
+  const rawV = inout(t, 4.6, 5.4, 9.3, 10.0);
+  op("raw", rawV);
+  const tilt = (1 - eo(pr(t, 4.6, 5.8))) * -4, sc = 1.06 - 0.06 * eo(pr(t, 4.6, 5.8));
+  $("raw").style.transform = `rotate(${tilt}deg) scale(${sc})`;
+  const g = eo(pr(t, 6.4, 7.8)), pad = (1 - g) * 120;
+  const r = $("cropr");
+  r.setAttribute("x", c[0] * 1000 - pad); r.setAttribute("y", c[1] * 1000 - pad);
+  r.setAttribute("width", (c[2] - c[0]) * 1000 + 2 * pad); r.setAttribute("height", (c[3] - c[1]) * 1000 + 2 * pad);
+  r.setAttribute("opacity", (inout(t, 6.4, 6.8, 8.8, 9.4)).toFixed(3));
+  $("dim").setAttribute("opacity", (eo(pr(t, 7.4, 8.2)) * (1 - pr(t, 9.0, 9.6))).toFixed(3));
+
+  let pv = Math.max(inout(t, 9.4, 10.0, 47.0, 47.6) * (t < 31.6 ? 1 : 1), 0);
+  const dimS = (1 - 0.88 * inout(t, 31.6, 32.4, 38.2, 38.9)) * (1 - eo(pr(t, 38.2, 38.8)));
+  op("paint", pv * clamp(dimS, 0, 1));
+  const shrink = eo(pr(t, 38.6, 39.4));
+  $("paint").style.transform = `translateX(${-shrink * 60}px) scale(${1 - shrink * 0.05})`;
+  for (const o of objs) {
+    const at = 10.8 + (o.n - 1) * 1.0;
+    const pin = $("pin" + o.n), s = eo(pr(t, at, at + 0.35));
+    op("pin" + o.n, s * (1 - pr(t, 31.6, 32.2)));
+    pin.style.transform = `scale(${0.3 + 0.7 * s})`;
+    $("bx" + o.n).setAttribute("opacity", (inout(t, at, at + 0.3, at + 1.4, at + 1.9) * 0.95).toFixed(3));
+    op("or" + o.n, eo(pr(t, at + 0.1, at + 0.5)) * (1 - io(pr(t, 18.2, 18.8))));
+    $("or" + o.n).style.transform = `translateX(${(1 - eo(pr(t, at + 0.1, at + 0.5))) * 30}px)`;
+  }
+  op("objs", t < 19 ? 1 : 0);
+
+  op("pal", inout(t, 18.8, 19.2, 23.6, 24.3));
+  D.palette.forEach((p, i) => {
+    const a = 19.2 + i * 0.32, s = eo(pr(t, a, a + 0.7));
+    $("sw" + i).style.transform = `scaleX(${s})`;
+    op("ch" + i, eo(pr(t, a + 0.4, a + 0.9)));
+  });
+
+  const cardV = inout(t, 24.3, 25.1, 47.0, 47.6);
+  op("card", cardV);
+  $("card").style.transform = `translateX(${(1 - eo(pr(t, 24.3, 25.1))) * 60}px)`;
+  const L = D.label, nL = Math.floor(L.length * pr(t, 25.0, 29.4));
+  $("ctext").textContent = L.slice(0, nL);
+  op("cfacts", eo(pr(t, 29.4, 30.2)));
+  const T = D.title, nT = Math.floor(T.length * pr(t, 44.4, 45.6));
+  if (t < 44.4) { if (!$("ctitle").querySelector(".ph")) $("ctitle").innerHTML = '<span class="ph"></span>'; }
+  else $("ctitle").textContent = T.slice(0, Math.max(1, nT));
+  $("cby").innerHTML = t > 45.6 ? `written by <i>writer</i> · path c, from the analysis alone · ${D.n_rejected} drafts removed` : "";
+  op("cby", eo(pr(t, 45.6, 46.2)));
+
+  const sv = inout(t, 31.8, 32.5, 38.2, 38.8);
+  op("search", sv); op("dots", sv);
+  $("count").textContent = Math.floor(103332 * io(pr(t, 32.0, 34.6))).toLocaleString("en-US");
+  op("match", eo(pr(t, 34.8, 35.5)));
+  op("bar", eo(pr(t, 35.2, 35.8)));
+  $("fill").style.width = (D.match.score * 100 * io(pr(t, 35.6, 36.8))).toFixed(2) + "%";
+  op("verdict", eo(pr(t, 36.9, 37.5)));
+  ctx.clearRect(0, 0, 1920, 1080);
+  if (sv > 0.001) {
+    for (const d of DOTS) {
+      const x = (d.x + t * 40 * d.v) % 1920, y = d.y + Math.sin(t * d.v + d.ph) * 6;
+      const tw = 0.25 + 0.45 * (0.5 + 0.5 * Math.sin(t * 3 * d.v + d.ph));
+      ctx.fillStyle = `rgba(224,191,134,${(tw * sv * 0.55).toFixed(3)})`;
+      ctx.beginPath(); ctx.arc(x, y, d.r, 0, 6.283); ctx.fill();
+    }
+  }
+
+  const dv = inout(t, 38.8, 39.4, 47.0, 47.6);
+  op("dhead", dv);
+  op("drafts", dv);
+  D.drafts.forEach((d, i) => {
+    const a = 39.3 + i * 0.62;
+    op("dr" + i, eo(pr(t, a, a + 0.35)));
+    $("dr" + i).style.transform = `translateY(${(1 - eo(pr(t, a, a + 0.35))) * 16}px)`;
+    $("dt" + i).style.setProperty("--strike", (104 * io(pr(t, a + 0.45, a + 0.8))).toFixed(1) + "%");
+    $("dt" + i).style.color = pr(t, a + 0.6, a + 0.9) > 0 ? `rgba(223,230,236,${(1 - 0.55 * pr(t, a + 0.6, a + 0.9)).toFixed(3)})` : "";
+    op("dw" + i, eo(pr(t, a + 0.6, a + 0.95)));
+  });
+
+  D.montage.forEach((m, i) => {
+    const a = 47.8 + i * 1.36;
+    const v = inout(t, a, a + 0.45, a + 1.25, a + 1.6);
+    op("m" + i, i === D.montage.length - 1 ? inout(t, a, a + 0.45, 54.2, 54.7) : v);
+    $("m" + i).style.transform = `scale(${1.02 - 0.02 * eo(pr(t, a, a + 1.4))})`;
+  });
+
+  op("proof", inout(t, 54.7, 55.4, 58.6, 59.2));
+  $("pv1").innerHTML = `0<small> / ${Math.round(143 * io(pr(t, 55.2, 56.4)))}</small>`;
+  $("pv2").textContent = (0.69 * io(pr(t, 55.4, 56.6))).toFixed(2);
+  $("pv3").innerHTML = `${Math.round(18 * io(pr(t, 55.6, 56.8)))}<small> / 30</small>`;
+
+  op("end", eo(pr(t, 59.0, 59.8)));
+  $("endshot").style.transform = `translateY(${(1 - eo(pr(t, 59.2, 60.6))) * 80}px)`;
+  $("endshot").querySelector(".view img").style.transform = `translateY(${-io(pr(t, 60.8, 63.4)) * 240}px)`;
+
+  let k = "", cc = "", cv = 0;
+  for (const [a, b, kk, ccc] of CAPS) if (t >= a && t < b) { k = kk; cc = ccc; cv = inout(t, a, a + 0.5, b - 0.45, b); }
+  $("capk").textContent = k; $("capc").textContent = cc; op("cap", cv);
+  op("capR", inout(t, 4.6, 5.4, 58.4, 59.0));
+  op("stage", Math.min(eo(pr(t, 0, 0.6)), 1 - io(pr(t, 63.3, 64.0))));
+}
+window.render = render;
+render(0);
+</script></body></html>

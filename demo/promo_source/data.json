@@ -1,0 +1,219 @@
+{
+ "raw": {
+  "w": 960,
+  "h": 1280,
+  "crop": [
+   0.0,
+   0.0,
+   0.9984472049689441,
+   0.9896313364055299
+  ]
+ },
+ "painting": {
+  "w": 958,
+  "h": 1266
+ },
+ "objects": [
+  {
+   "name": "saint",
+   "status": "confirmed",
+   "box": [
+    0.0754,
+    0.0166,
+    0.671,
+    0.7334
+   ],
+   "det": 0.42286208271980286
+  },
+  {
+   "name": "horse",
+   "status": "confirmed",
+   "box": [
+    0.0,
+    0.2693,
+    0.9866,
+    0.8284
+   ],
+   "det": 0.642993152141571
+  },
+  {
+   "name": "staff",
+   "status": "confirmed",
+   "box": [
+    0.1708,
+    0.0063,
+    0.8946,
+    0.9756
+   ],
+   "det": 0.477752149105072
+  },
+  {
+   "name": "cross",
+   "status": "unconfirmed",
+   "box": [
+    0.9345,
+    0.1545,
+    0.9896,
+    0.2276
+   ],
+   "det": 0.2699987292289734
+  },
+  {
+   "name": "dragon",
+   "status": "confirmed",
+   "box": [
+    0.0,
+    0.6755,
+    0.9959,
+    1.0
+   ],
+   "det": 0.5204049348831177
+  },
+  {
+   "name": "holy image",
+   "status": "unconfirmed",
+   "box": [
+    0.0032,
+    0.0132,
+    0.9982,
+    1.0
+   ],
+   "det": 0.30311259627342224
+  }
+ ],
+ "palette": [
+  {
+   "hex": "#C4A974",
+   "pct": 30.1,
+   "name": "tan"
+  },
+  {
+   "hex": "#7F6761",
+   "pct": 23.8,
+   "name": "grey"
+  },
+  {
+   "hex": "#3B383D",
+   "pct": 21.5,
+   "name": "charcoal"
+  },
+  {
+   "hex": "#979BB2",
+   "pct": 11.3,
+   "name": "grey"
+  },
+  {
+   "hex": "#D4DBE0",
+   "pct": 7.4,
+   "name": "light grey"
+  },
+  {
+   "hex": "#316CAC",
+   "pct": 5.8,
+   "name": "slate blue"
+  }
+ ],
+ "label": "A saint in a red and blue robe rides a white horse while holding a staff and a cross, with a green dragon below him. The dragon is a symbol of evil, so the picture shows the saint defeating it.",
+ "title": "Heroic Saint",
+ "path": "c",
+ "facts": [
+  [
+   "Style",
+   "byzantine icon style (late 15th – 17th century)",
+   false
+  ],
+  [
+   "Medium",
+   "paint on canvas",
+   true
+  ],
+  [
+   "Era",
+   "late 15th – 17th century",
+   true
+  ]
+ ],
+ "mood": "heroic, solemn",
+ "theme": "saint on horseback defeating evil",
+ "match": {
+  "title": "Georgy Victorious",
+  "artist": "Viktor Vasnetsov",
+  "source": "WikiArt",
+  "score": 0.68
+ },
+ "drafts": [
+  {
+   "t": "The Resurrection",
+   "why": "not in the painting: resurrection"
+  },
+  {
+   "t": "Horsemen of the Apocalypse",
+   "why": "not in the painting: apocalypse"
+  },
+  {
+   "t": "The Archangel Michael",
+   "why": "not in the painting: archangel, michael"
+  },
+  {
+   "t": "Abraham",
+   "why": "not in the painting: abraham"
+  },
+  {
+   "t": "Solemn Rider",
+   "why": "not in the painting: rider"
+  },
+  {
+   "t": "Red Cloak",
+   "why": "not in the painting: cloak"
+  }
+ ],
+ "n_rejected": 26,
+ "montage": [
+  {
+   "id": "F2-086",
+   "img": "m_F2-086.jpg",
+   "title": "Landscape with Boats",
+   "path": "c",
+   "style": "contemporary Asian landscape",
+   "w": 1100,
+   "h": 714
+  },
+  {
+   "id": "F1-028",
+   "img": "m_F1-028.jpg",
+   "title": "Two Angels with Fruit",
+   "path": "c",
+   "style": "naive / folk art",
+   "w": 1100,
+   "h": 775
+  },
+  {
+   "id": "F3-064",
+   "img": "m_F3-064.jpg",
+   "title": "Portrait of a Queen in Profile",
+   "path": "b",
+   "style": "Egyptian-style decorative (souvenir papyrus)",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "id": "F2-041",
+   "img": "m_F2-041.jpg",
+   "title": "The Girl with Dandelions",
+   "path": "a",
+   "style": "naive figurative",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "id": "F2-050",
+   "img": "m_F2-050.jpg",
+   "title": "Untitled — Doll in Gold",
+   "path": "b",
+   "style": "naive / decorative figurative",
+   "w": 840,
+   "h": 1100
+  }
+ ],
+ "seconds": 88.9
+}
