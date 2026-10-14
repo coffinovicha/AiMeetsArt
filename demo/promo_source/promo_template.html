@@ -116,7 +116,7 @@ html, body { width:1920px; height:1080px; overflow:hidden; background:#0b1016; }
   <div id="proof" class="abs"><div class="head">Tested on 30 paintings it had never seen.</div><div class="row">
     <div class="c"><div class="v" id="pv1">0<small> / 143</small></div><div class="d">titles with a word that is not in the painting</div></div>
     <div class="c"><div class="v" id="pv2">0.69</div><div class="d">meaning match with expert-written descriptions, against 0.62 for the base model</div></div>
-    <div class="c"><div class="v" id="pv3">18<small> / 30</small></div><div class="d">descriptions closest to their own painting, against 12 for the base model</div></div></div></div>
+    <div class="c"><div class="v" id="pv3">6×</div><div class="d">better at naming the objects in a painting than the model we started from</div></div></div></div>
   <div id="end" class="abs"><div id="endtitle"><div class="w">The Artwork <em>Interpreter</em></div><div class="tag">Collect · Label · Train · Interpret</div></div>
     <div id="endshot"><div class="bar"><i></i><i></i><i></i><span>127.0.0.1:7860 · The Artwork Interpreter</span></div><div class="view"><img src="app_shot.png"></div></div></div>
   <div id="cap" class="abs"><div class="k" id="capk"></div><div class="c" id="capc"></div></div>
@@ -270,17 +270,18 @@ function render(t) {
   op("proof", inout(t, 54.7, 55.4, 58.6, 59.2));
   $("pv1").innerHTML = `0<small> / ${Math.round(143 * io(pr(t, 55.2, 56.4)))}</small>`;
   $("pv2").textContent = (0.69 * io(pr(t, 55.4, 56.6))).toFixed(2);
-  $("pv3").innerHTML = `${Math.round(18 * io(pr(t, 55.6, 56.8)))}<small> / 30</small>`;
+  $("pv3").textContent = `${Math.max(1, Math.round(6 * io(pr(t, 55.6, 56.8))))}×`;
 
   op("end", eo(pr(t, 59.0, 59.8)));
   $("endshot").style.transform = `translateY(${(1 - eo(pr(t, 59.2, 60.6))) * 80}px)`;
-  $("endshot").querySelector(".view img").style.transform = `translateY(${-io(pr(t, 60.8, 63.4)) * 240}px)`;
+  const shotImg = $("endshot").querySelector(".view img"), maxScroll = Math.max(0, shotImg.offsetHeight - 700);
+  $("endshot").querySelector(".view img").style.transform = `translateY(${-io(pr(t, 60.6, 66.4)) * maxScroll}px)`;
 
   let k = "", cc = "", cv = 0;
   for (const [a, b, kk, ccc] of CAPS) if (t >= a && t < b) { k = kk; cc = ccc; cv = inout(t, a, a + 0.5, b - 0.45, b); }
   $("capk").textContent = k; $("capc").textContent = cc; op("cap", cv);
   op("capR", inout(t, 4.6, 5.4, 58.4, 59.0));
-  op("stage", Math.min(eo(pr(t, 0, 0.6)), 1 - io(pr(t, 63.3, 64.0))));
+  op("stage", Math.min(eo(pr(t, 0, 0.6)), 1 - io(pr(t, 67.3, 68.0))));
 }
 window.render = render;
 render(0);

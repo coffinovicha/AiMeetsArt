@@ -8,7 +8,7 @@ _t = open(f"{HERE}/promo_template.html", encoding="utf-8").read()
 _d = open(f"{HERE}/data.json", encoding="utf-8").read().replace("</", "<" + chr(92) + "/")
 open(f"{HERE}/promo.html", "w", encoding="utf-8").write(_t.replace("__DATA__", _d))
 FPS = 30
-DUR = 64.0
+DUR = 68.0
 proc = subprocess.Popen([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", f"--remote-debugging-port={PORT}",
                          f"--user-data-dir={HERE}/edge_render", "--window-size=1920,1080", "about:blank"])
 for _ in range(40):
@@ -16,7 +16,7 @@ for _ in range(40):
         urllib.request.urlopen(f"http://127.0.0.1:{PORT}/json/version", timeout=1); break
     except Exception:
         time.sleep(0.5)
-ws_url = json.loads(urllib.request.urlopen(urllib.request.Request(f"http://127.0.0.1:{PORT}/json/new?file:///{HERE}/promo.html", method="PUT")).read())["webSocketDebuggerUrl"]
+ws_url = json.loads(urllib.request.urlopen(urllib.request.Request(f"http://127.0.0.1:{PORT}/json/new?file:///{__import__("urllib.parse").parse.quote(HERE + "/promo.html", safe="/:")}", method="PUT")).read())["webSocketDebuggerUrl"]
 
 
 async def main():
